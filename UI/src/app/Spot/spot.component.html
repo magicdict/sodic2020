@@ -1,0 +1,5 @@
+<div style="width:100%;overflow-y:scroll;height: 800px;">
+    <div *ngFor="let spot of this.appservice.GradeASpotList">
+        <spot-item style="margin: 10px;" [SpotInfo]="spot"></spot-item>
+    </div>
+</div>
