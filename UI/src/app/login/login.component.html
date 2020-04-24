@@ -1,0 +1,16 @@
+<div style="position:relative;
+            background-image: url('assets/image/cover.jpg');  
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            opacity: 0.2;" [ngStyle]="{'height':clientHeight + 'px','width':'100%'}">
+</div>
+<div style="position: absolute;z-index: 99; bottom: 0px;width: 100%;text-align: center;"
+    [ngStyle]="{'height':clientHeight * 0.6 + 'px'}">
+
+    <img (click)="this.router.navigateByUrl('spot');" src="assets/image/景点.png" width="64px" height="64px">
+    <img (click)="this.router.navigateByUrl('food');" src="assets/image/美食.png" width="64px" height="64px">
+    <br />
+    <img (click)="this.router.navigateByUrl('hotel');" src="assets/image/酒店.png" width="64px" height="64px">
+    <img (click)="this.router.navigateByUrl('traffic');" src="assets/image/交通.png" width="64px" height="64px">
+</div>

@@ -1,29 +1,5 @@
-<div>
-    <div style="width:1140px;margin-left: auto;margin-right: auto;margin-top:10px;">
-        <nav class="navbar navbar-expand-lg bg-primary">
-            <div class="container">
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <button class="btn btn-primary" (click)="JumpTo('food')">饮食</button>
-                        </li>
-                        <li class="nav-item">
-                            <button class="btn btn-primary" (click)="JumpTo('traffic')">出行</button>
-                        </li>
-                        <li class="nav-item">
-                            <button class="btn btn-primary" (click)="JumpTo('hotel')">住宿</button>
-                        </li>
-                        <li class="nav-item">
-                            <button class="btn btn-primary" (click)="JumpTo('spot')">游玩</button>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <router-outlet>
+<div style="margin-left: auto;margin-right: auto;max-width: 640px;width: 100%;">
+    <router-outlet>
 
-        </router-outlet>
-        <br />
-        @copyright 灰毛毛战队 Powered by Angular 9.1.2
-    </div>
+    </router-outlet>
 </div>

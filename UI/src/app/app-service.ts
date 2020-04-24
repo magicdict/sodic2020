@@ -5,6 +5,9 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class AppService {
 
+    clientWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+    clientHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+  
     GradeASpotList: GradeASpot[] = [];
 
     constructor(public http: HttpClient) {

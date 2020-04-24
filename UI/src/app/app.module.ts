@@ -9,10 +9,12 @@ import { SpotComponent } from './Spot/spot.component';
 import { FoodComponent } from './Food/food.component';
 import { SpotItemComponent } from './Spot/spotItem.component';
 import { AppService } from './app-service';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    LoginComponent,
     HotelComponent,
     SpotComponent,
     SpotItemComponent,

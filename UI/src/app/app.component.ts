@@ -1,6 +1,4 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
-import { AppService } from './app-service';
 
 @Component({
   selector: 'app-root',
@@ -9,11 +7,7 @@ import { AppService } from './app-service';
 })
 export class AppComponent {
   title = 'UI';
-  
-  constructor( private router: Router,private appservice : AppService){
+  constructor(){
 
-  }
-  JumpTo(url: string) {
-      this.router.navigate([url]);
   }
 }
