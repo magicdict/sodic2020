@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
-import { AppService, GradeASpot } from '../app-service';
+import { AppService, GradeASpot, SpotInfo } from '../app-service';
 
 @Component({
   templateUrl: './spotDetail.component.html',
@@ -10,12 +10,12 @@ export class SpotDetailComponent implements OnInit {
 
   }
 
-  SpotDetailInfo: GradeASpot;
+  SpotDetailInfo: SpotInfo;
 
   ngOnInit(): void {
     this.route.params.subscribe(
       params => {
-        this.SpotDetailInfo = this.appservice.GetSpotInfoByName(params['name']) as GradeASpot;
+        this.SpotDetailInfo = this.appservice.GetSpotInfoByName(params['name']) as SpotInfo;
       }
     );
   }

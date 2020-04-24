@@ -11,6 +11,7 @@ import { SpotItemComponent } from './Spot/spotItem.component';
 import { AppService } from './app-service';
 import { LoginComponent } from './login/login.component';
 import { SpotDetailComponent } from './Spot/spotDetail.component';
+import { LazyLoadImageModule } from 'ng-lazyload-image';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { SpotDetailComponent } from './Spot/spotDetail.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    LazyLoadImageModule
   ],
   providers: [AppService],
   bootstrap: [AppComponent]

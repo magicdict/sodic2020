@@ -1,5 +1,5 @@
 <div [ngStyle]="{'height':appservice.clientHeight + 'px','width':appservice.clientWidth + 'px'}">
-    <div *ngFor="let spot of this.appservice.GradeASpotList">
+    <div *ngFor="let spot of this.appservice.SpotList_GradeAOnly">
         <spot-item style="margin: 10px;" [SpotInfo]="spot"></spot-item>
     </div>
 </div>
