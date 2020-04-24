@@ -29,6 +29,10 @@ export class AppService {
             }
         )
     }
+
+    GetSpotInfoByName(name:string):GradeASpot{
+        return this.GradeASpotList.find(x=>x.NAME === name);
+    }
 }
 
 /**A级景区 */

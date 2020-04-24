@@ -10,14 +10,17 @@ import { FoodComponent } from './Food/food.component';
 import { SpotItemComponent } from './Spot/spotItem.component';
 import { AppService } from './app-service';
 import { LoginComponent } from './login/login.component';
+import { SpotDetailComponent } from './Spot/spotDetail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     HotelComponent,
+    //景点
     SpotComponent,
     SpotItemComponent,
+    SpotDetailComponent,
     FoodComponent,
     TrafficComponent
   ],
