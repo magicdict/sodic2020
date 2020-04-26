@@ -1,0 +1,8444 @@
+[
+  {
+    "Name": "悦舍酒店(江门万达广场店)",
+    "Grade": "舒适型",
+    "Distract": "蓬江区",
+    "Address": "万达广场17幢27楼 地下车库负2层R区1道",
+    "ServiceTel": "电话0750-3919288  ",
+    "Description": null,
+    "Price": 274
+  },
+  {
+    "Name": "江门中泰来大酒店",
+    "Grade": "舒适型",
+    "Distract": "蓬江区",
+    "Address": "迎宾大道西3号",
+    "ServiceTel": "电话0750-3882888  ",
+    "Description": null,
+    "Price": 344
+  },
+  {
+    "Name": "江门玉湖御景酒店",
+    "Grade": "豪华型",
+    "Distract": "新会区",
+    "Address": "新会圭峰山风景区",
+    "ServiceTel": "电话0750-6176666 传真0750-6177777  ",
+    "Description": null,
+    "Price": 506
+  },
+  {
+    "Name": "曼陀伦酒店(江门和兴店)",
+    "Grade": "舒适型",
+    "Distract": "蓬江区",
+    "Address": "白石大道195号和兴广场1号楼1F酒店大堂",
+    "ServiceTel": "电话+86-750-3136008  ",
+    "Description": null,
+    "Price": 379
+  },
+  {
+    "Name": "江门曼陀伦智能酒店",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "发展大道2号摩根国际商业一栋205号",
+    "ServiceTel": "电话0750-3360008  ",
+    "Description": null,
+    "Price": 355
+  },
+  {
+    "Name": "江门新会龙泉度假酒店",
+    "Grade": "国家旅游局评定为四星级",
+    "Distract": "新会区",
+    "Address": "会城圭峰山（龙潭景区内）",
+    "ServiceTel": "电话0750-6182222  ",
+    "Description": null,
+    "Price": 411
+  },
+  {
+    "Name": "江门江海碧桂园凤凰酒店",
+    "Grade": "高档型",
+    "Distract": "江海区",
+    "Address": "永康路31号",
+    "ServiceTel": "电话0750-3800888  ",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "江门摩旅酒店",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "迎宾大道西天龙三街25座",
+    "ServiceTel": "电话+86-750-3287777  ",
+    "Description": null,
+    "Price": 240
+  },
+  {
+    "Name": "江门新会碧桂园凤凰酒店",
+    "Grade": "豪华型",
+    "Distract": "新会区",
+    "Address": "会城镇新港大道北1号新会碧桂园内",
+    "ServiceTel": "电话0750-6629888 传真0750-6629788  ",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "江门绿岛假日酒店",
+    "Grade": "舒适型",
+    "Distract": "蓬江区",
+    "Address": "建设三路135号绿岛商城三栋",
+    "ServiceTel": "电话0750-3322288  ",
+    "Description": null,
+    "Price": 198
+  },
+  {
+    "Name": "江门江华酒店",
+    "Grade": "舒适型",
+    "Distract": "蓬江区",
+    "Address": "江华一路25号",
+    "ServiceTel": "电话0750-3180888 传真-  ",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "江门珈澜湾精品酒店",
+    "Grade": "舒适型",
+    "Distract": "新会区",
+    "Address": "冈州大道中8号101",
+    "ServiceTel": "电话0750-6262888 传真0750-6680988  ",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "马可贝罗酒店(江门万达广场店)",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "万达广场SOHO17栋1楼",
+    "ServiceTel": "电话+86-750-3908188 传真0750-3909780  ",
+    "Description": null,
+    "Price": 300
+  },
+  {
+    "Name": "江门丽宫国际酒店",
+    "Grade": "国家旅游局评定为五星级",
+    "Distract": "",
+    "Address": "",
+    "ServiceTel": "电话0750-8233388 传真0750-8233399  ",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "江门名冠金凯悦酒店",
+    "Grade": "豪华型",
+    "Distract": "",
+    "Address": "",
+    "ServiceTel": "电话0750-3938888 传真0750-3938878  ",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "麗枫酒店(江门迎宾大道店)",
+    "Grade": "舒适型",
+    "Distract": "蓬江区",
+    "Address": "迎宾大道西18号",
+    "ServiceTel": "电话0750-3106688 传真0750-3222008  ",
+    "Description": null,
+    "Price": 241
+  },
+  {
+    "Name": "江门精品茉莉酒店",
+    "Grade": "舒适型",
+    "Distract": "蓬江区",
+    "Address": "迎宾大道西3号",
+    "ServiceTel": "电话0750-3216888 传真0750-3216823  ",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "麗枫酒店(江门高尔夫球会店)",
+    "Grade": "舒适型",
+    "Distract": "蓬江区",
+    "Address": "丰乐路188号2幢",
+    "ServiceTel": "电话0750-3315666  ",
+    "Description": null,
+    "Price": 276
+  },
+  {
+    "Name": "江门柏丽连锁酒店(白石店)",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "港口二路2号",
+    "ServiceTel": "电话0750-3877688  ",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "江门逸豪酒店",
+    "Grade": "国家旅游局评定为五星级",
+    "Distract": "",
+    "Address": "",
+    "ServiceTel": "电话0750-3928888  ",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "江门柏丽连锁酒店(万源店)",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "建设二路98号",
+    "ServiceTel": "电话0750-3882838 传真0750-3875188  ",
+    "Description": null,
+    "Price": 153
+  },
+  {
+    "Name": "喆啡酒店(江门汇悦城店)",
+    "Grade": "舒适型",
+    "Distract": "蓬江区",
+    "Address": "汇悦城白石大道166号2栋1楼",
+    "ServiceTel": "电话0750-3187888  ",
+    "Description": null,
+    "Price": 329
+  },
+  {
+    "Name": "江门市新金田酒店(新会)",
+    "Grade": "国家旅游局评定为三星级",
+    "Distract": "新会区",
+    "Address": "会城中心路15号（新会步行街）",
+    "ServiceTel": "电话0750-6622898  ",
+    "Description": null,
+    "Price": 172
+  },
+  {
+    "Name": "江门柏丽连锁酒店(中心店)",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "水南路会龙里160号",
+    "ServiceTel": "电话0750-3983666 传真0750-3983666  ",
+    "Description": null,
+    "Price": 118
+  },
+  {
+    "Name": "7天连锁酒店(江门五邑大学港口一路店)",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "港口一路丹井里1号",
+    "ServiceTel": "电话0750-3165288  ",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "美思柏丽酒店(江门迎宾店)",
+    "Grade": "舒适型",
+    "Distract": "蓬江区",
+    "Address": "蓬江区迎宾大道中1号",
+    "ServiceTel": "电话0750-3386288 传真0750-3386288  ",
+    "Description": null,
+    "Price": 225
+  },
+  {
+    "Name": "博悦艺术精品酒店(江门万达广场店)",
+    "Grade": "舒适型",
+    "Distract": "蓬江区",
+    "Address": "发展大道万达广场10幢13层",
+    "ServiceTel": "电话0750-3699218 传真0750-3699264  ",
+    "Description": null,
+    "Price": 287
+  },
+  {
+    "Name": "江门柏丽连锁酒店(新会店)",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "会城城西一路33号",
+    "ServiceTel": "电话0750-6662666 传真0750-6680222  ",
+    "Description": null,
+    "Price": 210
+  },
+  {
+    "Name": "江门五邑碧桂园凤凰酒店",
+    "Grade": "高档型",
+    "Distract": "蓬江区",
+    "Address": "江门大道五邑碧桂园内",
+    "ServiceTel": "电话0750-3289988 传真0750-3289388  ",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "江门新会迎宾馆",
+    "Grade": "舒适型",
+    "Distract": "新会区",
+    "Address": "公园路10号",
+    "ServiceTel": "电话0750-6622222  ",
+    "Description": null,
+    "Price": 211
+  },
+  {
+    "Name": "江门柏丽连锁酒店(丽岛店)",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "白沙大道西4号",
+    "ServiceTel": "电话0750-3506788  ",
+    "Description": null,
+    "Price": 124
+  },
+  {
+    "Name": "江门万达奥斯顿酒店公寓",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "发展大道万达广场9幢808室",
+    "ServiceTel": "电话13326809272  ",
+    "Description": null,
+    "Price": 152
+  },
+  {
+    "Name": "江门柏悦商务酒店",
+    "Grade": "经济型",
+    "Distract": "江海区",
+    "Address": "外海翠路麻二商业中心",
+    "ServiceTel": "电话0750-3830666  ",
+    "Description": null,
+    "Price": 192
+  },
+  {
+    "Name": "在路上精品酒店(江门万达店)",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "发展大道万达广场SOHO17栋一楼大堂",
+    "ServiceTel": "电话18507502678  ",
+    "Description": null,
+    "Price": 213
+  },
+  {
+    "Name": "江门玖号公寓精品酒店",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "江门万达广场9幢19楼",
+    "ServiceTel": "电话13702241700  ",
+    "Description": null,
+    "Price": 193
+  },
+  {
+    "Name": "如家酒店(江门建设路地王广场店)",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "建设路26号",
+    "ServiceTel": "电话0750-8238883  ",
+    "Description": null,
+    "Price": 110
+  },
+  {
+    "Name": "江门朗廷酒店",
+    "Grade": "舒适型",
+    "Distract": "蓬江区",
+    "Address": "建设二路139号",
+    "ServiceTel": "电话0750-3189888 传真0750-3189888  ",
+    "Description": null,
+    "Price": 154
+  },
+  {
+    "Name": "江门柏丽连锁酒店(迎宾店)",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "迎宾大道西8号",
+    "ServiceTel": "电话0750-3216988 传真0750-3886789  ",
+    "Description": null,
+    "Price": 153
+  },
+  {
+    "Name": "江门古斗泉林别墅",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "古兜温泉度假村巴登小镇五街84栋B",
+    "ServiceTel": "电话18929066955  ",
+    "Description": null,
+    "Price": 156
+  },
+  {
+    "Name": "江门圣恩酒店",
+    "Grade": "经济型",
+    "Distract": "江海区",
+    "Address": "高新区科苑西路员工服务中心",
+    "ServiceTel": "电话+86-750-7357777  ",
+    "Description": null,
+    "Price": 149
+  },
+  {
+    "Name": "江门古斗温泉综合别墅",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "崖门镇古兜度假村12幢",
+    "ServiceTel": "电话15992151237  ",
+    "Description": null,
+    "Price": 169
+  },
+  {
+    "Name": "芸景酒店(江门万达广场店)",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "万达广场10栋1F",
+    "ServiceTel": "电话0750-3312999  ",
+    "Description": null,
+    "Price": 271
+  },
+  {
+    "Name": "江门古斗温泉别墅酒店",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门新会区崖门镇古兜温泉巴登别墅3街66号",
+    "ServiceTel": "电话15917898175 传真0750-7176677-666  ",
+    "Description": null,
+    "Price": 182
+  },
+  {
+    "Name": "悦居精品酒店(江门万达店)",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "发展大道万达广场公寓10幢13层",
+    "ServiceTel": "电话17707500256 传真0750-3699264  ",
+    "Description": null,
+    "Price": 307
+  },
+  {
+    "Name": "江门江华宾馆",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "江北路48号",
+    "ServiceTel": "电话0750-3384938  ",
+    "Description": null,
+    "Price": 104
+  },
+  {
+    "Name": "江门水岸美居艺术酒店",
+    "Grade": "舒适型",
+    "Distract": "蓬江区",
+    "Address": "堤中路71-72号",
+    "ServiceTel": "电话0750-3533988 传真0750-3538889  ",
+    "Description": null,
+    "Price": 189
+  },
+  {
+    "Name": "江门侨堂酒店",
+    "Grade": "舒适型",
+    "Distract": "蓬江区",
+    "Address": "里村大厦18号",
+    "ServiceTel": "电话0750-3211999  ",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "江门卓逸酒店",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "棠下镇桐井富强路23号",
+    "ServiceTel": "电话0750-3577688  ",
+    "Description": null,
+    "Price": 188
+  },
+  {
+    "Name": "江门丽的复式酒店",
+    "Grade": "",
+    "Distract": "蓬江区",
+    "Address": "江会路40号2栋之二",
+    "ServiceTel": "电话+86-750-3538163  ",
+    "Description": null,
+    "Price": 306
+  },
+  {
+    "Name": "江门福华宾馆",
+    "Grade": "",
+    "Distract": "蓬江区",
+    "Address": "建设路38号",
+    "ServiceTel": "电话0750-3300230  ",
+    "Description": null,
+    "Price": 86
+  },
+  {
+    "Name": "江门志成宾馆",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "迎宾西路贯溪新河花园B座贯溪市场侧",
+    "ServiceTel": "电话0750-3662783  ",
+    "Description": null,
+    "Price": 99
+  },
+  {
+    "Name": "万众财富连锁酒店(江门风尚店)",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "建设路49号",
+    "ServiceTel": "电话0750-3288200  ",
+    "Description": null,
+    "Price": 79
+  },
+  {
+    "Name": "江门双龙广场大酒店",
+    "Grade": "高档型",
+    "Distract": "蓬江区",
+    "Address": "建设二路99号",
+    "ServiceTel": "电话0750-3622222 传真0750-3877600  ",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "江门7号精品公寓",
+    "Grade": "经济型",
+    "Distract": "江海区",
+    "Address": "麻园麻三东环中路3号",
+    "ServiceTel": "电话0750-3802988  ",
+    "Description": null,
+    "Price": 96
+  },
+  {
+    "Name": "江门柏丽连锁酒店(柏逸店)",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "冈州大道中22号",
+    "ServiceTel": "电话0750-6660666 传真0750-6660666  ",
+    "Description": null,
+    "Price": 198
+  },
+  {
+    "Name": "江门寓米公寓酒店(摩根国际店）",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "发展大道摩根国际2号楼二楼大堂",
+    "ServiceTel": "电话18022995168  ",
+    "Description": null,
+    "Price": 196
+  },
+  {
+    "Name": "江门粤港酒店",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "会城城北路35号",
+    "ServiceTel": "电话0750-7363636  ",
+    "Description": null,
+    "Price": 151
+  },
+  {
+    "Name": "江门柏丽连锁酒店(建设店)",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "建设路39号",
+    "ServiceTel": "电话0750-8229988 传真0750-8229969  ",
+    "Description": null,
+    "Price": 121
+  },
+  {
+    "Name": "江门柏丽连锁酒店(侨乡店)",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "白沙大道东4号",
+    "ServiceTel": "电话0750-3333366 传真0750-3981599  ",
+    "Description": null,
+    "Price": 146
+  },
+  {
+    "Name": "江门正德酒店(旧车站店)",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "建设路45号",
+    "ServiceTel": "电话0750-3219888  ",
+    "Description": null,
+    "Price": 164
+  },
+  {
+    "Name": "江门万达SOHO公寓",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "广场东路万达广场10栋14楼1424",
+    "ServiceTel": "电话+86-13924684599  ",
+    "Description": null,
+    "Price": 158
+  },
+  {
+    "Name": "江门青木精品酒店万达广场店",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "发展大道万达广场SOHO10栋16楼1621",
+    "ServiceTel": "电话18607508678  ",
+    "Description": null,
+    "Price": 212
+  },
+  {
+    "Name": "江门华轩宾馆",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "龙湾东路15号",
+    "ServiceTel": "电话0750-3508222  ",
+    "Description": null,
+    "Price": 127
+  },
+  {
+    "Name": "维也纳酒店(江门万达广场店)",
+    "Grade": "舒适型",
+    "Distract": "蓬江区",
+    "Address": "广场西路东100米万达SOHO16幢1楼大堂，8楼至11楼客房",
+    "ServiceTel": "电话0750-3903888 传真-  ",
+    "Description": null,
+    "Price": 361
+  },
+  {
+    "Name": "舍意客栈(江门万达广场店)",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "万达广场16栋1508",
+    "ServiceTel": "电话0750-3911560  ",
+    "Description": null,
+    "Price": 162
+  },
+  {
+    "Name": "侨都酒店(江门轻轨站店)",
+    "Grade": "舒适型",
+    "Distract": "江海区",
+    "Address": "东海路48号中环广场6楼",
+    "ServiceTel": "电话0750-3855888 传真0750-3855889  ",
+    "Description": null,
+    "Price": 321
+  },
+  {
+    "Name": "新侨都酒店(江门地王广场店）",
+    "Grade": "舒适型",
+    "Distract": "蓬江区",
+    "Address": "紫茶路18号",
+    "ServiceTel": "电话0750-3850888 传真0750-3850889  ",
+    "Description": null,
+    "Price": 249
+  },
+  {
+    "Name": "希岸轻雅酒店(江门迎宾大道店)(原迎宾西路店)",
+    "Grade": "舒适型",
+    "Distract": "蓬江区",
+    "Address": "迎宾大道西32号",
+    "ServiceTel": "电话0750-3210388  ",
+    "Description": null,
+    "Price": 257
+  },
+  {
+    "Name": "城市便捷酒店(江门象山公园店)",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "城北路47号",
+    "ServiceTel": "电话0750-6718899 传真0750-6718896  ",
+    "Description": null,
+    "Price": 168
+  },
+  {
+    "Name": "山水时尚酒店(江门东站店)",
+    "Grade": "舒适型",
+    "Distract": "江海区",
+    "Address": "东海路康城广场4栋首层",
+    "ServiceTel": "电话0750-2633777  ",
+    "Description": null,
+    "Price": 292
+  },
+  {
+    "Name": "江门荷花商务宾馆",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "荷塘镇南华东路8号",
+    "ServiceTel": "电话0750-3731333  ",
+    "Description": null,
+    "Price": 115
+  },
+  {
+    "Name": "维也纳酒店(江门迎宾大道店)",
+    "Grade": "舒适型",
+    "Distract": "蓬江区",
+    "Address": "迎宾大道西108号",
+    "ServiceTel": "电话0750-3278886  ",
+    "Description": null,
+    "Price": 226
+  },
+  {
+    "Name": "青年阳光精品酒店(江门万达店)",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "万达广场公寓楼11栋3楼308",
+    "ServiceTel": "电话18666637996  ",
+    "Description": null,
+    "Price": 198
+  },
+  {
+    "Name": "江门育德柏逸酒店",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "育德街46号五楼",
+    "ServiceTel": "电话0750-3908118  ",
+    "Description": null,
+    "Price": 148
+  },
+  {
+    "Name": "柏丽酒店（江门新桥店）",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "会城新桥路21号",
+    "ServiceTel": "电话0750-6337688  ",
+    "Description": null,
+    "Price": 155
+  },
+  {
+    "Name": "江门柏丽连锁酒店(水南店)",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "水南路2号之三",
+    "ServiceTel": "电话0750-3935333 传真0750-3935338  ",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "江门会城四季酒店",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "会城圭峰路161号",
+    "ServiceTel": "电话0750-6187111 传真0750-6187122  ",
+    "Description": null,
+    "Price": 236
+  },
+  {
+    "Name": "江门禧悦精品公寓",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "会城启超大道9号5座6楼（美吉达广场）",
+    "ServiceTel": "电话0750-6978218  ",
+    "Description": null,
+    "Price": 395
+  },
+  {
+    "Name": "江门银辉假日酒店",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "迎宾大道西108号2幢",
+    "ServiceTel": "电话0750-3482088 传真0750－3481010-0750－3482088  ",
+    "Description": null,
+    "Price": 198
+  },
+  {
+    "Name": "江门天悦酒店",
+    "Grade": "舒适型",
+    "Distract": "新会区",
+    "Address": "东庆北路7号",
+    "ServiceTel": "电话0750-6166888 传真0750-6633378  ",
+    "Description": null,
+    "Price": 233
+  },
+  {
+    "Name": "789连锁宾馆(台山南门店)",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "横湖村委会南华新村25号",
+    "ServiceTel": "电话0750-5551789  ",
+    "Description": null,
+    "Price": 130
+  },
+  {
+    "Name": "都市118(江门蓬江区政府店)",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "天龙一街31号与天沙三路交汇处",
+    "ServiceTel": "电话0750-3185888  ",
+    "Description": null,
+    "Price": 105
+  },
+  {
+    "Name": "江门古兜温泉小镇",
+    "Grade": "舒适型",
+    "Distract": "新会区",
+    "Address": "崖门崖南古兜温泉小镇",
+    "ServiceTel": "电话0750-7170241、7172222 传真0750-6452615-6452617  ",
+    "Description": null,
+    "Price": 436
+  },
+  {
+    "Name": "文豪酒店(江门地王广场店)",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "建设路和厚里2号（侨联大厦对面路口进）",
+    "ServiceTel": "电话0750-3886388  ",
+    "Description": null,
+    "Price": 80
+  },
+  {
+    "Name": "江门卓越商务酒店",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "冈州大道中3号雍翠华庭一座",
+    "ServiceTel": "电话0750-7362633  ",
+    "Description": null,
+    "Price": 147
+  },
+  {
+    "Name": "江门薇恋时尚连锁酒店",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "江门新会区冈州大道中89号（新桥路口红绿灯处）",
+    "ServiceTel": "电话0750-6672596  ",
+    "Description": null,
+    "Price": 166
+  },
+  {
+    "Name": "江门新会英东商务酒店",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "振兴二路48号",
+    "ServiceTel": "电话0750-7362333  ",
+    "Description": null,
+    "Price": 176
+  },
+  {
+    "Name": "江门高大尚酒店",
+    "Grade": "经济型",
+    "Distract": "江海区",
+    "Address": "五邑路与东海路交汇处康城广场4栋27楼",
+    "ServiceTel": "电话0750-3812318  ",
+    "Description": null,
+    "Price": 258
+  },
+  {
+    "Name": "江门银晶国际酒店",
+    "Grade": "高档型",
+    "Distract": "",
+    "Address": "",
+    "ServiceTel": "电话0750-3163888、3163886 传真0750-3163889  ",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "CoCo精致酒店（江门地王常安路店）",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "堤西路86号",
+    "ServiceTel": "电话0750-3955999  ",
+    "Description": null,
+    "Price": 104
+  },
+  {
+    "Name": "尚客优精选酒店(江门新会华侨大厦步行街店)(原华侨大厦)",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "会城中心路1号",
+    "ServiceTel": "电话0750-6628888 传真0750-6666618  ",
+    "Description": null,
+    "Price": 160
+  },
+  {
+    "Name": "八方精品连锁酒店(江门旗舰店)(原哥登堡酒店)",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "建设路36号",
+    "ServiceTel": "电话0750-3271888 传真0750-3271888  ",
+    "Description": null,
+    "Price": 165
+  },
+  {
+    "Name": "江门柏爵商务酒店",
+    "Grade": "舒适型",
+    "Distract": "蓬江区",
+    "Address": "棠下镇富棠二路23号3幢",
+    "ServiceTel": "电话0750-3581888 传真0750-3879303  ",
+    "Description": null,
+    "Price": 220
+  },
+  {
+    "Name": "江门魅力酒店",
+    "Grade": "舒适型",
+    "Distract": "蓬江区",
+    "Address": "建设三路18号（公路大厦旁）",
+    "ServiceTel": "电话0750-3611111  ",
+    "Description": null,
+    "Price": 272
+  },
+  {
+    "Name": "江门朗廷酒店(外海店)",
+    "Grade": "经济型",
+    "Distract": "江海区",
+    "Address": "江门江海区中华大道111-129",
+    "ServiceTel": "电话0750-3920088  ",
+    "Description": null,
+    "Price": 253
+  },
+  {
+    "Name": "江门长怡酒店",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "建设二路2号",
+    "ServiceTel": "电话0750-3221688  ",
+    "Description": null,
+    "Price": 147
+  },
+  {
+    "Name": "江门江月宾馆(横岭分馆)",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "江门市横岭街5号",
+    "ServiceTel": "电话0750-3977208  ",
+    "Description": null,
+    "Price": 54
+  },
+  {
+    "Name": "江门敏华公寓天和购物广场店",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "江门市蓬江区民丰路39号（天和购物广场6楼）",
+    "ServiceTel": "电话0750-3980668  ",
+    "Description": null,
+    "Price": 99
+  },
+  {
+    "Name": "2513服务公寓(江门万达店)",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "万达广场16栋1408室（万达广场二号门）",
+    "ServiceTel": "电话13392513918  ",
+    "Description": null,
+    "Price": 169
+  },
+  {
+    "Name": "维也纳国际酒店(江门中嘉广场店)(原中嘉国际大酒店)",
+    "Grade": "高档型",
+    "Distract": "",
+    "Address": "荷塘镇中泰西路39号之一",
+    "ServiceTel": "电话0750-2639888 传真0750-2637151  ",
+    "Description": null,
+    "Price": 284
+  },
+  {
+    "Name": "江门聚驿来精品酒店",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "会城街道中心路影剧院南楼",
+    "ServiceTel": "电话0750-6606688 传真--  ",
+    "Description": null,
+    "Price": 166
+  },
+  {
+    "Name": "江门富力万达嘉华酒店",
+    "Grade": "豪华型",
+    "Distract": "",
+    "Address": "",
+    "ServiceTel": "电话0750-3877777  ",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "OYO江门金铭商务酒店",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "港口路平安大厦",
+    "ServiceTel": "电话0750-3390208 传真0750-3390208  ",
+    "Description": null,
+    "Price": 110
+  },
+  {
+    "Name": "江门华旅酒店",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "迎宾大道44号",
+    "ServiceTel": "电话0750-3939333、3939662  ",
+    "Description": null,
+    "Price": 102
+  },
+  {
+    "Name": "江门御锦商务酒店",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "司前前进东路一号（新会至开平）国道边",
+    "ServiceTel": "电话0750-6963999  ",
+    "Description": null,
+    "Price": 169
+  },
+  {
+    "Name": "江门杰斯公寓",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "启超大道9号美吉特广场6座9楼",
+    "ServiceTel": "电话0750-6688878 传真-  ",
+    "Description": null,
+    "Price": 283
+  },
+  {
+    "Name": "精途酒店(江门东湖公园店)",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "跃进路122号",
+    "ServiceTel": "电话0750-3886288 传真0750-3886299  ",
+    "Description": null,
+    "Price": 150
+  },
+  {
+    "Name": "江门晋利酒店",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "司前镇中心大道5号110",
+    "ServiceTel": "电话0750-8262228  ",
+    "Description": null,
+    "Price": 190
+  },
+  {
+    "Name": "江门杜阮江月宾馆",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "江杜中路426号",
+    "ServiceTel": "电话0750-3128818  ",
+    "Description": null,
+    "Price": 125
+  },
+  {
+    "Name": "江门1号公寓",
+    "Grade": "经济型",
+    "Distract": "江海区",
+    "Address": "科苑西路恒皓天工业园对面汇美大厦1号公寓",
+    "ServiceTel": "电话18670838882 传真--  ",
+    "Description": null,
+    "Price": 176
+  },
+  {
+    "Name": "7天连锁酒店(江门城轨东站蓬江桥北江华路店)",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "跃进路36号",
+    "ServiceTel": "电话0750-3851788  ",
+    "Description": null,
+    "Price": 123
+  },
+  {
+    "Name": "江门18路酒店",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "建设路1号江门大厦",
+    "ServiceTel": "电话0750-3333322 传真0750-3333322-3657898  ",
+    "Description": null,
+    "Price": 106
+  },
+  {
+    "Name": "江门英菲尔酒店",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "会城冈州大道中68号裕安大厦二楼",
+    "ServiceTel": "电话0750-6112345  ",
+    "Description": null,
+    "Price": 145
+  },
+  {
+    "Name": "江门乐活酒店",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "崖门镇古兜温泉巴登小镇A1203",
+    "ServiceTel": "电话13763303871 传真--  ",
+    "Description": null,
+    "Price": 197
+  },
+  {
+    "Name": "江门爱情公寓",
+    "Grade": "经济型",
+    "Distract": "江海区",
+    "Address": "商业街3号楼麻园中学对面",
+    "ServiceTel": "电话0750-3609288  ",
+    "Description": null,
+    "Price": 108
+  },
+  {
+    "Name": "江门雍逸酒店",
+    "Grade": "经济型",
+    "Distract": "江海区",
+    "Address": "礼乐三路204号",
+    "ServiceTel": "电话0750-3635555 传真0750-3635566  ",
+    "Description": null,
+    "Price": 146
+  },
+  {
+    "Name": "江门白云公寓",
+    "Grade": "",
+    "Distract": "江海区",
+    "Address": "外海镇麻一东山里4路2号",
+    "ServiceTel": "电话0750-3806520  ",
+    "Description": null,
+    "Price": 141
+  },
+  {
+    "Name": "江门新会冈州宾馆",
+    "Grade": "国家旅游局评定为三星级",
+    "Distract": "新会区",
+    "Address": "会城圭峰路9号",
+    "ServiceTel": "电话0750-6178888  ",
+    "Description": null,
+    "Price": 191
+  },
+  {
+    "Name": "江门乐迷酒店",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "建设二路119号",
+    "ServiceTel": "电话0750-3309889  ",
+    "Description": null,
+    "Price": 124
+  },
+  {
+    "Name": "江门联发酒店",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "棠下镇富棠一路11号首层102-104，二层201-202,1座301-304,401-404,501-504,2座301,304",
+    "ServiceTel": "电话0750-7173366 传真0750-3586311  ",
+    "Description": null,
+    "Price": 170
+  },
+  {
+    "Name": "7天连锁酒店(江门新会步行街星汇广场店)",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "会城镇南隅路83号",
+    "ServiceTel": "电话0750-6613777 传真0750-6613771  ",
+    "Description": null,
+    "Price": 136
+  },
+  {
+    "Name": "海悦酒店(江门旧车站店)",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "农林东路12号之一",
+    "ServiceTel": "电话0750-3068008  ",
+    "Description": null,
+    "Price": 92
+  },
+  {
+    "Name": "江门荷塘园林大酒店",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "",
+    "ServiceTel": "电话0750-3737888 传真0750-3737888  ",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "江门棠下金贝商务酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "江门蓬江区棠下镇棠下大道43号（棠下镇政府对面）",
+    "ServiceTel": "电话0750-8232288  ",
+    "Description": null,
+    "Price": 235
+  },
+  {
+    "Name": "江门家城宾馆",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "建设三路113号利家城4楼",
+    "ServiceTel": "电话0750-3088882  ",
+    "Description": null,
+    "Price": 109
+  },
+  {
+    "Name": "江门加多利酒店",
+    "Grade": "舒适型",
+    "Distract": "蓬江区",
+    "Address": "常安路84号（原大红鹰酒店）",
+    "ServiceTel": "电话0750-3334888/3857608  ",
+    "Description": null,
+    "Price": 145
+  },
+  {
+    "Name": "江门三月柳轻奢主题公寓",
+    "Grade": "经济型",
+    "Distract": "江海区",
+    "Address": "江海五路海逸星宸行政公馆2栋沿街商铺108号",
+    "ServiceTel": "电话0750-3697565  ",
+    "Description": null,
+    "Price": 208
+  },
+  {
+    "Name": "江门温莎酒店",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "建设三路109号",
+    "ServiceTel": "电话0750-3220088  ",
+    "Description": null,
+    "Price": 148
+  },
+  {
+    "Name": "江门万达住好啲酒店公寓",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "万达广场11栋18楼1810",
+    "ServiceTel": "电话13536123114  ",
+    "Description": null,
+    "Price": 191
+  },
+  {
+    "Name": "江门江岛住宿",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "大鳌镇东风村1号",
+    "ServiceTel": "电话18026865485  ",
+    "Description": null,
+    "Price": 124
+  },
+  {
+    "Name": "江门金岸酒店",
+    "Grade": "经济型",
+    "Distract": "江海区",
+    "Address": "外海中华大道2号",
+    "ServiceTel": "电话0750-3781333  ",
+    "Description": null,
+    "Price": 85
+  },
+  {
+    "Name": "江门景轩商务酒店",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "冈州大道西15号",
+    "ServiceTel": "电话0750-6177888 传真0750-6177888  ",
+    "Description": null,
+    "Price": 175
+  },
+  {
+    "Name": "江门帝龙酒店",
+    "Grade": "经济型",
+    "Distract": "江海区",
+    "Address": "外海镇江海四路110号",
+    "ServiceTel": "电话0750-3255188  ",
+    "Description": null,
+    "Price": 218
+  },
+  {
+    "Name": "江门恋家公寓",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "广场东路万达广场11栋18楼",
+    "ServiceTel": "电话18825347686  ",
+    "Description": null,
+    "Price": 206
+  },
+  {
+    "Name": "江门柏雅酒店",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "胜利北路25号（东风乡职业高中对面）",
+    "ServiceTel": "电话0750-3882333  ",
+    "Description": null,
+    "Price": 160
+  },
+  {
+    "Name": "江门英濠酒店",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "会城振兴二路48号",
+    "ServiceTel": "电话0750-7362198  ",
+    "Description": null,
+    "Price": 159
+  },
+  {
+    "Name": "江门名豪商务宾馆",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "大鳌镇中心一路8号",
+    "ServiceTel": "电话0750-6255033 传真--  ",
+    "Description": null,
+    "Price": 101
+  },
+  {
+    "Name": "江门石板沙时光民宿",
+    "Grade": "舒适型",
+    "Distract": "新会区",
+    "Address": "睦洲镇石板沙村小学旧址",
+    "ServiceTel": "电话17363273890  ",
+    "Description": null,
+    "Price": 332
+  },
+  {
+    "Name": "江门卡仕商务酒店",
+    "Grade": "",
+    "Distract": "新会区",
+    "Address": "会城街道冈州大道中71号-2五谷里1号文化室",
+    "ServiceTel": "电话0750-6320183  ",
+    "Description": null,
+    "Price": 176
+  },
+  {
+    "Name": "江门众森淼酒店",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "冈州大道东21号107",
+    "ServiceTel": "电话0750-6970999  ",
+    "Description": null,
+    "Price": 206
+  },
+  {
+    "Name": "江门兴隆商务住宿",
+    "Grade": "",
+    "Distract": "蓬江区",
+    "Address": "宏乐里9号之二",
+    "ServiceTel": "电话15819720469  ",
+    "Description": null,
+    "Price": 113
+  },
+  {
+    "Name": "江门金池商务酒店",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "白沙永盛路39号120卡首二层",
+    "ServiceTel": "电话0750-3513988 传真--  ",
+    "Description": null,
+    "Price": 179
+  },
+  {
+    "Name": "江门新会东阳酒店",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "江门新会区会城紫华路16号",
+    "ServiceTel": "电话0750-6369181  ",
+    "Description": null,
+    "Price": 152
+  },
+  {
+    "Name": "江门金辉商务快捷公寓",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "棠下镇金岭市场富怡路",
+    "ServiceTel": "电话0750-3250466  ",
+    "Description": null,
+    "Price": 98
+  },
+  {
+    "Name": "江门新东商务宾馆",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "中心南路16号111铺",
+    "ServiceTel": "电话0750-6960168 传真-  ",
+    "Description": null,
+    "Price": 124
+  },
+  {
+    "Name": "江门石涧故事民宿",
+    "Grade": "舒适型",
+    "Distract": "新会区",
+    "Address": "会城紫云路90号石涧村161号",
+    "ServiceTel": "电话13702203088  ",
+    "Description": null,
+    "Price": 567
+  },
+  {
+    "Name": "江门俊逸酒店",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "杜阮东路第九栋富强楼",
+    "ServiceTel": "电话0750-3333138  ",
+    "Description": null,
+    "Price": 113
+  },
+  {
+    "Name": "江门鸿铂主题商务酒店",
+    "Grade": "",
+    "Distract": "新会区",
+    "Address": "中心南路6号116铺",
+    "ServiceTel": "电话0750-6660966  ",
+    "Description": null,
+    "Price": 200
+  },
+  {
+    "Name": "江门瑞村酒店",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "江门蓬江区农林东路12号",
+    "ServiceTel": "电话0750-3276868  ",
+    "Description": null,
+    "Price": 100
+  },
+  {
+    "Name": "江门海韵轩酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "新会区古兜温泉度假村巴登别墅一街18AB",
+    "ServiceTel": "电话+86-18128221727  ",
+    "Description": null,
+    "Price": 152
+  },
+  {
+    "Name": "江门东逸商务酒店",
+    "Grade": "经济型",
+    "Distract": "江海区",
+    "Address": "东宁路70号116铺、二层",
+    "ServiceTel": "电话0750-3883818 传真0750-3883858  ",
+    "Description": null,
+    "Price": 152
+  },
+  {
+    "Name": "江门江南酒店",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "迎宾大道东32号五楼",
+    "ServiceTel": "电话0750-3372877  ",
+    "Description": null,
+    "Price": 128
+  },
+  {
+    "Name": "江门迷你公寓",
+    "Grade": "经济型",
+    "Distract": "江海区",
+    "Address": "外海直冲西元里一巷一号",
+    "ServiceTel": "电话19875067636  ",
+    "Description": null,
+    "Price": 43
+  },
+  {
+    "Name": "江门简洁精品酒店",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "华园东路36号",
+    "ServiceTel": "电话0750-3097664 传真--  ",
+    "Description": null,
+    "Price": 115
+  },
+  {
+    "Name": "江门仟叶宾馆",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "建设路190号之二103",
+    "ServiceTel": "电话0750-3233099  ",
+    "Description": null,
+    "Price": 99
+  },
+  {
+    "Name": "江门万朋酒店",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "人民路13号102三楼",
+    "ServiceTel": "电话0750-6685888 传真--  ",
+    "Description": null,
+    "Price": 124
+  },
+  {
+    "Name": "江门白云酒店",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "跃进路100号",
+    "ServiceTel": "电话0750-3331166  ",
+    "Description": null,
+    "Price": 77
+  },
+  {
+    "Name": "江门城市租房",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "江门市江海区高新区员工服务中心明辉路1号",
+    "ServiceTel": "电话0750-3609828  ",
+    "Description": null,
+    "Price": 92
+  },
+  {
+    "Name": "江门江逸旅店",
+    "Grade": "",
+    "Distract": "蓬江区",
+    "Address": "礼乐文昌花园18幢",
+    "ServiceTel": "电话0750-3619888  ",
+    "Description": null,
+    "Price": 64
+  },
+  {
+    "Name": "江门新会世盛旅店",
+    "Grade": "",
+    "Distract": "",
+    "Address": "新会大道中34号115",
+    "ServiceTel": "电话13028965778  ",
+    "Description": null,
+    "Price": 122
+  },
+  {
+    "Name": "江门柏盈商务酒店",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "江门蓬江区杜阮镇江杜东路228号",
+    "ServiceTel": "电话0750-3162222  ",
+    "Description": null,
+    "Price": 189
+  },
+  {
+    "Name": "江门华盛宾馆礼乐一路店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "江门市江海区礼乐一路26号",
+    "ServiceTel": "电话0750-3611888  ",
+    "Description": null,
+    "Price": 139
+  },
+  {
+    "Name": "如诚酒店(江门新会店)",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "会城育才路9号101",
+    "ServiceTel": "电话0750-6701188  ",
+    "Description": null,
+    "Price": 100
+  },
+  {
+    "Name": "江门古兜温泉可昕别墅小栈",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "崖南古兜温泉度假村别墅酒店巴登小镇二街",
+    "ServiceTel": "电话18025816389  ",
+    "Description": null,
+    "Price": 187
+  },
+  {
+    "Name": "江门怡家精品公寓",
+    "Grade": "",
+    "Distract": "江海区",
+    "Address": "科苑路5号1栋3-4楼",
+    "ServiceTel": "电话0750-3256169 传真-  ",
+    "Description": null,
+    "Price": 101
+  },
+  {
+    "Name": "江门湘台商务公寓",
+    "Grade": "",
+    "Distract": "蓬江区",
+    "Address": "杜阮镇杜阮北一路107号201铺",
+    "ServiceTel": "电话13226900061  ",
+    "Description": null,
+    "Price": 99
+  },
+  {
+    "Name": "江门永盛商务宾馆",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "永盛路40号",
+    "ServiceTel": "电话0750-3521158 传真0750-3521126  ",
+    "Description": null,
+    "Price": 105
+  },
+  {
+    "Name": "江门佳华宾馆",
+    "Grade": "经济型",
+    "Distract": "江海区",
+    "Address": "外海镇北华路32号",
+    "ServiceTel": "电话+86-750-3830923  ",
+    "Description": null,
+    "Price": 110
+  },
+  {
+    "Name": "江门信粤商务酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "古井镇古泗大街6号",
+    "ServiceTel": "电话0750-6287888  ",
+    "Description": null,
+    "Price": 159
+  },
+  {
+    "Name": "江门正平酒店",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "江会路24号正平科技大厦（近地王广场）",
+    "ServiceTel": "电话0750-3276371  ",
+    "Description": null,
+    "Price": 100
+  },
+  {
+    "Name": "江门古斗春天里别墅",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "崖门镇古兜温泉谷巴登小镇84栋近178乡道",
+    "ServiceTel": "电话+86-13380991060  ",
+    "Description": null,
+    "Price": 141
+  },
+  {
+    "Name": "江门玖加壹公寓",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "蓬江区联合庙前村庙前新队址建设三路153号",
+    "ServiceTel": "电话0750-3218158  ",
+    "Description": null,
+    "Price": 99
+  },
+  {
+    "Name": "江门爱华旅店",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门新会区爱民路9-13号",
+    "ServiceTel": "电话0750-6610726  ",
+    "Description": null,
+    "Price": 78
+  },
+  {
+    "Name": "江门桔子酒店",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "凤阳街17号之一",
+    "ServiceTel": "电话0750-7053791  ",
+    "Description": null,
+    "Price": 79
+  },
+  {
+    "Name": "江门鸿运来公寓",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "荷塘镇民兴路17号",
+    "ServiceTel": "电话18027645970  ",
+    "Description": null,
+    "Price": 76
+  },
+  {
+    "Name": "江门兴隆公寓",
+    "Grade": "",
+    "Distract": "江海区",
+    "Address": "科苑西路2号",
+    "ServiceTel": "电话15913666623  ",
+    "Description": null,
+    "Price": 126
+  },
+  {
+    "Name": "江门市今日商务酒店",
+    "Grade": "",
+    "Distract": "",
+    "Address": "新会区司前镇前进东路邮政银行旁",
+    "ServiceTel": "电话0750-6565288/13822392480  ",
+    "Description": null,
+    "Price": 146
+  },
+  {
+    "Name": "江门丹霞宾馆",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "建设路49号嘉华大厦",
+    "ServiceTel": "电话0750-3690688  ",
+    "Description": null,
+    "Price": 65
+  },
+  {
+    "Name": "江门思诚电梯公寓",
+    "Grade": "",
+    "Distract": "蓬江区",
+    "Address": "富强路21号",
+    "ServiceTel": "电话+86-13597989598  ",
+    "Description": null,
+    "Price": 92
+  },
+  {
+    "Name": "江门金叶宾馆",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "五福五街16号",
+    "ServiceTel": "电话0750-3283168  ",
+    "Description": null,
+    "Price": 105
+  },
+  {
+    "Name": "江门好家公寓",
+    "Grade": "",
+    "Distract": "江海区",
+    "Address": "江翠路古巷中路3巷1号",
+    "ServiceTel": "电话0750-3762688  ",
+    "Description": null,
+    "Price": 110
+  },
+  {
+    "Name": "江门市雅悦酒店",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "蓬江区江会路20号",
+    "ServiceTel": "电话0750-3315638  ",
+    "Description": null,
+    "Price": 83
+  },
+  {
+    "Name": "江门蓬江区富源公寓",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "杜阮镇中心市场46号2楼",
+    "ServiceTel": "电话18022999569 传真--  ",
+    "Description": null,
+    "Price": 96
+  },
+  {
+    "Name": "江门夏日酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "冈州大道中41号105铺",
+    "ServiceTel": "电话0750-6671188  ",
+    "Description": null,
+    "Price": 109
+  },
+  {
+    "Name": "江门海悦湾公寓",
+    "Grade": "",
+    "Distract": "江海区",
+    "Address": "江海五路海逸星宸国际公寓2栋102室",
+    "ServiceTel": "电话+86-750-2356741-230  ",
+    "Description": null,
+    "Price": 101
+  },
+  {
+    "Name": "江门悦宁宾馆",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "天龙一街二座201",
+    "ServiceTel": "电话0750-3278618  ",
+    "Description": null,
+    "Price": 103
+  },
+  {
+    "Name": "江门聚晶酒店",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "白沙大道西19号110室（近五邑中医院）",
+    "ServiceTel": "电话0750-2633939  ",
+    "Description": null,
+    "Price": 97
+  },
+  {
+    "Name": "江门山湖湾酒店",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "三和大道南162号201",
+    "ServiceTel": "电话0750-6666887 传真--  ",
+    "Description": null,
+    "Price": 151
+  },
+  {
+    "Name": "江门雅城宾馆",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "胜利路47号4层",
+    "ServiceTel": "电话0750-3083918 传真0750-3083918  ",
+    "Description": null,
+    "Price": 91
+  },
+  {
+    "Name": "江门帝豪酒店",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门新会区惠民东路1号外贸大厦",
+    "ServiceTel": "电话0750-6666798  ",
+    "Description": null,
+    "Price": 77
+  },
+  {
+    "Name": "江门景胜公寓",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门江海区外海中东住船新村公寓2号",
+    "ServiceTel": "电话15019888118  ",
+    "Description": null,
+    "Price": 77
+  },
+  {
+    "Name": "江门佰盛公寓",
+    "Grade": "",
+    "Distract": "江海区",
+    "Address": "麻一龙桥里一路47号",
+    "ServiceTel": "电话18676290006  ",
+    "Description": null,
+    "Price": 42
+  },
+  {
+    "Name": "江门华盛宾馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "江门市蓬江区范罗冈4号（江门市人民医院旁）",
+    "ServiceTel": "电话0750-3327888 传真0750-3327888-2222  ",
+    "Description": null,
+    "Price": 105
+  },
+  {
+    "Name": "江门蓝天商务公寓",
+    "Grade": "经济型",
+    "Distract": "江海区",
+    "Address": "外海镇麻一工业区东山新村52号",
+    "ServiceTel": "电话0750-3800313 传真0750-3800313  ",
+    "Description": null,
+    "Price": 80
+  },
+  {
+    "Name": "江门尚品公寓",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "江门蓬江区港口一路3号",
+    "ServiceTel": "电话+86-18929073669  ",
+    "Description": null,
+    "Price": 89
+  },
+  {
+    "Name": "江门逸东商务宾馆",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "冈州大道东88号",
+    "ServiceTel": "电话0750-6118080  ",
+    "Description": null,
+    "Price": 85
+  },
+  {
+    "Name": "江门住德乐连锁酒店",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "竹排街27号111",
+    "ServiceTel": "电话0750-3122622 传真0750-3122622  ",
+    "Description": null,
+    "Price": 123
+  },
+  {
+    "Name": "江门彭城山庄宾馆",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "崖门镇古斗区乌猪山脚",
+    "ServiceTel": "电话-13702769193  ",
+    "Description": null,
+    "Price": 204
+  },
+  {
+    "Name": "开平富豪酒店",
+    "Grade": "经济型",
+    "Distract": "三埠区",
+    "Address": "长沙文新路1-3号",
+    "ServiceTel": "电话0750-2212222、2207666 传真0750-2207678  ",
+    "Description": null,
+    "Price": 113
+  },
+  {
+    "Name": "途窝假日酒店(台山汽车总站店)",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "新宁大道1号枫情尚成花园3幢108号一楼",
+    "ServiceTel": "电话0750-5106888  ",
+    "Description": null,
+    "Price": 229
+  },
+  {
+    "Name": "都市118·精选连锁酒店(开平思堤路店)",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "思堤路2号",
+    "ServiceTel": "电话0750-2363118  ",
+    "Description": null,
+    "Price": 167
+  },
+  {
+    "Name": "柏盛酒店(江门建设店)",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "建设三路139号3幢",
+    "ServiceTel": "电话0750-3300288  ",
+    "Description": null,
+    "Price": 150
+  },
+  {
+    "Name": "恩平金诚商务酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "新平南路19号",
+    "ServiceTel": "电话0750-7786888 传真0750-7786888  ",
+    "Description": null,
+    "Price": 125
+  },
+  {
+    "Name": "恩平怡和酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "新平中路68号",
+    "ServiceTel": "电话0750-7720788/7710789 传真0750-7717378  ",
+    "Description": null,
+    "Price": 110
+  },
+  {
+    "Name": "鹤山东华宾馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "沙坪镇东华村12号",
+    "ServiceTel": "电话0750-8818877  ",
+    "Description": null,
+    "Price": 65
+  },
+  {
+    "Name": "江门台山宴中酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "江门台山市海宴镇宴中大道3号",
+    "ServiceTel": "电话0750-5381999  ",
+    "Description": null,
+    "Price": 213
+  },
+  {
+    "Name": "开平福禄寿酒店",
+    "Grade": "经济型",
+    "Distract": "三埠区",
+    "Address": "祥龙中路46号",
+    "ServiceTel": "电话0750-2636222 传真0750-2636220  ",
+    "Description": null,
+    "Price": 149
+  },
+  {
+    "Name": "鹤山东方酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "祥和路299号",
+    "ServiceTel": "电话0750-8300375  ",
+    "Description": null,
+    "Price": 102
+  },
+  {
+    "Name": "台山海润商务酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "海滨路3-1号",
+    "ServiceTel": "电话0750-5322222  ",
+    "Description": null,
+    "Price": 224
+  },
+  {
+    "Name": "趣墅度假别墅（台山颐和温泉城店）",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "温泉颐和城颐乐2街6号301",
+    "ServiceTel": "电话+86-18825144348  ",
+    "Description": null,
+    "Price": 4007
+  },
+  {
+    "Name": "开平汕水酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "水口镇水暖城商业街141号",
+    "ServiceTel": "电话0750-2178999  ",
+    "Description": null,
+    "Price": 143
+  },
+  {
+    "Name": "开平泉岭旅舍",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "塘口镇升平圩1号",
+    "ServiceTel": "电话13711195707 传真--  ",
+    "Description": null,
+    "Price": 442
+  },
+  {
+    "Name": "开平盈嘉酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "新市路118-128号(中国卫浴城）",
+    "ServiceTel": "电话0750-2733299  ",
+    "Description": null,
+    "Price": 163
+  },
+  {
+    "Name": "开平凯旋门酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "光明路银禧花园15.16栋",
+    "ServiceTel": "电话0750-2206888 传真0750-2206898  ",
+    "Description": null,
+    "Price": 146
+  },
+  {
+    "Name": "开平雅都酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "325国道冲澄路段开平雅都酒店",
+    "ServiceTel": "电话0750-2367188 传真0750-2317066-8888  ",
+    "Description": null,
+    "Price": 198
+  },
+  {
+    "Name": "恩平百乐酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "锦江大道73号",
+    "ServiceTel": "电话0750-7177778  ",
+    "Description": null,
+    "Price": 110
+  },
+  {
+    "Name": "鹤山洋鑫商务酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "共和镇祥和路325号",
+    "ServiceTel": "电话0750-8300588 传真-  ",
+    "Description": null,
+    "Price": 168
+  },
+  {
+    "Name": "台山城市尚优公寓",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "台城环北大道61号人民医院",
+    "ServiceTel": "电话0750-5550089  ",
+    "Description": null,
+    "Price": 89
+  },
+  {
+    "Name": "江门缘汇公寓",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "江门蓬江区棠下镇金岭工业区富强路50号",
+    "ServiceTel": "电话-17875160695  ",
+    "Description": null,
+    "Price": 54
+  },
+  {
+    "Name": "江门商务住宿",
+    "Grade": "",
+    "Distract": "江海区",
+    "Address": "中东村住船里3巷1号",
+    "ServiceTel": "电话+86-13059276370  ",
+    "Description": null,
+    "Price": 66
+  },
+  {
+    "Name": "江门古兜温泉山海度假公寓酒店",
+    "Grade": "高档型",
+    "Distract": "新会区",
+    "Address": "崖门崖南古兜温泉小镇",
+    "ServiceTel": "电话0750-7172222  ",
+    "Description": null,
+    "Price": 1190
+  },
+  {
+    "Name": "7天优品(江门地王广场店)",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "胜利路17号",
+    "ServiceTel": "电话0750-7064777  ",
+    "Description": null,
+    "Price": 125
+  },
+  {
+    "Name": "江门保龙酒店",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "江门万达广场10栋4楼",
+    "ServiceTel": "电话0750-3919688  ",
+    "Description": null,
+    "Price": 207
+  },
+  {
+    "Name": "江门品尚青年公寓",
+    "Grade": "经济型",
+    "Distract": "江海区",
+    "Address": "窖头永康里5号",
+    "ServiceTel": "电话0750-8541997  ",
+    "Description": null,
+    "Price": 106
+  },
+  {
+    "Name": "江门铂金精品住房",
+    "Grade": "经济型",
+    "Distract": "江海区",
+    "Address": "滘口永康里3号",
+    "ServiceTel": "电话0750-3370559  ",
+    "Description": null,
+    "Price": 124
+  },
+  {
+    "Name": "江门雅园公寓(原景江大酒店)",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "西区工业路2号",
+    "ServiceTel": "电话0750-8524688  ",
+    "Description": null,
+    "Price": 89
+  },
+  {
+    "Name": "江门生力水疗度假酒店",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "会城育才路5号105铺",
+    "ServiceTel": "电话0750-6682222  ",
+    "Description": null,
+    "Price": 129
+  },
+  {
+    "Name": "江门杜威露营酒店蓬江兰石公园店",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "兰石公园内",
+    "ServiceTel": "电话0750-3099777 传真3096969-3099777  ",
+    "Description": null,
+    "Price": 454
+  },
+  {
+    "Name": "江门江海温馨公寓",
+    "Grade": "",
+    "Distract": "江海区",
+    "Address": "麻一东山里四路58号",
+    "ServiceTel": "电话13427136225  ",
+    "Description": null,
+    "Price": 68
+  },
+  {
+    "Name": "江门古斗温泉酒店式别墅",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "崖门镇古兜温泉巴登小镇A108",
+    "ServiceTel": "电话13172279338 传真0750-7172687  ",
+    "Description": null,
+    "Price": 196
+  },
+  {
+    "Name": "江门和悦酒店",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "万达公寓10栋入口旁3-23层",
+    "ServiceTel": "电话0750-3312999  ",
+    "Description": null,
+    "Price": 208
+  },
+  {
+    "Name": "江门古兜雅和居别墅",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "崖南古兜温泉度假村别墅区巴登一街19幢B",
+    "ServiceTel": "电话13534712167  ",
+    "Description": null,
+    "Price": 197
+  },
+  {
+    "Name": "OYO江门夜色繁星客栈",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "长发里江华小区1号之4",
+    "ServiceTel": "电话0750-7485550  ",
+    "Description": null,
+    "Price": 66
+  },
+  {
+    "Name": "江门吉祥旅馆",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "跃进路120号",
+    "ServiceTel": "电话0750-3336368  ",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "江门古斗温泉悠途度假别墅",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "古兜温泉度假村巴登小镇一街17栋B",
+    "ServiceTel": "电话18802581190  ",
+    "Description": null,
+    "Price": 136
+  },
+  {
+    "Name": "江门东旺酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "江门江海区东海路110号",
+    "ServiceTel": "电话0750-3961688  ",
+    "Description": null,
+    "Price": 107
+  },
+  {
+    "Name": "江门一品公寓",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "南岭一村于坑工业区(建昌五金店后面)",
+    "ServiceTel": "电话16607054320 传真--  ",
+    "Description": null,
+    "Price": 100
+  },
+  {
+    "Name": "江门金丰旅馆",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "江边里153号",
+    "ServiceTel": "电话0750-3190778  ",
+    "Description": null,
+    "Price": 52
+  },
+  {
+    "Name": "江门嘉谊酒店",
+    "Grade": "经济型",
+    "Distract": "江海区",
+    "Address": "君逸居1号102",
+    "ServiceTel": "电话0750-3970268  ",
+    "Description": null,
+    "Price": 155
+  },
+  {
+    "Name": "江门建东宾馆",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "建设路东仓里71号（近江门地王广场）",
+    "ServiceTel": "电话0750-3302008 3302308  ",
+    "Description": null,
+    "Price": 77
+  },
+  {
+    "Name": "新会崖门古兜海龙酒店",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "新会区崖门镇古兜村",
+    "ServiceTel": "电话0750-6452988  ",
+    "Description": null,
+    "Price": 152
+  },
+  {
+    "Name": "江门柏逸酒店",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "锦桥雅苑4幢201、301室",
+    "ServiceTel": "电话0750-3368722  ",
+    "Description": null,
+    "Price": 232
+  },
+  {
+    "Name": "江门江林公寓",
+    "Grade": "舒适型",
+    "Distract": "新会区",
+    "Address": "双水镇河滨东路2号1座101",
+    "ServiceTel": "电话750-8260777  ",
+    "Description": null,
+    "Price": 252
+  },
+  {
+    "Name": "江门我行我宿公寓式酒店",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "发展大道2号摩根国际公寓3座17楼",
+    "ServiceTel": "电话18038889933 传真--  ",
+    "Description": null,
+    "Price": 283
+  },
+  {
+    "Name": "江门古兜月泉湖居酒店",
+    "Grade": "高档型",
+    "Distract": "新会区",
+    "Address": "崖门镇古兜度假邨1号2号楼",
+    "ServiceTel": "电话0750-7170241  ",
+    "Description": null,
+    "Price": 1716
+  },
+  {
+    "Name": "江门鑫君悦宾馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "江海区东海路105号之18",
+    "ServiceTel": "电话15915367886  ",
+    "Description": null,
+    "Price": 110
+  },
+  {
+    "Name": "江门逸华酒店",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "港口路启华里45号",
+    "ServiceTel": "电话0750-3386333  ",
+    "Description": null,
+    "Price": 126
+  },
+  {
+    "Name": "江门荷塘兴鸿出租房",
+    "Grade": "",
+    "Distract": "",
+    "Address": "荷塘镇民兴路13号",
+    "ServiceTel": "电话13886595512  ",
+    "Description": null,
+    "Price": 57
+  },
+  {
+    "Name": "江门丽都宾馆",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "胜利路竹园小吃店72号",
+    "ServiceTel": "电话0750-3265618  ",
+    "Description": null,
+    "Price": 82
+  },
+  {
+    "Name": "江门新悦宾馆",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "跃进路91号",
+    "ServiceTel": "电话+86-750-8518648  ",
+    "Description": null,
+    "Price": 77
+  },
+  {
+    "Name": "江门丰乐宾馆五邑大学店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "广东省江门市丰裕路4-8号（五邑大学北门对面）逸豪酒店旁",
+    "ServiceTel": "电话0750-3322666 传真075-3321222  ",
+    "Description": null,
+    "Price": 118
+  },
+  {
+    "Name": "江门鸿健旅馆",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "书院路20号",
+    "ServiceTel": "电话0750-3353551  ",
+    "Description": null,
+    "Price": 46
+  },
+  {
+    "Name": "江门源缘公寓",
+    "Grade": "",
+    "Distract": "蓬江区",
+    "Address": "荷塘镇新荷路6号",
+    "ServiceTel": "电话18850503452  ",
+    "Description": null,
+    "Price": 94
+  },
+  {
+    "Name": "江门温馨别墅",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "崖门镇古兜温泉巴登小镇A202",
+    "ServiceTel": "电话13827002348  ",
+    "Description": null,
+    "Price": 283
+  },
+  {
+    "Name": "江门和发商务酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "江门新会区振兴二路30号华润万家五楼",
+    "ServiceTel": "电话0750-6691333  ",
+    "Description": null,
+    "Price": 200
+  },
+  {
+    "Name": "江门湘鸿宾馆",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "水南路会龙里155号",
+    "ServiceTel": "电话0750-3109288  ",
+    "Description": null,
+    "Price": 91
+  },
+  {
+    "Name": "江门爱依华酒店",
+    "Grade": "国家旅游局评定为三星级",
+    "Distract": "新会区",
+    "Address": "冈州大道西6号",
+    "ServiceTel": "电话0750-6702222 传真0750-6703232  ",
+    "Description": null,
+    "Price": 261
+  },
+  {
+    "Name": "江门星际商务酒店",
+    "Grade": "舒适型",
+    "Distract": "蓬江区",
+    "Address": "荷塘镇南华东路77号1栋",
+    "ServiceTel": "电话0750-3859888  ",
+    "Description": null,
+    "Price": 121
+  },
+  {
+    "Name": "江门古兜温泉轩乐居别墅",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "崖门镇古兜温泉别墅区巴登小镇B3栋",
+    "ServiceTel": "电话18125455235 传真--  ",
+    "Description": null,
+    "Price": 868
+  },
+  {
+    "Name": "江门古斗谢天客栈",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "崖门镇古斗村古兜温泉入口旁",
+    "ServiceTel": "电话13544958805  ",
+    "Description": null,
+    "Price": 168
+  },
+  {
+    "Name": "江门新葵旅馆",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "新会西门路8号",
+    "ServiceTel": "电话0750-6692082  ",
+    "Description": null,
+    "Price": 79
+  },
+  {
+    "Name": "OYO江门鑫旺宾馆",
+    "Grade": "",
+    "Distract": "蓬江区",
+    "Address": "白沙大道西18号109室（含二、三层）",
+    "ServiceTel": "电话+86-18575020599  ",
+    "Description": null,
+    "Price": 48
+  },
+  {
+    "Name": "江门金源旅业",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "棠下镇富棠二路21号",
+    "ServiceTel": "电话+86-18420280813  ",
+    "Description": null,
+    "Price": 116
+  },
+  {
+    "Name": "江门古斗美巴别墅",
+    "Grade": "",
+    "Distract": "新会区",
+    "Address": "崖南镇古兜温泉巴登小镇一街",
+    "ServiceTel": "电话13631831157 传真0750-308203  ",
+    "Description": null,
+    "Price": 189
+  },
+  {
+    "Name": "江门聚缘公寓",
+    "Grade": "",
+    "Distract": "蓬江区",
+    "Address": "潮连镇坦边方岳里六巷二号（江门职业技术学院对面）",
+    "ServiceTel": "电话13422523211  ",
+    "Description": null,
+    "Price": 89
+  },
+  {
+    "Name": "江门江南宾馆",
+    "Grade": "经济型",
+    "Distract": "江海区",
+    "Address": "河南江南路22号",
+    "ServiceTel": "电话0750-3811878  ",
+    "Description": null,
+    "Price": 111
+  },
+  {
+    "Name": "江门东升商务住宿",
+    "Grade": "经济型",
+    "Distract": "江海区",
+    "Address": "外海东升街下路5巷1号",
+    "ServiceTel": "电话0750-3094984  ",
+    "Description": null,
+    "Price": 80
+  },
+  {
+    "Name": "江门市龙腾酒店",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "杜阮镇龙眠村",
+    "ServiceTel": "电话0750-3667837 传真0750-3667837  ",
+    "Description": null,
+    "Price": 152
+  },
+  {
+    "Name": "江门景鑫宾馆",
+    "Grade": "",
+    "Distract": "新会区",
+    "Address": "东关路16号",
+    "ServiceTel": "联系方式",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "江门168公寓",
+    "Grade": "",
+    "Distract": "江海区",
+    "Address": "外海镇麻一豪杰里33号",
+    "ServiceTel": "电话15820229418  ",
+    "Description": null,
+    "Price": 68
+  },
+  {
+    "Name": "江门唯纳公寓(3号店)",
+    "Grade": "",
+    "Distract": "",
+    "Address": "广场东路",
+    "ServiceTel": "电话021-80187829-4508085  ",
+    "Description": null,
+    "Price": 267
+  },
+  {
+    "Name": "江门丰盛旅馆",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "建设路1号之二2楼（江门大厦侧）",
+    "ServiceTel": "电话0750-3334739  ",
+    "Description": null,
+    "Price": 84
+  },
+  {
+    "Name": "江门祥太旅馆",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "杜阮镇江杜中路21号",
+    "ServiceTel": "电话0750-2049786  ",
+    "Description": null,
+    "Price": 68
+  },
+  {
+    "Name": "江门万达广场怡然之家公寓",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门蓬江区万达广场10栋",
+    "ServiceTel": "电话13929058903  ",
+    "Description": null,
+    "Price": 199
+  },
+  {
+    "Name": "江门宾至如归旅馆",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "凤阳街8号之二",
+    "ServiceTel": "电话0750-3973970  ",
+    "Description": null,
+    "Price": 50
+  },
+  {
+    "Name": "江门广丰私家别墅",
+    "Grade": "",
+    "Distract": "新会区",
+    "Address": "崖门镇古兜温泉别墅巴登五街89栋",
+    "ServiceTel": "电话13392058788  ",
+    "Description": null,
+    "Price": 169
+  },
+  {
+    "Name": "江门阳光公寓",
+    "Grade": "",
+    "Distract": "江海区",
+    "Address": "麻三古巷中路4号",
+    "ServiceTel": "电话18290841796  ",
+    "Description": null,
+    "Price": 76
+  },
+  {
+    "Name": "江门古斗温泉雅琼私家民宿",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "崖门镇古兜温泉度假村温泉别墅区巴登小镇8栋B座",
+    "ServiceTel": "电话13929007911  ",
+    "Description": null,
+    "Price": 157
+  },
+  {
+    "Name": "江门健安酒店",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "振兴二路38号",
+    "ServiceTel": "电话0750-6139808  ",
+    "Description": null,
+    "Price": 130
+  },
+  {
+    "Name": "江门天缘商务公寓",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门江海区外海镇南山工业区同乐里三巷15号",
+    "ServiceTel": "电话0750-3609001  ",
+    "Description": null,
+    "Price": 77
+  },
+  {
+    "Name": "江门锦利商务酒店",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "跃进路111号",
+    "ServiceTel": "电话0750-3330538  ",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "江门蓝天商务公寓(佑启学校分店)",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "外海镇麻一东山里4路14号(麻一佑启学校旁)",
+    "ServiceTel": "电话0750-3068007  ",
+    "Description": null,
+    "Price": 108
+  },
+  {
+    "Name": "江门崖门古兜爱情公寓",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "崖门古兜温泉度假村内",
+    "ServiceTel": "电话18026761913  ",
+    "Description": null,
+    "Price": 423
+  },
+  {
+    "Name": "台山沙咀湾度假屋",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "沙咀村尾角湾",
+    "ServiceTel": "电话18026885135  ",
+    "Description": null,
+    "Price": 203
+  },
+  {
+    "Name": "江门竹外云艺墅",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "五邑碧桂园街",
+    "ServiceTel": "电话0750-3699218 传真--  ",
+    "Description": null,
+    "Price": 3503
+  },
+  {
+    "Name": "江门尚佳公寓",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "荷塘镇篁湾新村二街",
+    "ServiceTel": "电话18675375028 传真--  ",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "江门珀逸商务酒店",
+    "Grade": "经济型",
+    "Distract": "江海区",
+    "Address": "外海杏林路4号（近中华路）",
+    "ServiceTel": "电话0750-3787888 传真0750-3787888  ",
+    "Description": null,
+    "Price": 278
+  },
+  {
+    "Name": "江门美宜住宿",
+    "Grade": "",
+    "Distract": "新会区",
+    "Address": "崖门镇古斗村大王公15号（178乡道和365省道交汇处西北角）",
+    "ServiceTel": "电话0750-6452068 传真-  ",
+    "Description": null,
+    "Price": 157
+  },
+  {
+    "Name": "江门赢丰公寓",
+    "Grade": "经济型",
+    "Distract": "江海区",
+    "Address": "麻三古巷下路七巷",
+    "ServiceTel": "电话18200690462 传真--  ",
+    "Description": null,
+    "Price": 105
+  },
+  {
+    "Name": "江门博悦公寓酒店(江门万达店)",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门蓬江区发展大道万达广场",
+    "ServiceTel": "电话0750-3699218  ",
+    "Description": null,
+    "Price": 329
+  },
+  {
+    "Name": "江门玖洋公寓",
+    "Grade": "经济型",
+    "Distract": "江海区",
+    "Address": "外海街道麻三环溪新村5号",
+    "ServiceTel": "电话+86-13528271807  ",
+    "Description": null,
+    "Price": 153
+  },
+  {
+    "Name": "江门8号客栈",
+    "Grade": "经济型",
+    "Distract": "江海区",
+    "Address": "外海镇麻一村豪杰里30号",
+    "ServiceTel": "电话13928157180  ",
+    "Description": null,
+    "Price": 80
+  },
+  {
+    "Name": "江门福海公寓",
+    "Grade": "",
+    "Distract": "江海区",
+    "Address": "外海镇麻三村金星路187号",
+    "ServiceTel": "电话19864636066  ",
+    "Description": null,
+    "Price": 72
+  },
+  {
+    "Name": "江门鸿美公寓",
+    "Grade": "",
+    "Distract": "江海区",
+    "Address": "外海镇江翠路麻一冲里113号（麻一村卫生站对面）",
+    "ServiceTel": "电话13322891664  ",
+    "Description": null,
+    "Price": 80
+  },
+  {
+    "Name": "江门好尚好旅馆",
+    "Grade": "经济型",
+    "Distract": "江海区",
+    "Address": "礼乐镇文昌公园文豪小区21栋首二层",
+    "ServiceTel": "联系方式",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "江门汉邦商务宾馆",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "迎宾大道西112号新贯网吧旁",
+    "ServiceTel": "电话0750-3682388  ",
+    "Description": null,
+    "Price": 88
+  },
+  {
+    "Name": "江门新港城宾馆",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "港口一路144号",
+    "ServiceTel": "电话0750-3293222  ",
+    "Description": null,
+    "Price": 94
+  },
+  {
+    "Name": "江门小曼妹妹公寓",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门蓬江区发展大道130-131",
+    "ServiceTel": "电话18922009509  ",
+    "Description": null,
+    "Price": 481
+  },
+  {
+    "Name": "江门嘉馨宾馆",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "江会路永康二街",
+    "ServiceTel": "电话0750-3551778  ",
+    "Description": null,
+    "Price": 109
+  },
+  {
+    "Name": "江门丽景旅馆",
+    "Grade": "经济型",
+    "Distract": "江海区",
+    "Address": "麻园麻三商业街",
+    "ServiceTel": "联系方式",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "朗悦四季商务酒店江南店",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门江海区中沙路56号",
+    "ServiceTel": "电话0750-3856998  ",
+    "Description": null,
+    "Price": 113
+  },
+  {
+    "Name": "江门伊家@民宿",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门江海区海逸星宸",
+    "ServiceTel": "",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "江门心乐公寓",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门蓬江区环市街道龙福路(升悦居)",
+    "ServiceTel": "联系方式",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "江门古兜温泉雅泉居别墅",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门新会区古兜温泉小镇",
+    "ServiceTel": "联系方式",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "江门W小睿舫公寓(白石大道分店)",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门蓬江区西江华府",
+    "ServiceTel": "联系方式",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "江门芳芳招待所",
+    "Grade": "经济型",
+    "Distract": "江海区",
+    "Address": "礼新街6号",
+    "ServiceTel": "联系方式",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "江门吉利旅馆",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "天河东路9号",
+    "ServiceTel": "联系方式",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "江门鑫怡公寓",
+    "Grade": "",
+    "Distract": "江海区",
+    "Address": "外海街道前进路53号",
+    "ServiceTel": "联系方式",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "江门新会君豪商务酒店",
+    "Grade": "",
+    "Distract": "",
+    "Address": "新会区三江镇金门路",
+    "ServiceTel": "联系方式",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "江门Rebeca田园美宅公寓(宏江路分店)",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门蓬江区宏江路奥园",
+    "ServiceTel": "联系方式",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "江门侨联宾馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "江门市蓬江区江杜中路163号",
+    "ServiceTel": "电话0750-3091328  ",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "江门凸钊凸公寓",
+    "Grade": "",
+    "Distract": "",
+    "Address": "会城大道",
+    "ServiceTel": "电话021-80187829-6301380  ",
+    "Description": null,
+    "Price": 494
+  },
+  {
+    "Name": "江门嘉福时尚公寓",
+    "Grade": "",
+    "Distract": "江海区",
+    "Address": "外海街道古巷下路六巷麻三商业区18号",
+    "ServiceTel": "电话0750-3609818  ",
+    "Description": null,
+    "Price": 130
+  },
+  {
+    "Name": "江门飞翔的人生度假别墅",
+    "Grade": "",
+    "Distract": "",
+    "Address": "新会碧桂园(南门)",
+    "ServiceTel": "电话021-80187829-5646383  ",
+    "Description": null,
+    "Price": 4790
+  },
+  {
+    "Name": "江门群盛公寓",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "群星罗一长塘2栋二层",
+    "ServiceTel": "联系方式",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "胜辉宾馆(江门新会南隅店)",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "南隅路47号",
+    "ServiceTel": "联系方式",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "江门小滢公寓(3号店)",
+    "Grade": "",
+    "Distract": "",
+    "Address": "摩根国际",
+    "ServiceTel": "电话021-80187829-4938788  ",
+    "Description": null,
+    "Price": 309
+  },
+  {
+    "Name": "江门我行我宿公寓(广场东路分店)",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门蓬江区广场东路万达公寓",
+    "ServiceTel": "电话021-80187829-1173158  ",
+    "Description": null,
+    "Price": 219
+  },
+  {
+    "Name": "江门邓小姐公寓",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门市新会区冈州大道东",
+    "ServiceTel": "电话021-80187829-5899657  ",
+    "Description": null,
+    "Price": 117
+  },
+  {
+    "Name": "江门玲玲俐俐公寓(2号店)",
+    "Grade": "",
+    "Distract": "",
+    "Address": "海怡居",
+    "ServiceTel": "电话021-80187829-5563839  ",
+    "Description": null,
+    "Price": 541
+  },
+  {
+    "Name": "江门Janee公寓",
+    "Grade": "",
+    "Distract": "",
+    "Address": "南苑三街-道路",
+    "ServiceTel": "电话021-80187829-4574417  ",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "江门壹嘉公寓(2号店)",
+    "Grade": "",
+    "Distract": "",
+    "Address": "万达广场",
+    "ServiceTel": "联系方式",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "江门众旺宾馆",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "炮台北路1号",
+    "ServiceTel": "电话0750-3081169  ",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "江门君壹精品公寓",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门江海区东宁路97号",
+    "ServiceTel": "联系方式",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "江门鸿富商务公寓",
+    "Grade": "",
+    "Distract": "江海区",
+    "Address": "江海四路东南村南安路九巷2号",
+    "ServiceTel": "电话18825389536  ",
+    "Description": null,
+    "Price": 88
+  },
+  {
+    "Name": "江门新会梦美旅店",
+    "Grade": "",
+    "Distract": "",
+    "Address": "会城新会大道中34号",
+    "ServiceTel": "电话13302592527  ",
+    "Description": null,
+    "Price": 178
+  },
+  {
+    "Name": "江门海逸国际公馆公寓",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门江海区海逸星宸行政公馆1栋(海逸星辰)",
+    "ServiceTel": "电话021-80187829-7365219  ",
+    "Description": null,
+    "Price": 170
+  },
+  {
+    "Name": "江门龙祥旅馆",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "城西一路121-123号瑶步冲商业大厦",
+    "ServiceTel": "电话0750-6688835 传真无  ",
+    "Description": null,
+    "Price": 90
+  },
+  {
+    "Name": "城市便捷酒店(江门蓬江荷塘店)(原金逸酒店)",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "荷塘镇民兴路38号",
+    "ServiceTel": "电话0750-3733828  ",
+    "Description": null,
+    "Price": 182
+  },
+  {
+    "Name": "江门新会古岗宾馆",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "会城惠民西路15号1座",
+    "ServiceTel": "电话0750-6611828  ",
+    "Description": null,
+    "Price": 127
+  },
+  {
+    "Name": "江门众人乐旅馆",
+    "Grade": "经济型",
+    "Distract": "蓬江区",
+    "Address": "建设路7号",
+    "ServiceTel": "电话0750-3328377  ",
+    "Description": null,
+    "Price": 80
+  },
+  {
+    "Name": "江门华天商务公寓",
+    "Grade": "",
+    "Distract": "江海区",
+    "Address": "礼乐镇乐祥东路1号",
+    "ServiceTel": "电话18029613461  ",
+    "Description": null,
+    "Price": 100
+  },
+  {
+    "Name": "恩平温泉小镇恒大泉都森林美墅",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "良西镇恒大泉都洋房公寓区/别墅区内",
+    "ServiceTel": "联系方式",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "江门鑫源公寓",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "江门蓬江区建设二路67号",
+    "ServiceTel": "电话18872373839  ",
+    "Description": null,
+    "Price": 80
+  },
+  {
+    "Name": "胜辉宾馆(江门新会象山店)",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "城西二路102",
+    "ServiceTel": "联系方式",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "鹤山方圆福朋喜来登酒店",
+    "Grade": "高档型",
+    "Distract": "",
+    "Address": "沙坪街道雁云路1号",
+    "ServiceTel": "电话0750-8922888 传真0750-8926002  ",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "鹤山佳华商住酒店",
+    "Grade": "豪华型",
+    "Distract": "",
+    "Address": "凤亭路199号天行健大厦6层",
+    "ServiceTel": "电话0750-8800155 传真-  ",
+    "Description": null,
+    "Price": 128
+  },
+  {
+    "Name": "恩平爱必侬泉林酒店",
+    "Grade": "豪华型",
+    "Distract": "",
+    "Address": "东成镇泉林路",
+    "ServiceTel": "电话0750-7778222 传真0750-7826968  ",
+    "Description": null,
+    "Price": 651
+  },
+  {
+    "Name": "台山那琴半岛地质海洋公园酒店",
+    "Grade": "高档型",
+    "Distract": "",
+    "Address": "那琴半岛海景1街1号",
+    "ServiceTel": "电话0750-5781222、5789555 传真0750-5789222  ",
+    "Description": null,
+    "Price": 568
+  },
+  {
+    "Name": "恩平华美达酒店",
+    "Grade": "高档型",
+    "Distract": "",
+    "Address": "美华东路105号",
+    "ServiceTel": "电话0750-7823888 传真0750-7111000  ",
+    "Description": null,
+    "Price": 371
+  },
+  {
+    "Name": "台山碧桂园凤凰酒店",
+    "Grade": "国家旅游局评定为五星级",
+    "Distract": "",
+    "Address": "沙岗湖开发区台山碧桂园",
+    "ServiceTel": "电话+86-750-8262888 传真0750-5688111  ",
+    "Description": null,
+    "Price": 442
+  },
+  {
+    "Name": "台山古丽精品酒店",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "桥湖路52号(汽车总站与步行街之间）",
+    "ServiceTel": "电话0750-5578999 传真0750-5578999  ",
+    "Description": null,
+    "Price": 187
+  },
+  {
+    "Name": "鹤山泉智酒店",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "沙坪镇新城路226号",
+    "ServiceTel": "电话0750-8422888  ",
+    "Description": null,
+    "Price": 210
+  },
+  {
+    "Name": "恩平锦江温泉度假村",
+    "Grade": "高档型",
+    "Distract": "",
+    "Address": "大田镇325国道旁",
+    "ServiceTel": "电话0750-7333633  ",
+    "Description": null,
+    "Price": 933
+  },
+  {
+    "Name": "美思柏丽酒店(鹤山新城店)",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "铁夫路与鹤山大道交汇处",
+    "ServiceTel": "电话0750-8811338  ",
+    "Description": null,
+    "Price": 185
+  },
+  {
+    "Name": "麗枫酒店(鹤山汽车总站店)",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "沙坪大鹏路173号松源大厦",
+    "ServiceTel": "电话0750-8831888  ",
+    "Description": null,
+    "Price": 275
+  },
+  {
+    "Name": "伊斯登度假别墅(恩平恒大泉都店)",
+    "Grade": "高档型",
+    "Distract": "",
+    "Address": "良西镇学北路恒大泉都运动中心前台",
+    "ServiceTel": "电话0750-7397191  ",
+    "Description": null,
+    "Price": 352
+  },
+  {
+    "Name": "台山西岸酒店",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "六马村路口",
+    "ServiceTel": "电话0750-5788999 传真0750-5785699  ",
+    "Description": null,
+    "Price": 293
+  },
+  {
+    "Name": "台山下川帝苑别墅度假村",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "下川岛王府洲旅游区",
+    "ServiceTel": "电话0750-5757818 传真0750-5757868  ",
+    "Description": null,
+    "Price": 138
+  },
+  {
+    "Name": "恩平恒大泉都月泉度假酒店公寓",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "恒大泉都7栋",
+    "ServiceTel": "电话0750-7392286  ",
+    "Description": null,
+    "Price": 266
+  },
+  {
+    "Name": "台山金苗假日酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "沙咀六马村62号",
+    "ServiceTel": "电话0750-5781898 传真--  ",
+    "Description": null,
+    "Price": 257
+  },
+  {
+    "Name": "台山下川岛海波楼酒店",
+    "Grade": "高档型",
+    "Distract": "",
+    "Address": "下川岛王府洲旅游区中心大道南座二号",
+    "ServiceTel": "电话0750-5757338  ",
+    "Description": null,
+    "Price": 138
+  },
+  {
+    "Name": "台山下川桂园酒店",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "下川王府洲旅游区08-B-2号",
+    "ServiceTel": "电话0750-5757618  ",
+    "Description": null,
+    "Price": 123
+  },
+  {
+    "Name": "歌诗达度假酒店(下川岛中心店)(原红海大酒店)",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "王府州旅游区09-1-G",
+    "ServiceTel": "电话13316750980 传真0750-5757502  ",
+    "Description": null,
+    "Price": 123
+  },
+  {
+    "Name": "台山黄金海岸旅游度假酒店",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "铜鼓鱼塘湾3号",
+    "ServiceTel": "电话0750-5271222  ",
+    "Description": null,
+    "Price": 278
+  },
+  {
+    "Name": "台山德海酒店",
+    "Grade": "舒适型",
+    "Distract": "冲娄镇",
+    "Address": "环镇南路8号",
+    "ServiceTel": "电话13232929680  ",
+    "Description": null,
+    "Price": 184
+  },
+  {
+    "Name": "台山圣佩纳公寓",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "三合镇御泉山居2栋",
+    "ServiceTel": "电话+86-15918717773  ",
+    "Description": null,
+    "Price": 401
+  },
+  {
+    "Name": "下川岛德海酒店",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "下川王府洲旅游中心09-5-B号",
+    "ServiceTel": "电话0750-5757920  ",
+    "Description": null,
+    "Price": 142
+  },
+  {
+    "Name": "台山海悦蓝湾假日酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "沙咀尾角村",
+    "ServiceTel": "电话0750-5782333  ",
+    "Description": null,
+    "Price": 192
+  },
+  {
+    "Name": "台山下川海趣别墅",
+    "Grade": "高档型",
+    "Distract": "",
+    "Address": "下川王府洲旅游区",
+    "ServiceTel": "电话0750-5758980 传真0750-5758998  ",
+    "Description": null,
+    "Price": 208
+  },
+  {
+    "Name": "鹤山君威酒店",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "桃源镇民源路3号",
+    "ServiceTel": "电话+86-750-8212228  ",
+    "Description": null,
+    "Price": 186
+  },
+  {
+    "Name": "下川岛壹号海景酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "下川岛王府洲景区",
+    "ServiceTel": "电话0750-5756838  ",
+    "Description": null,
+    "Price": 163
+  },
+  {
+    "Name": "恩平逸豪酒店",
+    "Grade": "高档型",
+    "Distract": "",
+    "Address": "锦江大道东2号",
+    "ServiceTel": "电话0750-7378888 传真0750-7373339  ",
+    "Description": null,
+    "Price": 458
+  },
+  {
+    "Name": "恩平山泉湾温泉酒店",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "大田镇朗底河塘村西北面",
+    "ServiceTel": "电话0750-7338888  ",
+    "Description": null,
+    "Price": 472
+  },
+  {
+    "Name": "恩平珑湾精品酒店",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "",
+    "ServiceTel": "电话0750-7120666  ",
+    "Description": null,
+    "Price": 238
+  },
+  {
+    "Name": "台山喜运来温泉大酒店",
+    "Grade": "高档型",
+    "Distract": "",
+    "Address": "三合镇温泉旅游区",
+    "ServiceTel": "电话0750-7376666 传真0750-7376890  ",
+    "Description": null,
+    "Price": 236
+  },
+  {
+    "Name": "美思柏丽酒店(恩平金沙广场店)",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "新平中路18号金沙时代广场B栋",
+    "ServiceTel": "电话0750-7175588  ",
+    "Description": null,
+    "Price": 192
+  },
+  {
+    "Name": "开平伊士高酒店",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "开平大道1号5栋",
+    "ServiceTel": "电话0750-2236666 传真0750-2236681  ",
+    "Description": null,
+    "Price": 308
+  },
+  {
+    "Name": "江门柏丽连锁酒店(开平幕沙店)",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "幕桥东路江滨新村18幢",
+    "ServiceTel": "电话0750-2209188  ",
+    "Description": null,
+    "Price": 125
+  },
+  {
+    "Name": "台山铂爵酒店",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "三台路9号",
+    "ServiceTel": "电话0750-5535888 传真0750-5599868  ",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "美思柏丽酒店(恩平鳌峰广场店)",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "恩新东路38号鳌峰商业大楼",
+    "ServiceTel": "电话0750-7721988  ",
+    "Description": null,
+    "Price": 185
+  },
+  {
+    "Name": "台山颐和温泉城大酒店",
+    "Grade": "豪华型",
+    "Distract": "",
+    "Address": "温泉圩台山颐和温泉城",
+    "ServiceTel": "电话0750-5828999 传真0750-5828666  ",
+    "Description": null,
+    "Price": 1233
+  },
+  {
+    "Name": "台山禾酒店",
+    "Grade": "高档型",
+    "Distract": "",
+    "Address": "舜德路131号昌大昌广场商务楼右翼",
+    "ServiceTel": "电话0750-5510888  ",
+    "Description": null,
+    "Price": 386
+  },
+  {
+    "Name": "城市便捷酒店(恩平汽车站店)",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "恩城河南新平南路30号自编5号铺",
+    "ServiceTel": "电话0750-7778989  ",
+    "Description": null,
+    "Price": 192
+  },
+  {
+    "Name": "开平碧桂园翡翠湾凤凰酒店",
+    "Grade": "豪华型",
+    "Distract": "",
+    "Address": "开平大道268号碧桂园翡翠湾一街1幢",
+    "ServiceTel": "电话0750-2880888 传真0750-2381313  ",
+    "Description": null,
+    "Price": 540
+  },
+  {
+    "Name": "台山东方丽景精选酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "东方豪苑88号5楼大堂",
+    "ServiceTel": "电话0750-7155888 传真0750-5604288  ",
+    "Description": null,
+    "Price": 220
+  },
+  {
+    "Name": "江门柏丽连锁酒店(台山桥湖店)",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "台城桥湖路70号",
+    "ServiceTel": "电话0750-5228888 传真0750-5228888  ",
+    "Description": null,
+    "Price": 162
+  },
+  {
+    "Name": "恩平帝都温泉度假村",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "良西镇月水村",
+    "ServiceTel": "电话0750-7396666 传真0750-7396178  ",
+    "Description": null,
+    "Price": 767
+  },
+  {
+    "Name": "鹤山魅力酒店",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "鹤山大道818号",
+    "ServiceTel": "电话0750-8888999  ",
+    "Description": null,
+    "Price": 152
+  },
+  {
+    "Name": "江门柏丽连锁酒店(开平水口店)",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "水口镇新市南路9号",
+    "ServiceTel": "电话0750-2763688 传真0750-2763688  ",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "台山天诚港大酒店",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "通济路18号",
+    "ServiceTel": "电话0750-5511888 传真0750-5557868  ",
+    "Description": null,
+    "Price": 183
+  },
+  {
+    "Name": "恩平侨星公寓",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "美华东路105号侨星国际大厦1818号",
+    "ServiceTel": "电话0750-7726188  ",
+    "Description": null,
+    "Price": 247
+  },
+  {
+    "Name": "台山东富大酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "No.舜德路1号之一",
+    "ServiceTel": "电话0750-5551688，5551686 传真0750-5551698  ",
+    "Description": null,
+    "Price": 298
+  },
+  {
+    "Name": "台山嘉明酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "四九镇牡丹路2号",
+    "ServiceTel": "电话0750-5398888 传真0750-5477877  ",
+    "Description": null,
+    "Price": 135
+  },
+  {
+    "Name": "7天连锁酒店(江门鹤山店)",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "沙坪人民东路36号",
+    "ServiceTel": "电话0750-8977777  ",
+    "Description": null,
+    "Price": 137
+  },
+  {
+    "Name": "麗枫酒店(开平幕沙店)",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "长沙街道办事处幕沙路58号（益华广场旁）",
+    "ServiceTel": "电话0750-2209888  ",
+    "Description": null,
+    "Price": 280
+  },
+  {
+    "Name": "恩平锦洲假日酒店",
+    "Grade": "高档型",
+    "Distract": "",
+    "Address": "温泉路7号金洲花城二幢15号",
+    "ServiceTel": "电话0750-7371000 传真0750-7371222  ",
+    "Description": null,
+    "Price": 195
+  },
+  {
+    "Name": "鹤山曼陀伦·贝卡诺时尚酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "共和镇共建路425-2号",
+    "ServiceTel": "电话0750-8300090  ",
+    "Description": null,
+    "Price": 201
+  },
+  {
+    "Name": "锦江之星风尚(开平汽车客运站店)",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "长沙杜澄大道（义祠汽车客运站侧）",
+    "ServiceTel": "电话0750-2023311 传真0750-2023611  ",
+    "Description": null,
+    "Price": 208
+  },
+  {
+    "Name": "雅致酒店（开平城市广场店）",
+    "Grade": "国家旅游局评定为三星级",
+    "Distract": "",
+    "Address": "曙光东路178号2栋",
+    "ServiceTel": "电话0750-2290788、2298038 传真0750-2235088  ",
+    "Description": null,
+    "Price": 175
+  },
+  {
+    "Name": "维也纳智好酒店(开平益华广场店)",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "幕沙路70号",
+    "ServiceTel": "电话0750-2208888  ",
+    "Description": null,
+    "Price": 257
+  },
+  {
+    "Name": "江门柏丽连锁酒店(台山平湖店)",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "平湖路2号",
+    "ServiceTel": "电话0750-5683788 传真0750-5683779  ",
+    "Description": null,
+    "Price": 175
+  },
+  {
+    "Name": "开平三埠假日酒店",
+    "Grade": "高档型",
+    "Distract": "",
+    "Address": "港口路10号",
+    "ServiceTel": "电话0750-2286333  ",
+    "Description": null,
+    "Price": 332
+  },
+  {
+    "Name": "恩平鹏润假日宾馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "新平北路166号",
+    "ServiceTel": "电话0750-7182388  ",
+    "Description": null,
+    "Price": 140
+  },
+  {
+    "Name": "鹤山阁瑞精品酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "共和镇祥和路302号3座A08",
+    "ServiceTel": "电话0750-8306808  ",
+    "Description": null,
+    "Price": 199
+  },
+  {
+    "Name": "开平骏豪酒店",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "新市南路108号",
+    "ServiceTel": "电话0750-2725666 传真0750-2709996  ",
+    "Description": null,
+    "Price": 203
+  },
+  {
+    "Name": "台山宇悦酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "环北大道46号",
+    "ServiceTel": "电话0750-5552555 传真0750-5599987  ",
+    "Description": null,
+    "Price": 302
+  },
+  {
+    "Name": "恩平金岛商务酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "小岛东华街57号",
+    "ServiceTel": "电话0750-7812333  ",
+    "Description": null,
+    "Price": 154
+  },
+  {
+    "Name": "尚客优酒店(鹤山共和镇店)",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "共和镇顺和路338号",
+    "ServiceTel": "电话0750-819692501  ",
+    "Description": null,
+    "Price": 157
+  },
+  {
+    "Name": "碉民部落精品民宿(开平塘口店)",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "塘口镇塘口街55号",
+    "ServiceTel": "电话0750-2616222  ",
+    "Description": null,
+    "Price": 215
+  },
+  {
+    "Name": "开平三埠骏盈酒店",
+    "Grade": "舒适型",
+    "Distract": "祥龙区",
+    "Address": "祥龙中路53号",
+    "ServiceTel": "电话0750-2320333 传真0750-2320383  ",
+    "Description": null,
+    "Price": 165
+  },
+  {
+    "Name": "恩平海和商务酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "小岛南堤中路44号",
+    "ServiceTel": "电话0750-7826688 传真0750-7826688  ",
+    "Description": null,
+    "Price": 161
+  },
+  {
+    "Name": "台山文旭酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "台城沙岗湖路28号之三301房",
+    "ServiceTel": "电话0750-8277388 传真--  ",
+    "Description": null,
+    "Price": 191
+  },
+  {
+    "Name": "开平悦海酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "新市南路108号（水口客运站侧）",
+    "ServiceTel": "电话0750-2022222  ",
+    "Description": null,
+    "Price": 144
+  },
+  {
+    "Name": "台山海上神灶温泉旅游度假村",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "汶村镇神灶岛海上神灶温",
+    "ServiceTel": "电话0750-5716888  ",
+    "Description": null,
+    "Price": 593
+  },
+  {
+    "Name": "台山摩登概念酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "环北大道39号",
+    "ServiceTel": "电话0750-7171888 传真0750-7171889  ",
+    "Description": null,
+    "Price": 131
+  },
+  {
+    "Name": "恩平威伦酒店",
+    "Grade": "",
+    "Distract": "",
+    "Address": "恩平育新街8号",
+    "ServiceTel": "电话0750-7771118  ",
+    "Description": null,
+    "Price": 128
+  },
+  {
+    "Name": "开平星都大酒店",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "长沙光明路106号",
+    "ServiceTel": "电话0750-2208788 传真0750-2208777  ",
+    "Description": null,
+    "Price": 109
+  },
+  {
+    "Name": "台山途客精品酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "环北大道44号邮政2号楼2-5楼",
+    "ServiceTel": "电话0750-5583555  ",
+    "Description": null,
+    "Price": 104
+  },
+  {
+    "Name": "尚客优连锁酒店(开平水口店)",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "新市北路146-158号二、三层之一",
+    "ServiceTel": "电话0750-2727888  ",
+    "Description": null,
+    "Price": 146
+  },
+  {
+    "Name": "金碧湾酒店（开平冲澄店）",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "长沙柏丽花园第六幢",
+    "ServiceTel": "电话0750-2330888 传真0750-2332222  ",
+    "Description": null,
+    "Price": 151
+  },
+  {
+    "Name": "鹤山小城商务酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "共和镇平安大道222号",
+    "ServiceTel": "电话0750-8319588  ",
+    "Description": null,
+    "Price": 113
+  },
+  {
+    "Name": "台山翠湖大酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "环南后街29号(人工湖旁）",
+    "ServiceTel": "电话0750-5558887 传真0750-5558889  ",
+    "Description": null,
+    "Price": 187
+  },
+  {
+    "Name": "恩平尚优精品酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "恩新路29号二楼",
+    "ServiceTel": "电话0750-7718788 传真--  ",
+    "Description": null,
+    "Price": 138
+  },
+  {
+    "Name": "台山台城裕丰酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "台城街道办桥湖路41号",
+    "ServiceTel": "电话0750-8515222 传真0750-8515755  ",
+    "Description": null,
+    "Price": 129
+  },
+  {
+    "Name": "金碧湾酒店（开平银海店）",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "长沙街道办事处升平路21号",
+    "ServiceTel": "电话0750-2207888  ",
+    "Description": null,
+    "Price": 207
+  },
+  {
+    "Name": "开平华美达大酒店",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "三江大道1号之一325国道旁",
+    "ServiceTel": "电话0750-2360222  ",
+    "Description": null,
+    "Price": 644
+  },
+  {
+    "Name": "台山韦晴轩酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "环北大道中新广场C区",
+    "ServiceTel": "电话0750-2639988  ",
+    "Description": null,
+    "Price": 133
+  },
+  {
+    "Name": "柏丽宜居酒店(开平幕村店)",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "325国道幕村路28号",
+    "ServiceTel": "电话0750-2227161 传真0750-2396688  ",
+    "Description": null,
+    "Price": 111
+  },
+  {
+    "Name": "开平维多利酒店",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "杜澄大道冲澄工业区15号",
+    "ServiceTel": "电话0750-2221333  ",
+    "Description": null,
+    "Price": 133
+  },
+  {
+    "Name": "台山上川悦海嘉洲海岛度假酒店",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "上川岛飞沙滩旅游区",
+    "ServiceTel": "电话0750-5306888 传真0750-5306666  ",
+    "Description": null,
+    "Price": 263
+  },
+  {
+    "Name": "江门金豪商务酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "江门台山市水步镇文华新村15号",
+    "ServiceTel": "电话0750-5586888  ",
+    "Description": null,
+    "Price": 135
+  },
+  {
+    "Name": "恩平君豪酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "锦江大道西42号",
+    "ServiceTel": "电话0750-7922188  ",
+    "Description": null,
+    "Price": 168
+  },
+  {
+    "Name": "台山园林酒店",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "南门西路10号",
+    "ServiceTel": "电话0750-5500888 传真0750-5518015  ",
+    "Description": null,
+    "Price": 141
+  },
+  {
+    "Name": "鹤山柏丽宜居酒店沙坪店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "鹤山大道1220号",
+    "ServiceTel": "电话0750-8988590  ",
+    "Description": null,
+    "Price": 139
+  },
+  {
+    "Name": "维也纳酒店(开平水口店)",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "水口镇民福路213号君汇名城",
+    "ServiceTel": "电话0750-2718666  ",
+    "Description": null,
+    "Price": 292
+  },
+  {
+    "Name": "恩平柏源酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "锦江大道中2号",
+    "ServiceTel": "电话0750-7370088  ",
+    "Description": null,
+    "Price": 106
+  },
+  {
+    "Name": "恩平锦江明珠商务酒店",
+    "Grade": "准四星",
+    "Distract": "",
+    "Address": "美华东路52号A区116号",
+    "ServiceTel": "电话0750-7288222  ",
+    "Description": null,
+    "Price": 210
+  },
+  {
+    "Name": "台山台兴宾馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "环北大道42号",
+    "ServiceTel": "电话0750-5562333 传真0750-5533553  ",
+    "Description": null,
+    "Price": 104
+  },
+  {
+    "Name": "台山品海假日酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "下川联南村委会南澳湾村121号",
+    "ServiceTel": "电话0750-5755883 传真--  ",
+    "Description": null,
+    "Price": 379
+  },
+  {
+    "Name": "台山下川岛十里银滩酒店",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "下川岛王府洲旅游区",
+    "ServiceTel": "电话0750-5755666、8511211 传真0750-5755889  ",
+    "Description": null,
+    "Price": 215
+  },
+  {
+    "Name": "开平泓轩酒店式公寓",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "开平大道1号5幢首层105铺位",
+    "ServiceTel": "电话0750-2222866 传真0750-2222866  ",
+    "Description": null,
+    "Price": 176
+  },
+  {
+    "Name": "开平星期天商务酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "幕桥东路28号",
+    "ServiceTel": "电话0750-2210838  ",
+    "Description": null,
+    "Price": 93
+  },
+  {
+    "Name": "台山渤海国际公寓酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "陈宜禧路与东郊路交叉口西北角",
+    "ServiceTel": "电话0750-5599228 传真0750-5599228  ",
+    "Description": null,
+    "Price": 210
+  },
+  {
+    "Name": "江门开平橙子酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "江门开平市江门开平市长沙幕沙路130号（原东林宾馆）",
+    "ServiceTel": "电话0750-2292777  ",
+    "Description": null,
+    "Price": 121
+  },
+  {
+    "Name": "开平翠轩商务酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "西湖一路6号1座二层第2卡",
+    "ServiceTel": "电话0750-2882868  ",
+    "Description": null,
+    "Price": 158
+  },
+  {
+    "Name": "鹤山银业雁山酒店",
+    "Grade": "高档型",
+    "Distract": "",
+    "Address": "沙坪镇雁前路79号（在大雁山风景区的山脚）",
+    "ServiceTel": "电话0750-8933372 传真0750-8933337  ",
+    "Description": null,
+    "Price": 388
+  },
+  {
+    "Name": "城市138客栈连锁酒店(江门鹤山分店)",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "义学路1号新天地广场对面",
+    "ServiceTel": "电话0750-8889138 传真0750-8889138  ",
+    "Description": null,
+    "Price": 110
+  },
+  {
+    "Name": "鹤山华逸宾馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "沙坪镇新华路150号",
+    "ServiceTel": "电话0750-8958168  ",
+    "Description": null,
+    "Price": 71
+  },
+  {
+    "Name": "台山高业大酒店",
+    "Grade": "高档型",
+    "Distract": "",
+    "Address": "台城镇台西路220号（台山商业城）",
+    "ServiceTel": "电话0750-5598888  ",
+    "Description": null,
+    "Price": 592
+  },
+  {
+    "Name": "台山南湾山庄度假酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "台山广海镇海风路46号",
+    "ServiceTel": "电话0750-5325566 传真0750-5312689  ",
+    "Description": null,
+    "Price": 123
+  },
+  {
+    "Name": "卡洛斯酒店(开平东郊店)",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "沿江东路96号",
+    "ServiceTel": "电话0750-2291388  ",
+    "Description": null,
+    "Price": 99
+  },
+  {
+    "Name": "恩平乐园大酒店",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "荣誉市民大道东路燕华广场C区220-1号",
+    "ServiceTel": "电话0750-7288288 传真0750-7725147  ",
+    "Description": null,
+    "Price": 202
+  },
+  {
+    "Name": "开平米兰酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "西郊路16号",
+    "ServiceTel": "电话0750-2020998-0  ",
+    "Description": null,
+    "Price": 153
+  },
+  {
+    "Name": "鹤山古麦迪酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "沙坪鹤山大道2905号",
+    "ServiceTel": "电话0750-8508855  ",
+    "Description": null,
+    "Price": 146
+  },
+  {
+    "Name": "江门铂顿精品酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "江门台山市四九镇环市路12号",
+    "ServiceTel": "电话0750-5482228  ",
+    "Description": null,
+    "Price": 100
+  },
+  {
+    "Name": "江门御庭商务酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "江门鹤山市共和镇共建路421号二、三层",
+    "ServiceTel": "电话0750-8304978  ",
+    "Description": null,
+    "Price": 111
+  },
+  {
+    "Name": "鹤山侨苑商务酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "址山镇人民北路1号侨苑大厦",
+    "ServiceTel": "电话0750-8661666  ",
+    "Description": null,
+    "Price": 161
+  },
+  {
+    "Name": "雁城小筑连锁酒店(江门鹤山沙坪新天地店)",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "沙坪镇南山路24号",
+    "ServiceTel": "电话15322120138 传真0750-8889138  ",
+    "Description": null,
+    "Price": 104
+  },
+  {
+    "Name": "鹤山旅安居宾馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "沙坪银行路7号之六（近鹤山新天地广场）",
+    "ServiceTel": "电话0750-8866136  ",
+    "Description": null,
+    "Price": 111
+  },
+  {
+    "Name": "江门华宇酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "三埠街道办事处东胜路30号201铺位（港口小学）",
+    "ServiceTel": "电话0750-2217668 传真0750-2217668  ",
+    "Description": null,
+    "Price": 106
+  },
+  {
+    "Name": "恩平锦江国际新城公寓",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "锦江大道锦江国际新城广场公寓",
+    "ServiceTel": "电话13066228161  ",
+    "Description": null,
+    "Price": 164
+  },
+  {
+    "Name": "鹤山四季朗悦商务酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "文华路99号",
+    "ServiceTel": "电话0750-8999878 传真-  ",
+    "Description": null,
+    "Price": 100
+  },
+  {
+    "Name": "恩平泉林华侨公寓",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "东成镇泉林路泉林黄金小镇华侨公馆2期",
+    "ServiceTel": "电话13725978812  ",
+    "Description": null,
+    "Price": 270
+  },
+  {
+    "Name": "恩平金山温泉度假村",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "那吉镇535县道",
+    "ServiceTel": "电话0750-7281188 传真0750-7281222  ",
+    "Description": null,
+    "Price": 6299
+  },
+  {
+    "Name": "台山上川川邮酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "上川岛飞沙滩旅游区临海第一区",
+    "ServiceTel": "电话0750-5395888  ",
+    "Description": null,
+    "Price": 146
+  },
+  {
+    "Name": "台山下川大力水手假日酒店",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "川岛旅游区",
+    "ServiceTel": "电话13827089238  ",
+    "Description": null,
+    "Price": 121
+  },
+  {
+    "Name": "窝心公寓(开平东汇城店)",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "开平大道1号6幢首层03铺位",
+    "ServiceTel": "电话13827025900  ",
+    "Description": null,
+    "Price": 191
+  },
+  {
+    "Name": "爱情公寓主题连锁酒店(开平祥龙店)",
+    "Grade": "经济型",
+    "Distract": "祥龙区",
+    "Address": "祥龙中路41号",
+    "ServiceTel": "电话+86-750-2223444 传真0750-2394444  ",
+    "Description": null,
+    "Price": 168
+  },
+  {
+    "Name": "鹤山阁瑞商务酒店鹤城店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "江门鹤山市鹤城大道新市场侧",
+    "ServiceTel": "电话0750-8380626  ",
+    "Description": null,
+    "Price": 114
+  },
+  {
+    "Name": "台山港湾商务酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "广新路7号",
+    "ServiceTel": "电话0750-5318999  ",
+    "Description": null,
+    "Price": 128
+  },
+  {
+    "Name": "金碧湾酒店（开平百汇店）",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "人和东路16号2栋101-103号",
+    "ServiceTel": "电话0750-2271888 传真0750-2282233  ",
+    "Description": null,
+    "Price": 171
+  },
+  {
+    "Name": "鹤山阁瑞非凡酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "共建路419-1棟",
+    "ServiceTel": "电话0750-8319518 传真0750-8319518  ",
+    "Description": null,
+    "Price": 130
+  },
+  {
+    "Name": "台山广海红馆酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "海滨路9号",
+    "ServiceTel": "电话0750-5311118  ",
+    "Description": null,
+    "Price": 136
+  },
+  {
+    "Name": "台山新金瑞大酒店",
+    "Grade": "舒适型",
+    "Distract": "冲娄镇",
+    "Address": "红岭北路5号",
+    "ServiceTel": "电话0750-5232688  ",
+    "Description": null,
+    "Price": 258
+  },
+  {
+    "Name": "鹤山鹤森豪庭酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "鹤城镇福茂广场，邮政银行旁",
+    "ServiceTel": "电话0750-8380666  ",
+    "Description": null,
+    "Price": 104
+  },
+  {
+    "Name": "恩平绿野仙踪温泉度假村",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "学前北路恒大泉都风情街7栋109单元",
+    "ServiceTel": "电话0750-7391666 传真--  ",
+    "Description": null,
+    "Price": 220
+  },
+  {
+    "Name": "台山玄潭原舍",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "四九镇玄潭村玄潭旧学校",
+    "ServiceTel": "电话13318663560  ",
+    "Description": null,
+    "Price": 649
+  },
+  {
+    "Name": "台山新苑酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "江门台山市水步镇台鹤中路100号新雅苑2栋2楼1-15",
+    "ServiceTel": "电话0750-5599289  ",
+    "Description": null,
+    "Price": 92
+  },
+  {
+    "Name": "恩平悦诚酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "沿江中路63号",
+    "ServiceTel": "电话0750-7722678  ",
+    "Description": null,
+    "Price": 129
+  },
+  {
+    "Name": "台山菁别苑旅店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "三合镇温泉颐和城颐顺街3号E2",
+    "ServiceTel": "电话0750-5833776  ",
+    "Description": null,
+    "Price": 821
+  },
+  {
+    "Name": "开平银鸿酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "振华大马路106号",
+    "ServiceTel": "电话0750-2272268 传真0750-2272268-无  ",
+    "Description": null,
+    "Price": 120
+  },
+  {
+    "Name": "江门台山浪琴湾度假村",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "那琴村委会石山村",
+    "ServiceTel": "电话0750-5781823 传真0750-5781666  ",
+    "Description": null,
+    "Price": 576
+  },
+  {
+    "Name": "台山德信商务酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "富城大道81号之五",
+    "ServiceTel": "电话0750-7353500 传真0750-5577186  ",
+    "Description": null,
+    "Price": 137
+  },
+  {
+    "Name": "台山富丽湾大酒店",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "富丽湾旅游度假区内",
+    "ServiceTel": "电话0750-8512319  ",
+    "Description": null,
+    "Price": 2691
+  },
+  {
+    "Name": "江门台山新友业宾馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "环市西路碧翠园1号",
+    "ServiceTel": "电话0750-5553988  ",
+    "Description": null,
+    "Price": 102
+  },
+  {
+    "Name": "台山水岸丽舍度假酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "那琴圩琴溪古桥旁",
+    "ServiceTel": "电话0750-5788778  ",
+    "Description": null,
+    "Price": 277
+  },
+  {
+    "Name": "台山浪晴轩客栈",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "北斗镇沙咀村海悦楼西侧第一间",
+    "ServiceTel": "电话18022971168 传真0750-5788588  ",
+    "Description": null,
+    "Price": 258
+  },
+  {
+    "Name": "恩平恒大泉都度假公寓",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "良西镇恒大泉都美食街A02号铺（乐途置业）",
+    "ServiceTel": "电话13412668226  ",
+    "Description": null,
+    "Price": 203
+  },
+  {
+    "Name": "恩平聚福酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "恩城镇沿江东路97号",
+    "ServiceTel": "电话0750-7182288 传真无  ",
+    "Description": null,
+    "Price": 116
+  },
+  {
+    "Name": "恩平山泉湾畔斯维登度假公寓",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "大田镇山泉湾畔花园1栋",
+    "ServiceTel": "电话0750-7332688 传真0755-22900553  ",
+    "Description": null,
+    "Price": 334
+  },
+  {
+    "Name": "江门台城丽茵商务酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "江门台山市台城西荣街4、6号",
+    "ServiceTel": "电话+86-750-7155711 传真0750-5588870  ",
+    "Description": null,
+    "Price": 58
+  },
+  {
+    "Name": "台山美斯度假酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "沙咀村委会沙咀路2号",
+    "ServiceTel": "电话0750-5786668 传真13686206488  ",
+    "Description": null,
+    "Price": 249
+  },
+  {
+    "Name": "开平嘉颐园农庄",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "沙岗冈中大道开新开发区2号",
+    "ServiceTel": "电话0750-2203666  ",
+    "Description": null,
+    "Price": 282
+  },
+  {
+    "Name": "江门恩平恒大泉都豪华私家温泉别墅",
+    "Grade": "",
+    "Distract": "",
+    "Address": "恒大泉都",
+    "ServiceTel": "电话021-80187829-1224461  ",
+    "Description": null,
+    "Price": 2130
+  },
+  {
+    "Name": "台山悠游商务酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "桥湖路57号",
+    "ServiceTel": "电话0750-5961177  ",
+    "Description": null,
+    "Price": 83
+  },
+  {
+    "Name": "恩平东曼优+温泉度假公寓(恒大泉都店)",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "良西镇恒大泉都三期洋房6栋5楼501室",
+    "ServiceTel": "电话13822313550  ",
+    "Description": null,
+    "Price": 128
+  },
+  {
+    "Name": "开平市丰悦宾馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "江门开平市水口镇中兴路127号",
+    "ServiceTel": "电话0750-2707777  ",
+    "Description": null,
+    "Price": 118
+  },
+  {
+    "Name": "卡洛斯酒店(开平沙岗店)",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "寺前西路53号3层",
+    "ServiceTel": "电话0750-2238839 传真--  ",
+    "Description": null,
+    "Price": 98
+  },
+  {
+    "Name": "台山下川岛海滨阁酒店",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "下川岛王府洲旅游区一线沙滩边上",
+    "ServiceTel": "电话0750-5756678、5753435 传真0750-5753436  ",
+    "Description": null,
+    "Price": 230
+  },
+  {
+    "Name": "开平威灵顿酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "长沙光明路107号",
+    "ServiceTel": "电话0750-2024388  ",
+    "Description": null,
+    "Price": 125
+  },
+  {
+    "Name": "台山相遇楼民宿",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "那琴区沙咀村委会尾角村444号",
+    "ServiceTel": "电话13527253560 传真--  ",
+    "Description": null,
+    "Price": 243
+  },
+  {
+    "Name": "开平新海逸酒店",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "新港路17号",
+    "ServiceTel": "电话0750-2263333  ",
+    "Description": null,
+    "Price": 118
+  },
+  {
+    "Name": "台山横山酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "汶村镇渔业村海傍路63号",
+    "ServiceTel": "电话0750-5711888  ",
+    "Description": null,
+    "Price": 423
+  },
+  {
+    "Name": "台山凯茵假日酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "富城大道36号之2",
+    "ServiceTel": "电话0750-5611988 传真0750-5605660  ",
+    "Description": null,
+    "Price": 152
+  },
+  {
+    "Name": "开平良园旅馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "幕沙路117号",
+    "ServiceTel": "电话0750-2281840  ",
+    "Description": null,
+    "Price": 51
+  },
+  {
+    "Name": "开平三埠区新世界大酒店",
+    "Grade": "舒适型",
+    "Distract": "三埠区",
+    "Address": "曙光西路62号",
+    "ServiceTel": "电话0750-2378888 传真0750-2206168-0  ",
+    "Description": null,
+    "Price": 132
+  },
+  {
+    "Name": "鹤山皇冠假日酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "沙坪镇人民南路907号",
+    "ServiceTel": "电话0750-8977888 传真0750-8968388  ",
+    "Description": null,
+    "Price": 188
+  },
+  {
+    "Name": "开平花园酒店",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "幕桥西路28号",
+    "ServiceTel": "电话0750-2377777  ",
+    "Description": null,
+    "Price": 318
+  },
+  {
+    "Name": "开平金徽酒店",
+    "Grade": "经济型",
+    "Distract": "三埠区",
+    "Address": "长沙开华路39号",
+    "ServiceTel": "电话0750-2200999  ",
+    "Description": null,
+    "Price": 117
+  },
+  {
+    "Name": "开平煌冠假日酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "大福西路1号",
+    "ServiceTel": "电话0750-2709666 传真0750-2739168  ",
+    "Description": null,
+    "Price": 133
+  },
+  {
+    "Name": "江门柏丽连锁酒店(开平东兴店)",
+    "Grade": "经济型",
+    "Distract": "三埠区",
+    "Address": "长沙东兴中路36号",
+    "ServiceTel": "电话0750-2253999 传真0750-2223885  ",
+    "Description": null,
+    "Price": 112
+  },
+  {
+    "Name": "台山碧源商务酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "桥湖路52号-2",
+    "ServiceTel": "电话0750-5573999/5575999  ",
+    "Description": null,
+    "Price": 119
+  },
+  {
+    "Name": "台山老顽童浪琴湾滨海营地酒店(原江门一路营地浪琴湾滨海营地酒店)",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "那琴浪琴湾海度假区",
+    "ServiceTel": "电话18617321383  ",
+    "Description": null,
+    "Price": 555
+  },
+  {
+    "Name": "开平美开达宾馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "杜澄大道5号",
+    "ServiceTel": "电话0750-2363777  ",
+    "Description": null,
+    "Price": 92
+  },
+  {
+    "Name": "台山枫叶宾馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "环市东路108号源华苑B幢201房",
+    "ServiceTel": "电话0750-5565666  ",
+    "Description": null,
+    "Price": 113
+  },
+  {
+    "Name": "喜遇温泉度假别墅(恩平恒大泉都店)",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "良西镇恒大泉都清泉八街3号",
+    "ServiceTel": "电话17322759147  ",
+    "Description": null,
+    "Price": 1558
+  },
+  {
+    "Name": "鹤山香驿湾酒店式公寓",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "鹤山大道911号鹤山汽车站对面坚美园西门",
+    "ServiceTel": "电话0750-8988272  ",
+    "Description": null,
+    "Price": 186
+  },
+  {
+    "Name": "台山嘉联主题酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "东郊路55号",
+    "ServiceTel": "电话0750-5555589 传真0750-5555589  ",
+    "Description": null,
+    "Price": 117
+  },
+  {
+    "Name": "贝壳酒店(鹤山中山路新天地店)",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "沙坪镇中山路51号4-7楼",
+    "ServiceTel": "电话0750-8888339  ",
+    "Description": null,
+    "Price": 138
+  },
+  {
+    "Name": "鹤山同发公寓",
+    "Grade": "",
+    "Distract": "",
+    "Address": "宅梧镇堂马村民委员会宅朗村217号",
+    "ServiceTel": "电话0750-8633992  ",
+    "Description": null,
+    "Price": 163
+  },
+  {
+    "Name": "台山华裕商务酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "环市西路190号",
+    "ServiceTel": "电话0750-5533222 传真0750-5584488  ",
+    "Description": null,
+    "Price": 125
+  },
+  {
+    "Name": "台山喜帆民宿",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "鱼塘湾21-1号之二",
+    "ServiceTel": "电话0750-5277393  ",
+    "Description": null,
+    "Price": 228
+  },
+  {
+    "Name": "台山上川岛碧云天(海景)酒店",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "上川岛飞沙滩4A级旅游度假区",
+    "ServiceTel": "电话0750-5399699 传真0750-5399141  ",
+    "Description": null,
+    "Price": 132
+  },
+  {
+    "Name": "开平爱情公寓连锁酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "潭江西路34号",
+    "ServiceTel": "电话+86-750-2221555  ",
+    "Description": null,
+    "Price": 189
+  },
+  {
+    "Name": "锦江国际新城公寓",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门恩平市锦江大道新城路",
+    "ServiceTel": "电话13066228161  ",
+    "Description": null,
+    "Price": 166
+  },
+  {
+    "Name": "台山上川夏日酒店(三洲码头店)",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "三洲圩海滨路22号",
+    "ServiceTel": "电话0750-5510607  ",
+    "Description": null,
+    "Price": 145
+  },
+  {
+    "Name": "开平天富酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "良园路35号",
+    "ServiceTel": "电话0750-2208999  ",
+    "Description": null,
+    "Price": 127
+  },
+  {
+    "Name": "城市便捷酒店(台山店)",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "台城街道南门路105号第二幢",
+    "ServiceTel": "电话+86-750-5566013  ",
+    "Description": null,
+    "Price": 263
+  },
+  {
+    "Name": "江门新雅苑宾馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "长沙西郊路33号",
+    "ServiceTel": "电话0750-8549585  ",
+    "Description": null,
+    "Price": 80
+  },
+  {
+    "Name": "台山下川岛假期酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "王府洲旅游区",
+    "ServiceTel": "电话0750-5755155、13326846656  ",
+    "Description": null,
+    "Price": 139
+  },
+  {
+    "Name": "恩平市途家酒店公寓",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "良西镇恒大泉都",
+    "ServiceTel": "电话13632063838  ",
+    "Description": null,
+    "Price": 118
+  },
+  {
+    "Name": "台山柏朗酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "汶村镇汶海路2号",
+    "ServiceTel": "电话0750-5710888  ",
+    "Description": null,
+    "Price": 230
+  },
+  {
+    "Name": "台山新丽水商务酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "广城苑大道30号",
+    "ServiceTel": "电话0750-5318369 传真--  ",
+    "Description": null,
+    "Price": 134
+  },
+  {
+    "Name": "台山下川岛海上皇宫酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "王府洲旅游区内",
+    "ServiceTel": "电话0750-5755618  ",
+    "Description": null,
+    "Price": 253
+  },
+  {
+    "Name": "开平华英商务酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "红进商业广场18幢21、22号",
+    "ServiceTel": "电话0750-2279888 传真075-2279888  ",
+    "Description": null,
+    "Price": 104
+  },
+  {
+    "Name": "台山天汇假日酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "都斛大道南5-1B",
+    "ServiceTel": "电话0750-2639666 传真0750-2639522-  ",
+    "Description": null,
+    "Price": 210
+  },
+  {
+    "Name": "789连锁宾馆(台山城西店)",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "台狄路25号",
+    "ServiceTel": "电话0750-5539555 传真0750-5539555  ",
+    "Description": null,
+    "Price": 111
+  },
+  {
+    "Name": "台山圣佩纳酒店",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "三合镇温泉圩同乐路59号颐和温泉城M3-5-02",
+    "ServiceTel": "电话1392-5883518  ",
+    "Description": null,
+    "Price": 1101
+  },
+  {
+    "Name": "开平幸福酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "幸福路5号",
+    "ServiceTel": "电话0750-2177766/2177788 传真0750-2177711  ",
+    "Description": null,
+    "Price": 100
+  },
+  {
+    "Name": "鹤山光阳假日宾馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "桃源镇富源路1号",
+    "ServiceTel": "电话0750-8534688  ",
+    "Description": null,
+    "Price": 145
+  },
+  {
+    "Name": "开平柚子酒店公寓",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "三埠街道办事处长沙西郊路20号3-11层",
+    "ServiceTel": "电话0750-2323772  ",
+    "Description": null,
+    "Price": 114
+  },
+  {
+    "Name": "恩平君悦酒店",
+    "Grade": "三星级",
+    "Distract": "",
+    "Address": "恩城镇新平北路19号",
+    "ServiceTel": "电话0750-7922888 传真0750-7926868  ",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "台山下川岛君悦轩酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "下川王府洲旅游中心09-5-G1号",
+    "ServiceTel": "电话0750-5753088  ",
+    "Description": null,
+    "Price": 158
+  },
+  {
+    "Name": "台山下川岛幸福居公寓",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "下川镇王府州景区内南澳湾25号",
+    "ServiceTel": "电话13630475943  ",
+    "Description": null,
+    "Price": 168
+  },
+  {
+    "Name": "台山田丰商务公寓",
+    "Grade": "",
+    "Distract": "",
+    "Address": "北陡镇陡门圩光明路57号之三",
+    "ServiceTel": "电话0750-5785833  ",
+    "Description": null,
+    "Price": 201
+  },
+  {
+    "Name": "台山薇薇旅业",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "海宴镇新村541号",
+    "ServiceTel": "电话750-5738671  ",
+    "Description": null,
+    "Price": 114
+  },
+  {
+    "Name": "嘉联主题酒店(台山北塘店)",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "北塘路28-30号",
+    "ServiceTel": "电话0750-5555539  ",
+    "Description": null,
+    "Price": 133
+  },
+  {
+    "Name": "恩平途寓温泉度假别墅",
+    "Grade": "",
+    "Distract": "",
+    "Address": "大田镇山泉湾畔(山泉湾温泉城内)",
+    "ServiceTel": "电话18127813009  ",
+    "Description": null,
+    "Price": 910
+  },
+  {
+    "Name": "开平富景酒店",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "曙光东路143号",
+    "ServiceTel": "电话0750-2232222 传真07502235888-07502235888  ",
+    "Description": null,
+    "Price": 132
+  },
+  {
+    "Name": "OYO鹤山云来客栈",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "沙坪镇文明路园外苑38号",
+    "ServiceTel": "电话0750-8902880  ",
+    "Description": null,
+    "Price": 88
+  },
+  {
+    "Name": "台山新富华商务酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "台城环市东路15号",
+    "ServiceTel": "电话0750-5568288  ",
+    "Description": null,
+    "Price": 101
+  },
+  {
+    "Name": "台山德丰商务酒店(原德信商务酒店德丰店)",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "台山桥湖路43号（台山汽车总站联通旁）",
+    "ServiceTel": "电话0750-5656305  ",
+    "Description": null,
+    "Price": 89
+  },
+  {
+    "Name": "台山浪琴半岛酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "北陡镇沙咀村委会坑赖村51号",
+    "ServiceTel": "电话0750-5782399-13005768694 传真--  ",
+    "Description": null,
+    "Price": 181
+  },
+  {
+    "Name": "开平悦豪旅馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "龙华路133-137号",
+    "ServiceTel": "电话0750-2726633  ",
+    "Description": null,
+    "Price": 99
+  },
+  {
+    "Name": "江门君悦宾馆",
+    "Grade": "",
+    "Distract": "",
+    "Address": "共和镇祥和路327号",
+    "ServiceTel": "电话0750-8309688  ",
+    "Description": null,
+    "Price": 101
+  },
+  {
+    "Name": "789连锁宾馆(台山城北店)",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "朝阳新村18号202房",
+    "ServiceTel": "电话0750-5623555  ",
+    "Description": null,
+    "Price": 89
+  },
+  {
+    "Name": "开平五月花酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "长沙镇幕沙路121号2座",
+    "ServiceTel": "电话+86-750-2233168  ",
+    "Description": null,
+    "Price": 134
+  },
+  {
+    "Name": "恩平恒大泉都观景别墅",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "良溪镇恒大泉都碧泉7街21号",
+    "ServiceTel": "电话16624752849 传真-  ",
+    "Description": null,
+    "Price": 1595
+  },
+  {
+    "Name": "江门JJ商务宾馆",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门鹤山市雅瑶镇雅瑶桥永叙包装厂对面",
+    "ServiceTel": "电话0750-8288889  ",
+    "Description": null,
+    "Price": 109
+  },
+  {
+    "Name": "恩平泉都丽舍公寓",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "良西镇恒大泉都月泉街号房",
+    "ServiceTel": "电话17322902361  ",
+    "Description": null,
+    "Price": 265
+  },
+  {
+    "Name": "鹤山金源快捷酒店(原阳光富力商务宾馆)",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "沙坪镇人民西路5号",
+    "ServiceTel": "电话0750-8429008 传真0750-8429008  ",
+    "Description": null,
+    "Price": 132
+  },
+  {
+    "Name": "台山上川听涛居酒店",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "上川岛飞沙滩海涛路9-1号",
+    "ServiceTel": "电话0750-5399227  ",
+    "Description": null,
+    "Price": 133
+  },
+  {
+    "Name": "台山富丽华宾馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "朗南村委会朗南站2号",
+    "ServiceTel": "电话0750-5813383 传真0750-5813383  ",
+    "Description": null,
+    "Price": 202
+  },
+  {
+    "Name": "鹤山龙朝宾馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "鹤山大道579号",
+    "ServiceTel": "电话0750-8410180  ",
+    "Description": null,
+    "Price": 63
+  },
+  {
+    "Name": "台山尚雅民宿",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "台城东坑路129号",
+    "ServiceTel": "电话0750-5533286  ",
+    "Description": null,
+    "Price": 173
+  },
+  {
+    "Name": "开平广视公寓(原开平君怡酒店)",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "西郊路2号",
+    "ServiceTel": "电话0750-2323998 传真0750-2323998  ",
+    "Description": null,
+    "Price": 108
+  },
+  {
+    "Name": "开平雅景宾馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "树德路1-21号",
+    "ServiceTel": "电话0750-2732888  ",
+    "Description": null,
+    "Price": 75
+  },
+  {
+    "Name": "开平国泰酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "新兴路49号",
+    "ServiceTel": "电话0750-2222088 传真0750-2250525  ",
+    "Description": null,
+    "Price": 98
+  },
+  {
+    "Name": "江门刘娅22公寓(2号店)",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门台山市嘉旺国际公馆",
+    "ServiceTel": "电话021-80187829-5706947  ",
+    "Description": null,
+    "Price": 217
+  },
+  {
+    "Name": "台山枫桦宾馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "水步镇新雅苑1幢2-3楼",
+    "ServiceTel": "电话0750-5452222  ",
+    "Description": null,
+    "Price": 102
+  },
+  {
+    "Name": "台山铁船海景酒店",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "田头渔塘湾8号、8号之一",
+    "ServiceTel": "电话0750-8229938  ",
+    "Description": null,
+    "Price": 351
+  },
+  {
+    "Name": "开平嘉年华宾馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "人民西路6号1-2幢2楼",
+    "ServiceTel": "电话0750-2279111、2200961 传真0750-2739336  ",
+    "Description": null,
+    "Price": 76
+  },
+  {
+    "Name": "趣墅江门恒大泉都温泉度假别墅",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "恒大泉都碧街8街19号",
+    "ServiceTel": "电话400-0351288  ",
+    "Description": null,
+    "Price": 3089
+  },
+  {
+    "Name": "鹤山柏丽美宾馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "鹤城镇鹤城大道400号",
+    "ServiceTel": "电话0750-8380371 传真--  ",
+    "Description": null,
+    "Price": 128
+  },
+  {
+    "Name": "开平塘口空间国际青年旅舍",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "塘口镇塘西路14号",
+    "ServiceTel": "电话13555632601 传真--  ",
+    "Description": null,
+    "Price": 341
+  },
+  {
+    "Name": "鹤山维嘉斯酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "沙坪镇人民南路72号",
+    "ServiceTel": "电话0750-8975888 传真0750-8988098  ",
+    "Description": null,
+    "Price": 166
+  },
+  {
+    "Name": "台山煌嘉喜宴酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "台城东郊路52号301室",
+    "ServiceTel": "电话0750-5778989 传真--  ",
+    "Description": null,
+    "Price": 152
+  },
+  {
+    "Name": "台山蓝海轩宾馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "沙咀管区坑赖村54-1号",
+    "ServiceTel": "电话13427329342  ",
+    "Description": null,
+    "Price": 280
+  },
+  {
+    "Name": "台山恒悦旅馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "海宴镇河东新村379号",
+    "ServiceTel": "电话0750-5731008 传真--  ",
+    "Description": null,
+    "Price": 177
+  },
+  {
+    "Name": "恩平恒大泉都假日风光温泉酒店公寓",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "良西镇学前北路恒大泉都二期7栋",
+    "ServiceTel": "电话+86-13631438730  ",
+    "Description": null,
+    "Price": 296
+  },
+  {
+    "Name": "鹤山悦华宾馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "沙坪镇新华路39号",
+    "ServiceTel": "电话0750-8897733  ",
+    "Description": null,
+    "Price": 78
+  },
+  {
+    "Name": "开平华宝旅馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "开平市长沙区幕沙路86号(长沙加油站对面)",
+    "ServiceTel": "电话0750-2272932  ",
+    "Description": null,
+    "Price": 68
+  },
+  {
+    "Name": "开平百乐门住宿公寓",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "大宁路5号",
+    "ServiceTel": "电话0-13169842918  ",
+    "Description": null,
+    "Price": 65
+  },
+  {
+    "Name": "台山东升宾馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "铜鼓村委会涛声路二巷3号",
+    "ServiceTel": "电话0750-5277036  ",
+    "Description": null,
+    "Price": 77
+  },
+  {
+    "Name": "开平寓客公寓",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "开平大道1号东汇城5栋103铺位",
+    "ServiceTel": "电话0750-2028881  ",
+    "Description": null,
+    "Price": 167
+  },
+  {
+    "Name": "台山金华旅馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "环市东路35号",
+    "ServiceTel": "电话0750-5510188  ",
+    "Description": null,
+    "Price": 102
+  },
+  {
+    "Name": "开平好景旅馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "良园路河清里商铺(义祠车站对面)",
+    "ServiceTel": "电话0750-2362080  ",
+    "Description": null,
+    "Price": 50
+  },
+  {
+    "Name": "台山康杰酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "台城龙舟路99号南楼北楼",
+    "ServiceTel": "电话0750-5232222  ",
+    "Description": null,
+    "Price": 195
+  },
+  {
+    "Name": "开平盛豪酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "新港路98号之一第三卡（港口中学斜对面）",
+    "ServiceTel": "电话0750-2299988  ",
+    "Description": null,
+    "Price": 184
+  },
+  {
+    "Name": "台山芙蓉商务酒店",
+    "Grade": "",
+    "Distract": "",
+    "Address": "铜鼓（过隧道200米右侧）",
+    "ServiceTel": "电话0750-5278328  ",
+    "Description": null,
+    "Price": 325
+  },
+  {
+    "Name": "台山花苑大酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "汶村镇白沙村委会西泮村原鱼地小学旧校舍",
+    "ServiceTel": "电话0750-5718777  ",
+    "Description": null,
+    "Price": 112
+  },
+  {
+    "Name": "台山海延湾宾馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "沙咀管区潮南村18号",
+    "ServiceTel": "电话0750-5781998  ",
+    "Description": null,
+    "Price": 165
+  },
+  {
+    "Name": "开平月亮酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "新市南路13号1幢",
+    "ServiceTel": "电话0750-2728888 传真0750-2728333  ",
+    "Description": null,
+    "Price": 101
+  },
+  {
+    "Name": "台山上川岛交谊海景酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "飞沙滩旅游区海旁路12号",
+    "ServiceTel": "电话0750-5398278 传真0750-5396666  ",
+    "Description": null,
+    "Price": 201
+  },
+  {
+    "Name": "台山下川岛川岛酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "下川岛王府洲旅游区",
+    "ServiceTel": "电话0750-5755619 传真0750-5756178  ",
+    "Description": null,
+    "Price": 156
+  },
+  {
+    "Name": "台山兴旺旅业",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "江门台山市东尧路17号106",
+    "ServiceTel": "电话0750-5662383  ",
+    "Description": null,
+    "Price": 80
+  },
+  {
+    "Name": "开平时尚快捷公寓",
+    "Grade": "",
+    "Distract": "",
+    "Address": "幕沙路8号",
+    "ServiceTel": "电话15907505322  ",
+    "Description": null,
+    "Price": 87
+  },
+  {
+    "Name": "台山维岛利酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "北陡镇沙咀村",
+    "ServiceTel": "电话0750-5789398  ",
+    "Description": null,
+    "Price": 188
+  },
+  {
+    "Name": "鹤山洋鑫宾馆",
+    "Grade": "",
+    "Distract": "",
+    "Address": "共和镇山咀村58号",
+    "ServiceTel": "电话0750-8300688  ",
+    "Description": null,
+    "Price": 100
+  },
+  {
+    "Name": "台山宏辉旅店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "安明街8号",
+    "ServiceTel": "电话0750-5257626  ",
+    "Description": null,
+    "Price": 136
+  },
+  {
+    "Name": "恩平恒大泉都享途温泉度假别墅",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "良西镇恒大泉都33街20号",
+    "ServiceTel": "电话18578667181 传真--  ",
+    "Description": null,
+    "Price": 1767
+  },
+  {
+    "Name": "江门婵婵公寓",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门恩平市云泉街恒大泉都",
+    "ServiceTel": "电话021-80187829-38079  ",
+    "Description": null,
+    "Price": 190
+  },
+  {
+    "Name": "台山浪琴海岸酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "北陡镇那琴乡尾角渔村",
+    "ServiceTel": "电话0750-5789228  ",
+    "Description": null,
+    "Price": 240
+  },
+  {
+    "Name": "江门台山嘉禾商务酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "江门台山市台城富城大道136号",
+    "ServiceTel": "电话0750-5559555  ",
+    "Description": null,
+    "Price": 186
+  },
+  {
+    "Name": "江门便民日式旅馆",
+    "Grade": "",
+    "Distract": "",
+    "Address": "雅瑶镇中心路40号",
+    "ServiceTel": "电话0750-8975538  ",
+    "Description": null,
+    "Price": 76
+  },
+  {
+    "Name": "789连锁宾馆(台山天岭店)",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "县前路97号(201、301、401室)",
+    "ServiceTel": "电话0750-5506789  ",
+    "Description": null,
+    "Price": 144
+  },
+  {
+    "Name": "恩平森润酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "燕华广场B区123号",
+    "ServiceTel": "电话0750-7125333  ",
+    "Description": null,
+    "Price": 140
+  },
+  {
+    "Name": "开平恒健宾馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "开平新昌东路中山城23栋3-5号",
+    "ServiceTel": "电话0750-2381887  ",
+    "Description": null,
+    "Price": 98
+  },
+  {
+    "Name": "台山中国旅行社酒店",
+    "Grade": "",
+    "Distract": "",
+    "Address": "台城通济路1号",
+    "ServiceTel": "电话+86-750-5524768  ",
+    "Description": null,
+    "Price": 195
+  },
+  {
+    "Name": "台山上川夏日酒店(飞沙滩店)",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "飞沙滩旅游城海天路二区12号B座",
+    "ServiceTel": "电话0750-5510607,13356431220 传真0750-5510607  ",
+    "Description": null,
+    "Price": 415
+  },
+  {
+    "Name": "台山下川岛千帆子牙酒店",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "下川王府洲旅游中心王府大道南侧32号",
+    "ServiceTel": "电话0750-5753338 传真0750-5758833-8848  ",
+    "Description": null,
+    "Price": 988
+  },
+  {
+    "Name": "台山新富华大酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "环北大道119号",
+    "ServiceTel": "电话+86-750-5592888  ",
+    "Description": null,
+    "Price": 158
+  },
+  {
+    "Name": "鹤山丰业旅馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "宅梧镇平湖区57号",
+    "ServiceTel": "电话0750-8633328 传真--  ",
+    "Description": null,
+    "Price": 148
+  },
+  {
+    "Name": "台山下川岛海景雅居民宿",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "下川岛王府州南澳湾村",
+    "ServiceTel": "电话13612267077  ",
+    "Description": null,
+    "Price": 117
+  },
+  {
+    "Name": "台山维港大酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "台山市田头铜鼓涛声路9-11",
+    "ServiceTel": "电话0750-5270888  ",
+    "Description": null,
+    "Price": 309
+  },
+  {
+    "Name": "台山下川丰华别墅",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "王府洲旅游中心别墅区03-1-17号",
+    "ServiceTel": "电话0750-5755978 传真0750-5755978  ",
+    "Description": null,
+    "Price": 192
+  },
+  {
+    "Name": "江门台山君御旅馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "江门台山北陡镇政府直上500米",
+    "ServiceTel": "电话0750-5787567  ",
+    "Description": null,
+    "Price": 200
+  },
+  {
+    "Name": "台山亿豪酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "沙岗湖路2号",
+    "ServiceTel": "电话0750-5664888  ",
+    "Description": null,
+    "Price": 140
+  },
+  {
+    "Name": "恩平泉都温泉钻石别墅",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "良溪镇恒大泉都碧泉",
+    "ServiceTel": "电话18011713726 传真-  ",
+    "Description": null,
+    "Price": 1716
+  },
+  {
+    "Name": "台山怀海居酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "沙咀管区尾角新村23号之一",
+    "ServiceTel": "电话18029655913  ",
+    "Description": null,
+    "Price": 155
+  },
+  {
+    "Name": "开平泮华旅馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "华龙路56号",
+    "ServiceTel": "电话0750-2720285  ",
+    "Description": null,
+    "Price": 65
+  },
+  {
+    "Name": "鹤山凯迪宾馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "人民路2号",
+    "ServiceTel": "电话0750-8853833 传真--  ",
+    "Description": null,
+    "Price": 77
+  },
+  {
+    "Name": "恩平泉都温泉度假别墅",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "良西镇碧泉路恒大泉都小区29号",
+    "ServiceTel": "电话13926243138 传真--  ",
+    "Description": null,
+    "Price": 2118
+  },
+  {
+    "Name": "鹤山宿一霄客栈",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "沙坪中东西衫甫村新城路288号",
+    "ServiceTel": "电话0750-8916997 传真-  ",
+    "Description": null,
+    "Price": 87
+  },
+  {
+    "Name": "台山上川海苑别墅",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "上川岛飞沙滩旅游景区30号",
+    "ServiceTel": "电话0750-5395788 传真0750-5399689  ",
+    "Description": null,
+    "Price": 121
+  },
+  {
+    "Name": "开平芙蓉阁旅业",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "宝源路8号二栋",
+    "ServiceTel": "电话0750-2321999  ",
+    "Description": null,
+    "Price": 70
+  },
+  {
+    "Name": "下川岛海豚精品客栈",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "川岛镇下川联南村委会南澳村黄茅港7号之二",
+    "ServiceTel": "电话0750-5756992 传真--  ",
+    "Description": null,
+    "Price": 291
+  },
+  {
+    "Name": "台山四九书院民宿",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "四九镇塘田村",
+    "ServiceTel": "电话13318790355  ",
+    "Description": null,
+    "Price": 1137
+  },
+  {
+    "Name": "台山百惠旅业",
+    "Grade": "",
+    "Distract": "",
+    "Address": "铜鼓村涛声路18号",
+    "ServiceTel": "电话0750-5277622  ",
+    "Description": null,
+    "Price": 76
+  },
+  {
+    "Name": "江门鹤山快捷客栈",
+    "Grade": "",
+    "Distract": "",
+    "Address": "鹤城填鹤城大道50号之107",
+    "ServiceTel": "电话15916070032  ",
+    "Description": null,
+    "Price": 68
+  },
+  {
+    "Name": "下川岛休闲雅居客栈",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "下川岛南澳湾村76号",
+    "ServiceTel": "电话0750-5756929 传真0750-5756929  ",
+    "Description": null,
+    "Price": 136
+  },
+  {
+    "Name": "恩平大世界酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "新平中路88号",
+    "ServiceTel": "电话0750-7728888 传真0750-7719088  ",
+    "Description": null,
+    "Price": 165
+  },
+  {
+    "Name": "台山凯逸海景别墅民宿",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "川岛镇下川王府洲旅游区南澳湾村74号之一",
+    "ServiceTel": "电话0750-5757629 传真0750-5757629  ",
+    "Description": null,
+    "Price": 200
+  },
+  {
+    "Name": "上川岛鑫海酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "飞沙滩旅游区海旁路12号",
+    "ServiceTel": "电话0750-5399898 传真0750-5399898  ",
+    "Description": null,
+    "Price": 174
+  },
+  {
+    "Name": "台山星缘海畔酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "北陡镇那琴村委会石山村183号",
+    "ServiceTel": "电话0750-5789998  ",
+    "Description": null,
+    "Price": 299
+  },
+  {
+    "Name": "尚客优酒店（开平东汇城店）",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "长沙区325国道三江路段9号",
+    "ServiceTel": "电话+86-18026789198  ",
+    "Description": null,
+    "Price": 115
+  },
+  {
+    "Name": "开平八方旅店",
+    "Grade": "",
+    "Distract": "",
+    "Address": "义祠路26号",
+    "ServiceTel": "电话0750-2227368 传真-  ",
+    "Description": null,
+    "Price": 71
+  },
+  {
+    "Name": "台山下川银霆度假酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "下川岛王府洲旅游区内",
+    "ServiceTel": "电话0750-5753111 传真0750-5753110  ",
+    "Description": null,
+    "Price": 126
+  },
+  {
+    "Name": "台山下川岛海角酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "下川王府洲旅游区05-6-B号",
+    "ServiceTel": "电话0750-5755408  ",
+    "Description": null,
+    "Price": 175
+  },
+  {
+    "Name": "台山北陡渔舍",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "北陡镇沙咀村居委会38号",
+    "ServiceTel": "电话0750-5785368  ",
+    "Description": null,
+    "Price": 221
+  },
+  {
+    "Name": "江门下川岛静悦楼别墅单间",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门台山市下川岛旅游度假区109-B号",
+    "ServiceTel": "电话021-80187829-106135  ",
+    "Description": null,
+    "Price": 264
+  },
+  {
+    "Name": "台山滨海湾别墅",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "下川王府洲旅游区南澳湾村",
+    "ServiceTel": "电话0750-5755123 传真0750-5755123  ",
+    "Description": null,
+    "Price": 212
+  },
+  {
+    "Name": "开平永安旅店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "慕沙路9号",
+    "ServiceTel": "电话750-2026622  ",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "台山上川希尔顿酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "飞沙滩二区12A",
+    "ServiceTel": "电话0750-5395993 传真0750-5395993  ",
+    "Description": null,
+    "Price": 194
+  },
+  {
+    "Name": "鹤山丽景宾馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "新环路108-112号",
+    "ServiceTel": "电话0750-8869888 传真--  ",
+    "Description": null,
+    "Price": 102
+  },
+  {
+    "Name": "台山789公寓",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "水步镇文华新村61号",
+    "ServiceTel": "电话0750-5622789  ",
+    "Description": null,
+    "Price": 121
+  },
+  {
+    "Name": "台山顺海景酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "台山市浪琴湾尾角（海鲜大排档旁）",
+    "ServiceTel": "电话0750-5789293  ",
+    "Description": null,
+    "Price": 205
+  },
+  {
+    "Name": "台山上川灏海富都旅店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "江门台山川岛镇上川岛三洲海滨路19号",
+    "ServiceTel": "电话0750-5399373  ",
+    "Description": null,
+    "Price": 152
+  },
+  {
+    "Name": "台山海角城旅游度假中心",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "铜鼓鱼塘湾",
+    "ServiceTel": "电话0750-5272289  ",
+    "Description": null,
+    "Price": 299
+  },
+  {
+    "Name": "开平华庭旅店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "幕沙路61号后座",
+    "ServiceTel": "电话0750-2368818  ",
+    "Description": null,
+    "Price": 93
+  },
+  {
+    "Name": "鹤山柏利宾馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "沙坪镇文明路391号",
+    "ServiceTel": "电话0750-8896066  ",
+    "Description": null,
+    "Price": 141
+  },
+  {
+    "Name": "台山亲浪度假旅店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "北陡镇沙咀村委会113号之一",
+    "ServiceTel": "电话13723648000 传真--  ",
+    "Description": null,
+    "Price": 188
+  },
+  {
+    "Name": "台山下川岛雷记海景度假别墅",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "王府洲南澳湾村",
+    "ServiceTel": "电话13760536669  ",
+    "Description": null,
+    "Price": 159
+  },
+  {
+    "Name": "台山上川金叶大酒店",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "上川岛飞沙滩旅游区内",
+    "ServiceTel": "电话0750-5399413 传真0750-5399576  ",
+    "Description": null,
+    "Price": 173
+  },
+  {
+    "Name": "台山新世纪酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "都斛镇立新街12号",
+    "ServiceTel": "电话0750-5258638  ",
+    "Description": null,
+    "Price": 124
+  },
+  {
+    "Name": "台山南湾听海渔墅",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "下川岛旅游区南澳湾村5号",
+    "ServiceTel": "电话13422666552  ",
+    "Description": null,
+    "Price": 200
+  },
+  {
+    "Name": "台山悦美大酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "江门台山市通济路2-4号7楼",
+    "ServiceTel": "电话0750-7375888  ",
+    "Description": null,
+    "Price": 227
+  },
+  {
+    "Name": "台山铂爵公馆",
+    "Grade": "",
+    "Distract": "",
+    "Address": "台城站西路79号",
+    "ServiceTel": "电话0750-5600913-  ",
+    "Description": null,
+    "Price": 153
+  },
+  {
+    "Name": "台山北盛旅馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "北盛街14、16号",
+    "ServiceTel": "电话0750-5530906  ",
+    "Description": null,
+    "Price": 63
+  },
+  {
+    "Name": "台山醉琼楼商务宾馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "海港路3号",
+    "ServiceTel": "电话0750-5326288  ",
+    "Description": null,
+    "Price": 98
+  },
+  {
+    "Name": "台山海景湾度假酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "江门台山市北陡镇那琴沙咀尾角村",
+    "ServiceTel": "电话0750-5782811  ",
+    "Description": null,
+    "Price": 148
+  },
+  {
+    "Name": "台山下川岛常来雅居酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "下川岛王府洲南澳湾",
+    "ServiceTel": "电话15917349261  ",
+    "Description": null,
+    "Price": 129
+  },
+  {
+    "Name": "恩平海泉时光度假公寓酒店(恒大泉都店)",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "良西镇恒大泉都月泉街8幢302号",
+    "ServiceTel": "电话19928926129  ",
+    "Description": null,
+    "Price": 368
+  },
+  {
+    "Name": "恩平玲珑度假别墅",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "恒大泉都碧泉一街6号",
+    "ServiceTel": "电话13660111305  ",
+    "Description": null,
+    "Price": 172
+  },
+  {
+    "Name": "恩平恒大泉都店明月酒店公寓",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "良西镇恒大泉都月泉街7栋",
+    "ServiceTel": "电话18026865618  ",
+    "Description": null,
+    "Price": 179
+  },
+  {
+    "Name": "开平豪城旅馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "新市南路13号",
+    "ServiceTel": "电话0750-2732699  ",
+    "Description": null,
+    "Price": 58
+  },
+  {
+    "Name": "开平祥满宾馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "江门开平市良园路",
+    "ServiceTel": "电话0750-2333678  ",
+    "Description": null,
+    "Price": 85
+  },
+  {
+    "Name": "江门恒大泉都四叶草别墅（公寓）",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门恩平市恒大泉都",
+    "ServiceTel": "电话021-80187829-2823459  ",
+    "Description": null,
+    "Price": 1715
+  },
+  {
+    "Name": "开平福来旅馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "幕沙路94号4栋",
+    "ServiceTel": "电话13717277298  ",
+    "Description": null,
+    "Price": 57
+  },
+  {
+    "Name": "江门麦剑欣度假别墅",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门恩平市恒大泉都",
+    "ServiceTel": "电话021-80187829-4697841  ",
+    "Description": null,
+    "Price": 2915
+  },
+  {
+    "Name": "江门泉林黄金小镇休闲公寓",
+    "Grade": "",
+    "Distract": "",
+    "Address": "Y581(泉林万亩山湖迎宾路1号悦湖湾)",
+    "ServiceTel": "电话021-80187829-4000144  ",
+    "Description": null,
+    "Price": 573
+  },
+  {
+    "Name": "江门孔荣伟公寓",
+    "Grade": "",
+    "Distract": "",
+    "Address": "泉林黄金小镇(泉林悦湖湾迎宾路)",
+    "ServiceTel": "电话021-80187829-5803932  ",
+    "Description": null,
+    "Price": 463
+  },
+  {
+    "Name": "鹤山丽都宾馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "沙坪镇文明路80号",
+    "ServiceTel": "电话0750-8973693  ",
+    "Description": null,
+    "Price": 75
+  },
+  {
+    "Name": "恩平御墅温泉度假别墅",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "大田镇山泉湾温泉别墅街33号",
+    "ServiceTel": "电话18423170488 传真--  ",
+    "Description": null,
+    "Price": 4219
+  },
+  {
+    "Name": "台山上川岛飞悦民宿",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "川岛镇上川飞沙里村2号",
+    "ServiceTel": "电话13316754568 传真--  ",
+    "Description": null,
+    "Price": 267
+  },
+  {
+    "Name": "江门海逸宾馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "沙坪镇中山二巷68号",
+    "ServiceTel": "电话0750-8889583  ",
+    "Description": null,
+    "Price": 91
+  },
+  {
+    "Name": "台山海岛风情度假屋",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "上川岛飞沙里村151-1号",
+    "ServiceTel": "电话13534789633  ",
+    "Description": null,
+    "Price": 269
+  },
+  {
+    "Name": "台山山海天别苑",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "下川南澳湾",
+    "ServiceTel": "电话13556935668  ",
+    "Description": null,
+    "Price": 178
+  },
+  {
+    "Name": "江门夏天的房子酒店式公寓",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门恩平市泉林黄金小镇泉林黄金小镇华侨公馆二期1栋423",
+    "ServiceTel": "电话13929029030  ",
+    "Description": null,
+    "Price": 421
+  },
+  {
+    "Name": "台山星月度假楼民宿",
+    "Grade": "",
+    "Distract": "",
+    "Address": "那琴管区石山村76号浪琴湾度假村",
+    "ServiceTel": "电话18825255190 传真-  ",
+    "Description": null,
+    "Price": 182
+  },
+  {
+    "Name": "台山下川岛凯瑞酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "下川岛王府洲旅游区",
+    "ServiceTel": "电话0750-5757116 传真0750-5758230  ",
+    "Description": null,
+    "Price": 305
+  },
+  {
+    "Name": "台山浪琴湾顺风楼宾馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "北陡镇那琴石山村178号路边石山桥东北100米",
+    "ServiceTel": "电话0750-5781658/13432299970 传真0750-5781658  ",
+    "Description": null,
+    "Price": 136
+  },
+  {
+    "Name": "台山未来方舟美墅民宿",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "下川南澳湾村40号",
+    "ServiceTel": "电话13709616880  ",
+    "Description": null,
+    "Price": 147
+  },
+  {
+    "Name": "下川岛海景阁民宿",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "下川南澳湾村之一",
+    "ServiceTel": "电话13824065792  ",
+    "Description": null,
+    "Price": 190
+  },
+  {
+    "Name": "台山尚岛民宿",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "上川三洲圩海市路46号",
+    "ServiceTel": "电话0750-5399052 传真--  ",
+    "Description": null,
+    "Price": 136
+  },
+  {
+    "Name": "台山下川常福酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "下川岛旅游中心",
+    "ServiceTel": "电话0750-5757111 传真0750-5757258  ",
+    "Description": null,
+    "Price": 154
+  },
+  {
+    "Name": "上川岛蓝天凯云度假酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "上川岛飞沙滩旅游区10号",
+    "ServiceTel": "电话0750-5398188 传真0750-5966686  ",
+    "Description": null,
+    "Price": 342
+  },
+  {
+    "Name": "台山下川岛瑞金雅居客栈",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "下川岛南澳湾70号",
+    "ServiceTel": "电话13686901751 传真-13686901751  ",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "台山下川怡海雅居民宿",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "下川联南湾村50号",
+    "ServiceTel": "电话0750-5755380 传真0750-5755380  ",
+    "Description": null,
+    "Price": 146
+  },
+  {
+    "Name": "台山上川金凯旋酒店",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "上川岛飞沙滩旅游区海天路39号",
+    "ServiceTel": "电话0750-5395388  ",
+    "Description": null,
+    "Price": 174
+  },
+  {
+    "Name": "下川岛海缘时光酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "下川王府旅游中心09-5-A号",
+    "ServiceTel": "电话0750-5757998  ",
+    "Description": null,
+    "Price": 128
+  },
+  {
+    "Name": "台山上川岛碧海银滩假日酒店",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "上川飞沙滩三区31-1号",
+    "ServiceTel": "电话0750-5397888 传真0750-5399618  ",
+    "Description": null,
+    "Price": 176
+  },
+  {
+    "Name": "台山鸿庆大酒店(原金皇酒店)",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "上川岛三洲港海滨路1号",
+    "ServiceTel": "电话0750-5396088  ",
+    "Description": null,
+    "Price": 201
+  },
+  {
+    "Name": "台山下川岛信海酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "下川岛王府洲旅游区",
+    "ServiceTel": "电话0750-5756168 传真0750-5755118  ",
+    "Description": null,
+    "Price": 211
+  },
+  {
+    "Name": "台山黑沙湾酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "赤溪镇铜鼓黑沙湾旅游度假中心",
+    "ServiceTel": "电话0750-5290128 传真5290228-5290228  ",
+    "Description": null,
+    "Price": 199
+  },
+  {
+    "Name": "台山下川岛渔家别墅酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "王府洲旅游区",
+    "ServiceTel": "电话0750-5751188  ",
+    "Description": null,
+    "Price": 156
+  },
+  {
+    "Name": "台山洁心诚海景别墅",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门台山市下川岛南澳湾村",
+    "ServiceTel": "电话13536004030 传真-13536004030  ",
+    "Description": null,
+    "Price": 142
+  },
+  {
+    "Name": "恩平温泉乐园度假村",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "那吉镇温泉乐园",
+    "ServiceTel": "电话0750-7283333 传真0750-7281456  ",
+    "Description": null,
+    "Price": 418
+  },
+  {
+    "Name": "台山柏兴度假楼酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "那琴石山村159号",
+    "ServiceTel": "电话0750-5785688 传真--  ",
+    "Description": null,
+    "Price": 142
+  },
+  {
+    "Name": "鹤山椰林酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "桃源镇富源路6号",
+    "ServiceTel": "电话0750-8218168  ",
+    "Description": null,
+    "Price": 467
+  },
+  {
+    "Name": "台山下川岛金都酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "下川王府洲旅游区33号",
+    "ServiceTel": "电话0750-5753818 传真0750-5756178  ",
+    "Description": null,
+    "Price": 678
+  },
+  {
+    "Name": "鹤山源大酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "沙坪镇崇德路49号",
+    "ServiceTel": "电话0750-8834567 传真0750-8834566  ",
+    "Description": null,
+    "Price": 167
+  },
+  {
+    "Name": "台山八方公寓",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "台山市川岛镇下川联南下低村224号",
+    "ServiceTel": "电话13923053102  ",
+    "Description": null,
+    "Price": 247
+  },
+  {
+    "Name": "台山香岛大酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "川岛镇下川王府洲旅游景区09-1-B",
+    "ServiceTel": "电话0750-5757378  ",
+    "Description": null,
+    "Price": 89
+  },
+  {
+    "Name": "台山上川岛海岛大酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "上川岛飞沙滩旅游区",
+    "ServiceTel": "电话0750-5399188  ",
+    "Description": null,
+    "Price": 153
+  },
+  {
+    "Name": "台山上川康泰来酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "上川飞沙滩旅游区二区5号",
+    "ServiceTel": "电话0750-5398968  ",
+    "Description": null,
+    "Price": 191
+  },
+  {
+    "Name": "台山下川岛花园酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "下川王府洲旅游区09-5E号",
+    "ServiceTel": "电话0750-5755838  ",
+    "Description": null,
+    "Price": 163
+  },
+  {
+    "Name": "鹤山水墨·方塘仁美学酒店",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "古劳镇上升村民委员会新校(即上升村上升码头旁原三区第一小学)",
+    "ServiceTel": "电话+86-13631830861  ",
+    "Description": null,
+    "Price": 1408
+  },
+  {
+    "Name": "台山下川岛舒福居",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "王府洲旅游区南澳湾村28号",
+    "ServiceTel": "电话0750-5758078 传真0750-5758078  ",
+    "Description": null,
+    "Price": 192
+  },
+  {
+    "Name": "台山下川海航渔乐民宿",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "下川岛王府洲旅游度假区南澳湾村98号",
+    "ServiceTel": "电话13555691455  ",
+    "Description": null,
+    "Price": 223
+  },
+  {
+    "Name": "台山金翊楼酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "沙咀村委会六马村",
+    "ServiceTel": "电话13316715482 传真--  ",
+    "Description": null,
+    "Price": 182
+  },
+  {
+    "Name": "台山北陡壹加壹度假旅馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "那琴洋栏路口（276省道旁，浪琴湾）",
+    "ServiceTel": "电话13702204046  ",
+    "Description": null,
+    "Price": 137
+  },
+  {
+    "Name": "台山台城万豪商务宾馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "台东路19号",
+    "ServiceTel": "电话0750-5521222 传真--  ",
+    "Description": null,
+    "Price": 328
+  },
+  {
+    "Name": "台山上川四喜假日酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "飞沙滩旅游区7号",
+    "ServiceTel": "电话0750-5399999 传真07505399998  ",
+    "Description": null,
+    "Price": 129
+  },
+  {
+    "Name": "恩平泳泉公寓",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "恒大泉都云泉四街7幢302号",
+    "ServiceTel": "电话13686903353  ",
+    "Description": null,
+    "Price": 136
+  },
+  {
+    "Name": "恩平四季恋公寓",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "良西镇恒大泉都云泉四街二期7栋604",
+    "ServiceTel": "电话13672876336 传真--  ",
+    "Description": null,
+    "Price": 201
+  },
+  {
+    "Name": "恩平悦湖湾盛泉民宿",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "泉林悦湖湾2栋3单元905号",
+    "ServiceTel": "电话13824011088 传真--  ",
+    "Description": null,
+    "Price": 455
+  },
+  {
+    "Name": "开平达维酒店",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "百合镇达维生态园",
+    "ServiceTel": "电话0750-2512226  ",
+    "Description": null,
+    "Price": 374
+  },
+  {
+    "Name": "台山下川岛阅海酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "下川岛王府洲旅游区（距离沙滩约50米）",
+    "ServiceTel": "电话0750-5756868  ",
+    "Description": null,
+    "Price": 144
+  },
+  {
+    "Name": "恩平大富置业公寓",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "良西镇泉都大道东1号世界风情街1幢铺位10号铺",
+    "ServiceTel": "电话18200619595  ",
+    "Description": null,
+    "Price": 199
+  },
+  {
+    "Name": "台山市下川岛新城酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "下川岛国家4A级旅游景区下川岛王府洲景区内",
+    "ServiceTel": "电话0750-5755963 传真0750-5755113-07505755963  ",
+    "Description": null,
+    "Price": 168
+  },
+  {
+    "Name": "台山下川岛海都酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "下川岛王府洲旅游景区",
+    "ServiceTel": "电话0750-5756288 传真0750-5756288  ",
+    "Description": null,
+    "Price": 167
+  },
+  {
+    "Name": "恩平希悦酒店公寓",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "恩城飞鹅塘塘朗新区一巷五号",
+    "ServiceTel": "电话+86-0750-7181777  ",
+    "Description": null,
+    "Price": 209
+  },
+  {
+    "Name": "台山朱记民宿",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "坑赖村（浪琴湾，浪琴半岛附近）",
+    "ServiceTel": "电话17728231312  ",
+    "Description": null,
+    "Price": 156
+  },
+  {
+    "Name": "台山下川岛格豪酒店",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "下川岛王府洲旅游景区",
+    "ServiceTel": "电话0750-2639388  ",
+    "Description": null,
+    "Price": 186
+  },
+  {
+    "Name": "恩平自游度假温泉别墅",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "良西镇恒大泉都碧泉七街73号",
+    "ServiceTel": "电话18929096655  ",
+    "Description": null,
+    "Price": 1890
+  },
+  {
+    "Name": "台山浪琴湾海轩客栈",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "北陡镇那琴石山村",
+    "ServiceTel": "电话0750-5781238 传真-  ",
+    "Description": null,
+    "Price": 161
+  },
+  {
+    "Name": "恩平歇马举人村酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "圣堂镇歇马村",
+    "ServiceTel": "电话0750-7513888 传真0750-7510189  ",
+    "Description": null,
+    "Price": 193
+  },
+  {
+    "Name": "下川岛静乐楼旅馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "下川岛南联湾村109号B号",
+    "ServiceTel": "电话15999902168  ",
+    "Description": null,
+    "Price": 264
+  },
+  {
+    "Name": "台山猫哥阳光侣舍",
+    "Grade": "",
+    "Distract": "",
+    "Address": "北陡镇那琴尾角湾海景街75-79号",
+    "ServiceTel": "电话+86-17727068856  ",
+    "Description": null,
+    "Price": 1192
+  },
+  {
+    "Name": "台山上川岛碧海大酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "上川岛飞沙滩旅游区内",
+    "ServiceTel": "电话0750-5399406 传真0750-5399406  ",
+    "Description": null,
+    "Price": 172
+  },
+  {
+    "Name": "台山云山度假酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "川岛镇下川南澳湾122号",
+    "ServiceTel": "电话+86-13702588776  ",
+    "Description": null,
+    "Price": 206
+  },
+  {
+    "Name": "下川岛海皇酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "川岛镇下川王府洲旅游区05-4-E",
+    "ServiceTel": "电话0750-5833333 传真--  ",
+    "Description": null,
+    "Price": 282
+  },
+  {
+    "Name": "下川岛海岚轩海景别墅",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "下川南澳湾114号",
+    "ServiceTel": "电话15976427075 传真--  ",
+    "Description": null,
+    "Price": 116
+  },
+  {
+    "Name": "台山上川金港湾酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "上川岛飞沙滩旅游区二区34号",
+    "ServiceTel": "电话0750-5399496 传真0750-5399296  ",
+    "Description": null,
+    "Price": 762
+  },
+  {
+    "Name": "台山天照商务宾馆",
+    "Grade": "",
+    "Distract": "",
+    "Address": "上川岛三洲海市路25号",
+    "ServiceTel": "电话0750-5399298 传真-  ",
+    "Description": null,
+    "Price": 102
+  },
+  {
+    "Name": "台山林旺楼",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "浪琴湾沙咀村",
+    "ServiceTel": "电话0750-5782883  ",
+    "Description": null,
+    "Price": 165
+  },
+  {
+    "Name": "台山下川岛海轩酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "下川王府洲旅游中心打到北侧9号",
+    "ServiceTel": "电话0750-5755289 传真0750-5755389-0750  ",
+    "Description": null,
+    "Price": 143
+  },
+  {
+    "Name": "开平7洲商务酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "幕沙路4-6号",
+    "ServiceTel": "电话0750-2026282 传真0750-2206378  ",
+    "Description": null,
+    "Price": 122
+  },
+  {
+    "Name": "台山顺源丽民宿",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "北陡镇沙咀坑赖村23号",
+    "ServiceTel": "电话13424907766 传真--  ",
+    "Description": null,
+    "Price": 344
+  },
+  {
+    "Name": "台山下川岛南国大酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "下川岛王府洲旅游区内",
+    "ServiceTel": "电话0750-5751138  ",
+    "Description": null,
+    "Price": 133
+  },
+  {
+    "Name": "台山合缘居客栈",
+    "Grade": "",
+    "Distract": "",
+    "Address": "北陡镇那琴石山村88号",
+    "ServiceTel": "电话+86-13432167491  ",
+    "Description": null,
+    "Price": 159
+  },
+  {
+    "Name": "台山悦行家精品民宿",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "下川南澳湾村43号之三",
+    "ServiceTel": "电话+86-13702213455  ",
+    "Description": null,
+    "Price": 143
+  },
+  {
+    "Name": "台山汇银公寓",
+    "Grade": "",
+    "Distract": "",
+    "Address": "寨门圩168号",
+    "ServiceTel": "电话15019891213 传真-  ",
+    "Description": null,
+    "Price": 136
+  },
+  {
+    "Name": "台山石山假日酒店",
+    "Grade": "",
+    "Distract": "",
+    "Address": "北陡镇那琴村171号",
+    "ServiceTel": "电话15813773337  ",
+    "Description": null,
+    "Price": 236
+  },
+  {
+    "Name": "江门小峰-公寓(2号店)",
+    "Grade": "",
+    "Distract": "",
+    "Address": "名门誉景",
+    "ServiceTel": "电话021-80187829-4318252  ",
+    "Description": null,
+    "Price": 573
+  },
+  {
+    "Name": "恩平泉林休闲公寓",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "泉林黄金小镇华侨公馆二期2幢618",
+    "ServiceTel": "电话13432234831  ",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "江门一路花香度假别墅",
+    "Grade": "",
+    "Distract": "",
+    "Address": "泉林黄金小镇(悦泉湾79号)",
+    "ServiceTel": "电话021-80187829-3783830  ",
+    "Description": null,
+    "Price": 2519
+  },
+  {
+    "Name": "江门张三毛度假别墅(2号店)",
+    "Grade": "",
+    "Distract": "",
+    "Address": "恒大泉都",
+    "ServiceTel": "电话021-80187829-2770189  ",
+    "Description": null,
+    "Price": 3161
+  },
+  {
+    "Name": "台山下川岛海豪酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "下川岛王府洲景区12号",
+    "ServiceTel": "电话0750-5757788、15975096074  ",
+    "Description": null,
+    "Price": 197
+  },
+  {
+    "Name": "台山聚贤楼民宿",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "那琴石山村320号",
+    "ServiceTel": "电话15920113326 传真--  ",
+    "Description": null,
+    "Price": 154
+  },
+  {
+    "Name": "开平喜瑞宾馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "长沙镇沿江西路7-8号",
+    "ServiceTel": "电话0750-2273668  ",
+    "Description": null,
+    "Price": 104
+  },
+  {
+    "Name": "台山金悦楼酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "北陡那琴半岛旅游区旁100米",
+    "ServiceTel": "电话+86-15219015119  ",
+    "Description": null,
+    "Price": 177
+  },
+  {
+    "Name": "台山下川岛川东伴月湾",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "下川川东大湾沙滩8号",
+    "ServiceTel": "电话13556977137 传真0750-13556977137  ",
+    "Description": null,
+    "Price": 225
+  },
+  {
+    "Name": "窝心公寓(开平水口店)",
+    "Grade": "",
+    "Distract": "",
+    "Address": "民福路213号君汇名城21楼",
+    "ServiceTel": "电话15992195620  ",
+    "Description": null,
+    "Price": 183
+  },
+  {
+    "Name": "台山草塘湾度假屋",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "北陡镇沙咀尾角村草塘湾",
+    "ServiceTel": "电话0750-5788789 传真--  ",
+    "Description": null,
+    "Price": 502
+  },
+  {
+    "Name": "恩平铂通国际酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "良西镇恒大泉都三期17栋",
+    "ServiceTel": "电话18028582333  ",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "开平站前公寓",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "水口镇大宁路91号3楼",
+    "ServiceTel": "电话750-2723507  ",
+    "Description": null,
+    "Price": 64
+  },
+  {
+    "Name": "台山依家民宿",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "市北陡镇沙咀村205号",
+    "ServiceTel": "电话13542647286 传真--  ",
+    "Description": null,
+    "Price": 199
+  },
+  {
+    "Name": "鹤山能量快捷宾馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "沙坪镇人民东路30号",
+    "ServiceTel": "电话0750-8900298  ",
+    "Description": null,
+    "Price": 100
+  },
+  {
+    "Name": "江门温泉别墅",
+    "Grade": "",
+    "Distract": "",
+    "Address": "恒大泉都",
+    "ServiceTel": "电话021-80187829-134936  ",
+    "Description": null,
+    "Price": 4563
+  },
+  {
+    "Name": "台山新动力旅业",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "铜鼓村委会大村3号",
+    "ServiceTel": "电话0750-5279988  ",
+    "Description": null,
+    "Price": 164
+  },
+  {
+    "Name": "台山碧海居旅馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "沙咀朝南村18号",
+    "ServiceTel": "电话0750-5782718  ",
+    "Description": null,
+    "Price": 188
+  },
+  {
+    "Name": "江门爱上爱尚公寓",
+    "Grade": "",
+    "Distract": "",
+    "Address": "碧桂园公园1号",
+    "ServiceTel": "电话021-80187829-1059764  ",
+    "Description": null,
+    "Price": 310
+  },
+  {
+    "Name": "江门梁姐姐公寓(2号店)",
+    "Grade": "",
+    "Distract": "",
+    "Address": "翡翠湾(山林海十二幢)",
+    "ServiceTel": "电话021-80187829-2519085  ",
+    "Description": null,
+    "Price": 604
+  },
+  {
+    "Name": "开平翔顺公寓",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "三埠镇曙光西路57号2至6楼",
+    "ServiceTel": "电话18923056037  ",
+    "Description": null,
+    "Price": 129
+  },
+  {
+    "Name": "鹤山华侨大厦商务酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "沙坪镇中山路59号",
+    "ServiceTel": "电话0750-8860088 传真13423818897  ",
+    "Description": null,
+    "Price": 162
+  },
+  {
+    "Name": "台山上川岛安心农家乐",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "上川岛镇飞沙里村",
+    "ServiceTel": "电话13528333171 传真0750-54632156  ",
+    "Description": null,
+    "Price": 256
+  },
+  {
+    "Name": "开平浪漫满屋",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "祥苑新村241号",
+    "ServiceTel": "电话0750-2299666  ",
+    "Description": null,
+    "Price": 145
+  },
+  {
+    "Name": "江门威尼诗人雅致之家酒店式公寓",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门恩平市恩平市良西镇泉都大道东1号恒大泉都云泉街1栋203",
+    "ServiceTel": "电话18127578626  ",
+    "Description": null,
+    "Price": 303
+  },
+  {
+    "Name": "台山银都商务酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "台山台城桥湖路33号之一",
+    "ServiceTel": "电话0750-5519338  ",
+    "Description": null,
+    "Price": 101
+  },
+  {
+    "Name": "台山大塘艺术驿站",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "四九镇大塘村委会常兴村东侧",
+    "ServiceTel": "电话0750-5487993 传真--  ",
+    "Description": null,
+    "Price": 229
+  },
+  {
+    "Name": "台山东悦酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "北陡镇浪琴湾276省道尾角村",
+    "ServiceTel": "电话0750-5787345  ",
+    "Description": null,
+    "Price": 176
+  },
+  {
+    "Name": "开平金夜酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "潭江西路28-30号",
+    "ServiceTel": "电话0750-2221555  ",
+    "Description": null,
+    "Price": 100
+  },
+  {
+    "Name": "台山市新港湾宾馆",
+    "Grade": "",
+    "Distract": "",
+    "Address": "台山市北陡镇沙咀村委会沙咀村174号之一",
+    "ServiceTel": "电话0750-5782868  ",
+    "Description": null,
+    "Price": 343
+  },
+  {
+    "Name": "江门恒大泉都好日子联排别墅",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门恩平市恒大泉都碧泉八街35号",
+    "ServiceTel": "电话021-80187829-128181  ",
+    "Description": null,
+    "Price": 2945
+  },
+  {
+    "Name": "台山海天楼旅馆",
+    "Grade": "",
+    "Distract": "",
+    "Address": "北陡镇那琴石山村68-1",
+    "ServiceTel": "电话+86-13902885455  ",
+    "Description": null,
+    "Price": 211
+  },
+  {
+    "Name": "歌诗达度假酒店（下川岛北门店）",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "下川岛王府洲旅游区（贝壳工艺街旁）",
+    "ServiceTel": "电话18022902727  ",
+    "Description": null,
+    "Price": 142
+  },
+  {
+    "Name": "江门aken度假别墅",
+    "Grade": "",
+    "Distract": "",
+    "Address": "恩平泉林黄金小镇·华侨公馆-二期(泉林黄金小镇·华侨公馆二期)",
+    "ServiceTel": "电话021-80187829-1027048  ",
+    "Description": null,
+    "Price": 1930
+  },
+  {
+    "Name": "江门芒果优房度假别墅（山泉湾店）",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门恩平市恩平山泉湾温泉度假别墅",
+    "ServiceTel": "电话021-80187829-1707841  ",
+    "Description": null,
+    "Price": 1835
+  },
+  {
+    "Name": "江门长不大de老萝莉吴虐虐公寓",
+    "Grade": "",
+    "Distract": "",
+    "Address": "云泉二街良西恒大泉都",
+    "ServiceTel": "电话021-80187829-1002560  ",
+    "Description": null,
+    "Price": 228
+  },
+  {
+    "Name": "台山利源宾馆",
+    "Grade": "",
+    "Distract": "",
+    "Address": "台东路80号二楼",
+    "ServiceTel": "电话0750-8543808  ",
+    "Description": null,
+    "Price": 100
+  },
+  {
+    "Name": "台山新富都大酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "陈宜禧路138号",
+    "ServiceTel": "电话0750-5557339  ",
+    "Description": null,
+    "Price": 113
+  },
+  {
+    "Name": "台山上川南豪酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "上川飞沙滩二区18号",
+    "ServiceTel": "电话0750-5399938 传真0750-5399088  ",
+    "Description": null,
+    "Price": 185
+  },
+  {
+    "Name": "台山下川银海湾酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "下川王府洲旅游区",
+    "ServiceTel": "电话0750-5756688 传真0750-5756668  ",
+    "Description": null,
+    "Price": 135
+  },
+  {
+    "Name": "台山金盛楼酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "江门台山市北陡镇沙咀村委会村32号之一",
+    "ServiceTel": "电话0750-5782678  ",
+    "Description": null,
+    "Price": 185
+  },
+  {
+    "Name": "江门匡先生特色民宿(东风南路分店)",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门恩平市长诚工业园D栋",
+    "ServiceTel": "电话13014845547  ",
+    "Description": null,
+    "Price": 225
+  },
+  {
+    "Name": "江门集齐七个召唤神龙公寓",
+    "Grade": "",
+    "Distract": "",
+    "Address": "台山颐和温泉城k3-4 601",
+    "ServiceTel": "电话021-80187829-157732  ",
+    "Description": null,
+    "Price": 834
+  },
+  {
+    "Name": "江门江门飞马楼陈先生公寓",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门台山市上川岛三洲街92号",
+    "ServiceTel": "电话13827085181  ",
+    "Description": null,
+    "Price": 208
+  },
+  {
+    "Name": "江门恩平丰旭公寓",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门恩平市江门市恩平市恒大泉都",
+    "ServiceTel": "电话021-80187829-1233967  ",
+    "Description": null,
+    "Price": 664
+  },
+  {
+    "Name": "鹤山文边公寓",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "文明路37号",
+    "ServiceTel": "电话18329019318 传真--  ",
+    "Description": null,
+    "Price": 58
+  },
+  {
+    "Name": "江门简先生Nick度假别墅(学前北路分店)",
+    "Grade": "",
+    "Distract": "",
+    "Address": "恒大泉都(沈海高速开阳段圣堂出口右转直行3KM处恒大泉都)",
+    "ServiceTel": "电话021-80187829-1002531  ",
+    "Description": null,
+    "Price": 3258
+  },
+  {
+    "Name": "台山观海居民宿",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "尾角村27号",
+    "ServiceTel": "电话13426856460  ",
+    "Description": null,
+    "Price": 180
+  },
+  {
+    "Name": "江门吴亮盼公寓",
+    "Grade": "",
+    "Distract": "",
+    "Address": "泉林黄金小镇(悦湖湾个人精装公寓)",
+    "ServiceTel": "电话021-80187829-4054380  ",
+    "Description": null,
+    "Price": 423
+  },
+  {
+    "Name": "江门郭宝宝Rico(项目规划师)公寓",
+    "Grade": "",
+    "Distract": "",
+    "Address": "长安西路",
+    "ServiceTel": "电话021-80187829-6008458  ",
+    "Description": null,
+    "Price": 1174
+  },
+  {
+    "Name": "江门Sunnie1644客栈",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门台山市肖美村(肖美村)",
+    "ServiceTel": "电话021-80187829-4456012  ",
+    "Description": null,
+    "Price": 2547
+  },
+  {
+    "Name": "江门恩平市恒大泉都丽舍温泉度假公寓(升平路分店)",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门恩平市恒大泉都",
+    "ServiceTel": "电话021-80187829-6267773  ",
+    "Description": null,
+    "Price": 440
+  },
+  {
+    "Name": "江门阿积客栈",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门台山市北陡镇(沙咀村)",
+    "ServiceTel": "电话021-80187829-2910315  ",
+    "Description": null,
+    "Price": 243
+  },
+  {
+    "Name": "台山荣丰海鲜楼",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "那琴旧圩村",
+    "ServiceTel": "电话15994873389  ",
+    "Description": null,
+    "Price": 133
+  },
+  {
+    "Name": "江门渔村民宿",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门台山市北陡镇尾角村",
+    "ServiceTel": "电话021-80187829-1899165  ",
+    "Description": null,
+    "Price": 262
+  },
+  {
+    "Name": "台山二塘出租房",
+    "Grade": "",
+    "Distract": "",
+    "Address": "二塘路23号二楼",
+    "ServiceTel": "电话15994869381 传真-  ",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "江门甜芝芝公寓",
+    "Grade": "",
+    "Distract": "",
+    "Address": "泉林黄金小镇华侨公馆2期",
+    "ServiceTel": "电话021-80187829-1967352  ",
+    "Description": null,
+    "Price": 761
+  },
+  {
+    "Name": "恩平简青生活馆公寓",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "良西镇恒大泉都三期6栋804",
+    "ServiceTel": "电话13416813702  ",
+    "Description": null,
+    "Price": 283
+  },
+  {
+    "Name": "开平祥苑宾馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "开平祥和路祥苑新村",
+    "ServiceTel": "电话0750-2201928  ",
+    "Description": null,
+    "Price": 158
+  },
+  {
+    "Name": "江门吕众民度假别墅",
+    "Grade": "",
+    "Distract": "",
+    "Address": "恩平恒大泉都温泉别墅(恒大泉都)",
+    "ServiceTel": "电话021-80187829-2687260  ",
+    "Description": null,
+    "Price": 3820
+  },
+  {
+    "Name": "开平裕景酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "曙光东路133号2栋",
+    "ServiceTel": "电话0750-2289536  ",
+    "Description": null,
+    "Price": 102
+  },
+  {
+    "Name": "江门随遇而安121公寓(2号店)",
+    "Grade": "",
+    "Distract": "",
+    "Address": "恒大泉都月泉街三幢(6栋)",
+    "ServiceTel": "电话021-80187829-3776753  ",
+    "Description": null,
+    "Price": 553
+  },
+  {
+    "Name": "台山市下川岛伯利酒店",
+    "Grade": "",
+    "Distract": "",
+    "Address": "下川岛王府洲旅游中心",
+    "ServiceTel": "电话0750-5751888  ",
+    "Description": null,
+    "Price": 166
+  },
+  {
+    "Name": "台山创兴旅业",
+    "Grade": "",
+    "Distract": "",
+    "Address": "台城环市东路7号",
+    "ServiceTel": "电话+86-0750-5582368  ",
+    "Description": null,
+    "Price": 83
+  },
+  {
+    "Name": "台山嘉怡海景酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "上川飞沙滩旅游区二区45号之二",
+    "ServiceTel": "电话0750-5396333 传真0750-5396222  ",
+    "Description": null,
+    "Price": 172
+  },
+  {
+    "Name": "鹤山新新宾馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "沙坪镇人民西路2号之四",
+    "ServiceTel": "电话0750-8899985  ",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "江门爱琴居辉哥公寓",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门台山市千禧·爱琴居",
+    "ServiceTel": "电话13664906655  ",
+    "Description": null,
+    "Price": 344
+  },
+  {
+    "Name": "江门方龙公寓",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门鹤山市宿一宵休闲客栈",
+    "ServiceTel": "电话021-80187829-2725025  ",
+    "Description": null,
+    "Price": 151
+  },
+  {
+    "Name": "台山下川海怡居别墅",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门台山市川岛镇下川王府洲旅游区",
+    "ServiceTel": "电话18929046788  ",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "开平盛源旅店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "丰田路49栋",
+    "ServiceTel": "电话0750-2726883  ",
+    "Description": null,
+    "Price": 65
+  },
+  {
+    "Name": "江门方言民宿",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门台山市尾角湾(尾角村)",
+    "ServiceTel": "电话021-80187829-4325826  ",
+    "Description": null,
+    "Price": 1275
+  },
+  {
+    "Name": "江门绿云小舍",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门鹤山市绿云大地文化交流中心",
+    "ServiceTel": "电话021-80187829-1808711  ",
+    "Description": null,
+    "Price": 1480
+  },
+  {
+    "Name": "江门代立琼度假别墅",
+    "Grade": "",
+    "Distract": "",
+    "Address": "良西镇恒大泉都",
+    "ServiceTel": "电话021-80187829-1078077  ",
+    "Description": null,
+    "Price": 3995
+  },
+  {
+    "Name": "江门苏冰度假别墅",
+    "Grade": "",
+    "Distract": "",
+    "Address": "泉林黄金小镇(悦泉湾别墅区)",
+    "ServiceTel": "电话021-80187829-3687055  ",
+    "Description": null,
+    "Price": 1052
+  },
+  {
+    "Name": "鹤山明星旅馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "沙坪镇新城路267号",
+    "ServiceTel": "电话0750-8902888  ",
+    "Description": null,
+    "Price": 80
+  },
+  {
+    "Name": "江门碧泉度假别墅",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门市恩平市良西镇学前北路良西中心小学附近恒大泉都碧泉八街",
+    "ServiceTel": "电话021-80187829-1853672  ",
+    "Description": null,
+    "Price": 2562
+  },
+  {
+    "Name": "江门上川岛川邮公寓(上川大道分店)",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门台山市上川岛飞沙滩旅游区-泳区35-36号川邮追风轩",
+    "ServiceTel": "电话021-80187829-1865082  ",
+    "Description": null,
+    "Price": 1573
+  },
+  {
+    "Name": "江门恩平恒大泉都现代风高端温泉别墅",
+    "Grade": "",
+    "Distract": "",
+    "Address": "恒大泉都途家公寓酒店",
+    "ServiceTel": "电话021-80187829-5869802  ",
+    "Description": null,
+    "Price": 3862
+  },
+  {
+    "Name": "江门温馨小家203公寓",
+    "Grade": "",
+    "Distract": "",
+    "Address": "开平·中颐海伦堡(西北)",
+    "ServiceTel": "电话021-80187829-5555411  ",
+    "Description": null,
+    "Price": 672
+  },
+  {
+    "Name": "江门Ming公寓",
+    "Grade": "",
+    "Distract": "",
+    "Address": "鹤山骏景湾畔山庭小区",
+    "ServiceTel": "电话021-80187829-5893056  ",
+    "Description": null,
+    "Price": 298
+  },
+  {
+    "Name": "江门恩平市锦江国际新城公寓(泉林度假乐园分店)",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门恩平市泉林黄金小镇(悦泉湾)",
+    "ServiceTel": "电话021-80187829-38079  ",
+    "Description": null,
+    "Price": 700
+  },
+  {
+    "Name": "江门开心之旅哈哈度假别墅",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门恩平市恒大泉都",
+    "ServiceTel": "电话021-80187829-5850699  ",
+    "Description": null,
+    "Price": 11649
+  },
+  {
+    "Name": "江门上川岛濠澋度假民宿",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门台山市濠澋度假民宿",
+    "ServiceTel": "电话021-80187829-4567935  ",
+    "Description": null,
+    "Price": 383
+  },
+  {
+    "Name": "江门可煮饭民宿",
+    "Grade": "",
+    "Distract": "",
+    "Address": "骏景湾豪庭",
+    "ServiceTel": "电话021-80187829-5608786  ",
+    "Description": null,
+    "Price": 353
+  },
+  {
+    "Name": "江门老树下度假别墅",
+    "Grade": "",
+    "Distract": "",
+    "Address": "沙塘村",
+    "ServiceTel": "电话021-80187829-5435718  ",
+    "Description": null,
+    "Price": 2965
+  },
+  {
+    "Name": "江门Cheng艺度假别墅",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门台山市颐和温泉城大酒店M3",
+    "ServiceTel": "电话021-80187829-5902730  ",
+    "Description": null,
+    "Price": 5492
+  },
+  {
+    "Name": "江门信誉人生度假别墅(升平路分店)",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门恩平市恒大泉都",
+    "ServiceTel": "电话021-80187829-2289919  ",
+    "Description": null,
+    "Price": 2294
+  },
+  {
+    "Name": "江门苏宜公寓",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门恩平市恩平泉林路泉林黄金小镇·华侨公馆二期(2幢)",
+    "ServiceTel": "电话021-80187829-1023506  ",
+    "Description": null,
+    "Price": 320
+  },
+  {
+    "Name": "江门喜遇温泉度假别墅(恩平恒大泉都店)",
+    "Grade": "",
+    "Distract": "",
+    "Address": "广东江门恩平市恒大泉都八街(学前北路)",
+    "ServiceTel": "电话021-80187829-2862869  ",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "江门Cheng艺度假别墅(温泉圩直街分店)",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门市台山市温泉圩直街S367(温泉圩E7)",
+    "ServiceTel": "电话15918717773  ",
+    "Description": null,
+    "Price": 2501
+  },
+  {
+    "Name": "江门种草莓的星星公寓",
+    "Grade": "",
+    "Distract": "",
+    "Address": "沙坪街道(十里方圆大雅雅致居)",
+    "ServiceTel": "电话021-80187829-6619068  ",
+    "Description": null,
+    "Price": 663
+  },
+  {
+    "Name": "江门信誉人生度假别墅",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门恩平市江门恩平恒大泉都温泉别墅",
+    "ServiceTel": "电话021-80187829-2289919  ",
+    "Description": null,
+    "Price": 5436
+  },
+  {
+    "Name": "江门洋海度假旅游别墅(学前北路分店)",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门恩平市学前北路恒大泉都(1号)",
+    "ServiceTel": "电话13922295038  ",
+    "Description": null,
+    "Price": 1643
+  },
+  {
+    "Name": "江门温馨满屋哈哈度假别墅",
+    "Grade": "",
+    "Distract": "",
+    "Address": "恩平海泉时光度假公寓酒店(恒大泉都店)(距离市中心公里，交通方便)",
+    "ServiceTel": "电话021-80187829-6011671  ",
+    "Description": null,
+    "Price": 3171
+  },
+  {
+    "Name": "江门123旅游度假别墅(学前北路分店)",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门恩平市江门恩平恒大泉都温泉别墅",
+    "ServiceTel": "电话021-80187829-1020257  ",
+    "Description": null,
+    "Price": 1530
+  },
+  {
+    "Name": "江门Ting婷公寓",
+    "Grade": "",
+    "Distract": "",
+    "Address": "泉林黄金小镇",
+    "ServiceTel": "电话021-80187829-4292737  ",
+    "Description": null,
+    "Price": 839
+  },
+  {
+    "Name": "江门悦客の家度假别墅",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门恩平市江门恩平恒大泉都温泉别墅",
+    "ServiceTel": "电话021-80187829-5999652  ",
+    "Description": null,
+    "Price": 2755
+  },
+  {
+    "Name": "江门小马欢腾度假别墅",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门恩平市良西镇",
+    "ServiceTel": "电话021-80187829-7048371  ",
+    "Description": null,
+    "Price": 4506
+  },
+  {
+    "Name": "江门AVIVA民宿(2号店)",
+    "Grade": "",
+    "Distract": "",
+    "Address": "恩城街道(泉林黄金小镇景点内)",
+    "ServiceTel": "电话021-80187829-6999525  ",
+    "Description": null,
+    "Price": 341
+  },
+  {
+    "Name": "江门芒果优房度假别墅(学前北路分店)",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门恩平市江门恩平恒大泉都温泉别墅",
+    "ServiceTel": "电话021-80187829-1707841  ",
+    "Description": null,
+    "Price": 1530
+  },
+  {
+    "Name": "江门123旅游度假别墅",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门恩平市趣墅恩平山泉湾温泉度假别墅(别墅)",
+    "ServiceTel": "电话021-80187829-1020257  ",
+    "Description": null,
+    "Price": 2549
+  },
+  {
+    "Name": "江门恒大泉都李小姐度假别墅(2号店)",
+    "Grade": "",
+    "Distract": "",
+    "Address": "恒大泉都温泉别墅",
+    "ServiceTel": "电话021-80187829-182530  ",
+    "Description": null,
+    "Price": 2933
+  },
+  {
+    "Name": "江门甄生公寓(4号店)",
+    "Grade": "",
+    "Distract": "",
+    "Address": "三江大道",
+    "ServiceTel": "电话021-80187829-3791453  ",
+    "Description": null,
+    "Price": 2417
+  },
+  {
+    "Name": "江门恒大泉都温泉别墅(3号店)",
+    "Grade": "",
+    "Distract": "",
+    "Address": "良西镇",
+    "ServiceTel": "电话021-80187829-4318056  ",
+    "Description": null,
+    "Price": 3839
+  },
+  {
+    "Name": "江门下川岛王府洲旅游区船家民宿",
+    "Grade": "",
+    "Distract": "",
+    "Address": "下川王府洲旅游区(近王府洲旅游区东北门100米)",
+    "ServiceTel": "电话021-80187829-4630571  ",
+    "Description": null,
+    "Price": 339
+  },
+  {
+    "Name": "江门泉都小郑公寓(8号店)",
+    "Grade": "",
+    "Distract": "",
+    "Address": "月泉街8栋(再往前走，月泉街13栋（贝尔幼儿园右前方）)",
+    "ServiceTel": "电话021-80187829-5554851  ",
+    "Description": null,
+    "Price": 547
+  },
+  {
+    "Name": "台山紫晶宫酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "台城桥湖路59号",
+    "ServiceTel": "电话0750-5617168  ",
+    "Description": null,
+    "Price": 86
+  },
+  {
+    "Name": "江门亲子度假屋公寓",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门恩平市东成镇",
+    "ServiceTel": "电话021-80187829-6629904  ",
+    "Description": null,
+    "Price": 811
+  },
+  {
+    "Name": "江门Cheng艺公寓(同乐路分店)",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门台山市三合镇S367(同乐路)",
+    "ServiceTel": "电话021-80187829-5902730  ",
+    "Description": null,
+    "Price": 417
+  },
+  {
+    "Name": "台山伟雄度假屋",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "浪琴湾沙滩上行100米处",
+    "ServiceTel": "电话13702212909  ",
+    "Description": null,
+    "Price": 162
+  },
+  {
+    "Name": "江门台山爱琴海民宿",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门台山市北陡镇尾角村",
+    "ServiceTel": "电话021-80187829-4457013  ",
+    "Description": null,
+    "Price": 161
+  },
+  {
+    "Name": "江门台山特色洋楼民宿",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门台山市台山市四九镇玄谭村民委员会永兴街128号北50米",
+    "ServiceTel": "电话15220785607  ",
+    "Description": null,
+    "Price": 1002
+  },
+  {
+    "Name": "江门广视公寓",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门开平市长沙区三埠西郊路2号广视公寓",
+    "ServiceTel": "电话021-80187829-6271784  ",
+    "Description": null,
+    "Price": 110
+  },
+  {
+    "Name": "台山君悦公寓",
+    "Grade": "",
+    "Distract": "",
+    "Address": "岑边村2号",
+    "ServiceTel": "电话0750-5578128  ",
+    "Description": null,
+    "Price": 92
+  },
+  {
+    "Name": "江门鲶鱼十六团客栈",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门台山市鲇鱼村文化",
+    "ServiceTel": "电话021-80187829-6272827  ",
+    "Description": null,
+    "Price": 222
+  },
+  {
+    "Name": "江门AVIVA民宿(3号店)",
+    "Grade": "",
+    "Distract": "",
+    "Address": "恩城街道",
+    "ServiceTel": "电话021-80187829-6999525  ",
+    "Description": null,
+    "Price": 354
+  },
+  {
+    "Name": "江门广州丽豪度假别墅(3号店)",
+    "Grade": "",
+    "Distract": "",
+    "Address": "恒大泉都",
+    "ServiceTel": "电话021-80187829-5095336  ",
+    "Description": null,
+    "Price": 7062
+  },
+  {
+    "Name": "江门升旅度假别墅(学前北路分店)",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门恩平市良西镇学前北路恒大泉都",
+    "ServiceTel": "电话021-80187829-5852890  ",
+    "Description": null,
+    "Price": 1907
+  },
+  {
+    "Name": "台山金海湾度假屋",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "北陡镇沙咀村109号",
+    "ServiceTel": "电话-13356430336  ",
+    "Description": null,
+    "Price": 172
+  },
+  {
+    "Name": "江门大宏先生公寓",
+    "Grade": "",
+    "Distract": "",
+    "Address": "泉林黄金小镇",
+    "ServiceTel": "电话021-80187829-5959178  ",
+    "Description": null,
+    "Price": 741
+  },
+  {
+    "Name": "江门途乐度假民宿(学前北路分店)",
+    "Grade": "",
+    "Distract": "",
+    "Address": "广东省江门市恩平市学前北路恒大泉都",
+    "ServiceTel": "电话021-80187829-1772752  ",
+    "Description": null,
+    "Price": 1536
+  },
+  {
+    "Name": "江门恩平泉林黄金小镇中空别墅求婚结婚聚会(2号店)",
+    "Grade": "",
+    "Distract": "",
+    "Address": "泉林黄金小镇(上了大斜坡转左，见到环岛转左)",
+    "ServiceTel": "电话021-80187829-5682090  ",
+    "Description": null,
+    "Price": 1947
+  },
+  {
+    "Name": "江门SZ旅游之家度假民宿（恒大泉都碧街分店）",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门市恩平市恒大泉都碧街8街19号",
+    "ServiceTel": "电话021-80187829-2829493  ",
+    "Description": null,
+    "Price": 7001
+  },
+  {
+    "Name": "台山台城鑫发酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "台城富城大道126号",
+    "ServiceTel": "电话0750-5580222  ",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "江门马小姐公寓(5号店)",
+    "Grade": "",
+    "Distract": "",
+    "Address": "宏发粥粉面",
+    "ServiceTel": "电话021-80187829-3830317  ",
+    "Description": null,
+    "Price": 250
+  },
+  {
+    "Name": "江门梨果公寓",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门恩平市恒大泉都(月泉街4幢)",
+    "ServiceTel": "电话13632678993  ",
+    "Description": null,
+    "Price": 477
+  },
+  {
+    "Name": "江门泉都小郑公寓(3号店)",
+    "Grade": "",
+    "Distract": "",
+    "Address": "月泉街(再往前走，月泉街（贝尔幼儿园右前方）)",
+    "ServiceTel": "电话021-80187829-5554851  ",
+    "Description": null,
+    "Price": 537
+  },
+  {
+    "Name": "开平新景旅馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "华龙路3-9号",
+    "ServiceTel": "电话0750-2739889  ",
+    "Description": null,
+    "Price": 76
+  },
+  {
+    "Name": "台山天岭商务酒店",
+    "Grade": "",
+    "Distract": "",
+    "Address": "环城南路138号天岭购物广场4层",
+    "ServiceTel": "电话0750-5959999  ",
+    "Description": null,
+    "Price": 169
+  },
+  {
+    "Name": "江门恩平泉林两居公寓.静舍",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门恩平市泉林黄金小镇",
+    "ServiceTel": "电话021-80187829-6744823  ",
+    "Description": null,
+    "Price": 484
+  },
+  {
+    "Name": "江门orze公寓",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门恩平市恩平泉林华侨公馆二期2栋",
+    "ServiceTel": "电话021-80187829-6762288  ",
+    "Description": null,
+    "Price": 510
+  },
+  {
+    "Name": "江门山水间特色民宿",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门台山市三合镇温泉墟江门神川休闲山庄",
+    "ServiceTel": "电话15220785607  ",
+    "Description": null,
+    "Price": 447
+  },
+  {
+    "Name": "江门原舍洋楼民宿(岑村分店)",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门台山市四九镇大塘村民委员会",
+    "ServiceTel": "电话021-80187829-4091270  ",
+    "Description": null,
+    "Price": 546
+  },
+  {
+    "Name": "江门coffee公寓",
+    "Grade": "",
+    "Distract": "",
+    "Address": "开平·中颐海伦堡(海伦堡)",
+    "ServiceTel": "电话021-80187829-7305642  ",
+    "Description": null,
+    "Price": 568
+  },
+  {
+    "Name": "鹤山新悦旅馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "鹤山市沙坪镇银行路6号",
+    "ServiceTel": "电话0750-8411638  ",
+    "Description": null,
+    "Price": 104
+  },
+  {
+    "Name": "江门陈伟强公寓(2号店)",
+    "Grade": "",
+    "Distract": "",
+    "Address": "美嘉华庭(东南门)",
+    "ServiceTel": "电话021-80187829-7038718  ",
+    "Description": null,
+    "Price": 199
+  },
+  {
+    "Name": "江门简先生Nick度假别墅",
+    "Grade": "",
+    "Distract": "",
+    "Address": "恒大泉都(沈海高速开阳段圣堂出口右转直行3km处恒大泉都)",
+    "ServiceTel": "电话021-80187829-1002531  ",
+    "Description": null,
+    "Price": 3422
+  },
+  {
+    "Name": "江门Lucky～度假别墅",
+    "Grade": "",
+    "Distract": "",
+    "Address": "良西镇(恒大泉都)",
+    "ServiceTel": "电话021-80187829-1974170  ",
+    "Description": null,
+    "Price": 2791
+  },
+  {
+    "Name": "江门多娜娜度假别墅",
+    "Grade": "",
+    "Distract": "",
+    "Address": "泉林黄金小镇",
+    "ServiceTel": "电话021-80187829-3278570  ",
+    "Description": null,
+    "Price": 2044
+  },
+  {
+    "Name": "江门泉林黄金小镇优雅居公寓",
+    "Grade": "",
+    "Distract": "",
+    "Address": "万亩泉林度假区(悦湖湾)",
+    "ServiceTel": "电话021-80187829-5496289  ",
+    "Description": null,
+    "Price": 390
+  },
+  {
+    "Name": "江门民宿旅",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门恩平市凯旋花园",
+    "ServiceTel": "电话15602880311  ",
+    "Description": null,
+    "Price": 283
+  },
+  {
+    "Name": "江门花洒哥公寓(雁山大道分店)",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门鹤山市沙坪街道雁山大道",
+    "ServiceTel": "电话021-80187829-4398976  ",
+    "Description": null,
+    "Price": 551
+  },
+  {
+    "Name": "江门海景楼民宿",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门台山市北陡镇那琴村委会石山村",
+    "ServiceTel": "电话021-80187829-4419234  ",
+    "Description": null,
+    "Price": 358
+  },
+  {
+    "Name": "江门恒大泉都四叶草别墅（公寓）(升平路分店)",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门恩平市良西镇",
+    "ServiceTel": "电话021-80187829-2823459  ",
+    "Description": null,
+    "Price": 454
+  },
+  {
+    "Name": "江门艺术驿站特色民宿(园美村分店)",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门台山市都斛镇大塘村(大塘艺术驿站)",
+    "ServiceTel": "电话15220785607  ",
+    "Description": null,
+    "Price": 1027
+  },
+  {
+    "Name": "开平金都酒店",
+    "Grade": "",
+    "Distract": "",
+    "Address": "开平市幕桥西路金都花园东区3栋204",
+    "ServiceTel": "电话0750-2339922  ",
+    "Description": null,
+    "Price": 100
+  },
+  {
+    "Name": "江门爱旅途温泉假日公寓(学前北路分店)",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门恩平学前北路29号良西中心小学附近恒大泉都别墅228号",
+    "ServiceTel": "电话021-80187829-5905642  ",
+    "Description": null,
+    "Price": 1761
+  },
+  {
+    "Name": "江门锦江国际广场中心公寓",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门市恩平市锦江大道东6号",
+    "ServiceTel": "电话021-80187829-3574768  ",
+    "Description": null,
+    "Price": 307
+  },
+  {
+    "Name": "江门SZ旅游之家度假别墅",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门恩平市恩平山泉湾温泉度假别墅",
+    "ServiceTel": "电话021-80187829-2829493  ",
+    "Description": null,
+    "Price": 7504
+  },
+  {
+    "Name": "江门别墅自驾游(30号店)",
+    "Grade": "",
+    "Distract": "",
+    "Address": "恒大泉都",
+    "ServiceTel": "电话021-80187829-5423566  ",
+    "Description": null,
+    "Price": 1680
+  },
+  {
+    "Name": "江门泉都小郑公寓(6号店)",
+    "Grade": "",
+    "Distract": "",
+    "Address": "月泉街(再往前走，月泉街（贝尔幼儿园左前方）)",
+    "ServiceTel": "电话021-80187829-5554851  ",
+    "Description": null,
+    "Price": 380
+  },
+  {
+    "Name": "江门山水间特色民宿(车朗村分店)",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门台山市四九镇(北盛街与河北路交叉口北200米玄谭村民委员会附近)",
+    "ServiceTel": "电话15220785607  ",
+    "Description": null,
+    "Price": 664
+  },
+  {
+    "Name": "江门黄金小镇泉林·晴心小筑",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门恩平市恩平泉林黄金小镇·华侨公馆二期(万亩山湖翠湖街)",
+    "ServiceTel": "电话13822367680  ",
+    "Description": null,
+    "Price": 299
+  },
+  {
+    "Name": "江门丽海湾娱乐城宾馆",
+    "Grade": "",
+    "Distract": "",
+    "Address": "台山市下川岛王府洲旅游区",
+    "ServiceTel": "电话0750-5756188  ",
+    "Description": null,
+    "Price": 141
+  },
+  {
+    "Name": "恩平金逸酒店",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门恩平市南堤路1号",
+    "ServiceTel": "电话0750-7922133  ",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "江门刘娅22公寓",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门台山市嘉旺国际公馆",
+    "ServiceTel": "电话021-80187829-5706947  ",
+    "Description": null,
+    "Price": 337
+  },
+  {
+    "Name": "鹤山康怡宾馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "前进南路246号",
+    "ServiceTel": "电话0750-8899866  ",
+    "Description": null,
+    "Price": 106
+  },
+  {
+    "Name": "江门乐途之旅公寓(2号店)",
+    "Grade": "",
+    "Distract": "",
+    "Address": "恩平恒大泉都温泉别墅",
+    "ServiceTel": "电话021-80187829-94384  ",
+    "Description": null,
+    "Price": 395
+  },
+  {
+    "Name": "台山明惠住宿",
+    "Grade": "",
+    "Distract": "",
+    "Address": "铜鼓钦头村6号",
+    "ServiceTel": "电话13664932452  ",
+    "Description": null,
+    "Price": 176
+  },
+  {
+    "Name": "江门黄锦培公寓",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门鹤山市沙坪街道中山路2号",
+    "ServiceTel": "电话021-80187829-7513409  ",
+    "Description": null,
+    "Price": 57
+  },
+  {
+    "Name": "台山浪琴湾雅轩度假屋",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "台山市北陡镇那琴浪琴湾度假村（石山村）",
+    "ServiceTel": "电话0750-5781238  ",
+    "Description": null,
+    "Price": 164
+  },
+  {
+    "Name": "开平宝源旅业",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "宝源花园29幢D区105号",
+    "ServiceTel": "电话0750-2330520  ",
+    "Description": null,
+    "Price": 102
+  },
+  {
+    "Name": "台山星晖海景酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "上川岛三洲海滨路22号之一",
+    "ServiceTel": "电话0750-5395182 传真--  ",
+    "Description": null,
+    "Price": 148
+  },
+  {
+    "Name": "鹤山大众宾馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "沙坪镇街道新华路1号",
+    "ServiceTel": "电话0750-8898851  ",
+    "Description": null,
+    "Price": 75
+  },
+  {
+    "Name": "恩平市爱旅行度假公寓",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "良西镇泉都大道东一号恒大泉都月泉街2幢102房",
+    "ServiceTel": "电话17363228989  ",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "台山渔悦阁旅店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "下川联南湾村112号之二",
+    "ServiceTel": "电话18813477866 传真--  ",
+    "Description": null,
+    "Price": 132
+  },
+  {
+    "Name": "江门鹤山国尚酒店",
+    "Grade": "高档型",
+    "Distract": "",
+    "Address": "沙坪镇新业路1430号",
+    "ServiceTel": "电话0750-8532333 传真0750-8532323  ",
+    "Description": null,
+    "Price": 409
+  },
+  {
+    "Name": "江门江海智选假日酒店",
+    "Grade": "商务型酒店",
+    "Distract": "",
+    "Address": "",
+    "ServiceTel": "0750-8229888",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "江门华美宾馆",
+    "Grade": "经济型",
+    "Distract": "新会区",
+    "Address": "新会区朱紫路62号",
+    "ServiceTel": "电话0750-6822009  ",
+    "Description": null,
+    "Price": 97
+  },
+  {
+    "Name": "江门华天公寓",
+    "Grade": "",
+    "Distract": "江海区",
+    "Address": "礼乐镇新民村聚安里347号",
+    "ServiceTel": "电话0750-3633909  ",
+    "Description": null,
+    "Price": 117
+  },
+  {
+    "Name": "江门塞外丽人特色民宿",
+    "Grade": "",
+    "Distract": "",
+    "Address": "江门台山市三合温泉",
+    "ServiceTel": "电话021-80187829-6311278  ",
+    "Description": null,
+    "Price": 1032
+  },
+  {
+    "Name": "江门御都酒店",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "鹤山市鹤山大道1098号汽车总站内",
+    "ServiceTel": "电话0750-8933988  ",
+    "Description": null,
+    "Price": 108
+  },
+  {
+    "Name": "江门新会圭峰大酒店",
+    "Grade": "舒适型",
+    "Distract": "新会区",
+    "Address": "知政北路商业大厦6-20楼",
+    "ServiceTel": "电话0750-6610888 传真0750-2630008  ",
+    "Description": null,
+    "Price": 267
+  },
+  {
+    "Name": "江门新会家城宾馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "江门新会区冈州大道中49号（新会第二人民医院斜对面）",
+    "ServiceTel": "电话0750-6966088  ",
+    "Description": null,
+    "Price": 119
+  },
+  {
+    "Name": "开平名城宾馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "幕沙路112号",
+    "ServiceTel": "电话0750-2288333  ",
+    "Description": null,
+    "Price": 57
+  },
+  {
+    "Name": "台山晟海商务宾馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "川岛旅游景区上川岛三洲港码头东50米",
+    "ServiceTel": "电话0750-5399504  ",
+    "Description": null,
+    "Price": 128
+  },
+  {
+    "Name": "台山台城新金源酒店",
+    "Grade": "舒适型",
+    "Distract": "",
+    "Address": "环市西路怡景花园35号",
+    "ServiceTel": "电话0750-8538888 传真0750-5963382  ",
+    "Description": null,
+    "Price": 306
+  },
+  {
+    "Name": "台山浪美楼宾馆",
+    "Grade": "经济型",
+    "Distract": "",
+    "Address": "台山市北陡镇浪琴湾石山村174号",
+    "ServiceTel": "电话0750-5782565  ",
+    "Description": null,
+    "Price": 143
+  },
+  {
+    "Name": "佳源帝都温泉度假酒店",
+    "Grade": "",
+    "Distract": "",
+    "Address": "",
+    "ServiceTel": "0750-7396666",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "鹤山市碧桂园凤凰酒店有限公司",
+    "Grade": "五星",
+    "Distract": "",
+    "Address": "",
+    "ServiceTel": "0750-8866388",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "鹤山市叠翠山庄有限公司",
+    "Grade": "三星",
+    "Distract": "",
+    "Address": "",
+    "ServiceTel": "0750-8877088、7358088",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "鹤山市宅梧镇\n行者龙居",
+    "Grade": "",
+    "Distract": "",
+    "Address": "",
+    "ServiceTel": "13802903163",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "江门侨都酒店商业管理有限公司江海分店",
+    "Grade": "无",
+    "Distract": "",
+    "Address": "",
+    "ServiceTel": "0750-3855888",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "江门市春华秋实酒店管理有限公司",
+    "Grade": "无",
+    "Distract": "",
+    "Address": "",
+    "ServiceTel": "0750-2633777",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "开平潭江半岛酒店有限公司",
+    "Grade": "五星级",
+    "Distract": "",
+    "Address": "",
+    "ServiceTel": "0750-2333333",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "开平市三埠区雅致酒店",
+    "Grade": "三星",
+    "Distract": "",
+    "Address": "",
+    "ServiceTel": "0750-2290788",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "新会龙泉度假酒店",
+    "Grade": "四星级",
+    "Distract": "",
+    "Address": "",
+    "ServiceTel": "0750-6182222",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "新会冈州酒店",
+    "Grade": "三星级",
+    "Distract": "",
+    "Address": "",
+    "ServiceTel": "0750-6178888",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "新金田酒店",
+    "Grade": "三星级",
+    "Distract": "",
+    "Address": "",
+    "ServiceTel": "0750-6622808",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "新会碧桂园凤凰酒店",
+    "Grade": "",
+    "Distract": "",
+    "Address": "",
+    "ServiceTel": "0750-6629888",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "新会御景酒店",
+    "Grade": "",
+    "Distract": "",
+    "Address": "",
+    "ServiceTel": "0750-6176666",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "新会圭峰大酒店",
+    "Grade": "",
+    "Distract": "",
+    "Address": "",
+    "ServiceTel": "0750-6610888",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "新会迎宾馆",
+    "Grade": "",
+    "Distract": "",
+    "Address": "",
+    "ServiceTel": "0750-6622222",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "新会天悦酒店",
+    "Grade": "",
+    "Distract": "",
+    "Address": "",
+    "ServiceTel": "0750-6166888",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "新会爱依华酒店",
+    "Grade": "",
+    "Distract": "",
+    "Address": "",
+    "ServiceTel": "0750-6702222",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "新会陈皮红木酒店",
+    "Grade": "",
+    "Distract": "",
+    "Address": "",
+    "ServiceTel": "0750-6638666",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "新会伽澜湾精品酒店",
+    "Grade": "",
+    "Distract": "",
+    "Address": "",
+    "ServiceTel": "0750-6262888",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "新会时代城酒店",
+    "Grade": "",
+    "Distract": "",
+    "Address": "",
+    "ServiceTel": "0750-6101111",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "新会中天酒店",
+    "Grade": "",
+    "Distract": "",
+    "Address": "",
+    "ServiceTel": "0750-6786666",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "新会石板沙时光民宿",
+    "Grade": "",
+    "Distract": "",
+    "Address": "",
+    "ServiceTel": "0750-6532472",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "新会石涧故事民宿",
+    "Grade": "",
+    "Distract": "",
+    "Address": "",
+    "ServiceTel": "",
+    "Description": null,
+    "Price": 0
+  },
+  {
+    "Name": "恩平市田野农庄民宿",
+    "Grade": "",
+    "Distract": "",
+    "Address": "",
+    "ServiceTel": "7507779117",
+    "Description": null,
+    "Price": 0
+  }
+]

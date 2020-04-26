@@ -5064,18 +5064,6 @@
     "TrafficGuide": ""
   },
   {
-    "Name": "B10现场",
-    "Type": "",
-    "ALevel": "",
-    "Address": "深圳市南山区华侨城创意文化园北区B10栋北侧",
-    "Description": "",
-    "TicketPrice": 0.0,
-    "OpenTime": "根据演出时间而定，详情可咨询主办方。",
-    "ServiceTel": "0755-86337602",
-    "IssueTel": "0755-86337602",
-    "TrafficGuide": ""
-  },
-  {
     "Name": "西乡商业步行街",
     "Type": "",
     "ALevel": "",
@@ -5085,18 +5073,6 @@
     "OpenTime": "全天开放",
     "ServiceTel": "0755-27955555",
     "IssueTel": "0755-27955555",
-    "TrafficGuide": ""
-  },
-  {
-    "Name": "凤凰生态农庄",
-    "Type": "",
-    "ALevel": "",
-    "Address": "腾丰东路7号",
-    "Description": "",
-    "TicketPrice": 0.0,
-    "OpenTime": "9:00-21:00",
-    "ServiceTel": "",
-    "IssueTel": "",
     "TrafficGuide": ""
   },
   {
@@ -5136,18 +5112,6 @@
     "TrafficGuide": "公交104路、101路、M203路至动物园站下车后步行到达。"
   },
   {
-    "Name": "云高高尔夫学院",
-    "Type": "",
-    "ALevel": "",
-    "Address": "深圳市南山区西丽湖度假村内的紫荆高尔夫练习场2楼",
-    "Description": "",
-    "TicketPrice": 0.0,
-    "OpenTime": "9:00-19:00",
-    "ServiceTel": "4001850006",
-    "IssueTel": "4001850006",
-    "TrafficGuide": ""
-  },
-  {
     "Name": "兴围步行街",
     "Type": "",
     "ALevel": "",
@@ -5155,18 +5119,6 @@
     "Description": "",
     "TicketPrice": 0.0,
     "OpenTime": "全天开放",
-    "ServiceTel": "",
-    "IssueTel": "",
-    "TrafficGuide": ""
-  },
-  {
-    "Name": "文天祥纪念馆",
-    "Type": "",
-    "ALevel": "",
-    "Address": "广东省深圳市宝安区东方大道113附近",
-    "Description": "",
-    "TicketPrice": 0.0,
-    "OpenTime": "",
     "ServiceTel": "",
     "IssueTel": "",
     "TrafficGuide": ""
@@ -5220,18 +5172,6 @@
     "TrafficGuide": ""
   },
   {
-    "Name": "女娲补天",
-    "Type": "",
-    "ALevel": "",
-    "Address": "蛇口海上世界望海路",
-    "Description": "",
-    "TicketPrice": 0.0,
-    "OpenTime": "全天开放",
-    "ServiceTel": "0755-26890000",
-    "IssueTel": "0755-26890000",
-    "TrafficGuide": ""
-  },
-  {
     "Name": "深圳（宝安）劳务工博物馆",
     "Type": "",
     "ALevel": "",
@@ -5239,18 +5179,6 @@
     "Description": "",
     "TicketPrice": 0.0,
     "OpenTime": "",
-    "ServiceTel": "",
-    "IssueTel": "",
-    "TrafficGuide": ""
-  },
-  {
-    "Name": "ACU全接触联盟",
-    "Type": "",
-    "ALevel": "",
-    "Address": "深圳市福田区东园路1号东园大厦3楼格斗运动馆",
-    "Description": "",
-    "TicketPrice": 0.0,
-    "OpenTime": "10:00-22:00",
     "ServiceTel": "",
     "IssueTel": "",
     "TrafficGuide": ""
@@ -5277,18 +5205,6 @@
     "OpenTime": "10：-12:00",
     "ServiceTel": "0755-27128611",
     "IssueTel": "0755-27128611",
-    "TrafficGuide": ""
-  },
-  {
-    "Name": "大芬油画村天逸墙绘",
-    "Type": "",
-    "ALevel": "",
-    "Address": "布吉大芬油画村(大芬公交站台)",
-    "Description": "",
-    "TicketPrice": 0.0,
-    "OpenTime": "早上9点到晚上11点",
-    "ServiceTel": "13715202209",
-    "IssueTel": "13715202209",
     "TrafficGuide": ""
   },
   {
@@ -5364,18 +5280,6 @@
     "TrafficGuide": ""
   },
   {
-    "Name": "深圳市摇摇乐儿童游乐园",
-    "Type": "",
-    "ALevel": "",
-    "Address": "长龙路2号附近",
-    "Description": "",
-    "TicketPrice": 0.0,
-    "OpenTime": "",
-    "ServiceTel": "",
-    "IssueTel": "",
-    "TrafficGuide": ""
-  },
-  {
     "Name": "YY真人密室逃脱",
     "Type": "",
     "ALevel": "",
@@ -5385,18 +5289,6 @@
     "OpenTime": "10:00-23:00 周一至周日",
     "ServiceTel": "15625294571,18607948352",
     "IssueTel": "15625294571,18607948352",
-    "TrafficGuide": ""
-  },
-  {
-    "Name": "1979文化生活新天地",
-    "Type": "",
-    "ALevel": "",
-    "Address": "侨香路1015号",
-    "Description": "",
-    "TicketPrice": 0.0,
-    "OpenTime": "",
-    "ServiceTel": "",
-    "IssueTel": "",
     "TrafficGuide": ""
   },
   {
@@ -5484,18 +5376,6 @@
     "TrafficGuide": ""
   },
   {
-    "Name": "立新水库",
-    "Type": "",
-    "ALevel": "",
-    "Address": "深圳市宝安区福永立新水库(稔山二路南300米)",
-    "Description": "",
-    "TicketPrice": 0.0,
-    "OpenTime": "",
-    "ServiceTel": "",
-    "IssueTel": "",
-    "TrafficGuide": ""
-  },
-  {
     "Name": "杨梅坑山海天然潭娱乐农庄",
     "Type": "",
     "ALevel": "",
@@ -5553,18 +5433,6 @@
     "OpenTime": "9:00-16:30",
     "ServiceTel": "13537552426,18824264155",
     "IssueTel": "13537552426,18824264155",
-    "TrafficGuide": ""
-  },
-  {
-    "Name": "深圳失恋博物馆（东门老街旗舰店）",
-    "Type": "",
-    "ALevel": "",
-    "Address": "深圳市罗湖区东门太阳广场太阳百货3楼",
-    "Description": "",
-    "TicketPrice": 26.9,
-    "OpenTime": "暂停营业",
-    "ServiceTel": "",
-    "IssueTel": "",
     "TrafficGuide": ""
   },
   {

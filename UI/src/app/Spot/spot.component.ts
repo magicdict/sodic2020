@@ -1,11 +1,21 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
-import { AppService, GradeASpot } from '../app-service';
+import { AppService, SpotInfo } from '../app-service';
+import { Location } from '@angular/common';
 
 @Component({
   templateUrl: './spot.component.html',
 })
 export class SpotComponent {
-  constructor(private router: Router, public appservice: AppService) {
+  constructor(public appservice: AppService,
+    private _location: Location) {
+    this.showItem = this.appservice.SpotList_SZ;
+  }
+  showItem: SpotInfo[];
+  Search(key: string) {
+    this.showItem = this.appservice.SearchSpot(key);
+    console.log(this.showItem);
+  }
+  Return() {
+    this._location.back();
   }
 }

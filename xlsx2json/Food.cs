@@ -4,8 +4,9 @@ using System.IO;
 using Newtonsoft.Json;
 using NPOI.XSSF.UserModel;
 using NPOI.SS.UserModel;
+using System.Diagnostics.CodeAnalysis;
 
-public class 特色美食信息
+public class 特色美食信息 : IEqualityComparer<特色美食信息>
 {
     public string Name { get; set; }
 
@@ -68,6 +69,7 @@ public class 特色美食信息
         }
         templetefs.Close();
 
+        records = records.Distinct(new 特色美食信息()).ToList();
         string json = JsonConvert.SerializeObject(records, Formatting.Indented);
         using (var sw = new StreamWriter(jsonFilename, false))
         {
@@ -102,4 +104,15 @@ public class 特色美食信息
         System.Console.WriteLine("平均消费:" + PriceAvg);
     }
 
+
+
+    public bool Equals([AllowNull] 特色美食信息 x, [AllowNull] 特色美食信息 y)
+    {
+        return x.Name.Equals(y.Name) && x.Address.Equals(y.Address);
+    }
+
+    public int GetHashCode([DisallowNull] 特色美食信息 obj)
+    {
+        return obj.Name.GetHashCode();
+    }
 }

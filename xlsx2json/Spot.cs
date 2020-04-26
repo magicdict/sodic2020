@@ -4,8 +4,9 @@ using System.IO;
 using Newtonsoft.Json;
 using NPOI.XSSF.UserModel;
 using NPOI.SS.UserModel;
+using System.Diagnostics.CodeAnalysis;
 
-public class 旅游景点信息
+public class 旅游景点信息 : IEqualityComparer<旅游景点信息>
 {
     public string Name { get; set; }
 
@@ -94,7 +95,7 @@ public class 旅游景点信息
             records.Add(r);
         }
         templetefs.Close();
-
+        records = records.Distinct(new 旅游景点信息()).ToList();
         string json = JsonConvert.SerializeObject(records, Formatting.Indented);
         using (var sw = new StreamWriter(jsonFilename, false))
         {
@@ -103,4 +104,13 @@ public class 旅游景点信息
         }
     }
 
+    public bool Equals([AllowNull] 旅游景点信息 x, [AllowNull] 旅游景点信息 y)
+    {
+        return x.Name.Equals(y.Name) && x.Address.Equals(y.Address);
+    }
+
+    public int GetHashCode([DisallowNull] 旅游景点信息 obj)
+    {
+        return obj.Name.GetHashCode();
+    }
 }
