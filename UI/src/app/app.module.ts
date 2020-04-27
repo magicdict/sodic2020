@@ -12,6 +12,8 @@ import { AppService } from './app-service';
 import { LoginComponent } from './login/login.component';
 import { SpotDetailComponent } from './Spot/spotDetail.component';
 import { LazyLoadImageModule } from 'ng-lazyload-image';
+import { NgxEchartsModule } from 'ngx-echarts';
+import { ToolComponent } from './Tool/tool.component';
 
 @NgModule({
   declarations: [
@@ -23,13 +25,15 @@ import { LazyLoadImageModule } from 'ng-lazyload-image';
     SpotItemComponent,
     SpotDetailComponent,
     FoodComponent,
-    TrafficComponent
+    TrafficComponent,
+    ToolComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    LazyLoadImageModule
+    LazyLoadImageModule,
+    NgxEchartsModule
   ],
   providers: [AppService],
   bootstrap: [AppComponent]

@@ -1,3 +1,7 @@
 * {
     font-size: 12px;
   }
+
+.ec-extension-bmap {
+    height: 320px!important;
+}

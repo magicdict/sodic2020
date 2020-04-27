@@ -27,6 +27,11 @@ public class 旅游景点信息 : IEqualityComparer<旅游景点信息>
     public string IssueTel { get; set; }
 
     public string TrafficGuide { get; set; }
+
+    public double lat { get; set; }
+
+    public double lng { get; set; }
+
     public static void CreateSpot(string xlsxFilename, string jsonFilename)
     {
         var records = new List<旅游景点信息>();
@@ -96,6 +101,15 @@ public class 旅游景点信息 : IEqualityComparer<旅游景点信息>
         }
         templetefs.Close();
         records = records.Distinct(new 旅游景点信息()).ToList();
+
+        //GEO信息取得
+        foreach (var item in records)
+        {
+           var loc = BaiduApi.GetGeoInfo(item.Address);
+            item.lat = loc.lat;
+            item.lng = loc.lng;
+        }
+
         string json = JsonConvert.SerializeObject(records, Formatting.Indented);
         using (var sw = new StreamWriter(jsonFilename, false))
         {

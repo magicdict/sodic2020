@@ -1,3 +1,10 @@
 <div [ngStyle]="{'height':appservice.clientHeight + 'px','width':appservice.clientWidth + 'px'}">
-    {{this.SpotDetailInfo.Description}}
+    <div style="margin: 20px;">
+        <div *ngIf="this.SpotDetailInfo.Description">
+            {{this.SpotDetailInfo.Description}}
+        </div>
+        <div *ngIf="this.SpotDetailInfo.lat !== -1">
+            <echarts [options]="this.option"></echarts>
+        </div>
+    </div>
 </div>

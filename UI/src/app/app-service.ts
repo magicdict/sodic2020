@@ -50,6 +50,9 @@ export class AppService {
                 });
             }
         )
+
+        return;
+
         let spot_jm = this.http.get("assets/json/江门市旅游景点信息.json").toPromise().then(x => x as SpotInfo[]);
         spot_jm.then(
             r => {
@@ -132,28 +135,14 @@ export class AppService {
 
     /**美食检索 */
     SearchFood(key: string): FoodInfo[] {
-        return this.FoodList_SZ.filter(x => x.Item.filter(y => y.indexOf(key) !== -1).length !== 0).slice(0,100);
+        return this.FoodList_SZ.filter(x => x.Item.filter(y => y.indexOf(key) !== -1).length !== 0).slice(0, 100);
     }
 
     /**酒店检索 */
     SearchHotel(key: string): HotelInfo[] {
         if (key === "") return this.HotelList_RankStarOnly;
-        return this.HotelList_SZ.filter(x => x.Name.indexOf(key) !== -1).slice(0,100);
+        return this.HotelList_SZ.filter(x => x.Name.indexOf(key) !== -1).slice(0, 100);
     }
-}
-
-/**A级景区 */
-export interface GradeASpot {
-    ZLDJ: string;
-    AREA: string;
-    CONTECTPHONE: string;
-    DESCRIPTION: string;
-    ADDRESS: string;
-    CZ: string;
-    HTTP: string;
-    EMAIL: string;
-    //RECORDID: string;
-    NAME: string;
 }
 
 /**景区 */
@@ -168,6 +157,8 @@ export interface SpotInfo {
     ServiceTel: number;
     IssueTel: number;
     TrafficGuide: number;
+    lat: number;
+    lng: number;
 }
 
 /**美食 */
@@ -176,9 +167,11 @@ export interface FoodInfo {
     Address: string;
     Item: string[];
     Price: number;
+    lat: number;
+    lng: number;
 }
 
-/**美食 */
+/**宾馆酒店 */
 export interface HotelInfo {
     Name: string;
     Grade: string;
