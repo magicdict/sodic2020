@@ -8,7 +8,7 @@ import { Location } from '@angular/common';
 export class SpotComponent {
   constructor(public appservice: AppService,
     private _location: Location) {
-    this.showItem = this.appservice.SpotList_SZ;
+    this.showItem = this.appservice.SpotList_GradeAOnly;
   }
   showItem: SpotInfo[];
   Search(key: string) {

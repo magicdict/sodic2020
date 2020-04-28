@@ -20,7 +20,11 @@ public class 特色美食信息 : IEqualityComparer<特色美食信息>
 
     public double lng { get; set; }
 
-    public static void CreateFood(string xlsxFilename, string jsonFilename)
+    public List<string> Comments { get; set; }
+
+    public int CommentCount { get; set; }
+
+    public static List<特色美食信息> CreateFood(string xlsxFilename, string jsonFilename, List<特色美食评论> Comments)
     {
         var records = new List<特色美食信息>();
         var templetefs = new FileStream(xlsxFilename, FileMode.Open, FileAccess.Read);
@@ -73,12 +77,16 @@ public class 特色美食信息 : IEqualityComparer<特色美食信息>
         templetefs.Close();
 
         records = records.Distinct(new 特色美食信息()).ToList();
-        //GEO信息取得
+
         foreach (var item in records)
         {
+            //GEO信息取得
             var loc = BaiduApi.GetGeoInfo(item.Address);
             item.lat = loc.lat;
             item.lng = loc.lng;
+            //评论
+            var c = Comments.Where(x => x.Name == item.Name).FirstOrDefault();
+            if (c != null) { item.Comments = c.Comments; item.CommentCount = c.Comments.Count; }
         }
 
         string json = JsonConvert.SerializeObject(records, Formatting.Indented);
@@ -113,9 +121,9 @@ public class 特色美食信息 : IEqualityComparer<特色美食信息>
         //平均消费
         var PriceAvg = records.Where(x => x.Price != 0).Average(x => x.Price);
         System.Console.WriteLine("平均消费:" + PriceAvg);
+
+        return records;
     }
-
-
 
     public bool Equals([AllowNull] 特色美食信息 x, [AllowNull] 特色美食信息 y)
     {
@@ -126,4 +134,51 @@ public class 特色美食信息 : IEqualityComparer<特色美食信息>
     {
         return obj.Name.GetHashCode();
     }
+}
+
+/// <summary>
+/// 美食评论
+/// </summary>
+public class 特色美食评论
+{
+    public string Name { get; set; }
+
+    public List<string> Comments { get; set; }
+
+    public static List<特色美食评论> CreateFoodComment(string xlsxFilename, string jsonFilename)
+    {
+        var records = new List<特色美食评论>();
+        var templetefs = new FileStream(xlsxFilename, FileMode.Open, FileAccess.Read);
+        var hssfworkbook = new XSSFWorkbook(templetefs);
+        var sheet = hssfworkbook.GetSheetAt(0);
+        var rfirst = sheet.FirstRowNum;
+        var rlast = sheet.LastRowNum;
+        //去掉第一条
+        for (int i = 1; i < rlast; i++)
+        {
+            var row = sheet.GetRow(i);
+            var Name = row.GetCell(0).StringCellValue;
+            var Food = records.Where(x => x.Name == Name).FirstOrDefault();
+            if (Food == null)
+            {
+                var r = new 特色美食评论();
+                r.Name = Name;
+                r.Comments = new List<string>();
+                r.Comments.Add(row.GetCell(1).StringCellValue);
+                records.Add(r);
+            }
+            else
+            {
+                Food.Comments.Add(row.GetCell(1).StringCellValue);
+            }
+        }
+        /*         string json = JsonConvert.SerializeObject(records, Formatting.Indented);
+                using (var sw = new StreamWriter(jsonFilename, false))
+                {
+                    sw.Write(json);
+                    sw.Close();
+                } */
+        return records;
+    }
+
 }

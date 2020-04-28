@@ -19,12 +19,15 @@ export class AppService {
 
 
     //系统数据
-    SpotList_SZ: SpotInfo[] = [];
-    SpotList_JM: SpotInfo[] = [];
-    SpotList_GradeAOnly: SpotInfo[] = [];
+    IsLoadSpotFinished = false;
+    IsLoadFoodFinished = false;
 
-    FoodList_SZ: FoodInfo[] = [];
-    FoodList_JM: FoodInfo[] = [];
+    get IsLoadFinish(){
+        return this.IsLoadFoodFinished && this.IsLoadSpotFinished;
+    }
+
+    SpotList_GradeAOnly: SpotInfo[] = [];
+    FoodList_Hot: FoodInfo[] = [];
 
     HotelList_SZ: HotelInfo[] = [];
     HotelList_JM: HotelInfo[] = [];
@@ -36,57 +39,23 @@ export class AppService {
         if (this.FavSpotName === null) this.FavSpotName = [];
         console.log("Fav Spot Name List:" + this.FavSpotName);
 
-        let spot_sz = this.http.get("assets/json/深圳市旅游景点信息.json").toPromise().then(x => x as SpotInfo[]);
-        spot_sz.then(
+
+        let spot_gradeA = this.http.get("assets/json/A级旅游景点评价信息.json").toPromise().then(x => x as SpotInfo[]);
+        spot_gradeA.then(
             r => {
-                //按照景区的A级进行排序
-                r.sort((x, y) => { return y.ALevel.length - x.ALevel.length });
-                this.SpotList_SZ = r;
-                console.log("Load 深圳市旅游景点信息:" + r.length);
-                r.forEach(element => {
-                    if (element.ALevel !== "") {
-                        this.SpotList_GradeAOnly.push(element);
-                    }
-                });
+                this.SpotList_GradeAOnly = r;
+                this.IsLoadSpotFinished = true;
             }
         )
 
-        return;
-
-        let spot_jm = this.http.get("assets/json/江门市旅游景点信息.json").toPromise().then(x => x as SpotInfo[]);
-        spot_jm.then(
-            r => {
-                //按照景区的A级进行排序
-                r.sort((x, y) => { return y.ALevel.length - x.ALevel.length });
-                this.SpotList_JM = r;
-                console.log("Load 江门市旅游景点信息:" + r.length);
-                r.forEach(element => {
-                    if (element.ALevel !== "") {
-                        this.SpotList_GradeAOnly.push(element);
-                    }
-                });
-            }
-        )
-
-        let food_sz = this.http.get("assets/json/深圳市特色美食信息.json").toPromise().then(x => x as FoodInfo[]);
+        let food_sz = this.http.get("assets/json/热门特色美食信息.json").toPromise().then(x => x as FoodInfo[]);
         food_sz.then(
             r => {
-                //按照景区的A级进行排序
-                r.sort((x, y) => { return y.Price - x.Price });
-                this.FoodList_SZ = r;
-                console.log("Load 深圳市特色美食信息:" + r.length);
+                this.FoodList_Hot = r;
+                this.IsLoadFoodFinished = true;
             }
         )
-
-        let food_jm = this.http.get("assets/json/江门市特色美食信息.json").toPromise().then(x => x as FoodInfo[]);
-        food_jm.then(
-            r => {
-                //按照景区的A级进行排序
-                r.sort((x, y) => { return y.Price - x.Price });
-                this.FoodList_JM = r;
-                console.log("Load 江门市特色美食信息:" + r.length);
-            }
-        )
+        return;
 
         //酒店宾馆
         let hotel_sz = this.http.get("assets/json/深圳市宾馆酒店信息.json").toPromise().then(x => x as HotelInfo[]);
@@ -123,19 +92,36 @@ export class AppService {
 
     }
 
+    EncodeURI(url: string): string {
+        url = url.replace("(", "");
+        url = url.replace(")", "");
+        return url;
+    }
+
     /**根据名字获得景点信息 */
     GetSpotInfoByName(name: string): SpotInfo {
-        return this.SpotList_SZ.find(x => x.Name === name);
+        let x = this.SpotList_GradeAOnly.find(x => this.EncodeURI(x.Name) === name);
+        if (x !== undefined) return x;
+        //WebApi
     }
 
     /**景点检索 */
     SearchSpot(key: string): SpotInfo[] {
-        return this.SpotList_SZ.filter(x => x.Name.indexOf(key) !== -1);
+        //WebApi
+        return null;
+    }
+
+    /**根据名字获得美食信息 */
+    GetFoodInfoByName(name: string): FoodInfo {
+        let x = this.FoodList_Hot.find(x => this.EncodeURI(x.Name) === name);
+        if (x !== undefined) return x;
+        //WebApi
     }
 
     /**美食检索 */
     SearchFood(key: string): FoodInfo[] {
-        return this.FoodList_SZ.filter(x => x.Item.filter(y => y.indexOf(key) !== -1).length !== 0).slice(0, 100);
+        //WebApi
+        return null;
     }
 
     /**酒店检索 */
@@ -159,6 +145,8 @@ export interface SpotInfo {
     TrafficGuide: number;
     lat: number;
     lng: number;
+    Comments: string[];
+    CommentCount: number;
 }
 
 /**美食 */
@@ -169,6 +157,8 @@ export interface FoodInfo {
     Price: number;
     lat: number;
     lng: number;
+    Comments: string[];
+    CommentCount: number;
 }
 
 /**宾馆酒店 */
@@ -180,4 +170,5 @@ export interface HotelInfo {
     ServiceTel: string;
     Price: number;
     Description: string;
+    CommentCount: number;
 }

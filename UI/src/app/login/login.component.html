@@ -37,6 +37,11 @@
     </div>
 </div>
 
+<div *ngIf="!this.app.IsLoadFinish" style="position: absolute;z-index: 99; bottom: 50px;width: 100%;text-align: center;"
+    [ngStyle]="{'height':'50px'}">
+    <font color="red">数据加载中，请稍等...</font>
+</div>
+
 <div style="position: absolute;z-index: 99; bottom: 0px;width: 100%;text-align: center;"
     [ngStyle]="{'height':'50px'}">
     ©GrayFur Studio 2019-2020 Powerby Angular 9.1.3

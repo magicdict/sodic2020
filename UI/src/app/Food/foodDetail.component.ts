@@ -1,16 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
-import { AppService, SpotInfo } from '../app-service';
+import { AppService, SpotInfo, FoodInfo } from '../app-service';
 import { Location } from '@angular/common';
 
 @Component({
-  templateUrl: './spotDetail.component.html',
+  templateUrl: './foodDetail.component.html',
 })
-export class SpotDetailComponent implements OnInit {
+export class FoodDetailComponent implements OnInit {
   constructor(private _location: Location, public appservice: AppService, private route: ActivatedRoute, ) {
 
   }
-  SpotDetailInfo: SpotInfo;
+  FoodDetailInfo: FoodInfo;
   option = {};
   Return() {
     this._location.back();
@@ -18,12 +18,12 @@ export class SpotDetailComponent implements OnInit {
   ngOnInit(): void {
     this.route.params.subscribe(
       params => {
-        this.SpotDetailInfo = this.appservice.GetSpotInfoByName(params['name']) as SpotInfo;
+        this.FoodDetailInfo = this.appservice.GetFoodInfoByName(params['name']) as FoodInfo;
         this.option = {
           // 加载 bmap 组件
           bmap: {
             // 百度地图中心经纬度
-            center: [this.SpotDetailInfo.lng, this.SpotDetailInfo.lat],
+            center: [this.FoodDetailInfo.lng, this.FoodDetailInfo.lat],
             // 百度地图缩放
             zoom: 14,
             // 是否开启拖拽缩放，可以只设置 'scale' 或者 'move'

@@ -14,6 +14,7 @@ import { SpotDetailComponent } from './Spot/spotDetail.component';
 import { LazyLoadImageModule } from 'ng-lazyload-image';
 import { NgxEchartsModule } from 'ngx-echarts';
 import { ToolComponent } from './Tool/tool.component';
+import { FoodDetailComponent } from './Food/foodDetail.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { ToolComponent } from './Tool/tool.component';
     SpotItemComponent,
     SpotDetailComponent,
     FoodComponent,
+    FoodDetailComponent,
     TrafficComponent,
     ToolComponent
   ],

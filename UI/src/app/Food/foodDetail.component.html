@@ -1,24 +1,22 @@
 <div style="position:relative;"
     [ngStyle]="{'height':this.appservice.clientHeight + 'px','width':appservice.clientWidth + 'px'}">
     <nav class="navbar navbar-light bg-light" style="position: absolute;z-index: 99;top:0px;width: 100%;">
-        <img src="assets/image/景点.png" width="30" height="30" alt="">
-        {{this.SpotDetailInfo.Name}}
+        <img src="assets/image/美食.png" width="30" height="30" alt="">
+        {{this.FoodDetailInfo.Name}}
         <img src="assets/image/返回.png" width="30" height="30" alt="" (click)="Return()" style="float: right;">
     </nav>
     <div style="position: absolute;z-index: 99;top:50px;text-align: center;overflow-y: scroll; margin: 20px;"
         [ngStyle]="{height:this.appservice.clientHeight - 90 + 'px','width':appservice.clientWidth - 40 + 'px'}">
-        <div *ngIf="this.SpotDetailInfo.Description" style="text-align: left;">
-            {{this.SpotDetailInfo.Description}}
-        </div>
-        <div *ngIf="this.SpotDetailInfo.lat !== -1">
+        {{FoodDetailInfo.Item.join(" ")}}
+        <div *ngIf="this.FoodDetailInfo.lat !== -1">
             <br /><br />
             <echarts [options]="this.option"></echarts>
         </div>
-        <div *ngIf="this.SpotDetailInfo.Comments !== null" style="text-align: left;">
+        <div *ngIf="this.FoodDetailInfo.Comments !== null" style="text-align: left;">
             <br /><br />
-            评论数：{{this.SpotDetailInfo.CommentCount}} (展示前100条)
+            评论数：{{this.FoodDetailInfo.CommentCount}} (展示前100条)
             <ul>
-                <li *ngFor="let c of this.SpotDetailInfo.Comments.slice(0,100)">
+                <li *ngFor="let c of this.FoodDetailInfo.Comments.slice(0,100)">
                     {{c}}
                 </li>
             </ul>
