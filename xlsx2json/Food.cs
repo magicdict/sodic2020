@@ -86,7 +86,11 @@ public class 特色美食信息 : IEqualityComparer<特色美食信息>
             item.lng = loc.lng;
             //评论
             var c = Comments.Where(x => x.Name == item.Name).FirstOrDefault();
-            if (c != null) { item.Comments = c.Comments; item.CommentCount = c.Comments.Count; }
+            if (c != null)
+            {
+                item.Comments = c.Comments.Take(100).ToList();
+                item.CommentCount = c.Comments.Count;
+            }
         }
 
         string json = JsonConvert.SerializeObject(records, Formatting.Indented);

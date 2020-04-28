@@ -15,7 +15,7 @@ namespace xlsx2json
 
         static void Main(string[] args)
         {
-            CreateHotel();
+            CreateSpot();
         }
         static void CreateHotel()
         {

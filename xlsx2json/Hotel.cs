@@ -31,7 +31,7 @@ public class 宾馆酒店信息 : IEqualityComparer<宾馆酒店信息>
 
     public int CommentCount { get; set; }
 
-    public static List<宾馆酒店信息> CreateHotel(string xlsxFilename, string jsonFilename, int LastColIdx,List<宾馆酒店评论> Comments)
+    public static List<宾馆酒店信息> CreateHotel(string xlsxFilename, string jsonFilename, int LastColIdx, List<宾馆酒店评论> Comments)
     {
         var records = new List<宾馆酒店信息>();
         var templetefs = new FileStream(xlsxFilename, FileMode.Open, FileAccess.Read);
@@ -109,7 +109,11 @@ public class 宾馆酒店信息 : IEqualityComparer<宾馆酒店信息>
             item.lng = loc.lng;
             //评论
             var c = Comments.Where(x => x.Name == item.Name).FirstOrDefault();
-            if (c != null) { item.Comments = c.Comments; item.CommentCount = c.Comments.Count; }
+            if (c != null)
+            {
+                item.Comments = c.Comments.Take(100).ToList();
+                item.CommentCount = c.Comments.Count;
+            }
         }
 
         string json = JsonConvert.SerializeObject(records, Formatting.Indented);

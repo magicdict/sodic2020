@@ -8,12 +8,19 @@ import { Location } from '@angular/common';
 export class SpotComponent {
   constructor(public appservice: AppService,
     private _location: Location) {
-    this.showItem = this.appservice.SpotList_GradeAOnly;
   }
-  showItem: SpotInfo[];
   Search(key: string) {
-    this.showItem = this.appservice.SearchSpot(key);
-    console.log(this.showItem);
+    if (key === "") {
+      this.appservice.SpotList_CurrentShow = this.appservice.SpotList_GradeAOnly;
+      return;
+    }
+    this.appservice.SearchSpot(key).then(
+      r => {
+        r = r.sort((x, y) => {
+          return y.CommentCount - x.CommentCount
+        })
+        this.appservice.SpotList_CurrentShow = r;
+      });
   }
   Return() {
     this._location.back();

@@ -55,7 +55,7 @@ public class 旅游景点信息 : IEqualityComparer<旅游景点信息>
             r.Name = row.GetCell(0).StringCellValue;
             if (row.GetCell(1) != null) r.Type = row.GetCell(1).StringCellValue;
             if (row.GetCell(2) != null) r.ALevel = row.GetCell(2).StringCellValue;
-            if (string.IsNullOrEmpty(r.ALevel)) continue;   //A_Only
+            
             r.Address = row.GetCell(3).StringCellValue;
             r.Description = row.GetCell(4).StringCellValue;
             if (row.GetCell(5) != null)
@@ -121,7 +121,7 @@ public class 旅游景点信息 : IEqualityComparer<旅游景点信息>
             var c = Comments.Where(x => x.Name == item.Name).FirstOrDefault();
             if (c != null)
             {
-                item.Comments = c.Comments;
+                item.Comments = c.Comments.Take(100).ToList();
                 item.CommentCount = c.Comments.Count;
             }
         }

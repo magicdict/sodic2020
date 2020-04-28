@@ -1,6 +1,7 @@
 import { HttpClient } from "@angular/common/http"
 import { Injectable } from '@angular/core';
 import { DataStorage } from './datastorage';
+import { CommonFunction } from './common';
 
 
 @Injectable()
@@ -27,11 +28,13 @@ export class AppService {
         return this.IsLoadFoodFinished && this.IsLoadSpotFinished && this.IsLoadHotelFinished;
     }
 
+    SpotList_CurrentShow:SpotInfo[] = [];
     SpotList_GradeAOnly: SpotInfo[] = [];
+
     FoodList_Hot: FoodInfo[] = [];
     HotelList_Hot: HotelInfo[] = [];
 
-    constructor(public http: HttpClient, public localstorage: DataStorage) {
+    constructor(private http: HttpClient, private localstorage: DataStorage, private common: CommonFunction) {
         //用户数据的载入
         this.FavSpotName = this.localstorage.Load("FavSpotName");
         if (this.FavSpotName === null) this.FavSpotName = [];
@@ -42,6 +45,7 @@ export class AppService {
         spot_gradeA.then(
             r => {
                 this.SpotList_GradeAOnly = r;
+                this.SpotList_CurrentShow = r;
                 this.IsLoadSpotFinished = true;
             }
         )
@@ -71,15 +75,13 @@ export class AppService {
 
     /**根据名字获得景点信息 */
     GetSpotInfoByName(name: string): SpotInfo {
-        let x = this.SpotList_GradeAOnly.find(x => this.EncodeURI(x.Name) === name);
-        if (x !== undefined) return x;
-        //WebApi
+        let x = this.SpotList_CurrentShow.find(x => this.EncodeURI(x.Name) === name);
+        return x;
     }
 
     /**景点检索 */
-    SearchSpot(key: string): SpotInfo[] {
-        //WebApi
-        return null;
+    SearchSpot(key: string): Promise<SpotInfo[]> {
+        return this.common.httpRequestGet<SpotInfo[]>("search/SearchSpot?key=" + key);
     }
 
     /**根据名字获得美食信息 */

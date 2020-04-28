@@ -16,6 +16,7 @@ import { NgxEchartsModule } from 'ngx-echarts';
 import { ToolComponent } from './Tool/tool.component';
 import { FoodDetailComponent } from './Food/foodDetail.component';
 import { HotelDetailComponent } from './Hotel/hotelDetail.component';
+import { CommonFunction } from './common';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,7 @@ import { HotelDetailComponent } from './Hotel/hotelDetail.component';
     LazyLoadImageModule,
     NgxEchartsModule
   ],
-  providers: [AppService],
+  providers: [AppService,CommonFunction],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,0 +1,19 @@
+[Unit]
+Description=Sodic 2020 for .NET Core WebApi with systemd
+DefaultDependencies=no
+Wants=network.target # network is required
+After=network.target
+ 
+[Service]
+ExecStart=/root/dotnet/dotnet WebAPI.dll
+WorkingDirectory=/root/sodic/WebAPI/
+Restart=always
+RestartSec=10   # Restart service after 10 seconds if dotnet service crashes
+SyslogIdentifier=Sodic2020
+User=root
+Group=root
+PrivateTmp=true
+Environment=ASPNETCORE_ENVIRONMENT=Production # specify environment variable for environment
+ 
+[Install]
+WantedBy = multi-user.target
