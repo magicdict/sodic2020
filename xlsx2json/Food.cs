@@ -145,7 +145,7 @@ public class 特色美食评论
 
     public List<string> Comments { get; set; }
 
-    public static List<特色美食评论> CreateFoodComment(string xlsxFilename, string jsonFilename)
+    public static List<特色美食评论> CreateFoodComment(string xlsxFilename)
     {
         var records = new List<特色美食评论>();
         var templetefs = new FileStream(xlsxFilename, FileMode.Open, FileAccess.Read);
@@ -172,12 +172,6 @@ public class 特色美食评论
                 Food.Comments.Add(row.GetCell(1).StringCellValue);
             }
         }
-        /*         string json = JsonConvert.SerializeObject(records, Formatting.Indented);
-                using (var sw = new StreamWriter(jsonFilename, false))
-                {
-                    sw.Write(json);
-                    sw.Close();
-                } */
         return records;
     }
 

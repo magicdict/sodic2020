@@ -156,7 +156,7 @@ public class 旅游景点评论
 
     public List<string> Comments { get; set; }
 
-    public static List<旅游景点评论> CreateSpotComment(string xlsxFilename, string jsonFilename)
+    public static List<旅游景点评论> CreateSpotComment(string xlsxFilename)
     {
         var records = new List<旅游景点评论>();
         var templetefs = new FileStream(xlsxFilename, FileMode.Open, FileAccess.Read);
@@ -182,12 +182,6 @@ public class 旅游景点评论
             {
                 Food.Comments.Add(row.GetCell(2).StringCellValue);
             }
-        }
-        string json = JsonConvert.SerializeObject(records, Formatting.Indented);
-        using (var sw = new StreamWriter(jsonFilename, false))
-        {
-            sw.Write(json);
-            sw.Close();
         }
         return records;
     }

@@ -9,29 +9,51 @@ namespace xlsx2json
     {
         public const string JiangmenDataFolder = @"F:\sodic2020\非JSON数据\江门文旅数据\";
         public const string ShenzhenDataFolder = @"F:\sodic2020\非JSON数据\深圳文旅数据\";
-        public const string JsonFolder = @"F:\sodic2020\UI\src\assets\json\";
+        public const string JsonFolder_AngularAssets = @"F:\sodic2020\UI\src\assets\json\";
+
+        public const string JsonFolder_WepApi = @"F:\sodic2020\json\";
 
         static void Main(string[] args)
         {
+            CreateHotel();
+        }
+        static void CreateHotel()
+        {
+            var HotelComment_SZ = 宾馆酒店评论.CreateHotelComment(ShenzhenDataFolder + "深圳市宾馆酒店评价信息.xlsx");
+            var Hotel_SZ = 宾馆酒店信息.CreateHotel(ShenzhenDataFolder + "深圳市宾馆酒店信息.xlsx", JsonFolder_WepApi + "深圳市宾馆酒店信息.json", 6, HotelComment_SZ);
+            var HotelComment_JM = 宾馆酒店评论.CreateHotelComment(JiangmenDataFolder + "江门市宾馆酒店评价信息.xlsx");
+            var Hotel_JM = 宾馆酒店信息.CreateHotel(JiangmenDataFolder + "江门市宾馆酒店信息.xlsx", JsonFolder_WepApi + "江门市宾馆酒店信息.json", 5, HotelComment_JM);
 
-            CreateFood();
 
+            Hotel_SZ.Sort((x, y) => { return y.CommentCount - x.CommentCount; });
+            Hotel_JM.Sort((x, y) => { return y.CommentCount - x.CommentCount; });
 
-            //宾馆酒店信息.CreateHotel(ShenzhenDataFolder + "深圳市宾馆酒店信息.xlsx", JsonFolder + "深圳市宾馆酒店信息.json", true, 6);
-            //宾馆酒店信息.CreateHotel(JiangmenDataFolder + "江门市宾馆酒店信息.xlsx", JsonFolder + "江门市宾馆酒店信息.json", true, 5);
+            var HotHotel = Hotel_SZ.Take(70).ToList();
+            HotHotel.AddRange(Hotel_JM.Take(30));
+            HotHotel = HotHotel.Select(
+                (y) =>
+                {
+                    if (y.Comments != null) y.Comments = y.Comments.Take(100).ToList();
+                    return y;
+                }
+            ).ToList();
 
-            //宾馆酒店信息.CreateHotel(ShenzhenDataFolder + "深圳市宾馆酒店信息.xlsx", JsonFolder + "深圳市宾馆酒店简化信息.json", false, 6);
-            //宾馆酒店信息.CreateHotel(JiangmenDataFolder + "江门市宾馆酒店信息.xlsx", JsonFolder + "江门市宾馆酒店简化信息.json", false, 5);
+            HotHotel.Sort((x, y) => { return y.CommentCount - x.CommentCount; });
+            string json = JsonConvert.SerializeObject(HotHotel, Formatting.Indented);
+            using (var sw = new StreamWriter(JsonFolder_AngularAssets + "热门宾馆酒店信息.json", false))
+            {
+                sw.Write(json);
+                sw.Close();
+            }
 
         }
-
         static void CreateFood()
         {
 
-            var FoodComment_SZ = 特色美食评论.CreateFoodComment(ShenzhenDataFolder + "深圳市特色美食评价信息.xlsx", JsonFolder + "深圳市特色美食评价信息.json");
-            var Food_SZ = 特色美食信息.CreateFood(ShenzhenDataFolder + "深圳市特色美食信息.xlsx", JsonFolder + "深圳市特色美食信息.json", FoodComment_SZ);
-            var FoodComment_JM = 特色美食评论.CreateFoodComment(JiangmenDataFolder + "江门市特色美食评价信息.xlsx", JsonFolder + "江门市特色美食评价信息.json");
-            var Food_JM = 特色美食信息.CreateFood(JiangmenDataFolder + "江门市特色美食信息.xlsx", JsonFolder + "江门市特色美食信息.json", FoodComment_JM);
+            var FoodComment_SZ = 特色美食评论.CreateFoodComment(ShenzhenDataFolder + "深圳市特色美食评价信息.xlsx");
+            var Food_SZ = 特色美食信息.CreateFood(ShenzhenDataFolder + "深圳市特色美食信息.xlsx", JsonFolder_WepApi + "深圳市特色美食信息.json", FoodComment_SZ);
+            var FoodComment_JM = 特色美食评论.CreateFoodComment(JiangmenDataFolder + "江门市特色美食评价信息.xlsx");
+            var Food_JM = 特色美食信息.CreateFood(JiangmenDataFolder + "江门市特色美食信息.xlsx", JsonFolder_WepApi + "江门市特色美食信息.json", FoodComment_JM);
 
             Food_SZ.Sort((x, y) => { return y.CommentCount - x.CommentCount; });
             Food_JM.Sort((x, y) => { return y.CommentCount - x.CommentCount; });
@@ -48,7 +70,7 @@ namespace xlsx2json
 
             HotFood.Sort((x, y) => { return y.CommentCount - x.CommentCount; });
             string json = JsonConvert.SerializeObject(HotFood, Formatting.Indented);
-            using (var sw = new StreamWriter(JsonFolder + "热门特色美食信息.json", false))
+            using (var sw = new StreamWriter(JsonFolder_AngularAssets + "热门特色美食信息.json", false))
             {
                 sw.Write(json);
                 sw.Close();
@@ -58,10 +80,10 @@ namespace xlsx2json
 
         static void CreateSpot()
         {
-            var SpotComment_SZ = 旅游景点评论.CreateSpotComment(ShenzhenDataFolder + "深圳市旅游景点评价信息.xlsx", JsonFolder + "深圳市旅游景点评价信息.json");
-            var Spot_SZ = 旅游景点信息.CreateSpot(ShenzhenDataFolder + "深圳市旅游景点信息.xlsx", JsonFolder + "深圳市旅游景点信息.json", SpotComment_SZ);
-            var SpotComment_JM = 旅游景点评论.CreateSpotComment(JiangmenDataFolder + "江门市旅游景点评价信息.xlsx", JsonFolder + "江门市旅游景点评价信息.json");
-            var Spot_JM = 旅游景点信息.CreateSpot(JiangmenDataFolder + "江门市旅游景点信息.xlsx", JsonFolder + "江门市旅游景点信息.json", SpotComment_JM);
+            var SpotComment_SZ = 旅游景点评论.CreateSpotComment(ShenzhenDataFolder + "深圳市旅游景点评价信息.xlsx");
+            var Spot_SZ = 旅游景点信息.CreateSpot(ShenzhenDataFolder + "深圳市旅游景点信息.xlsx", JsonFolder_WepApi + "深圳市旅游景点信息.json", SpotComment_SZ);
+            var SpotComment_JM = 旅游景点评论.CreateSpotComment(JiangmenDataFolder + "江门市旅游景点评价信息.xlsx");
+            var Spot_JM = 旅游景点信息.CreateSpot(JiangmenDataFolder + "江门市旅游景点信息.xlsx", JsonFolder_WepApi + "江门市旅游景点信息.json", SpotComment_JM);
 
             var GradeASpot = Spot_SZ;
             GradeASpot.AddRange(Spot_JM);
@@ -74,7 +96,7 @@ namespace xlsx2json
             ).ToList();
             GradeASpot.Sort((x, y) => { return y.CommentCount - x.CommentCount; });
             string json = JsonConvert.SerializeObject(GradeASpot, Formatting.Indented);
-            using (var sw = new StreamWriter(JsonFolder + "A级旅游景点评价信息.json", false))
+            using (var sw = new StreamWriter(JsonFolder_AngularAssets + "A级旅游景点评价信息.json", false))
             {
                 sw.Write(json);
                 sw.Close();

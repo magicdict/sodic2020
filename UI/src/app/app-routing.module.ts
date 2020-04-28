@@ -8,6 +8,7 @@ import { LoginComponent } from './login/login.component';
 import { SpotDetailComponent } from './Spot/spotDetail.component';
 import { ToolComponent } from './Tool/tool.component';
 import { FoodDetailComponent } from './Food/foodDetail.component';
+import { HotelDetailComponent } from './Hotel/hotelDetail.component';
 
 
 const routes: Routes = [
@@ -19,6 +20,7 @@ const routes: Routes = [
   { path: 'tool', component: ToolComponent },
   { path: 'spot/:name', component: SpotDetailComponent },
   { path: 'food/:name', component: FoodDetailComponent },
+  { path: 'hotel/:name', component: HotelDetailComponent },
   { path: '', redirectTo: 'home', pathMatch: 'full' }
 ];
 

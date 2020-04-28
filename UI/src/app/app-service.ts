@@ -21,17 +21,15 @@ export class AppService {
     //系统数据
     IsLoadSpotFinished = false;
     IsLoadFoodFinished = false;
+    IsLoadHotelFinished = false;
 
-    get IsLoadFinish(){
-        return this.IsLoadFoodFinished && this.IsLoadSpotFinished;
+    get IsLoadFinish() {
+        return this.IsLoadFoodFinished && this.IsLoadSpotFinished && this.IsLoadHotelFinished;
     }
 
     SpotList_GradeAOnly: SpotInfo[] = [];
     FoodList_Hot: FoodInfo[] = [];
-
-    HotelList_SZ: HotelInfo[] = [];
-    HotelList_JM: HotelInfo[] = [];
-    HotelList_RankStarOnly: HotelInfo[] = [];
+    HotelList_Hot: HotelInfo[] = [];
 
     constructor(public http: HttpClient, public localstorage: DataStorage) {
         //用户数据的载入
@@ -48,48 +46,21 @@ export class AppService {
             }
         )
 
-        let food_sz = this.http.get("assets/json/热门特色美食信息.json").toPromise().then(x => x as FoodInfo[]);
-        food_sz.then(
+        let food = this.http.get("assets/json/热门特色美食信息.json").toPromise().then(x => x as FoodInfo[]);
+        food.then(
             r => {
                 this.FoodList_Hot = r;
                 this.IsLoadFoodFinished = true;
             }
         )
-        return;
 
-        //酒店宾馆
-        let hotel_sz = this.http.get("assets/json/深圳市宾馆酒店信息.json").toPromise().then(x => x as HotelInfo[]);
-        hotel_sz.then(
+        let hotel = this.http.get("assets/json/热门宾馆酒店信息.json").toPromise().then(x => x as HotelInfo[]);
+        hotel.then(
             r => {
-                //按照景区的A级进行排序
-                r.sort((x, y) => { return y.Price - x.Price });
-                this.HotelList_SZ = r;
-                r.forEach(element => {
-                    if (element.Grade.startsWith("国家旅游局评定为")) {
-                        element.Grade = element.Grade.substr("国家旅游局评定为".length)
-                        this.HotelList_RankStarOnly.push(element);
-                    }
-                });
-                console.log("Load 深圳市宾馆酒店简化信息:" + r.length);
+                this.HotelList_Hot = r;
+                this.IsLoadHotelFinished = true;
             }
         )
-
-        let hotel_jm = this.http.get("assets/json/江门市宾馆酒店信息.json").toPromise().then(x => x as HotelInfo[]);
-        hotel_jm.then(
-            r => {
-                //按照景区的A级进行排序
-                r.sort((x, y) => { return y.Price - x.Price });
-                this.HotelList_JM = r;
-                r.forEach(element => {
-                    if (element.Grade.startsWith("国家旅游局评定为")) {
-                        element.Grade = element.Grade.substr("国家旅游局评定为".length)
-                        this.HotelList_RankStarOnly.push(element);
-                    }
-                });
-                console.log("Load 江门市宾馆酒店简化信息:" + r.length);
-            }
-        )
-
     }
 
     EncodeURI(url: string): string {
@@ -124,10 +95,17 @@ export class AppService {
         return null;
     }
 
+    /**根据名字获得美食信息 */
+    GetHotelInfoByName(name: string): HotelInfo {
+        let x = this.HotelList_Hot.find(x => this.EncodeURI(x.Name) === name);
+        if (x !== undefined) return x;
+        //WebApi
+    }
+
     /**酒店检索 */
     SearchHotel(key: string): HotelInfo[] {
-        if (key === "") return this.HotelList_RankStarOnly;
-        return this.HotelList_SZ.filter(x => x.Name.indexOf(key) !== -1).slice(0, 100);
+        if (key === "") return this.HotelList_Hot;
+        //WebApi
     }
 }
 
@@ -167,8 +145,11 @@ export interface HotelInfo {
     Grade: string;
     Distract: string;
     Address: string;
+    Description: string;
     ServiceTel: string;
     Price: number;
-    Description: string;
+    lat: number;
+    lng: number;
+    Comments: string[];
     CommentCount: number;
 }

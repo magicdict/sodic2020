@@ -11,8 +11,6 @@
         <div *ngFor="let f of this.showItem">
             <div class="card">
                 <div class="card-header">
-                    <button class="btn btn-sm btn-danger" style="float: right;"
-                        (click)="this.appservice.AddToFav(f.Name)"><i class="fas fa-heart"></i>&nbsp;收藏</button>
                     {{f.Name}} {{f.Grade}}
                     ￥{{f.Price}}
                     <br />
@@ -24,7 +22,12 @@
                     </div>
                 </div>
                 <div class="card-footer">
-                    {{f.ServiceTel}}
+                    <button style="width: 96px;height: 36px;" class="btn btn-primary"
+                        (click)="this.router.navigateByUrl('hotel/' +  this.appservice.EncodeURI(f.Name));"><i
+                            class="fas fa-list"></i>&nbsp;详细</button>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <button style="width: 96px;height: 36px;" class="btn btn-danger"
+                        (click)="this.appservice.AddToFav(f.Name)"><i class="fas fa-heart"></i>&nbsp;收藏</button>
                 </div>
             </div>
             <br />

@@ -23,8 +23,15 @@ public class 宾馆酒店信息 : IEqualityComparer<宾馆酒店信息>
 
     public int Price { get; set; }
 
+    public double lat { get; set; }
 
-    public static void CreateHotel(string xlsxFilename, string jsonFilename, bool WithDescription, int LastColIdx = 5)
+    public double lng { get; set; }
+
+    public List<string> Comments { get; set; }
+
+    public int CommentCount { get; set; }
+
+    public static List<宾馆酒店信息> CreateHotel(string xlsxFilename, string jsonFilename, int LastColIdx,List<宾馆酒店评论> Comments)
     {
         var records = new List<宾馆酒店信息>();
         var templetefs = new FileStream(xlsxFilename, FileMode.Open, FileAccess.Read);
@@ -65,11 +72,11 @@ public class 宾馆酒店信息 : IEqualityComparer<宾馆酒店信息>
             {
                 r.ServiceTel = row.GetCell(3).NumericCellValue.ToString();
             }
-           
+
             r.ServiceTel = r.ServiceTel.TrimEnd("纠错".ToArray());
             //Cell4是联系人，一模一样的
 
-            if (WithDescription) r.Description = row.GetCell(LastColIdx - 1).StringCellValue;
+            r.Description = row.GetCell(LastColIdx - 1).StringCellValue;
             r.Price = 0;
             if (row.GetCell(LastColIdx).CellType == CellType.String)
             {
@@ -93,12 +100,26 @@ public class 宾馆酒店信息 : IEqualityComparer<宾馆酒店信息>
         }
         templetefs.Close();
         records = records.Distinct(new 宾馆酒店信息()).ToList();
+
+        foreach (var item in records)
+        {
+            //GEO信息取得
+            var loc = BaiduApi.GetGeoInfo(item.Address);
+            item.lat = loc.lat;
+            item.lng = loc.lng;
+            //评论
+            var c = Comments.Where(x => x.Name == item.Name).FirstOrDefault();
+            if (c != null) { item.Comments = c.Comments; item.CommentCount = c.Comments.Count; }
+        }
+
         string json = JsonConvert.SerializeObject(records, Formatting.Indented);
         using (var sw = new StreamWriter(jsonFilename, false))
         {
             sw.Write(json);
             sw.Close();
         }
+
+        return records;
     }
 
 
@@ -110,5 +131,42 @@ public class 宾馆酒店信息 : IEqualityComparer<宾馆酒店信息>
     public int GetHashCode([DisallowNull] 宾馆酒店信息 obj)
     {
         return obj.Name.GetHashCode();
+    }
+}
+
+public class 宾馆酒店评论
+{
+    public string Name { get; set; }
+
+    public List<string> Comments { get; set; }
+
+    public static List<宾馆酒店评论> CreateHotelComment(string xlsxFilename)
+    {
+        var records = new List<宾馆酒店评论>();
+        var templetefs = new FileStream(xlsxFilename, FileMode.Open, FileAccess.Read);
+        var hssfworkbook = new XSSFWorkbook(templetefs);
+        var sheet = hssfworkbook.GetSheetAt(0);
+        var rfirst = sheet.FirstRowNum;
+        var rlast = sheet.LastRowNum;
+        //去掉第一条
+        for (int i = 1; i < rlast; i++)
+        {
+            var row = sheet.GetRow(i);
+            var Name = row.GetCell(0).StringCellValue;
+            var Food = records.Where(x => x.Name == Name).FirstOrDefault();
+            if (Food == null)
+            {
+                var r = new 宾馆酒店评论();
+                r.Name = Name;
+                r.Comments = new List<string>();
+                r.Comments.Add(row.GetCell(2).StringCellValue);
+                records.Add(r);
+            }
+            else
+            {
+                Food.Comments.Add(row.GetCell(2).StringCellValue);
+            }
+        }
+        return records;
     }
 }

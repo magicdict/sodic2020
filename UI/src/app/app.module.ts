@@ -15,12 +15,14 @@ import { LazyLoadImageModule } from 'ng-lazyload-image';
 import { NgxEchartsModule } from 'ngx-echarts';
 import { ToolComponent } from './Tool/tool.component';
 import { FoodDetailComponent } from './Food/foodDetail.component';
+import { HotelDetailComponent } from './Hotel/hotelDetail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     HotelComponent,
+    HotelDetailComponent,
     //景点
     SpotComponent,
     SpotItemComponent,
