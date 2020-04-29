@@ -14,6 +14,16 @@
             <br /><br />
             <echarts [options]="this.option"></echarts>
         </div>
+
+        <div *ngIf="TourInfoList.length !==0">
+            <br /><br />
+            <ul>
+                <li *ngFor="let t of TourInfoList" style="text-align: left;">
+                    {{t.Name}}:{{t.Days}}(人均：{{t.Price}})<br />{{t.Description}}
+                </li>
+            </ul>
+        </div>
+
         <div *ngIf="this.SpotDetailInfo.Comments !== null" style="text-align: left;">
             <br /><br />
             评论数：{{this.SpotDetailInfo.CommentCount}} (展示前100条)

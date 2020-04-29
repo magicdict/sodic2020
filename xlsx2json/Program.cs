@@ -15,8 +15,29 @@ namespace xlsx2json
 
         static void Main(string[] args)
         {
-            CreateSpot();
+
+            var records = 特产品信息.CreateGift(ShenzhenDataFolder + "深圳市地方特产信息.xlsx");
+            records.AddRange(特产品信息.CreateGift(JiangmenDataFolder + "江门市地方特产信息.xlsx"));
+            var json = JsonConvert.SerializeObject(records, Formatting.Indented);
+            using (var sw = new StreamWriter(JsonFolder_AngularAssets + "地方特产信息.json", false))
+            {
+                sw.Write(json);
+                sw.Close();
+            }
         }
+
+        static void CreateTour()
+        {
+            var records = 旅游目的地包团信息.CreateTour(ShenzhenDataFolder + "深圳市旅游目的地包团信息.xlsx");
+            records.AddRange(旅游目的地包团信息.CreateTour(JiangmenDataFolder + "江门市旅游目的地包团信息.xlsx"));
+            string json = JsonConvert.SerializeObject(records, Formatting.Indented);
+            using (var sw = new StreamWriter(JsonFolder_AngularAssets + "旅游目的地包团信息.json", false))
+            {
+                sw.Write(json);
+                sw.Close();
+            }
+        }
+
         static void CreateHotel()
         {
             var HotelComment_SZ = 宾馆酒店评论.CreateHotelComment(ShenzhenDataFolder + "深圳市宾馆酒店评价信息.xlsx");

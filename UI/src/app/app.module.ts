@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TrafficComponent } from './Traffic/traffic.component';
+import { GiftComponent } from './Gift/gift.component';
 import { HotelComponent } from './Hotel/hotel.component';
 import { SpotComponent } from './Spot/spot.component';
 import { FoodComponent } from './Food/food.component';
@@ -17,6 +17,8 @@ import { ToolComponent } from './Tool/tool.component';
 import { FoodDetailComponent } from './Food/foodDetail.component';
 import { HotelDetailComponent } from './Hotel/hotelDetail.component';
 import { CommonFunction } from './common';
+import { FavItemComponent } from './Tool/favItem.component';
+import { FavItemCellComponent } from './Tool/favItemCell.component';
 
 @NgModule({
   declarations: [
@@ -30,8 +32,10 @@ import { CommonFunction } from './common';
     SpotDetailComponent,
     FoodComponent,
     FoodDetailComponent,
-    TrafficComponent,
-    ToolComponent
+    GiftComponent,
+    ToolComponent,
+    FavItemComponent,
+    FavItemCellComponent
   ],
   imports: [
     BrowserModule,

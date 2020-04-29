@@ -11,34 +11,42 @@ export class AppService {
     clientHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
 
     //用户收藏
-    FavSpotName: string[] = [];
+    FavItem: any[] = [];
 
-    AddToFav(name: string) {
-        if (this.FavSpotName.find(x => x === name) === undefined) this.FavSpotName.push(name);
-        this.localstorage.Save("FavSpotName", this.FavSpotName);
+    AddToFav(item: any, type: enmItemType) {
+        item["ItemType"] = type;
+        this.FavItem.push(item);
+        this.localstorage.Save("FavItem", this.FavItem);
     }
-
 
     //系统数据
     IsLoadSpotFinished = false;
     IsLoadFoodFinished = false;
     IsLoadHotelFinished = false;
-
+    IsLoadTourFinished = false;
+    IsLoadGiftFinished = false;
     get IsLoadFinish() {
-        return this.IsLoadFoodFinished && this.IsLoadSpotFinished && this.IsLoadHotelFinished;
+        return this.IsLoadFoodFinished && this.IsLoadSpotFinished && this.IsLoadHotelFinished && this.IsLoadTourFinished && this.IsLoadGiftFinished;
     }
+    loadMsg = "";
 
-    SpotList_CurrentShow:SpotInfo[] = [];
+    SpotList_CurrentShow: SpotInfo[] = [];
     SpotList_GradeAOnly: SpotInfo[] = [];
 
+    FoodList_CurrentShow: FoodInfo[] = [];
     FoodList_Hot: FoodInfo[] = [];
+
+    HotelList_CurrentShow: HotelInfo[] = [];
     HotelList_Hot: HotelInfo[] = [];
+
+    TourList: TourInfo[] = [];
+    GiftList: GiftInfo[] = [];
 
     constructor(private http: HttpClient, private localstorage: DataStorage, private common: CommonFunction) {
         //用户数据的载入
-        this.FavSpotName = this.localstorage.Load("FavSpotName");
-        if (this.FavSpotName === null) this.FavSpotName = [];
-        console.log("Fav Spot Name List:" + this.FavSpotName);
+        this.FavItem = this.localstorage.Load("FavItem");
+        if (this.FavItem === null) this.FavItem = [];
+        console.log("Fav Spot Name List:" + this.FavItem);
 
 
         let spot_gradeA = this.http.get("assets/json/A级旅游景点评价信息.json").toPromise().then(x => x as SpotInfo[]);
@@ -47,6 +55,7 @@ export class AppService {
                 this.SpotList_GradeAOnly = r;
                 this.SpotList_CurrentShow = r;
                 this.IsLoadSpotFinished = true;
+                this.loadMsg = "[完成]A级旅游景点评价信息";
             }
         )
 
@@ -54,7 +63,10 @@ export class AppService {
         food.then(
             r => {
                 this.FoodList_Hot = r;
+                this.FoodList_CurrentShow = r;
                 this.IsLoadFoodFinished = true;
+                this.loadMsg = "[完成]热门特色美食信息";
+
             }
         )
 
@@ -62,7 +74,27 @@ export class AppService {
         hotel.then(
             r => {
                 this.HotelList_Hot = r;
+                this.HotelList_CurrentShow = r;
                 this.IsLoadHotelFinished = true;
+                this.loadMsg = "[完成]热门宾馆酒店信息";
+            }
+        )
+
+        let tour = this.http.get("assets/json/旅游目的地包团信息.json").toPromise().then(x => x as TourInfo[]);
+        tour.then(
+            r => {
+                this.TourList = r;
+                this.IsLoadTourFinished = true;
+                this.loadMsg = "[完成]旅游目的地包团信息";
+            }
+        )
+
+        let gift = this.http.get("assets/json/地方特产信息.json").toPromise().then(x => x as TourInfo[]);
+        gift.then(
+            r => {
+                this.GiftList = r;
+                this.IsLoadGiftFinished = true;
+                this.loadMsg = "[完成]地方特产信息";
             }
         )
     }
@@ -86,28 +118,25 @@ export class AppService {
 
     /**根据名字获得美食信息 */
     GetFoodInfoByName(name: string): FoodInfo {
-        let x = this.FoodList_Hot.find(x => this.EncodeURI(x.Name) === name);
-        if (x !== undefined) return x;
-        //WebApi
+        let x = this.FoodList_CurrentShow.find(x => this.EncodeURI(x.Name) === name);
+        return x;
     }
 
     /**美食检索 */
-    SearchFood(key: string): FoodInfo[] {
-        //WebApi
-        return null;
+    SearchFood(key: string): Promise<FoodInfo[]> {
+        return this.common.httpRequestGet<FoodInfo[]>("search/SearchFood?key=" + key);
     }
 
     /**根据名字获得美食信息 */
     GetHotelInfoByName(name: string): HotelInfo {
-        let x = this.HotelList_Hot.find(x => this.EncodeURI(x.Name) === name);
+        let x = this.HotelList_CurrentShow.find(x => this.EncodeURI(x.Name) === name);
         if (x !== undefined) return x;
         //WebApi
     }
 
     /**酒店检索 */
-    SearchHotel(key: string): HotelInfo[] {
-        if (key === "") return this.HotelList_Hot;
-        //WebApi
+    SearchHotel(key: string): Promise<HotelInfo[]> {
+        return this.common.httpRequestGet<HotelInfo[]>("search/SearchHotel?key=" + key);
     }
 }
 
@@ -154,4 +183,20 @@ export interface HotelInfo {
     lng: number;
     Comments: string[];
     CommentCount: number;
+}
+
+export interface TourInfo {
+    Name: string;
+    Price: number;
+    Description: string;
+    Days: string;
+}
+
+export interface GiftInfo {
+    Name: string;
+    Description: string;
+}
+
+export enum enmItemType {
+    Spot, Food, Hotel, Gift
 }

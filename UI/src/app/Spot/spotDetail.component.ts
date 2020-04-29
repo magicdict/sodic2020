@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
-import { AppService, SpotInfo } from '../app-service';
+import { AppService, SpotInfo, TourInfo } from '../app-service';
 import { Location } from '@angular/common';
 
 @Component({
@@ -8,8 +8,8 @@ import { Location } from '@angular/common';
 })
 export class SpotDetailComponent implements OnInit {
   constructor(private _location: Location, public appservice: AppService, private route: ActivatedRoute, ) {
-
   }
+  TourInfoList: TourInfo[] = [];
   SpotDetailInfo: SpotInfo;
   option = {};
   Return() {
@@ -19,6 +19,7 @@ export class SpotDetailComponent implements OnInit {
     this.route.params.subscribe(
       params => {
         this.SpotDetailInfo = this.appservice.GetSpotInfoByName(params['name']) as SpotInfo;
+        this.TourInfoList = this.appservice.TourList.filter(x => x.Description.indexOf(this.SpotDetailInfo.Name) !== -1);
         this.option = {
           // 加载 bmap 组件
           bmap: {

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { AppService, SpotInfo } from '../app-service';
+import { AppService, SpotInfo, enmItemType } from '../app-service';
 import { Location } from '@angular/common';
 
 @Component({
@@ -9,6 +9,7 @@ export class SpotComponent {
   constructor(public appservice: AppService,
     private _location: Location) {
   }
+
   Search(key: string) {
     if (key === "") {
       this.appservice.SpotList_CurrentShow = this.appservice.SpotList_GradeAOnly;

@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { AppService, SpotInfo } from '../app-service';
+import { AppService, SpotInfo, enmItemType } from '../app-service';
 import { Router } from '@angular/router';
 
 @Component({
@@ -9,5 +9,6 @@ import { Router } from '@angular/router';
 export class SpotItemComponent {
   constructor(public router: Router, public appservice: AppService) {
   }
+  type = enmItemType.Spot;
   @Input() SpotInfo: SpotInfo;
 }
