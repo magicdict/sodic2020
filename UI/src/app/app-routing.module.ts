@@ -6,10 +6,10 @@ import { FoodComponent } from './Food/food.component';
 import { SpotComponent } from './Spot/spot.component';
 import { LoginComponent } from './login/login.component';
 import { SpotDetailComponent } from './Spot/spotDetail.component';
-import { ToolComponent } from './Tool/tool.component';
+import { ToolComponent } from './Misc/tool.component';
 import { FoodDetailComponent } from './Food/foodDetail.component';
 import { HotelDetailComponent } from './Hotel/hotelDetail.component';
-import { FavItemComponent } from './Tool/favItem.component';
+import { FavItemComponent } from './favourite/favItem.component';
 
 const routes: Routes = [
   { path: 'home', component: LoginComponent },

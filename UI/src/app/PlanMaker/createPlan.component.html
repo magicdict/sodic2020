@@ -1,0 +1,12 @@
+<div style="position:relative;"
+    [ngStyle]="{'height':this.appservice.clientHeight + 'px','width':appservice.clientWidth + 'px'}">
+    <nav class="navbar navbar-light bg-light" style="position: absolute;z-index: 99;top:0px;width: 100%;">
+        <img src="assets/image/工具.png" width="30" height="30" alt="">
+        新建计划
+        <img src="assets/image/返回.png" width="30" height="30" alt="" (click)="Return()" style="float: right;">
+    </nav>
+    <div style="position: absolute;z-index: 99;top:50px;text-align: center;overflow-y: scroll;"
+        [ngStyle]="{height:this.appservice.clientHeight-50 + 'px','width':appservice.clientWidth + 'px'}">
+ 
+    </div>
+</div>

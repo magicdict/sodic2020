@@ -13,12 +13,13 @@ import { LoginComponent } from './login/login.component';
 import { SpotDetailComponent } from './Spot/spotDetail.component';
 import { LazyLoadImageModule } from 'ng-lazyload-image';
 import { NgxEchartsModule } from 'ngx-echarts';
-import { ToolComponent } from './Tool/tool.component';
+import { ToolComponent } from './Misc/tool.component';
 import { FoodDetailComponent } from './Food/foodDetail.component';
 import { HotelDetailComponent } from './Hotel/hotelDetail.component';
 import { CommonFunction } from './common';
-import { FavItemComponent } from './Tool/favItem.component';
-import { FavItemCellComponent } from './Tool/favItemCell.component';
+import { FavItemComponent } from './favourite/favItem.component';
+import { FavItemCellComponent } from './favourite/favItemCell.component';
+import { CreateComponent } from './PlanMaker/createPlan.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { FavItemCellComponent } from './Tool/favItemCell.component';
     GiftComponent,
     ToolComponent,
     FavItemComponent,
-    FavItemCellComponent
+    FavItemCellComponent,
+    CreateComponent
   ],
   imports: [
     BrowserModule,
