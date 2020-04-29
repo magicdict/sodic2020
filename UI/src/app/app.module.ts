@@ -1,4 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
@@ -19,8 +20,9 @@ import { HotelDetailComponent } from './Hotel/hotelDetail.component';
 import { CommonFunction } from './common';
 import { FavItemComponent } from './favourite/favItem.component';
 import { FavItemCellComponent } from './favourite/favItemCell.component';
-import { CreateComponent } from './PlanMaker/createPlan.component';
-
+import { CreatePlanComponent } from './PlanMaker/createPlan.component';
+import { CalendarModule } from 'primeng/calendar';
+import { FormsModule} from '@angular/forms'
 @NgModule({
   declarations: [
     AppComponent,
@@ -37,16 +39,19 @@ import { CreateComponent } from './PlanMaker/createPlan.component';
     ToolComponent,
     FavItemComponent,
     FavItemCellComponent,
-    CreateComponent
+    CreatePlanComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     LazyLoadImageModule,
-    NgxEchartsModule
+    NgxEchartsModule,
+    CalendarModule,
+    BrowserAnimationsModule,
+    FormsModule
   ],
-  providers: [AppService,CommonFunction],
+  providers: [AppService, CommonFunction],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { AppService, SpotInfo } from '../app-service';
+import { AppService } from '../app-service';
 import { Location } from '@angular/common';
 
 @Component({

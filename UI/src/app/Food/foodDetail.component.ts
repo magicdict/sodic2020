@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Router, ActivatedRoute } from '@angular/router';
-import { AppService, SpotInfo, FoodInfo } from '../app-service';
+import { ActivatedRoute } from '@angular/router';
+import { AppService, FoodInfo } from '../app-service';
 import { Location } from '@angular/common';
 
 @Component({

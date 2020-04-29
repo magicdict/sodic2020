@@ -6,10 +6,10 @@ import { FoodComponent } from './Food/food.component';
 import { SpotComponent } from './Spot/spot.component';
 import { LoginComponent } from './login/login.component';
 import { SpotDetailComponent } from './Spot/spotDetail.component';
-import { ToolComponent } from './Misc/tool.component';
 import { FoodDetailComponent } from './Food/foodDetail.component';
 import { HotelDetailComponent } from './Hotel/hotelDetail.component';
 import { FavItemComponent } from './favourite/favItem.component';
+import { CreatePlanComponent } from './PlanMaker/createPlan.component';
 
 const routes: Routes = [
   { path: 'home', component: LoginComponent },
@@ -17,7 +17,7 @@ const routes: Routes = [
   { path: 'hotel', component: HotelComponent },
   { path: 'food', component: FoodComponent },
   { path: 'spot', component: SpotComponent },
-  { path: 'tool', component: ToolComponent },
+  { path: 'tool', component: CreatePlanComponent },
   { path: 'favitem', component: FavItemComponent },
   { path: 'spot/:name', component: SpotDetailComponent },
   { path: 'food/:name', component: FoodDetailComponent },

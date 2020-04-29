@@ -1,7 +1,11 @@
 * {
-    font-size: 12px;
-  }
+  font-size: 12px;
+}
 
 .ec-extension-bmap {
-    height: 320px!important;
+  height: 320px!important;
+}
+
+.ui-widget-overlay {
+  z-index: 0!important;
 }
