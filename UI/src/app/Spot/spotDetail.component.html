@@ -7,31 +7,30 @@
     </nav>
     <div style="position: absolute;z-index: 99;top:50px;text-align: center;overflow-y: scroll; margin: 20px;"
         [ngStyle]="{height:this.appservice.clientHeight - 90 + 'px','width':appservice.clientWidth - 40 + 'px'}">
-        <div *ngIf="this.SpotDetailInfo.Description" style="text-align: left;">
-            {{this.SpotDetailInfo.Description}}
-        </div>
-        <div *ngIf="this.SpotDetailInfo.lat !== -1">
-            <br /><br />
-            <echarts [options]="this.option"></echarts>
-        </div>
-
-        <div *ngIf="TourInfoList.length !==0">
-            <br /><br />
-            <ul>
-                <li *ngFor="let t of TourInfoList" style="text-align: left;">
-                    {{t.Name}}:{{t.Days}}(人均：{{t.Price}})<br />{{t.Description}}
-                </li>
-            </ul>
-        </div>
-
-        <div *ngIf="this.SpotDetailInfo.Comments !== null" style="text-align: left;">
-            <br /><br />
-            评论数：{{this.SpotDetailInfo.CommentCount}} (展示前100条)
-            <ul>
-                <li *ngFor="let c of this.SpotDetailInfo.Comments.slice(0,100)">
-                    {{c}}
-                </li>
-            </ul>
-        </div>
+        <p-tabView>
+            <p-tabPanel header="详细">
+                <div *ngIf="this.SpotDetailInfo.Description" style="text-align: left;">
+                    {{this.SpotDetailInfo.Description}}
+                </div>
+                <div *ngIf="this.SpotDetailInfo.lat !== -1">
+                    <br /><br />
+                    <echarts [options]="this.option"></echarts>
+                </div>
+            </p-tabPanel>
+            <p-tabPanel *ngIf="TourInfoList.length !==0" header="组团">
+                <ul>
+                    <li *ngFor="let t of TourInfoList" style="text-align: left;">
+                        {{t.Name}}:{{t.Days}}(人均：{{t.Price}})<br />{{t.Description}}
+                    </li>
+                </ul>
+            </p-tabPanel>
+            <p-tabPanel *ngIf="this.SpotDetailInfo.Comments !== null" header="评论" style="text-align: left;">
+                评论数：{{this.SpotDetailInfo.CommentCount}} (展示前100条)
+                <ul>
+                    <li *ngFor="let c of this.SpotDetailInfo.Comments.slice(0,100)">
+                        {{c}}
+                    </li>
+                </ul>
+            </p-tabPanel>
+        </p-tabView>
     </div>
-</div>

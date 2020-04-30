@@ -15,7 +15,10 @@ namespace xlsx2json
 
         static void Main(string[] args)
         {
+            CreateHotel();
+        }
 
+        static void CreateGift(){
             var records = 特产品信息.CreateGift(ShenzhenDataFolder + "深圳市地方特产信息.xlsx");
             records.AddRange(特产品信息.CreateGift(JiangmenDataFolder + "江门市地方特产信息.xlsx"));
             var json = JsonConvert.SerializeObject(records, Formatting.Indented);

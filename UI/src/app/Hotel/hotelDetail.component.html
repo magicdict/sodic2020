@@ -7,21 +7,24 @@
     </nav>
     <div style="position: absolute;z-index: 99;top:50px;text-align: center;overflow-y: scroll; margin: 20px;"
         [ngStyle]="{height:this.appservice.clientHeight - 90 + 'px','width':appservice.clientWidth - 40 + 'px'}">
-        <div *ngIf="this.HotelDetailInfo.Description" style="text-align: left;">
-            {{this.HotelDetailInfo.Description}}
-        </div>
-        <div *ngIf="this.HotelDetailInfo.lat !== -1">
-            <br /><br />
-            <echarts [options]="this.option"></echarts>
-        </div>
-        <div *ngIf="this.HotelDetailInfo.Comments !== null" style="text-align: left;">
-            <br /><br />
-            评论数：{{this.HotelDetailInfo.CommentCount}} (展示前100条)
-            <ul>
-                <li *ngFor="let c of this.HotelDetailInfo.Comments.slice(0,100)">
-                    {{c}}
-                </li>
-            </ul>
-        </div>
+        <p-tabView>
+            <p-tabPanel header="详细">
+                <div *ngIf="this.HotelDetailInfo.Description" style="text-align: left;">
+                    {{this.HotelDetailInfo.Description}}
+                </div>
+                <div *ngIf="this.HotelDetailInfo.lat !== -1">
+                    <br /><br />
+                    <echarts [options]="this.option"></echarts>
+                </div>
+            </p-tabPanel>
+            <p-tabPanel header="评论" *ngIf="this.HotelDetailInfo.Comments !== null" style="text-align: left;">
+                评论数：{{this.HotelDetailInfo.CommentCount}} (展示前100条)
+                <ul>
+                    <li *ngFor="let c of this.HotelDetailInfo.Comments.slice(0,100)">
+                        {{c}}
+                    </li>
+                </ul>
+            </p-tabPanel>
+        </p-tabView>
     </div>
 </div>

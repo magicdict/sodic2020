@@ -100,13 +100,9 @@ public class 宾馆酒店信息 : IEqualityComparer<宾馆酒店信息>
         }
         templetefs.Close();
         records = records.Distinct(new 宾馆酒店信息()).ToList();
-
+        int cnt = 0;
         foreach (var item in records)
         {
-            //GEO信息取得
-            var loc = BaiduApi.GetGeoInfo(item.Address);
-            item.lat = loc.lat;
-            item.lng = loc.lng;
             //评论
             var c = Comments.Where(x => x.Name == item.Name).FirstOrDefault();
             if (c != null)
@@ -114,6 +110,12 @@ public class 宾馆酒店信息 : IEqualityComparer<宾馆酒店信息>
                 item.Comments = c.Comments.Take(100).ToList();
                 item.CommentCount = c.Comments.Count;
             }
+            cnt++;
+            if (cnt > 5000) continue;   //深圳5000条，江门1000条 配额6000
+            //GEO信息取得
+            var loc = BaiduApi.GetGeoInfo(item.Address);
+            item.lat = loc.lat;
+            item.lng = loc.lng;
         }
 
         string json = JsonConvert.SerializeObject(records, Formatting.Indented);

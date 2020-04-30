@@ -22,7 +22,9 @@ import { FavItemComponent } from './favourite/favItem.component';
 import { FavItemCellComponent } from './favourite/favItemCell.component';
 import { CreatePlanComponent } from './PlanMaker/createPlan.component';
 import { CalendarModule } from 'primeng/calendar';
-import { FormsModule} from '@angular/forms'
+import { FormsModule} from '@angular/forms';
+import {TabViewModule} from 'primeng/tabview';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -48,6 +50,7 @@ import { FormsModule} from '@angular/forms'
     LazyLoadImageModule,
     NgxEchartsModule,
     CalendarModule,
+    TabViewModule,
     BrowserAnimationsModule,
     FormsModule
   ],
