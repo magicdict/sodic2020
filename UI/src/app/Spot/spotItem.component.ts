@@ -10,5 +10,5 @@ export class SpotItemComponent {
   constructor(public router: Router, public appservice: AppService) {
   }
   type = enmItemType.Spot;
-  @Input() SpotInfo: SpotInfo;
+  @Input() Spot: SpotInfo;
 }

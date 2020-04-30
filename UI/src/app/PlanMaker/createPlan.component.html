@@ -5,19 +5,33 @@
         新建计划
         <img src="assets/image/返回.png" width="30" height="30" alt="" (click)="Return()" style="float: right;">
     </nav>
-    <div style="position: absolute;z-index: 99;top:150px;text-align: center;overflow-y: scroll;height: 400px;"
+    <div *ngIf="this.appservice.Plan === null"
+        style="position: absolute;z-index: 99;top:150px;text-align: center;overflow-y: scroll;height: 400px;"
         [ngStyle]="{'width':appservice.clientWidth + 'px'}">
         <div style="margin-right: auto;margin-left: auto;">
             <span>开始日期&nbsp;&nbsp;</span>
-            <p-calendar [(ngModel)]="startdate" dateFormat="yy/mm/dd" [touchUI]="true" [readonlyInput]="true">
+            <p-calendar [(ngModel)]="startdate" dateFormat="yy/mm/dd" [touchUI]="true" [readonlyInput]="true"
+                (onSelect)="GetDays()">
             </p-calendar>
             <br />
             <span>结束时间&nbsp;&nbsp;</span>
-            <p-calendar [(ngModel)]="enddate" dateFormat="yy/mm/dd" [touchUI]="true" [readonlyInput]="true">
+            <p-calendar [(ngModel)]="enddate" dateFormat="yy/mm/dd" [touchUI]="true" [readonlyInput]="true"
+                (onSelect)="GetDays()">
             </p-calendar>
         </div>
         <br />
         <span>选择天数:{{Days}}</span><br />
         <button class="btn btn-lg btn-primary" (click)="CreatePlan()">创建</button>
+    </div>
+    <div *ngIf="this.appservice.Plan !== null"
+        style="position: absolute;z-index: 99;top:150px;text-align: center;overflow-y: scroll;height: 400px;"
+        [ngStyle]="{'width':appservice.clientWidth + 'px'}">
+        <div style="margin-right: auto;margin-left: auto;">
+            <button class="btn btn-lg btn-primary" style="width: 300px;height: 36px;" (click)="this.router.navigateByUrl('dailylist');">编辑</button>
+            <br />
+            <br />
+            <br />
+            <button class="btn btn-lg btn-danger" style="width: 300px;height: 36px;" (click)="DeletePlan()">删除</button>
+        </div>
     </div>
 </div>

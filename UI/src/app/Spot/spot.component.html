@@ -8,6 +8,6 @@
     </nav>
     <div style="position: absolute;z-index: 99;top:50px;text-align: center;overflow-y: scroll;"
         [ngStyle]="{height:this.appservice.clientHeight-50 + 'px','width':appservice.clientWidth + 'px'}">
-        <spot-item *ngFor="let spot of this.appservice.SpotList_CurrentShow" [SpotInfo]="spot"></spot-item>
+        <spot-item *ngFor="let spot of this.appservice.SpotList_CurrentShow" [Spot]="spot"></spot-item>
     </div>
 </div>

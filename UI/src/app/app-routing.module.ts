@@ -10,6 +10,8 @@ import { FoodDetailComponent } from './Food/foodDetail.component';
 import { HotelDetailComponent } from './Hotel/hotelDetail.component';
 import { FavItemComponent } from './favourite/favItem.component';
 import { CreatePlanComponent } from './PlanMaker/createPlan.component';
+import { DailyListComponent } from './PlanMaker/dailyList.component';
+import { DailyPlanComponent } from './PlanMaker/dailyPlan.component';
 
 const routes: Routes = [
   { path: 'home', component: LoginComponent },
@@ -22,6 +24,8 @@ const routes: Routes = [
   { path: 'spot/:name', component: SpotDetailComponent },
   { path: 'food/:name', component: FoodDetailComponent },
   { path: 'hotel/:name', component: HotelDetailComponent },
+  { path: 'dailylist', component: DailyListComponent },
+  { path: 'dailyplan', component: DailyPlanComponent },
   { path: '', redirectTo: 'home', pathMatch: 'full' }
 ];
 

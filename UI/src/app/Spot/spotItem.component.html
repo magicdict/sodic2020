@@ -1,29 +1,28 @@
 <div class="card">
     <div class="card-header">
-        <h4 *ngIf="this.SpotInfo.ALevel !==''" class="card-title">{{this.SpotInfo.Name}} ({{this.SpotInfo.ALevel}})
+        <h4 *ngIf="this.Spot.ALevel !==''" class="card-title">{{this.Spot.Name}} ({{this.Spot.ALevel}})
         </h4>
-        <h4 *ngIf="this.SpotInfo.ALevel ===''" class="card-title">{{this.SpotInfo.Name}}</h4>
-        <p class="category"><i class="fas fa-map-marked-alt"></i>&nbsp;{{this.SpotInfo.Address}}</p>
+        <h4 *ngIf="this.Spot.ALevel ===''" class="card-title">{{this.Spot.Name}}</h4>
+        <p class="category"><i class="fas fa-map-marked-alt"></i>&nbsp;{{this.Spot.Address}}</p>
     </div>
     <div class="card-body">
-        <div style="text-align:center;" *ngIf="this.SpotInfo.ALevel !==''">
-            <img [lazyLoad]="'/assets/image/spot/' + this.SpotInfo.Name + '.jpg'" width="320px" height="320px"
+        <div style="text-align:center;" *ngIf="this.Spot.ALevel !==''">
+            <img [lazyLoad]="'/assets/image/spot/' + this.Spot.Name + '.jpg'" width="320px" height="320px"
                 style="margin-left: auto;margin-right: auto;">
             <br />
             <br />
         </div>
-        <div *ngIf="SpotInfo.Description !==''"
-            style="width: 320px;margin-left: auto;margin-right: auto;text-align: left;">
-            {{SpotInfo.Description.substr(0,150)}}{{SpotInfo.Description.length > 150?"[更多]":""}}
+        <div *ngIf="Spot.Description !==''" style="width: 320px;margin-left: auto;margin-right: auto;text-align: left;">
+            {{Spot.Description.substr(0,150)}}{{Spot.Description.length > 150?"[更多]":""}}
         </div>
     </div>
     <div class="card-footer">
         <button style="width: 96px;height: 36px;" class="btn btn-primary"
-            (click)="this.router.navigateByUrl('spot/' + this.appservice.EncodeURI(SpotInfo.Name));"><i
+            (click)="this.router.navigateByUrl('spot/' + this.appservice.EncodeURI(Spot.Name));"><i
                 class="fas fa-list"></i>&nbsp;详细</button>
         &nbsp;&nbsp;&nbsp;&nbsp;
         <button style="width: 96px;height: 36px;" class="btn btn-danger"
-            (click)="this.appservice.AddToFav(this.SpotInfo,type)"><i class="fas fa-heart"></i>&nbsp;收藏</button>
+            (click)="this.appservice.AddToFav(this.Spot,type)"><i class="fas fa-heart"></i>&nbsp;收藏</button>
     </div>
 </div>
 <br />

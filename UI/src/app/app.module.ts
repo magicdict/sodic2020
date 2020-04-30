@@ -22,26 +22,35 @@ import { FavItemComponent } from './favourite/favItem.component';
 import { FavItemCellComponent } from './favourite/favItemCell.component';
 import { CreatePlanComponent } from './PlanMaker/createPlan.component';
 import { CalendarModule } from 'primeng/calendar';
-import { FormsModule} from '@angular/forms';
-import {TabViewModule} from 'primeng/tabview';
+import { FormsModule } from '@angular/forms';
+import { TabViewModule } from 'primeng/tabview';
+import { DailyListComponent } from './PlanMaker/dailyList.component';
+import { CardModule } from 'primeng/card';
+import { DailyPlanComponent } from './PlanMaker/dailyPlan.component';
+import { HotelItemComponent } from './Hotel/hotelItem.component';
+import { FoodItemComponent } from './Food/foodItem.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     HotelComponent,
+    HotelItemComponent,
     HotelDetailComponent,
     //景点
     SpotComponent,
     SpotItemComponent,
     SpotDetailComponent,
     FoodComponent,
+    FoodItemComponent,
     FoodDetailComponent,
     GiftComponent,
     ToolComponent,
     FavItemComponent,
     FavItemCellComponent,
-    CreatePlanComponent
+    CreatePlanComponent,
+    DailyListComponent,
+    DailyPlanComponent
   ],
   imports: [
     BrowserModule,
@@ -51,6 +60,7 @@ import {TabViewModule} from 'primeng/tabview';
     NgxEchartsModule,
     CalendarModule,
     TabViewModule,
+    CardModule,
     BrowserAnimationsModule,
     FormsModule
   ],

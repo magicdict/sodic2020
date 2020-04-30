@@ -10,14 +10,19 @@ export class AppService {
     clientWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
     clientHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
 
-    //用户收藏
-    FavItem: any[] = [];
+    //用户数据
 
+    /**收藏夹 */
+    FavItem: any[] = [];
     AddToFav(item: any, type: enmItemType) {
         item["ItemType"] = type;
         this.FavItem.push(item);
         this.localstorage.Save("FavItem", this.FavItem);
     }
+
+    /**出行计划 */
+    Plan: PlanInfo;
+    CurrentDailyInfo:DailyInfo;
 
     //系统数据
     IsLoadSpotFinished = false;
@@ -47,7 +52,8 @@ export class AppService {
         this.FavItem = this.localstorage.Load("FavItem");
         if (this.FavItem === null) this.FavItem = [];
         console.log("Fav Spot Name List:" + this.FavItem);
-
+        this.Plan = this.localstorage.Load("Plan");
+        console.log("User Plan:" + this.Plan);
 
         let spot_gradeA = this.http.get("assets/json/A级旅游景点评价信息.json").toPromise().then(x => x as SpotInfo[]);
         spot_gradeA.then(
@@ -199,4 +205,19 @@ export interface GiftInfo {
 
 export enum enmItemType {
     Spot, Food, Hotel, Gift
+}
+
+export interface PlanInfo {
+    StartDate: Date;
+    EndDate: Date;
+    Daily: DailyInfo[];
+}
+
+export interface DailyInfo {
+    strDate: string;
+    strWeek: string;
+    AM: SpotInfo[];
+    PM: SpotInfo[];
+    Food: FoodInfo[];
+    Hotel: HotelInfo;
 }

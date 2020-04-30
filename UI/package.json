@@ -21,6 +21,7 @@
     "@angular/router": "~9.1.4",
     "@fortawesome/fontawesome-free": "^5.13.0",
     "bootstrap": "^4.4.1",
+    "date-fns": "^2.12.0",
     "echarts": "^4.6.0",
     "echarts-bmap": "^1.0.3",
     "ng-lazyload-image": "^7.1.0",

@@ -19,7 +19,9 @@ export class DataStorage {
     public IsExist(key: string): boolean {
         return this.storage.getItem(key) === null;
     }
-
+    public Delete(key: string) {
+        this.storage.removeItem(key);
+    }
     public Load<T>(key: string): T {
         var json = this.storage.getItem(key);
         return JSON.parse(json);
