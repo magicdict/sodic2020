@@ -6,30 +6,15 @@ using NPOI.XSSF.UserModel;
 using NPOI.SS.UserModel;
 using System.Diagnostics.CodeAnalysis;
 
-public class 宾馆酒店信息 : IEqualityComparer<宾馆酒店信息>
+public class 宾馆酒店信息 : POI,IEqualityComparer<宾馆酒店信息>
 {
 
-    public string Name { get; set; }
 
     public string Grade { get; set; }
 
     public string Distract { get; set; }
 
-    public string Address { get; set; }
-
     public string ServiceTel { get; set; }
-
-    public string Description { get; set; }
-
-    public int Price { get; set; }
-
-    public double lat { get; set; }
-
-    public double lng { get; set; }
-
-    public List<string> Comments { get; set; }
-
-    public int CommentCount { get; set; }
 
     public static List<宾馆酒店信息> CreateHotel(string xlsxFilename, string jsonFilename, int LastColIdx, List<宾馆酒店评论> Comments)
     {
@@ -76,7 +61,7 @@ public class 宾馆酒店信息 : IEqualityComparer<宾馆酒店信息>
             r.ServiceTel = r.ServiceTel.TrimEnd("纠错".ToArray());
             //Cell4是联系人，一模一样的
 
-            r.Description = row.GetCell(LastColIdx - 1).StringCellValue;
+            r.Description = row.GetCell(LastColIdx - 1).StringCellValue.Trim();
             r.Price = 0;
             if (row.GetCell(LastColIdx).CellType == CellType.String)
             {

@@ -15,7 +15,9 @@ namespace xlsx2json
 
         static void Main(string[] args)
         {
+            CreateSpot();
             CreateHotel();
+            CreateFood();
         }
 
         static void CreateGift(){

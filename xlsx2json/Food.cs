@@ -6,23 +6,9 @@ using NPOI.XSSF.UserModel;
 using NPOI.SS.UserModel;
 using System.Diagnostics.CodeAnalysis;
 
-public class 特色美食信息 : IEqualityComparer<特色美食信息>
+public class 特色美食信息 : POI, IEqualityComparer<特色美食信息>
 {
-    public string Name { get; set; }
-
-    public string Address { get; set; }
-
     public string[] Item { get; set; }
-
-    public int Price { get; set; }
-
-    public double lat { get; set; }
-
-    public double lng { get; set; }
-
-    public List<string> Comments { get; set; }
-
-    public int CommentCount { get; set; }
 
     public static List<特色美食信息> CreateFood(string xlsxFilename, string jsonFilename, List<特色美食评论> Comments)
     {

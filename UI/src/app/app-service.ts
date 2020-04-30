@@ -147,7 +147,7 @@ export interface SpotInfo {
     ALevel: string;
     Address: string;
     Description: string;
-    TicketPrice: number;
+    Price: number;
     OpenTime: number;
     ServiceTel: number;
     IssueTel: number;

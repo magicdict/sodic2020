@@ -6,19 +6,12 @@ using NPOI.XSSF.UserModel;
 using NPOI.SS.UserModel;
 using System.Diagnostics.CodeAnalysis;
 
-public class 旅游景点信息 : IEqualityComparer<旅游景点信息>
+public class 旅游景点信息 : POI,IEqualityComparer<旅游景点信息>
 {
-    public string Name { get; set; }
 
     public string Type { get; set; }
 
     public string ALevel { get; set; }
-
-    public string Address { get; set; }
-
-    public string Description { get; set; }
-
-    public decimal TicketPrice { get; set; }
 
     public string OpenTime { get; set; }
 
@@ -27,17 +20,6 @@ public class 旅游景点信息 : IEqualityComparer<旅游景点信息>
     public string IssueTel { get; set; }
 
     public string TrafficGuide { get; set; }
-
-    public double lat { get; set; }
-
-    public double lng { get; set; }
-
-    public List<string> Comments { get; set; }
-    /// <summary>
-    /// 原始评论条数
-    /// </summary>
-    /// <value></value>
-    public int CommentCount { get; set; }
 
     public static List<旅游景点信息> CreateSpot(string xlsxFilename, string jsonFilename, List<旅游景点评论> Comments)
     {
@@ -57,12 +39,12 @@ public class 旅游景点信息 : IEqualityComparer<旅游景点信息>
             if (row.GetCell(2) != null) r.ALevel = row.GetCell(2).StringCellValue;
             
             r.Address = row.GetCell(3).StringCellValue;
-            r.Description = row.GetCell(4).StringCellValue;
+            r.Description = row.GetCell(4).StringCellValue.Trim();
             if (row.GetCell(5) != null)
             {
                 if (row.GetCell(5).CellType == CellType.Numeric)
                 {
-                    r.TicketPrice = (decimal)(row.GetCell(5).NumericCellValue);
+                    r.Price = (int)(row.GetCell(5).NumericCellValue);
                 }
                 else
                 {
@@ -70,11 +52,11 @@ public class 旅游景点信息 : IEqualityComparer<旅游景点信息>
                     {
                         if (row.GetCell(5).StringCellValue.Contains("免费") || row.GetCell(5).StringCellValue.Contains("无"))
                         {
-                            r.TicketPrice = 0;
+                            r.Price = 0;
                         }
                         else
                         {
-                            r.TicketPrice = decimal.Parse(row.GetCell(5).StringCellValue);
+                            r.Price = (int)double.Parse(row.GetCell(5).StringCellValue);
                         }
                     }
                 }
