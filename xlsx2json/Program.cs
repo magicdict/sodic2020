@@ -15,6 +15,11 @@ namespace xlsx2json
 
         static void Main(string[] args)
         {
+            CreateHotel();
+        }
+
+        static void POIAnalyze()
+        {
 
             POI数据分析.LoadData(JsonFolder_WepApi + "深圳市宾馆酒店信息.json");
             POI数据分析.GetTop50Price(JsonFolder_Visualization_AngularAssets + "深圳市宾馆酒店价格TOP50.json");
@@ -29,9 +34,6 @@ namespace xlsx2json
             POI数据分析.LoadData(JsonFolder_WepApi + "江门市特色美食信息.json");
             POI数据分析.GetTop50Price(JsonFolder_Visualization_AngularAssets + "江门市美食价格TOP50.json");
             POI数据分析.GetLow50Price(JsonFolder_Visualization_AngularAssets + "江门市美食价格LOW50.json");
-
-
-
         }
 
         static void CreateGift()

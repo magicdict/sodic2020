@@ -9,6 +9,7 @@ public class BaiduApi
 
     public static (double lat, double lng) GetGeoInfo(string Address)
     {
+        Address = Address.Replace("#","");
         if (!Address.StartsWith(DefaultCity)) Address = DefaultCity + Address;
         var json = Get("http://api.map.baidu.com/geocoding/v3/?address=" + Address + "&output=json&ak=E79497e9924e284e95ac0b55e6df53f7&callback=showLocation");
         if (json.Contains("配额超限，限制访问"))
@@ -17,6 +18,7 @@ public class BaiduApi
         }
         if (json.Contains("参数不存在"))
         {
+            System.Console.WriteLine(Address);
             return (-1, -1);
         }
         json = json.Substring("showLocation&&showLocation(".Length).TrimEnd(")".ToCharArray());
