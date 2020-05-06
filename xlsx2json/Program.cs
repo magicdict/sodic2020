@@ -15,12 +15,12 @@ namespace xlsx2json
 
         static void Main(string[] args)
         {
-            CreateSpot();
-            CreateHotel();
-            CreateFood();
+            var HotelComment_JM = 宾馆酒店评论.CreateHotelComment(JiangmenDataFolder + "江门市宾馆酒店评价信息.xlsx");
+            var Hotel_JM = 宾馆酒店信息.CreateHotel(JiangmenDataFolder + "江门市宾馆酒店信息.xlsx", JsonFolder_WepApi + "江门市宾馆酒店信息.json", 5, HotelComment_JM);
         }
 
-        static void CreateGift(){
+        static void CreateGift()
+        {
             var records = 特产品信息.CreateGift(ShenzhenDataFolder + "深圳市地方特产信息.xlsx");
             records.AddRange(特产品信息.CreateGift(JiangmenDataFolder + "江门市地方特产信息.xlsx"));
             var json = JsonConvert.SerializeObject(records, Formatting.Indented);

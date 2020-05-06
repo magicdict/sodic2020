@@ -96,7 +96,7 @@ public class 宾馆酒店信息 : POI,IEqualityComparer<宾馆酒店信息>
                 item.CommentCount = c.Comments.Count;
             }
             cnt++;
-            if (cnt > 5000) continue;   //深圳5000条，江门1000条 配额6000
+            //if (cnt > 5000) continue;   //深圳5000条，江门1000条 配额6000
             //GEO信息取得
             var loc = BaiduApi.GetGeoInfo(item.Address);
             item.lat = loc.lat;

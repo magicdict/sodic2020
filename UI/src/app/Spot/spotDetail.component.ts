@@ -35,7 +35,8 @@ export class SpotDetailComponent implements OnInit {
           series: [{
             type: 'effectScatter',
             // 使用百度地图坐标系
-            coordinateSystem: 'bmap'
+            coordinateSystem: 'bmap',
+            data:[[this.SpotDetailInfo.lng, this.SpotDetailInfo.lat,1]]
           }]
         }
       }

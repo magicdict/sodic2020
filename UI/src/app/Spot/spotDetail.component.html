@@ -14,7 +14,7 @@
                 </div>
                 <div *ngIf="this.SpotDetailInfo.lat !== -1">
                     <br /><br />
-                    <echarts [options]="this.option"></echarts>
+                    <echarts [options]="this.option" style="width: 320px;height: 320px;"></echarts>
                 </div>
             </p-tabPanel>
             <p-tabPanel *ngIf="TourInfoList.length !==0" header="组团">
