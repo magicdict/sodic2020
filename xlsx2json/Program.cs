@@ -15,8 +15,8 @@ namespace xlsx2json
 
         static void Main(string[] args)
         {
-            var HotelComment_JM = 宾馆酒店评论.CreateHotelComment(JiangmenDataFolder + "江门市宾馆酒店评价信息.xlsx");
-            var Hotel_JM = 宾馆酒店信息.CreateHotel(JiangmenDataFolder + "江门市宾馆酒店信息.xlsx", JsonFolder_WepApi + "江门市宾馆酒店信息.json", 5, HotelComment_JM);
+            美食数据分析.LoadData(JsonFolder_WepApi + "深圳市特色美食信息.json");
+            美食数据分析.GetTop50Price(JsonFolder_AngularAssets + "深圳市美食信息价格TOP50.json");
         }
 
         static void CreateGift()
