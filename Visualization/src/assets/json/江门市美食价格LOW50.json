@@ -1,0 +1,502 @@
+[
+  {
+    "Name": "欣欣华丰蛋糕(中东分店)",
+    "Price": 6,
+    "Description": null,
+    "Address": "沙坪镇新城路103号",
+    "lat": 22.778205640954145,
+    "lng": 112.97624725567299,
+    "Comments": null,
+    "CommentCount": 0
+  },
+  {
+    "Name": "金橙面包西饼屋(江会店)",
+    "Price": 6,
+    "Description": null,
+    "Address": "江会路17号108铺",
+    "lat": 22.578124811680638,
+    "lng": 113.09218124514166,
+    "Comments": null,
+    "CommentCount": 25
+  },
+  {
+    "Name": "正宗绿豆饼",
+    "Price": 7,
+    "Description": null,
+    "Address": "白沙街道羊桥路77号",
+    "lat": 22.580544969434627,
+    "lng": 113.09103066759738,
+    "Comments": null,
+    "CommentCount": 4
+  },
+  {
+    "Name": "车来屋(桥湖店)",
+    "Price": 7,
+    "Description": null,
+    "Address": "台山站西路新华花园牡丹阁110铺",
+    "lat": 22.269353425510158,
+    "lng": 112.78929505706742,
+    "Comments": null,
+    "CommentCount": 0
+  },
+  {
+    "Name": "欣欣华丰蛋糕(一小店)",
+    "Price": 8,
+    "Description": null,
+    "Address": "沙坪镇前进路4-1号",
+    "lat": 22.77143789456209,
+    "lng": 112.97265092819212,
+    "Comments": null,
+    "CommentCount": 0
+  },
+  {
+    "Name": "生活摩坊Life moment",
+    "Price": 8,
+    "Description": null,
+    "Address": "银晶酒店一楼",
+    "lat": 22.591797309605095,
+    "lng": 113.09898615102166,
+    "Comments": null,
+    "CommentCount": 2
+  },
+  {
+    "Name": "永叔小食",
+    "Price": 8,
+    "Description": null,
+    "Address": "蓬江区白沙大道西岭梅新村朝晖士多旁",
+    "lat": 22.581793059964298,
+    "lng": 113.08669185198562,
+    "Comments": null,
+    "CommentCount": 0
+  },
+  {
+    "Name": "乐口福云吞",
+    "Price": 8,
+    "Description": null,
+    "Address": "南苑里15号与16号之间地铺，物业管理协会对面",
+    "lat": 22.580972736117776,
+    "lng": 113.10597146449551,
+    "Comments": null,
+    "CommentCount": 2
+  },
+  {
+    "Name": "Hao Tea·豪哥奶茶(平安店)",
+    "Price": 8,
+    "Description": null,
+    "Address": "平安路12号(迎宾馆停车场隔壁)",
+    "lat": 22.532522994084307,
+    "lng": 113.04542100195435,
+    "Comments": null,
+    "CommentCount": 3
+  },
+  {
+    "Name": "秋葉面包(金田店)",
+    "Price": 8,
+    "Description": null,
+    "Address": "会城中心路7号(布维记（金田店）)(布维记（金田店）)",
+    "lat": 22.525674965582855,
+    "lng": 113.04563497832675,
+    "Comments": null,
+    "CommentCount": 0
+  },
+  {
+    "Name": "芯美轩面包站(江会店)",
+    "Price": 9,
+    "Description": null,
+    "Address": "江会路38号116、118号",
+    "lat": 22.574935981494963,
+    "lng": 113.08857790728459,
+    "Comments": null,
+    "CommentCount": 23
+  },
+  {
+    "Name": "柳州螺蛳粉河南店",
+    "Price": 9,
+    "Description": null,
+    "Address": "南苑一街29、31号首层自编03",
+    "lat": 22.58130385805964,
+    "lng": 113.10593221303625,
+    "Comments": null,
+    "CommentCount": 24
+  },
+  {
+    "Name": "港式牛杂皇",
+    "Price": 9,
+    "Description": null,
+    "Address": "胜利路金蓝海广场3楼小食街",
+    "lat": 22.582610375575673,
+    "lng": 113.09130734569437,
+    "Comments": null,
+    "CommentCount": 0
+  },
+  {
+    "Name": "小麦田西饼屋(幸福店)",
+    "Price": 9,
+    "Description": null,
+    "Address": "幸福路11号A座101-102铺(幸福市场对面)",
+    "lat": 22.382889987902008,
+    "lng": 112.69373996440831,
+    "Comments": null,
+    "CommentCount": 0
+  },
+  {
+    "Name": "古镇甜品",
+    "Price": 9,
+    "Description": null,
+    "Address": "白沙聚龙横26号地下(白沙街道办向人人乐方向直下500米)",
+    "lat": 22.573860997886815,
+    "lng": 113.08910002939598,
+    "Comments": null,
+    "CommentCount": 0
+  },
+  {
+    "Name": "益禾堂(麻园店)",
+    "Price": 9,
+    "Description": null,
+    "Address": "外海麻三东环路8号第4卡商铺",
+    "lat": 22.579054825047077,
+    "lng": 113.12750072595092,
+    "Comments": null,
+    "CommentCount": 0
+  },
+  {
+    "Name": "秋葉面包店(城东店)",
+    "Price": 9,
+    "Description": null,
+    "Address": "会城城东路52号1座101,102,103室",
+    "lat": 22.53342695016411,
+    "lng": 113.04722709189345,
+    "Comments": null,
+    "CommentCount": 0
+  },
+  {
+    "Name": "永恒小食店",
+    "Price": 9,
+    "Description": null,
+    "Address": "水南路8号",
+    "lat": 22.591339087105386,
+    "lng": 113.10228257292,
+    "Comments": null,
+    "CommentCount": 0
+  },
+  {
+    "Name": "地铁站港饮",
+    "Price": 9,
+    "Description": null,
+    "Address": "平安路1号115(新会菱东诊所旁)",
+    "lat": 22.532655261124127,
+    "lng": 113.04663317361249,
+    "Comments": null,
+    "CommentCount": 0
+  },
+  {
+    "Name": "正新鸡排(思新路店)",
+    "Price": 9,
+    "Description": null,
+    "Address": "恩新西路36号",
+    "lat": 22.187500963539037,
+    "lng": 112.316253034994,
+    "Comments": null,
+    "CommentCount": 2
+  },
+  {
+    "Name": "粤大包(永康店)",
+    "Price": 10,
+    "Description": null,
+    "Address": "合成坊27号",
+    "lat": 22.575816754568546,
+    "lng": 113.08448714077322,
+    "Comments": null,
+    "CommentCount": 0
+  },
+  {
+    "Name": "冰戈酸奶冰淇淋(仁寿店)",
+    "Price": 10,
+    "Description": null,
+    "Address": "仁寿路1号之1、2号",
+    "lat": 22.5272000574475,
+    "lng": 113.04678952548306,
+    "Comments": null,
+    "CommentCount": 10
+  },
+  {
+    "Name": "兰州牛肉拉面(水南店)",
+    "Price": 10,
+    "Description": null,
+    "Address": "水南路9号首层第3卡(近水南路工商银行)",
+    "lat": 22.603969963923685,
+    "lng": 113.10417395517064,
+    "Comments": null,
+    "CommentCount": 1
+  },
+  {
+    "Name": "蒙茶茶",
+    "Price": 10,
+    "Description": null,
+    "Address": "会城街道龙昌路11座105号商铺",
+    "lat": 22.51804631169888,
+    "lng": 113.04239087014808,
+    "Comments": null,
+    "CommentCount": 0
+  },
+  {
+    "Name": "舌尖印巷",
+    "Price": 10,
+    "Description": null,
+    "Address": "会城大新路50号3015自编02",
+    "lat": 22.525696832016095,
+    "lng": 113.04349656206095,
+    "Comments": null,
+    "CommentCount": 0
+  },
+  {
+    "Name": "我很懒(鹤山广场店)",
+    "Price": 10,
+    "Description": null,
+    "Address": "鹤山广场1楼",
+    "lat": 22.78093462830432,
+    "lng": 112.9827564672267,
+    "Comments": null,
+    "CommentCount": 6
+  },
+  {
+    "Name": "美品轩(上朗店)",
+    "Price": 10,
+    "Description": null,
+    "Address": "台城街道上朗路260号18号铺",
+    "lat": 22.24577109910862,
+    "lng": 112.80471998044878,
+    "Comments": null,
+    "CommentCount": 0
+  },
+  {
+    "Name": "清真兰州拉面(祈安店)",
+    "Price": 10,
+    "Description": null,
+    "Address": "祈安街5号5卡(江华电脑城旁)",
+    "lat": 22.597282012254713,
+    "lng": 113.10667798177887,
+    "Comments": null,
+    "CommentCount": 0
+  },
+  {
+    "Name": "采蝶轩(坚美店)",
+    "Price": 10,
+    "Description": null,
+    "Address": "大道坚美广场1楼(壹加壹商场内)",
+    "lat": 22.760520303475772,
+    "lng": 112.98265711463733,
+    "Comments": null,
+    "CommentCount": 0
+  },
+  {
+    "Name": "冧茶",
+    "Price": 10,
+    "Description": null,
+    "Address": "象溪路5号首层",
+    "lat": 22.582855894658916,
+    "lng": 113.09417895891717,
+    "Comments": null,
+    "CommentCount": 206
+  },
+  {
+    "Name": "光头佬美食",
+    "Price": 10,
+    "Description": null,
+    "Address": "内环路E3号",
+    "lat": 22.46605137483069,
+    "lng": 112.78576546380455,
+    "Comments": null,
+    "CommentCount": 0
+  },
+  {
+    "Name": "刘锦记牛杂屋",
+    "Price": 10,
+    "Description": null,
+    "Address": "建联街35号(龙胜龙湾姐弟牛杂店旁)",
+    "lat": 22.372937631805957,
+    "lng": 112.7002151301832,
+    "Comments": null,
+    "CommentCount": 0
+  },
+  {
+    "Name": "健生堂(天龙二街店)",
+    "Price": 10,
+    "Description": null,
+    "Address": "天龙一街102号(近天沙三路)",
+    "lat": 22.601266076929118,
+    "lng": 113.08386423939996,
+    "Comments": null,
+    "CommentCount": 0
+  },
+  {
+    "Name": "小麦田西饼屋(金中店)",
+    "Price": 10,
+    "Description": null,
+    "Address": "东郊新村33幢101号工交第四幼儿园隔壁",
+    "lat": 22.37345632609441,
+    "lng": 112.70833733911007,
+    "Comments": null,
+    "CommentCount": 20
+  },
+  {
+    "Name": "得利轩(前进店)",
+    "Price": 10,
+    "Description": null,
+    "Address": "司前镇前进中路粮丰大厦135号",
+    "lat": 22.4957321121106,
+    "lng": 112.86584425090545,
+    "Comments": null,
+    "CommentCount": 46
+  },
+  {
+    "Name": "心甜甜水果奶茶店",
+    "Price": 10,
+    "Description": null,
+    "Address": "堤东街道江边里33号",
+    "lat": 22.58989892537349,
+    "lng": 113.10026785961102,
+    "Comments": null,
+    "CommentCount": 0
+  },
+  {
+    "Name": "摩天楼",
+    "Price": 10,
+    "Description": null,
+    "Address": "羊桥路66号",
+    "lat": 22.58095785594985,
+    "lng": 113.09117090656203,
+    "Comments": null,
+    "CommentCount": 0
+  },
+  {
+    "Name": "华胜客",
+    "Price": 10,
+    "Description": null,
+    "Address": "麻三世纪天虹超市大门口",
+    "lat": 22.576050856144512,
+    "lng": 113.12532554653214,
+    "Comments": null,
+    "CommentCount": 6
+  },
+  {
+    "Name": "五谷渔粉(东门店)",
+    "Price": 10,
+    "Description": null,
+    "Address": "台城街道富城大道55号101铺(丰客隆超市斜对面)",
+    "lat": 22.254552861747953,
+    "lng": 112.81394887211952,
+    "Comments": null,
+    "CommentCount": 1
+  },
+  {
+    "Name": "三啡客咖啡",
+    "Price": 10,
+    "Description": null,
+    "Address": "沙坪镇崇德路33号",
+    "lat": 22.7702210397437,
+    "lng": 112.96925403711067,
+    "Comments": null,
+    "CommentCount": 0
+  },
+  {
+    "Name": "金橙面包西饼屋(江门大厦店)",
+    "Price": 10,
+    "Description": null,
+    "Address": "建设路3号",
+    "lat": 22.585044106690557,
+    "lng": 113.09241648350717,
+    "Comments": null,
+    "CommentCount": 19
+  },
+  {
+    "Name": "粮全其美手抓饼",
+    "Price": 10,
+    "Description": null,
+    "Address": "崖门镇崖西黄冲圩新一代面包店对面",
+    "lat": 22.306166005982636,
+    "lng": 113.05852404544075,
+    "Comments": null,
+    "CommentCount": 0
+  },
+  {
+    "Name": "小麦田西饼屋(民福路店)",
+    "Price": 10,
+    "Description": null,
+    "Address": "民福路1号首层15号铺位(中国银行)",
+    "lat": 22.45642303922971,
+    "lng": 112.77292056457584,
+    "Comments": null,
+    "CommentCount": 22
+  },
+  {
+    "Name": "8090奶茶店(星汇店)",
+    "Price": 10,
+    "Description": null,
+    "Address": "会城大新路星汇广场B1层005号铺下电梯左侧(邑汇自助火锅)",
+    "lat": 22.526531759923913,
+    "lng": 113.04290368042456,
+    "Comments": null,
+    "CommentCount": 0
+  },
+  {
+    "Name": "正新鸡排(五邑店)",
+    "Price": 10,
+    "Description": null,
+    "Address": "常安路151号(中山公园旁)",
+    "lat": 22.583932152328565,
+    "lng": 113.09524066619906,
+    "Comments": null,
+    "CommentCount": 0
+  },
+  {
+    "Name": "满族风特色烧烤",
+    "Price": 10,
+    "Description": null,
+    "Address": "会城悦洋街南园新村41座",
+    "lat": 22.52589863733005,
+    "lng": 113.05465414530505,
+    "Comments": null,
+    "CommentCount": 0
+  },
+  {
+    "Name": "锦山堂",
+    "Price": 10,
+    "Description": null,
+    "Address": "台城台东路80号111铺",
+    "lat": 22.255655255106184,
+    "lng": 112.8045872162843,
+    "Comments": null,
+    "CommentCount": 0
+  },
+  {
+    "Name": "香辣鸭脖",
+    "Price": 10,
+    "Description": null,
+    "Address": "得发路丽景公寓北80米",
+    "lat": 22.56606864281118,
+    "lng": 113.13132852969383,
+    "Comments": null,
+    "CommentCount": 0
+  },
+  {
+    "Name": "花菓菓",
+    "Price": 10,
+    "Description": null,
+    "Address": "东仓里45号胜利路28号地王广场2楼2107",
+    "lat": 22.583058699928678,
+    "lng": 113.09200946128074,
+    "Comments": null,
+    "CommentCount": 0
+  },
+  {
+    "Name": "惦记·菠萝油皇子",
+    "Price": 10,
+    "Description": null,
+    "Address": "知政中路33号01铺",
+    "lat": 22.528339619240743,
+    "lng": 113.04596289307509,
+    "Comments": null,
+    "CommentCount": 13
+  }
+]

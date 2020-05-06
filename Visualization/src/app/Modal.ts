@@ -1,5 +1,5 @@
 /**美食 */
-export interface FoodInfo {
+export interface POIInfo {
     Name: string;
     Address: string;
     Item: string[];

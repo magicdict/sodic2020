@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FoodPriceTopComponent } from './visualization/foodpricetop.component';
+import { PriceTopLowComponent } from './visualization/pricetoplow.component';
 import { NgxEchartsModule } from 'ngx-echarts';
 import { MainComponent } from './Main.component';
 import { MyCommonModule } from './Common/MyCommon.module';
@@ -11,7 +11,7 @@ import { MyCommonModule } from './Common/MyCommon.module';
   declarations: [
     AppComponent,
     MainComponent,
-    FoodPriceTopComponent
+    PriceTopLowComponent
   ],
   imports: [
     BrowserModule,

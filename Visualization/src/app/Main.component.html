@@ -221,6 +221,23 @@
                 <span>江门人均价格</span></a></li>
           </ul>
         </li>
+
+        <li [class]="this._path.startsWith('/main/hotelpricetop')? 'active treeview menu-open':'treeview'">
+          <a href="#">
+            <i class="fa fa-edit"></i> <span>酒店</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li [class.active]="_path ==='/main/hotelpricetop/sz'"><a href="/main/hotelpricetop/sz"><i class="fa fa-link"></i>
+                <span>深圳人均价格</span></a></li>
+            <li [class.active]="_path ==='/main/hotelpricetop/jm'"><a href="/main/hotelpricetop/jm"><i
+                  class="fa fa-link"></i>
+                <span>江门人均价格</span></a></li>
+          </ul>
+        </li>
+
       </ul>
       <!-- /.sidebar-menu -->
     </section>
