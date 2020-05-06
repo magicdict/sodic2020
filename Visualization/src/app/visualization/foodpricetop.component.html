@@ -1,3 +1,8 @@
-<div>
-    <echarts [options]="this.option"  [ngStyle]="{'height':clientHeight + 'px','width': clientWidth + 'px'}" (chartInit)="GetChart($event)"></echarts>
+<div style="width: 100%;height: 720px;">
+    <echarts [options]="this.option_sz" [ngStyle]="{'height':'720px','width': clientWidth + 'px'}" (chartInit)="GetChart_SZ($event)">
+    </echarts>
+</div>
+<div style="width: 100%;height: 720px;">
+    <echarts [options]="this.option_jm" [ngStyle]="{'height':'720px','width': clientWidth + 'px'}" (chartInit)="GetChart_JM($event)">
+    </echarts>
 </div>

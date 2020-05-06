@@ -176,11 +176,20 @@ public class 美食数据分析
         records = JsonConvert.DeserializeObject<List<特色美食信息>>(sr.ReadToEnd());
         sr.Close();
     }
-    public static void GetTop50Price(string jsonFilename){
-        records.Sort((x,y)=>{return y.Price - x.Price;});
-        var json = JsonConvert.SerializeObject(records.Take(50).ToList(), Formatting.Indented);
+    public static void GetTop50Price(string jsonFilename, int limit = 50)
+    {
+        records.Sort((x, y) => { return y.Price - x.Price; });
+        var json = JsonConvert.SerializeObject(records.Where(x => x.lat != -1).Take(limit).ToList(), Formatting.Indented);
         var sw = new StreamWriter(jsonFilename);
         sw.WriteLine(json);
-        sw.Close();       
+        sw.Close();
+    }
+    public static void GetLow50Price(string jsonFilename, int limit = 50)
+    {
+        records.Sort((x, y) => { return x.Price - y.Price; });
+        var json = JsonConvert.SerializeObject(records.Where(x => x.lat != -1 && x.Price != 0).Take(limit).ToList(), Formatting.Indented);
+        var sw = new StreamWriter(jsonFilename);
+        sw.WriteLine(json);
+        sw.Close();
     }
 }

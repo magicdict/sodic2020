@@ -15,9 +15,11 @@ namespace xlsx2json
 
         static void Main(string[] args)
         {
-            CreateFood();
+            
             美食数据分析.LoadData(JsonFolder_WepApi + "深圳市特色美食信息.json");
-            美食数据分析.GetTop50Price(JsonFolder_Visualization_AngularAssets + "深圳市美食信息价格TOP50.json");
+            美食数据分析.GetLow50Price(JsonFolder_Visualization_AngularAssets + "深圳市美食信息价格LOW50.json");
+            美食数据分析.LoadData(JsonFolder_WepApi + "江门市特色美食信息.json");
+            美食数据分析.GetLow50Price(JsonFolder_Visualization_AngularAssets + "江门市美食信息价格LOW50.json");
         }
 
         static void CreateGift()
@@ -46,8 +48,10 @@ namespace xlsx2json
 
         static void CreateHotel()
         {
+            BaiduApi.DefaultCity = "深圳市";
             var HotelComment_SZ = 宾馆酒店评论.CreateHotelComment(ShenzhenDataFolder + "深圳市宾馆酒店评价信息.xlsx");
             var Hotel_SZ = 宾馆酒店信息.CreateHotel(ShenzhenDataFolder + "深圳市宾馆酒店信息.xlsx", JsonFolder_WepApi + "深圳市宾馆酒店信息.json", 6, HotelComment_SZ);
+            BaiduApi.DefaultCity = "江门市";
             var HotelComment_JM = 宾馆酒店评论.CreateHotelComment(JiangmenDataFolder + "江门市宾馆酒店评价信息.xlsx");
             var Hotel_JM = 宾馆酒店信息.CreateHotel(JiangmenDataFolder + "江门市宾馆酒店信息.xlsx", JsonFolder_WepApi + "江门市宾馆酒店信息.json", 5, HotelComment_JM);
 
@@ -80,7 +84,7 @@ namespace xlsx2json
             BaiduApi.DefaultCity = "深圳市";
             var FoodComment_SZ = 特色美食评论.CreateFoodComment(ShenzhenDataFolder + "深圳市特色美食评价信息.xlsx");
             var Food_SZ = 特色美食信息.CreateFood(ShenzhenDataFolder + "深圳市特色美食信息.xlsx", JsonFolder_WepApi + "深圳市特色美食信息.json", FoodComment_SZ);
-            
+
             BaiduApi.DefaultCity = "江门市";
             var FoodComment_JM = 特色美食评论.CreateFoodComment(JiangmenDataFolder + "江门市特色美食评价信息.xlsx");
             var Food_JM = 特色美食信息.CreateFood(JiangmenDataFolder + "江门市特色美食信息.xlsx", JsonFolder_WepApi + "江门市特色美食信息.json", FoodComment_JM);
@@ -110,8 +114,10 @@ namespace xlsx2json
 
         static void CreateSpot()
         {
+            BaiduApi.DefaultCity = "深圳市";
             var SpotComment_SZ = 旅游景点评论.CreateSpotComment(ShenzhenDataFolder + "深圳市旅游景点评价信息.xlsx");
             var Spot_SZ = 旅游景点信息.CreateSpot(ShenzhenDataFolder + "深圳市旅游景点信息.xlsx", JsonFolder_WepApi + "深圳市旅游景点信息.json", SpotComment_SZ);
+            BaiduApi.DefaultCity = "江门市";
             var SpotComment_JM = 旅游景点评论.CreateSpotComment(JiangmenDataFolder + "江门市旅游景点评价信息.xlsx");
             var Spot_JM = 旅游景点信息.CreateSpot(JiangmenDataFolder + "江门市旅游景点信息.xlsx", JsonFolder_WepApi + "江门市旅游景点信息.json", SpotComment_JM);
 
