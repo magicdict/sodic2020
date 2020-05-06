@@ -50,7 +50,7 @@ import { FoodItemComponent } from './Food/foodItem.component';
     FavItemCellComponent,
     CreatePlanComponent,
     DailyListComponent,
-    DailyPlanComponent
+    DailyPlanComponent,
   ],
   imports: [
     BrowserModule,

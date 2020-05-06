@@ -5,8 +5,11 @@ using Newtonsoft.Json;
 
 public class BaiduApi
 {
+    public static string DefaultCity = "深圳市";
+
     public static (double lat, double lng) GetGeoInfo(string Address)
     {
+        if (!Address.StartsWith(DefaultCity)) Address = DefaultCity + Address;
         var json = Get("http://api.map.baidu.com/geocoding/v3/?address=" + Address + "&output=json&ak=E79497e9924e284e95ac0b55e6df53f7&callback=showLocation");
         if (json.Contains("配额超限，限制访问"))
         {

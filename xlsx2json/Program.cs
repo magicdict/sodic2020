@@ -10,13 +10,14 @@ namespace xlsx2json
         public const string JiangmenDataFolder = @"F:\sodic2020\非JSON数据\江门文旅数据\";
         public const string ShenzhenDataFolder = @"F:\sodic2020\非JSON数据\深圳文旅数据\";
         public const string JsonFolder_AngularAssets = @"F:\sodic2020\UI\src\assets\json\";
-
+        public const string JsonFolder_Visualization_AngularAssets = @"F:\sodic2020\Visualization\src\assets\json\";
         public const string JsonFolder_WepApi = @"F:\sodic2020\json\";
 
         static void Main(string[] args)
         {
+            CreateFood();
             美食数据分析.LoadData(JsonFolder_WepApi + "深圳市特色美食信息.json");
-            美食数据分析.GetTop50Price(JsonFolder_AngularAssets + "深圳市美食信息价格TOP50.json");
+            美食数据分析.GetTop50Price(JsonFolder_Visualization_AngularAssets + "深圳市美食信息价格TOP50.json");
         }
 
         static void CreateGift()
@@ -76,8 +77,11 @@ namespace xlsx2json
         static void CreateFood()
         {
 
+            BaiduApi.DefaultCity = "深圳市";
             var FoodComment_SZ = 特色美食评论.CreateFoodComment(ShenzhenDataFolder + "深圳市特色美食评价信息.xlsx");
             var Food_SZ = 特色美食信息.CreateFood(ShenzhenDataFolder + "深圳市特色美食信息.xlsx", JsonFolder_WepApi + "深圳市特色美食信息.json", FoodComment_SZ);
+            
+            BaiduApi.DefaultCity = "江门市";
             var FoodComment_JM = 特色美食评论.CreateFoodComment(JiangmenDataFolder + "江门市特色美食评价信息.xlsx");
             var Food_JM = 特色美食信息.CreateFood(JiangmenDataFolder + "江门市特色美食信息.xlsx", JsonFolder_WepApi + "江门市特色美食信息.json", FoodComment_JM);
 
