@@ -24,9 +24,19 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/admin-lte/bower_components/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/admin-lte/bower_components/font-awesome/css/font-awesome.min.css",
+              "./node_modules/admin-lte/bower_components/Ionicons/css/ionicons.min.css",
+              "./node_modules/admin-lte/dist/css/AdminLTE.min.css",
+              "./node_modules/admin-lte/dist/css/skins/skin-blue.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.min.js",
+              "./node_modules/jquery-ui-dist/jquery-ui.js",
+              "./node_modules/admin-lte/bower_components/bootstrap/dist/js/bootstrap.min.js",
+              "./node_modules/admin-lte/dist/js/adminlte.min.js"
+            ]
           },
           "configurations": {
             "production": {
