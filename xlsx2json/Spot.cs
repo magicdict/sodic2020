@@ -103,7 +103,9 @@ public class 旅游景点信息 : POI, IEqualityComparer<旅游景点信息>
             var c = Comments.Where(x => x.Name == item.Name).FirstOrDefault();
             if (c != null)
             {
-                item.Comments = c.Comments.Take(100).ToList();
+                //词云的制作
+                item.WordCloud = WordCloudItem.Create(c.Comments, 20);
+                item.Comments = c.Comments.Take(50).ToList();
                 item.CommentCount = c.Comments.Count;
             }
         }
@@ -140,6 +142,7 @@ public class 旅游景点信息 : POI, IEqualityComparer<旅游景点信息>
             item.Description = null;
             item.TrafficGuide = null;
             item.OpenTime = null;
+            item.WordCloud = null;
         }
         string json = JsonConvert.SerializeObject(records, Formatting.Indented);
         using (var sw = new StreamWriter(simplejsonfile, false))

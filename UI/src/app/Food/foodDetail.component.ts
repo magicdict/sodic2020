@@ -12,6 +12,7 @@ export class FoodDetailComponent implements OnInit {
   }
   FoodDetailInfo: FoodInfo;
   option = {};
+  opiton_wordcoudy = {};
   Return() {
     this._location.back();
   }
@@ -37,6 +38,42 @@ export class FoodDetailComponent implements OnInit {
             coordinateSystem: 'bmap'
           }]
         }
+
+        this.opiton_wordcoudy = {
+          tooltip: {
+            show: true
+          },
+          series: [{
+            name: '评论词云',
+            type: 'wordCloud',
+            sizeRange: [10, 50],//文字范围
+            //文本旋转范围，文本将通过rotationStep45在[-90,90]范围内随机旋转
+            rotationRange: [-45, 90],
+            rotationStep: 45,
+            textRotation: [0, 45, 90, -45],
+            //形状
+            shape: 'circle',
+            textStyle: {
+              normal: {
+                color: function () {//文字颜色的随机色
+                  return 'rgb(' + [
+                    Math.round(Math.random() * 250),
+                    Math.round(Math.random() * 250),
+                    Math.round(Math.random() * 250)
+                  ].join(',') + ')';
+                }
+              },
+              //悬停上去的颜色设置
+              emphasis: {
+                shadowBlur: 10,
+                shadowColor: '#333'
+              }
+            },
+            data: this.FoodDetailInfo.WordCloud
+          }]
+        };
+
+
       }
     );
   }

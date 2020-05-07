@@ -74,7 +74,9 @@ public class 特色美食信息 : POI, IEqualityComparer<特色美食信息>
             var c = Comments.Where(x => x.Name == item.Name).FirstOrDefault();
             if (c != null)
             {
-                item.Comments = c.Comments.Take(100).ToList();
+                //词云的制作
+                item.WordCloud = WordCloudItem.Create(c.Comments, 20);
+                item.Comments = c.Comments.Take(50).ToList();
                 item.CommentCount = c.Comments.Count;
             }
         }

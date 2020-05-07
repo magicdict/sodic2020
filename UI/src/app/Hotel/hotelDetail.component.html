@@ -19,6 +19,7 @@
             </p-tabPanel>
             <p-tabPanel header="评论" *ngIf="this.HotelDetailInfo.Comments !== null" style="text-align: left;">
                 评论数：{{this.HotelDetailInfo.CommentCount}} (展示前100条)
+                <echarts [options]="this.opiton_wordcoudy" style="width: 320px;height: 320px;"></echarts>
                 <ul>
                     <li *ngFor="let c of this.HotelDetailInfo.Comments.slice(0,100)">
                         {{c}}

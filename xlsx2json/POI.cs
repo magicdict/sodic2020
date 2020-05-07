@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using Newtonsoft.Json;
+using JiebaNet.Segmenter;
 
 public class POI
 {
@@ -20,6 +21,37 @@ public class POI
     public List<string> Comments { get; set; }
 
     public int CommentCount { get; set; }
+
+    public List<WordCloudItem> WordCloud { get; set; }
+}
+
+public class WordCloudItem
+{
+    public string name;
+
+    public int value;
+
+    public static JiebaSegmenter segmenter = new JiebaSegmenter();
+
+    public static List<WordCloudItem> Create(List<string> comments, int Top)
+    {
+        var r = new List<WordCloudItem>();
+        var dic = new Dictionary<string, int>();
+        foreach (var comment in comments)
+        {
+            var s = segmenter.Cut(comment);
+            foreach (var w in s)
+            {
+                if (w.Length == 1) continue;    //标点，单个StopWorld的过滤
+                if (!dic.ContainsKey(w)) dic.Add(w, 0);
+                dic[w]++;
+            }
+        }
+        r = dic.Select(x => { return new WordCloudItem() { name = x.Key, value = x.Value }; }).ToList();
+        r.Sort((x, y) => { return y.value - x.value; });
+        return r.Take(Top).ToList();
+    }
+
 }
 
 public class POI数据分析

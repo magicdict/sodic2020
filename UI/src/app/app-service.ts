@@ -22,7 +22,7 @@ export class AppService {
 
     /**出行计划 */
     Plan: PlanInfo;
-    CurrentDailyInfo:DailyInfo;
+    CurrentDailyInfo: DailyInfo;
 
     //系统数据
     IsLoadSpotFinished = false;
@@ -162,6 +162,7 @@ export interface SpotInfo {
     lng: number;
     Comments: string[];
     CommentCount: number;
+    WordCloud: { name: string, value: number }[]
 }
 
 /**美食 */
@@ -174,6 +175,7 @@ export interface FoodInfo {
     lng: number;
     Comments: string[];
     CommentCount: number;
+    WordCloud: { name: string, value: number }[]
 }
 
 /**宾馆酒店 */
@@ -189,6 +191,7 @@ export interface HotelInfo {
     lng: number;
     Comments: string[];
     CommentCount: number;
+    WordCloud: { name: string, value: number }[]
 }
 
 export interface TourInfo {

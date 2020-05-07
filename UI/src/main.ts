@@ -5,6 +5,7 @@ import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
 import 'echarts/dist/extension/bmap.min.js';
 import 'echarts-bmap';
+import 'echarts-wordcloud';
 
 if (environment.production) {
   enableProdMode();

@@ -16,6 +16,9 @@ namespace xlsx2json
 
         static void Main(string[] args)
         {
+            CreateFood();
+            CreateHotel();
+            return;
             旅游景点信息.CreateSpotSimple(JsonFolder_WepApi + "深圳市旅游景点信息.json",JsonFolder_Visualization_AngularAssets + "深圳市旅游景点信息.json");
             旅游景点信息.CreateSpotSimple(JsonFolder_WepApi + "江门市旅游景点信息.json",JsonFolder_Visualization_AngularAssets + "江门市旅游景点信息.json");
         }
@@ -125,7 +128,7 @@ namespace xlsx2json
             HotHotel = HotHotel.Select(
                 (y) =>
                 {
-                    if (y.Comments != null) y.Comments = y.Comments.Take(100).ToList();
+                    if (y.Comments != null) y.Comments = y.Comments.Take(50).ToList();
                     return y;
                 }
             ).ToList();
@@ -158,7 +161,7 @@ namespace xlsx2json
             HotFood = HotFood.Select(
                 (y) =>
                 {
-                    if (y.Comments != null) y.Comments = y.Comments.Take(100).ToList();
+                    if (y.Comments != null) y.Comments = y.Comments.Take(50).ToList();
                     return y;
                 }
             ).ToList();
@@ -187,7 +190,7 @@ namespace xlsx2json
             GradeASpot = GradeASpot.Where(x => !string.IsNullOrEmpty(x.ALevel)).Select(
                 (y) =>
                 {
-                    if (y.Comments != null) y.Comments = y.Comments.Take(100).ToList();
+                    if (y.Comments != null) y.Comments = y.Comments.Take(50).ToList();  //其实不用限制，CreateSpot时候已经限制了。。。
                     return y;
                 }
             ).ToList();

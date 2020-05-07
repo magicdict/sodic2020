@@ -6,7 +6,7 @@ using NPOI.XSSF.UserModel;
 using NPOI.SS.UserModel;
 using System.Diagnostics.CodeAnalysis;
 
-public class 宾馆酒店信息 : POI,IEqualityComparer<宾馆酒店信息>
+public class 宾馆酒店信息 : POI, IEqualityComparer<宾馆酒店信息>
 {
 
 
@@ -92,7 +92,8 @@ public class 宾馆酒店信息 : POI,IEqualityComparer<宾馆酒店信息>
             var c = Comments.Where(x => x.Name == item.Name).FirstOrDefault();
             if (c != null)
             {
-                item.Comments = c.Comments.Take(100).ToList();
+                item.WordCloud = WordCloudItem.Create(c.Comments, 20);
+                item.Comments = c.Comments.Take(50).ToList();
                 item.CommentCount = c.Comments.Count;
             }
             cnt++;

@@ -25,6 +25,7 @@
     "echarts": "^4.7.0",
     "echarts-bmap": "^1.0.3",
     "echarts-gl": "^1.1.1",
+    "echarts-wordcloud": "^1.1.3",
     "ng-lazyload-image": "^7.1.0",
     "ngx-echarts": "^4.2.2",
     "primeicons": "^2.0.0",
