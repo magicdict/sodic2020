@@ -53,16 +53,17 @@ public class POI数据分析
         sw.Close();
     }
 
-    public static void GetPriceSegment(){
-       var Below20 =  records.Count(x => x.Price != 0 && x.Price < 20);
-       var Range20_50 =  records.Count(x => x.Price >= 20 && x.Price <50);
-       var Range50_100 =  records.Count(x => x.Price >= 50 && x.Price <100);
-       var Range100_200 =  records.Count(x => x.Price >= 100 && x.Price <200);
-       var Range200_500 =  records.Count(x => x.Price >= 200 && x.Price <500);
-       var Range500_1000 =  records.Count(x => x.Price >= 500 && x.Price <1000);
+    public static void GetPriceSegment()
+    {
+        var Below20 = records.Count(x => x.Price != 0 && x.Price < 20);
+        var Range20_50 = records.Count(x => x.Price >= 20 && x.Price < 50);
+        var Range50_100 = records.Count(x => x.Price >= 50 && x.Price < 100);
+        var Range100_200 = records.Count(x => x.Price >= 100 && x.Price < 200);
+        var Range200_500 = records.Count(x => x.Price >= 200 && x.Price < 500);
+        var Range500_1000 = records.Count(x => x.Price >= 500 && x.Price < 1000);
 
-       var Above500 =  records.Count(x => x.Price >= 500);
-       var Above1000 =  records.Count(x => x.Price >= 1000);
+        var Above500 = records.Count(x => x.Price >= 500);
+        var Above1000 = records.Count(x => x.Price >= 1000);
 
         System.Console.WriteLine("20以下：" + Below20);
         System.Console.WriteLine("20-50：" + Range20_50);

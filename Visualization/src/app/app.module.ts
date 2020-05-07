@@ -9,10 +9,12 @@ import { MainComponent } from './Main.component';
 import { MyCommonModule } from './Common/MyCommon.module';
 import { PirceSegementComponent } from './visualization/pricesegment.component';
 import { HotfoodComponent } from './visualization/hotfood.component';
+import { SpotOverviewComponent } from './visualization/spotoverview.component';
 @NgModule({
   declarations: [
     AppComponent,
     MainComponent,
+    SpotOverviewComponent,
     PirceSegementComponent,
     HotfoodComponent,
     PriceTopLowComponent

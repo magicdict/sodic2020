@@ -6,7 +6,7 @@ using NPOI.XSSF.UserModel;
 using NPOI.SS.UserModel;
 using System.Diagnostics.CodeAnalysis;
 
-public class 旅游景点信息 : POI,IEqualityComparer<旅游景点信息>
+public class 旅游景点信息 : POI, IEqualityComparer<旅游景点信息>
 {
 
     public string Type { get; set; }
@@ -37,7 +37,7 @@ public class 旅游景点信息 : POI,IEqualityComparer<旅游景点信息>
             r.Name = row.GetCell(0).StringCellValue;
             if (row.GetCell(1) != null) r.Type = row.GetCell(1).StringCellValue;
             if (row.GetCell(2) != null) r.ALevel = row.GetCell(2).StringCellValue;
-            
+
             r.Address = row.GetCell(3).StringCellValue;
             r.Description = row.GetCell(4).StringCellValue.Trim();
             if (row.GetCell(5) != null)
@@ -126,6 +126,27 @@ public class 旅游景点信息 : POI,IEqualityComparer<旅游景点信息>
     public int GetHashCode([DisallowNull] 旅游景点信息 obj)
     {
         return obj.Name.GetHashCode();
+    }
+
+    public static void CreateSpotSimple(string jsonFilename, string simplejsonfile)
+    {
+        var sr = new StreamReader(jsonFilename);
+        var records = JsonConvert.DeserializeObject<List<旅游景点信息>>(sr.ReadToEnd());
+        sr.Close();
+        //去掉评论
+        foreach (var item in records)
+        {
+            item.Comments = null;
+            item.Description = null;
+            item.TrafficGuide = null;
+            item.OpenTime = null;
+        }
+        string json = JsonConvert.SerializeObject(records, Formatting.Indented);
+        using (var sw = new StreamWriter(simplejsonfile, false))
+        {
+            sw.Write(json);
+            sw.Close();
+        }
     }
 }
 

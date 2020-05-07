@@ -4,6 +4,7 @@ import { PriceTopLowComponent } from './visualization/pricetoplow.component';
 import { MainComponent } from './Main.component';
 import { PirceSegementComponent } from './visualization/pricesegment.component';
 import { HotfoodComponent } from './visualization/hotfood.component';
+import { SpotOverviewComponent } from './visualization/spotoverview.component';
 
 
 const routes: Routes = [
@@ -11,6 +12,7 @@ const routes: Routes = [
     path: 'main', component: MainComponent,
     children: [
       { path: 'dashboard/pricesegment',component:PirceSegementComponent},
+      { path: 'dashboard/spotoverview/:name',component:SpotOverviewComponent},
       { path: 'food/pricetop/:name', component: PriceTopLowComponent },
       { path: 'food/hot',component:HotfoodComponent},
       { path: 'hotel/pricetop/:name', component: PriceTopLowComponent },

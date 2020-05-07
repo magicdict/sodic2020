@@ -8,4 +8,5 @@ export interface POIInfo {
     lng: number;
     Comments: string[];
     CommentCount: number;
+    ALevel:string;
 }

@@ -1,0 +1,19 @@
+<section class="content-header">
+    <h1>
+        {{_title}}
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="/traffic/dashboard"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li class="active">
+             {{_title}}
+        </li>
+    </ol>
+</section>
+<section class="content">
+    <div class="row">
+        <div class="col-md-12">
+            <chart [options]="_map" [title]="_title" [boxstyle]="this._commonFunction.boxstyle_Col12_Row2"
+                [chartstyle]="this._commonFunction.boxstyle_Col12_Row2" (ChartInit)="this.GetChart($event)"></chart>
+        </div>
+    </div>
+</section>

@@ -16,7 +16,16 @@ namespace xlsx2json
 
         static void Main(string[] args)
         {
-            CreateFood();
+            旅游景点信息.CreateSpotSimple(JsonFolder_WepApi + "深圳市旅游景点信息.json",JsonFolder_Visualization_AngularAssets + "深圳市旅游景点信息.json");
+            旅游景点信息.CreateSpotSimple(JsonFolder_WepApi + "江门市旅游景点信息.json",JsonFolder_Visualization_AngularAssets + "江门市旅游景点信息.json");
+        }
+
+        static void CreatePark()
+        {
+            BaiduApi.DefaultCity = "深圳市";
+            停车场信息.CreatePark(ShenzhenDataFolder + "深圳市景点停车场信息.xlsx", JsonFolder_WepApi + "深圳市景点停车场信息.json");
+            BaiduApi.DefaultCity = "江门市";
+            停车场信息.CreatePark(JiangmenDataFolder + "江门市景点停车场信息.xlsx", JsonFolder_WepApi + "江门市景点停车场信息.json");
         }
 
         static void FoodPriceSegment()
