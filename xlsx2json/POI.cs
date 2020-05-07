@@ -52,4 +52,30 @@ public class POI数据分析
         sw.WriteLine(json);
         sw.Close();
     }
+
+    public static void GetPriceSegment(){
+       var Below20 =  records.Count(x => x.Price != 0 && x.Price < 20);
+       var Range20_50 =  records.Count(x => x.Price >= 20 && x.Price <50);
+       var Range50_100 =  records.Count(x => x.Price >= 50 && x.Price <100);
+       var Range100_200 =  records.Count(x => x.Price >= 100 && x.Price <200);
+       var Range200_500 =  records.Count(x => x.Price >= 200 && x.Price <500);
+       var Range500_1000 =  records.Count(x => x.Price >= 500 && x.Price <1000);
+
+       var Above500 =  records.Count(x => x.Price >= 500);
+       var Above1000 =  records.Count(x => x.Price >= 1000);
+
+        System.Console.WriteLine("20以下：" + Below20);
+        System.Console.WriteLine("20-50：" + Range20_50);
+        System.Console.WriteLine("50-100：" + Range50_100);
+        System.Console.WriteLine("100-200：" + Range100_200);
+        System.Console.WriteLine("200-500：" + Range200_500);
+        System.Console.WriteLine("500-1000：" + Range500_1000);
+
+        System.Console.WriteLine("500以上：" + Above500);
+        System.Console.WriteLine("1000以上：" + Above1000);
+
+        var Avg = records.Where(x => x.Price != 0).Average(x => x.Price);
+        System.Console.WriteLine("Avg：" + Avg);
+        System.Console.WriteLine("Count：" + records.Count(x => x.Price != 0));
+    }
 }

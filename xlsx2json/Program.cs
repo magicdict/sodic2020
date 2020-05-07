@@ -1,4 +1,5 @@
 ﻿
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using Newtonsoft.Json;
@@ -15,7 +16,44 @@ namespace xlsx2json
 
         static void Main(string[] args)
         {
-            CreateHotel();
+            CreateFood();
+        }
+
+        static void FoodPriceSegment()
+        {
+            POI数据分析.LoadData(JsonFolder_WepApi + "深圳市特色美食信息.json");
+            POI数据分析.GetPriceSegment();
+            POI数据分析.LoadData(JsonFolder_WepApi + "江门市特色美食信息.json");
+            POI数据分析.GetPriceSegment();
+
+            POI数据分析.LoadData(JsonFolder_WepApi + "深圳市宾馆酒店信息.json");
+            POI数据分析.GetPriceSegment();
+            POI数据分析.LoadData(JsonFolder_WepApi + "江门市宾馆酒店信息.json");
+            POI数据分析.GetPriceSegment();
+        }
+
+        static void CommentAbstract()
+        {
+            var HotelComment_SZ = 宾馆酒店评论.CreateHotelComment(ShenzhenDataFolder + "深圳市宾馆酒店评价信息.xlsx");
+            var HotelComment_JM = 宾馆酒店评论.CreateHotelComment(JiangmenDataFolder + "江门市宾馆酒店评价信息.xlsx");
+            var HotelComment_Total = HotelComment_SZ;
+            HotelComment_Total.AddRange(HotelComment_JM);
+            var sw = new StreamWriter(@"F:\sodic2020\comments\comments.txt");
+            var m = new List<string>();
+            foreach (var hotelcomments in HotelComment_Total)
+            {
+                foreach (var c in hotelcomments.Comments)
+                {
+                    var comment = c.Trim().Replace(System.Environment.NewLine, "");
+                    if (comment.Length > 100) continue;
+                    if (m.Contains(comment)) continue;
+                    if (!string.IsNullOrEmpty(comment))
+                    {
+                        sw.WriteLine(comment);
+                        m.Add(comment);
+                    }
+                }
+            }
         }
 
         static void POIAnalyze()

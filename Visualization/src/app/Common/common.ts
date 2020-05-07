@@ -41,6 +41,8 @@ export class CommonFunction {
     public static boxstyle_Col9 = { 'width': '1220px', 'height': '400px' };
     public static chartstyle_Col9 = { 'width': '1170px', 'height': '350px' };
 
+    public static boxstyle_Col12 = { 'width': '1600px', 'height': '400px' };
+    public static chartstyle_Col12 = { 'width': '1550px', 'height': '350px' };
 
     public static boxstyle_Col12_Row2 = { 'width': '1600px', 'height': '820px' };
     public static chartstyle_Col12_Row2 = { 'width': '1550px', 'height': '770px' };

@@ -7,10 +7,14 @@ import { PriceTopLowComponent } from './visualization/pricetoplow.component';
 import { NgxEchartsModule } from 'ngx-echarts';
 import { MainComponent } from './Main.component';
 import { MyCommonModule } from './Common/MyCommon.module';
+import { PirceSegementComponent } from './visualization/pricesegment.component';
+import { HotfoodComponent } from './visualization/hotfood.component';
 @NgModule({
   declarations: [
     AppComponent,
     MainComponent,
+    PirceSegementComponent,
+    HotfoodComponent,
     PriceTopLowComponent
   ],
   imports: [

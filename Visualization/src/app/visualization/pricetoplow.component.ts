@@ -12,7 +12,7 @@ export class PriceTopLowComponent implements OnInit {
         public router: Router, private route: ActivatedRoute,
         private http: HttpClient,
     ) {
-        //在首页事先将AppService初始化掉！
+
     }
     ngOnInit(): void {
         this.route.params.subscribe(
