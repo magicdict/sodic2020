@@ -39,9 +39,9 @@ public class SpotInfo : POI
 
 public class WordCloudItem
 {
-    public string name;
+    public string name { get; set; }
 
-    public int value;
+    public int value { get; set; }
 }
 
 
@@ -55,5 +55,5 @@ public class HotelInfo : POI
     public string Grade { get; set; }
     public string Distract { get; set; }
     public string ServiceTel { get; set; }
-
+    public string ServiceFax { get; set; }
 }

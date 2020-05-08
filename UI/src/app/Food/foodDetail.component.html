@@ -16,7 +16,7 @@
                 </div>
             </p-tabPanel>
             <p-tabPanel *ngIf="this.FoodDetailInfo.Comments !== null" header="评论" style="text-align: left;">
-                评论数：{{this.FoodDetailInfo.CommentCount}} (展示前100条)
+                评论数：{{this.FoodDetailInfo.CommentCount}} (展示前50条)
                 <echarts [options]="this.opiton_wordcoudy" style="width: 320px;height: 320px;"></echarts>
                 <ul>
                     <li *ngFor="let c of this.FoodDetailInfo.Comments.slice(0,100)">

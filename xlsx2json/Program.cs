@@ -16,11 +16,11 @@ namespace xlsx2json
 
         static void Main(string[] args)
         {
-            CreateFood();
+            //CreateFood();
             CreateHotel();
-            return;
-            旅游景点信息.CreateSpotSimple(JsonFolder_WepApi + "深圳市旅游景点信息.json",JsonFolder_Visualization_AngularAssets + "深圳市旅游景点信息.json");
-            旅游景点信息.CreateSpotSimple(JsonFolder_WepApi + "江门市旅游景点信息.json",JsonFolder_Visualization_AngularAssets + "江门市旅游景点信息.json");
+            //return;
+            //旅游景点信息.CreateSpotSimple(JsonFolder_WepApi + "深圳市旅游景点信息.json",JsonFolder_Visualization_AngularAssets + "深圳市旅游景点信息.json");
+            //旅游景点信息.CreateSpotSimple(JsonFolder_WepApi + "江门市旅游景点信息.json",JsonFolder_Visualization_AngularAssets + "江门市旅游景点信息.json");
         }
 
         static void CreatePark()
@@ -54,16 +54,13 @@ namespace xlsx2json
             var m = new List<string>();
             foreach (var hotelcomments in HotelComment_Total)
             {
-                foreach (var c in hotelcomments.Comments)
+                var comment = hotelcomments.Comment.Trim().Replace(System.Environment.NewLine, "");
+                if (comment.Length > 100) continue;
+                if (m.Contains(comment)) continue;
+                if (!string.IsNullOrEmpty(comment))
                 {
-                    var comment = c.Trim().Replace(System.Environment.NewLine, "");
-                    if (comment.Length > 100) continue;
-                    if (m.Contains(comment)) continue;
-                    if (!string.IsNullOrEmpty(comment))
-                    {
-                        sw.WriteLine(comment);
-                        m.Add(comment);
-                    }
+                    sw.WriteLine(comment);
+                    m.Add(comment);
                 }
             }
         }

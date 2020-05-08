@@ -186,12 +186,14 @@ export interface HotelInfo {
     Address: string;
     Description: string;
     ServiceTel: string;
+    ServiceFax: string;
     Price: number;
     lat: number;
     lng: number;
     Comments: string[];
     CommentCount: number;
-    WordCloud: { name: string, value: number }[]
+    WordCloud: { name: string, value: number }[],
+    Score:number;
 }
 
 export interface TourInfo {

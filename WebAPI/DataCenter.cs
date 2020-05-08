@@ -13,8 +13,8 @@ public static class DataCenter
     public static List<HotelInfo> HotelList_SZ = new List<HotelInfo>();
     public static List<HotelInfo> HotelList_JM = new List<HotelInfo>();
 
-    const string JsonPath = @"F:\sodic2020\json\";  
-    //const string JsonPath = @"/root/sodic/json/";
+    //const string JsonPath = @"F:\sodic2020\json\";  
+    const string JsonPath = @"/root/sodic/json/";
 
     public static void Init()
     {

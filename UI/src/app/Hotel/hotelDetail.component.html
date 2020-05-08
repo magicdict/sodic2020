@@ -10,7 +10,11 @@
         <p-tabView>
             <p-tabPanel header="详细">
                 <div *ngIf="this.HotelDetailInfo.Description" style="text-align: left;">
-                    {{this.HotelDetailInfo.Description}}
+                    {{this.HotelDetailInfo.Description}} <br /><br />
+                    <b>电话：</b><a [href]="'tel:' + this.HotelDetailInfo.ServiceTel">
+                        {{this.HotelDetailInfo.ServiceTel}}</a> <br />
+                    <b>传真：</b><a [href]="'tel:' + this.HotelDetailInfo.ServiceFax">
+                        {{this.HotelDetailInfo.ServiceFax}}</a>
                 </div>
                 <div *ngIf="this.HotelDetailInfo.lat !== -1">
                     <br /><br />
@@ -18,7 +22,7 @@
                 </div>
             </p-tabPanel>
             <p-tabPanel header="评论" *ngIf="this.HotelDetailInfo.Comments !== null" style="text-align: left;">
-                评论数：{{this.HotelDetailInfo.CommentCount}} (展示前100条)
+                评论数：{{this.HotelDetailInfo.CommentCount}} (展示前50条) 评分：{{this.HotelDetailInfo.Score}}
                 <echarts [options]="this.opiton_wordcoudy" style="width: 320px;height: 320px;"></echarts>
                 <ul>
                     <li *ngFor="let c of this.HotelDetailInfo.Comments.slice(0,100)">

@@ -9,12 +9,12 @@ using System.Diagnostics.CodeAnalysis;
 public class 宾馆酒店信息 : POI, IEqualityComparer<宾馆酒店信息>
 {
 
-
+    public double Score { get; set; }
+    public int ScoreCnt { get; set; }
     public string Grade { get; set; }
-
     public string Distract { get; set; }
-
     public string ServiceTel { get; set; }
+    public string ServiceFax { get; set; }
 
     public static List<宾馆酒店信息> CreateHotel(string xlsxFilename, string jsonFilename, int LastColIdx, List<宾馆酒店评论> Comments)
     {
@@ -48,6 +48,7 @@ public class 宾馆酒店信息 : POI, IEqualityComparer<宾馆酒店信息>
                 r.Address = addr[1].Trim();
             }
             r.ServiceTel = "";
+            r.ServiceFax = "";
             if (row.GetCell(3).CellType == CellType.String)
             {
                 r.ServiceTel = row.GetCell(3).StringCellValue;
@@ -58,7 +59,15 @@ public class 宾馆酒店信息 : POI, IEqualityComparer<宾馆酒店信息>
                 r.ServiceTel = row.GetCell(3).NumericCellValue.ToString();
             }
 
-            r.ServiceTel = r.ServiceTel.TrimEnd("纠错".ToArray());
+            if (r.ServiceTel == "联系方式") r.ServiceTel = "";
+            r.ServiceTel = r.ServiceTel.TrimEnd("纠错".ToArray()).Trim();
+            if (r.ServiceTel.Contains("传真"))
+            {
+                r.ServiceFax = r.ServiceTel.Substring(r.ServiceTel.IndexOf("传真"));
+                r.ServiceTel = r.ServiceTel.Substring(0, r.ServiceTel.IndexOf("传真"));
+                r.ServiceFax = r.ServiceFax.TrimStart("传真".ToArray()).Trim();
+            }
+            if (!string.IsNullOrEmpty(r.ServiceTel)) r.ServiceTel = r.ServiceTel.TrimStart("电话".ToArray()).Trim();
             //Cell4是联系人，一模一样的
 
             r.Description = row.GetCell(LastColIdx - 1).StringCellValue.Trim();
@@ -89,15 +98,16 @@ public class 宾馆酒店信息 : POI, IEqualityComparer<宾馆酒店信息>
         foreach (var item in records)
         {
             //评论
-            var c = Comments.Where(x => x.Name == item.Name).FirstOrDefault();
-            if (c != null)
+            var c = Comments.Where(x => x.Name == item.Name).ToList();
+            if (c.Count != 0)
             {
-                item.WordCloud = WordCloudItem.Create(c.Comments, 20);
-                item.Comments = c.Comments.Take(50).ToList();
-                item.CommentCount = c.Comments.Count;
+                item.WordCloud = WordCloudItem.Create(c.Select(x => x.Comment).ToList(), 20);
+                item.CommentCount = c.Count;
+                item.ScoreCnt = c.Where(x => x.Score != 0).Count();
+                if (item.ScoreCnt != 0) item.Score = System.Math.Round(c.Where(x => x.Score != 0).Average(x => x.Score), 4);
+                item.Comments = c.Select(x => x.Comment).Take(50).ToList();
             }
             cnt++;
-            //if (cnt > 5000) continue;   //深圳5000条，江门1000条 配额6000
             //GEO信息取得
             var loc = BaiduApi.GetGeoInfo(item.Address);
             item.lat = loc.lat;
@@ -129,8 +139,8 @@ public class 宾馆酒店信息 : POI, IEqualityComparer<宾馆酒店信息>
 public class 宾馆酒店评论
 {
     public string Name { get; set; }
-
-    public List<string> Comments { get; set; }
+    public double Score { get; set; }
+    public string Comment { get; set; }
 
     public static List<宾馆酒店评论> CreateHotelComment(string xlsxFilename)
     {
@@ -144,20 +154,19 @@ public class 宾馆酒店评论
         for (int i = 1; i < rlast; i++)
         {
             var row = sheet.GetRow(i);
-            var Name = row.GetCell(0).StringCellValue;
-            var Food = records.Where(x => x.Name == Name).FirstOrDefault();
-            if (Food == null)
+            var r = new 宾馆酒店评论();
+            r.Name = row.GetCell(0).StringCellValue; ;
+            if (row.GetCell(1) != null)
             {
-                var r = new 宾馆酒店评论();
-                r.Name = Name;
-                r.Comments = new List<string>();
-                r.Comments.Add(row.GetCell(2).StringCellValue);
-                records.Add(r);
+                if (row.GetCell(1).CellType == CellType.Numeric) r.Score = row.GetCell(1).NumericCellValue;
+                if (row.GetCell(1).CellType == CellType.String)
+                {
+                    double s;
+                    if (double.TryParse(row.GetCell(1).StringCellValue, out s)) r.Score = s;
+                }
             }
-            else
-            {
-                Food.Comments.Add(row.GetCell(2).StringCellValue);
-            }
+            r.Comment = row.GetCell(2).StringCellValue;
+            records.Add(r);
         }
         return records;
     }
