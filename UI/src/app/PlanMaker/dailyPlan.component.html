@@ -10,15 +10,34 @@
 
         <p-tabView>
             <p-tabPanel header="景点">
-                <spot-item *ngFor="let s of this.appservice.CurrentDailyInfo.AM" [Spot]="s"></spot-item>
-                <spot-item *ngFor="let s of this.appservice.CurrentDailyInfo.PM" [Spot]="s"></spot-item>
+                <button style="width: 96px;height: 36px;float: right;" class="btn btn-success"
+                    (click)="this.appservice.IsAddToPlanMode = true;this.appservice.SpotList_CurrentShow = this.appservice.SpotList_GradeAOnly;this.router.navigateByUrl('spot');"><i
+                        class="fas fa-plus"></i>&nbsp;添加</button>
+                <br />
+                <br />
+                <br />
+                <spot-item *ngFor="let s of this.appservice.CurrentDailyInfo.Spot" [Spot]="s" [Mode]="1">
+                </spot-item>
             </p-tabPanel>
             <p-tabPanel header="餐饮">
-                <food-item *ngFor="let s of this.appservice.CurrentDailyInfo.Food" [Food]="s"></food-item>
+                <button style="width: 96px;height: 36px;float: right;" class="btn btn-success"
+                    (click)="this.appservice.IsAddToPlanMode = true;this.appservice.FoodList_CurrentShow = this.appservice.FoodList_Hot;this.router.navigateByUrl('food');"><i
+                        class="fas fa-plus"></i>&nbsp;添加</button>
+                <br />
+                <br />
+                <br />
+                <food-item *ngFor="let s of this.appservice.CurrentDailyInfo.Food" [Food]="s" [Mode]="1">
+                </food-item>
             </p-tabPanel>
             <p-tabPanel header="酒店">
+                <button style="width: 96px;height: 36px;float: right;" class="btn btn-success"
+                    (click)="this.appservice.IsAddToPlanMode = true;this.appservice.HotelList_CurrentShow = this.appservice.HotelList_Hot;this.router.navigateByUrl('hotel');"><i
+                        class="fas fa-plus"></i>&nbsp;添加</button>
+                <br />
+                <br />
+                <br />
                 <hotel-item *ngIf="this.appservice.CurrentDailyInfo.Hotel!==null"
-                    [Hotel]="this.appservice.CurrentDailyInfo.Hotel"></hotel-item>
+                    [Hotel]="this.appservice.CurrentDailyInfo.Hotel" [Mode]="1"></hotel-item>
             </p-tabPanel>
         </p-tabView>
     </div>

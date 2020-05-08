@@ -23,6 +23,20 @@ export class AppService {
     /**出行计划 */
     Plan: PlanInfo;
     CurrentDailyInfo: DailyInfo;
+    DelFormPlan(itemname: string) {
+        this.CurrentDailyInfo.Spot = this.CurrentDailyInfo.Spot.filter(x => x.Name !== itemname);
+        this.CurrentDailyInfo.Food = this.CurrentDailyInfo.Food.filter(x => x.Name !== itemname);
+        if (this.CurrentDailyInfo.Hotel.Name === itemname) this.CurrentDailyInfo.Hotel = null;
+        this.localstorage.Save("Plan", this.Plan);
+    }
+    AddToPlan(item: any, type: enmItemType) {
+        if (type === enmItemType.Food) this.CurrentDailyInfo.Food.push(item);
+        if (type === enmItemType.Spot) this.CurrentDailyInfo.Spot.push(item);
+        if (type === enmItemType.Hotel) this.CurrentDailyInfo.Hotel = item;
+        this.localstorage.Save("Plan", this.Plan);
+    }
+
+    IsAddToPlanMode: boolean = false;
 
     //系统数据
     IsLoadSpotFinished = false;
@@ -193,7 +207,7 @@ export interface HotelInfo {
     Comments: string[];
     CommentCount: number;
     WordCloud: { name: string, value: number }[],
-    Score:number;
+    Score: number;
 }
 
 export interface TourInfo {
@@ -221,8 +235,7 @@ export interface PlanInfo {
 export interface DailyInfo {
     strDate: string;
     strWeek: string;
-    AM: SpotInfo[];
-    PM: SpotInfo[];
+    Spot: SpotInfo[];
     Food: FoodInfo[];
     Hotel: HotelInfo;
 }

@@ -10,5 +10,6 @@ export class HotelItemComponent {
   constructor(public router: Router, public appservice: AppService) {
   }
   type = enmItemType.Hotel;
+  @Input() Mode: number;
   @Input() Hotel: HotelInfo;
 }

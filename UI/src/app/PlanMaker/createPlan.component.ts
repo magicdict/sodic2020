@@ -33,17 +33,10 @@ export class CreatePlanComponent {
       let d: DailyInfo = {
         strDate: x.getFullYear() + "年" + (x.getMonth() + 1) + "月" + x.getDate() + "日",
         strWeek: "星期" + this.ConvertNumberToWeekday(x.getDay()),
-        AM: [],
-        PM: [],
+        Spot: [],
         Food:[],
         Hotel: null
       }
-
-      d.AM.push(this.appservice.SpotList_GradeAOnly[0]);
-      d.PM.push(this.appservice.SpotList_GradeAOnly[1]);
-      d.Food.push(this.appservice.FoodList_Hot[0]);
-      d.Hotel = this.appservice.HotelList_Hot[0];
-
       p.Daily.push(d);
     }
     this.localstorage.Save("Plan", p);

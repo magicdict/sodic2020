@@ -10,5 +10,6 @@ export class SpotItemComponent {
   constructor(public router: Router, public appservice: AppService) {
   }
   type = enmItemType.Spot;
+  @Input() Mode: number;
   @Input() Spot: SpotInfo;
 }

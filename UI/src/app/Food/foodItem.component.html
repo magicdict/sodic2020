@@ -8,7 +8,7 @@
     <div class="card-body">
         {{Food.Item.join(" ")}}
     </div>
-    <div class="card-footer">
+    <div *ngIf="Mode === 0" class="card-footer">
         <button style="width: 96px;height: 36px;" class="btn btn-primary"
             (click)="this.router.navigateByUrl('food/' +  this.appservice.EncodeURI(Food.Name));"><i
                 class="fas fa-list"></i>&nbsp;详细</button>
@@ -16,4 +16,21 @@
         <button style="width: 96px;height: 36px;" class="btn btn-danger"
             (click)="this.appservice.AddToFav(Food,type)"><i class="fas fa-heart"></i>&nbsp;收藏</button>
     </div>
+    <div *ngIf="Mode === 1" class="card-footer">
+        <button style="width: 96px;height: 36px;" class="btn btn-primary"
+            (click)="this.router.navigateByUrl('food/' +  this.appservice.EncodeURI(Food.Name));"><i
+                class="fas fa-list"></i>&nbsp;详细</button>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <button style="width: 96px;height: 36px;" class="btn btn-danger"
+            (click)="this.appservice.DelFormPlan(Food.Name)"><i class="far fa-trash-alt"></i>&nbsp;删除</button>
+    </div>
+    <div *ngIf="Mode === 2" class="card-footer">
+        <button style="width: 96px;height: 36px;" class="btn btn-primary"
+            (click)="this.router.navigateByUrl('food/' +  this.appservice.EncodeURI(Food.Name));"><i
+                class="fas fa-list"></i>&nbsp;详细</button>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <button style="width: 96px;height: 36px;" class="btn btn-success"
+            (click)="this.appservice.AddToPlan(Food,type)"><i class="fas fa-plus"></i>&nbsp;添加</button>
+    </div>
 </div>
+<br />

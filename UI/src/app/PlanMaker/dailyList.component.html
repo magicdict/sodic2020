@@ -11,10 +11,9 @@
             <p-card [header]="p.strDate " [subheader]="p.strWeek" [style]="{width: appservice.clientWidth + 'px'}"
                 styleClass="ui-card-shadow">
                 <div>
-                    上午: {{p.AM.length ===0 ? "未安排":getItemNameList(p.AM)}} <br />
-                    下午：{{p.PM.length ===0 ? "未安排":getItemNameList(p.PM)}} <br />
-                    吃饭：{{p.Hotel ===null?"未安排":getItemNameList(p.Food)}} <br />
-                    住宿：{{p.Hotel ===null?"未安排":p.Hotel.Name}}
+                    景点: {{p.Spot.length === 0 ? "未安排":getItemNameList(p.Spot)}} <br />
+                    吃饭：{{p.Food.length === 0 ? "未安排":getItemNameList(p.Food)}} <br />
+                    住宿：{{p.Hotel === null ? "未安排":p.Hotel.Name}}
                 </div>
                 <p-footer>
                     <button class="btn btn-primary" (click)="EditDaily(p.strDate)">编辑</button>

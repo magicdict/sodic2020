@@ -13,14 +13,14 @@
             <p-calendar [(ngModel)]="startdate" dateFormat="yy/mm/dd" [touchUI]="true" [readonlyInput]="true"
                 (onSelect)="GetDays()">
             </p-calendar>
-            <br />
+            <br /><br />
             <span>结束时间&nbsp;&nbsp;</span>
             <p-calendar [(ngModel)]="enddate" dateFormat="yy/mm/dd" [touchUI]="true" [readonlyInput]="true"
                 (onSelect)="GetDays()">
             </p-calendar>
         </div>
-        <br />
-        <span>选择天数:{{Days}}</span><br />
+        <br /><br />
+        <span>选择天数:{{Days}}</span><br /><br />
         <button class="btn btn-lg btn-primary" (click)="CreatePlan()">创建</button>
     </div>
     <div *ngIf="this.appservice.Plan !== null"

@@ -10,5 +10,6 @@ export class FoodItemComponent {
   constructor(public router: Router, public appservice: AppService) {
   }
   type = enmItemType.Food;
+  @Input() Mode: number;
   @Input() Food: FoodInfo;
 }

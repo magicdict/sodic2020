@@ -9,7 +9,7 @@
     <div style="position: absolute;z-index: 99;top:50px;text-align: center;overflow-y: scroll;"
         [ngStyle]="{height:this.appservice.clientHeight-50 + 'px','width':appservice.clientWidth + 'px'}">
         <div *ngFor="let f of this.appservice.FoodList_CurrentShow">
-            <food-item [Food]="f"></food-item>
+            <food-item [Food]="f" [Mode]="this.appservice.IsAddToPlanMode?2:0"></food-item>
         </div>
     </div>
 </div>
