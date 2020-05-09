@@ -13,14 +13,24 @@ export class SpotDetailComponent implements OnInit {
   SpotDetailInfo: SpotInfo;
   option = {};
   opiton_wordcoudy = {};
+  distence: string;
   Return() {
     this._location.back();
   }
+
   ngOnInit(): void {
     this.route.params.subscribe(
       params => {
         this.SpotDetailInfo = this.appservice.GetSpotInfoByName(params['name']) as SpotInfo;
         this.TourInfoList = this.appservice.TourList.filter(x => x.Description.indexOf(this.SpotDetailInfo.Name) !== -1);
+
+        console.log("this.appservice.myposition.lat:" + AppService.myposition.lat)
+        let mapPoint = [[this.SpotDetailInfo.lng, this.SpotDetailInfo.lat, 1,this.SpotDetailInfo.Name]];
+        if (AppService.myposition.lat !== -1) {
+          this.distence = this.appservice.distanceByLnglat(this.SpotDetailInfo.lng, this.SpotDetailInfo.lat, AppService.myposition.lng, AppService.myposition.lat);
+          mapPoint.push([AppService.myposition.lng, AppService.myposition.lat, 2,"您的位置"])
+        }
+
         this.option = {
           // 加载 bmap 组件
           bmap: {
@@ -37,9 +47,21 @@ export class SpotDetailComponent implements OnInit {
             type: 'effectScatter',
             // 使用百度地图坐标系
             coordinateSystem: 'bmap',
-            data: [[this.SpotDetailInfo.lng, this.SpotDetailInfo.lat, 1]]
+            data: mapPoint,
+            symbolSize: 20,
+            itemStyle: {
+              normal: {
+                shadowBlur: 10,
+                shadowColor: '#333'
+              }
+            },
+            label: {
+              show: true,
+              formatter: "{@[3]}"
+            }
           }]
         }
+
 
         this.opiton_wordcoudy = {
           tooltip: {

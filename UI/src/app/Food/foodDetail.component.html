@@ -11,8 +11,10 @@
             <p-tabPanel *ngIf="this.FoodDetailInfo.Comments !== null" header="详细" style="text-align: left;">
                 {{FoodDetailInfo.Item.join(" ")}}
                 <div *ngIf="this.FoodDetailInfo.lat !== -1">
-                    <br /><br />
-                    <echarts [options]="this.option"></echarts>
+                    <br />
+                    <span *ngIf="this.distence"><b>距离您的距离：</b>{{this.distence}}</span>
+                    <br />
+                    <echarts [options]="this.option" style="width: 320px;height: 320px;"></echarts>
                 </div>
             </p-tabPanel>
             <p-tabPanel *ngIf="this.FoodDetailInfo.Comments !== null" header="评论" style="text-align: left;">

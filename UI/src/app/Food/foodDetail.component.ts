@@ -13,6 +13,7 @@ export class FoodDetailComponent implements OnInit {
   FoodDetailInfo: FoodInfo;
   option = {};
   opiton_wordcoudy = {};
+  distence: string;
   Return() {
     this._location.back();
   }
@@ -20,6 +21,14 @@ export class FoodDetailComponent implements OnInit {
     this.route.params.subscribe(
       params => {
         this.FoodDetailInfo = this.appservice.GetFoodInfoByName(params['name']) as FoodInfo;
+
+        console.log("this.appservice.myposition.lat:" + AppService.myposition.lat)
+        let mapPoint = [[this.FoodDetailInfo.lng, this.FoodDetailInfo.lat, 1, this.FoodDetailInfo.Name]];
+        if (AppService.myposition.lat !== -1) {
+          this.distence = this.appservice.distanceByLnglat(this.FoodDetailInfo.lng, this.FoodDetailInfo.lat, AppService.myposition.lng, AppService.myposition.lat);
+          mapPoint.push([AppService.myposition.lng, AppService.myposition.lat, 2, "您的位置"])
+        }
+
         this.option = {
           // 加载 bmap 组件
           bmap: {
@@ -35,7 +44,19 @@ export class FoodDetailComponent implements OnInit {
           series: [{
             type: 'effectScatter',
             // 使用百度地图坐标系
-            coordinateSystem: 'bmap'
+            coordinateSystem: 'bmap',
+            data: mapPoint,
+            symbolSize: 20,
+            itemStyle: {
+              normal: {
+                shadowBlur: 10,
+                shadowColor: '#333'
+              }
+            },
+            label: {
+              show: true,
+              formatter: "{@[3]}"
+            }
           }]
         }
 

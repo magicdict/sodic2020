@@ -3,26 +3,57 @@ import { Injectable } from '@angular/core';
 import { DataStorage } from './datastorage';
 import { CommonFunction } from './common';
 import { SelectItem } from 'primeng/api/selectitem';
-
+declare var BMap: any;
 
 @Injectable()
 export class AppService {
+
+    static myposition: { lat: number, lng: number; } = { lat: -1, lng: -1 };
 
     clientWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
     clientHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
 
     //用户数据
 
+    RefreshGeo() {
+        let BMAP_STATUS_SUCCESS = 0;
+        var geolocation = new BMap.Geolocation();
+        geolocation.getCurrentPosition(function (r) {
+            if (this.getStatus() === BMAP_STATUS_SUCCESS) {
+                var lat = r.point.lat//当前经度
+                var lng = r.point.lng//当前纬度
+                var province = r.address.province //返回当前省份
+                var city = r.address.city//返回当前城市
+                AppService.myposition = { lat: lat, lng: lng };
+                console.log(AppService.myposition);
+            }
+        })
+    }
+    distanceByLnglat(lng1, lat1, lng2, lat2):string {
+        var radLat1 = this.Rad(lat1);
+        var radLat2 = this.Rad(lat2);
+        var a = radLat1 - radLat2;
+        var b = this.Rad(lng1) - this.Rad(lng2);
+        var s = 2 * Math.asin(Math.sqrt(Math.pow(Math.sin(a / 2), 2) + Math.cos(radLat1) * Math.cos(radLat2) * Math.pow(Math.sin(b / 2), 2)));
+        s = s * 6378137.0; // 取WGS84标准参考椭球中的地球长半径(单位:m)
+        s = Math.round(s * 10000) / 10000;
+        if (s > 1000) return String(Math.round(s/1000)) + "公里" 
+        return String(Math.round(s)) + "米" 
+    }
+    Rad(d) {
+        return d * Math.PI / 180.0;
+    }
+
     /**收藏夹 */
     FavItem: any[] = [];
     AddToFav(item: any, type: enmItemType) {
         item["ItemType"] = type;
-        if (this.FavItem.find(x=>x.Name === item.Name) !== undefined) return;
+        if (this.FavItem.find(x => x.Name === item.Name) !== undefined) return;
         this.FavItem.push(item);
         this.localstorage.Save("FavItem", this.FavItem);
     }
 
-    DelFromFav(itemname){
+    DelFromFav(itemname) {
         this.FavItem = this.FavItem.filter(x => x.Name !== itemname);
         this.localstorage.Save("FavItem", this.FavItem);
     }
@@ -124,7 +155,10 @@ export class AppService {
                 this.loadMsg = "[完成]地方特产信息";
             }
         )
+        this.RefreshGeo();
     }
+
+
 
     EncodeURI(url: string): string {
         url = url.replace("(", "");
@@ -166,7 +200,7 @@ export class AppService {
         return this.common.httpRequestGet<HotelInfo[]>("search/SearchHotel?key=" + key);
     }
 
-    CitySelect: SelectItem[] =   [{label: '深圳', value: '深圳市'},{label: '江门', value: '江门市'}];
+    CitySelect: SelectItem[] = [{ label: '深圳', value: '深圳市' }, { label: '江门', value: '江门市' }];
 
 }
 
@@ -188,7 +222,7 @@ export interface SpotInfo {
     Comments: string[];
     CommentCount: number;
     WordCloud: { name: string, value: number }[];
-    City:string;
+    City: string;
 }
 
 /**美食 */
@@ -202,7 +236,7 @@ export interface FoodInfo {
     Comments: string[];
     CommentCount: number;
     WordCloud: { name: string, value: number }[];
-    City:string;
+    City: string;
 }
 
 /**宾馆酒店 */
@@ -221,7 +255,7 @@ export interface HotelInfo {
     CommentCount: number;
     WordCloud: { name: string, value: number }[],
     Score: number;
-    City:string;
+    City: string;
 }
 
 export interface TourInfo {

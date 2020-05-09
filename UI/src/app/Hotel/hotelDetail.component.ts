@@ -13,6 +13,7 @@ export class HotelDetailComponent implements OnInit {
   HotelDetailInfo: HotelInfo;
   option = {};
   opiton_wordcoudy = {};
+  distence: string;
   Return() {
     this._location.back();
   }
@@ -20,6 +21,12 @@ export class HotelDetailComponent implements OnInit {
     this.route.params.subscribe(
       params => {
         this.HotelDetailInfo = this.appservice.GetHotelInfoByName(params['name']) as HotelInfo;
+        console.log("this.appservice.myposition.lat:" + AppService.myposition.lat)
+        let mapPoint = [[this.HotelDetailInfo.lng, this.HotelDetailInfo.lat, 1,this.HotelDetailInfo.Name]];
+        if (AppService.myposition.lat !== -1) {
+          this.distence = this.appservice.distanceByLnglat(this.HotelDetailInfo.lng, this.HotelDetailInfo.lat, AppService.myposition.lng, AppService.myposition.lat);
+          mapPoint.push([AppService.myposition.lng, AppService.myposition.lat, 2,"您的位置"])
+        }
         this.option = {
           // 加载 bmap 组件
           bmap: {
@@ -35,7 +42,19 @@ export class HotelDetailComponent implements OnInit {
           series: [{
             type: 'effectScatter',
             // 使用百度地图坐标系
-            coordinateSystem: 'bmap'
+            coordinateSystem: 'bmap',
+            symbolSize: 20,
+            data: mapPoint,
+            itemStyle: {
+              normal: {
+                shadowBlur: 10,
+                shadowColor: '#333'
+              }
+            },
+            label: {
+              show: true,
+              formatter: "{@[3]}"
+            }
           }]
         }
 
@@ -72,9 +91,6 @@ export class HotelDetailComponent implements OnInit {
             data: this.HotelDetailInfo.WordCloud
           }]
         };
-
-
-
       }
     );
   }

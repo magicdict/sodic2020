@@ -13,10 +13,13 @@
                     {{this.SpotDetailInfo.Description}}<br /><br />
                     <b>交通：</b>{{this.SpotDetailInfo.TrafficGuide}} <br />
                     <b>营业时间：</b>{{this.SpotDetailInfo.OpenTime}} <br />
-                    <b>电话：</b><a [href]="'tel:' + this.SpotDetailInfo.ServiceTel"> {{this.SpotDetailInfo.ServiceTel}}</a>
+                    <b>电话：</b><a [href]="'tel:' + this.SpotDetailInfo.ServiceTel">
+                        {{this.SpotDetailInfo.ServiceTel}}</a>
                 </div>
                 <div *ngIf="this.SpotDetailInfo.lat !== -1">
-                    <br /><br />
+                    <br />
+                    <span *ngIf="this.distence"><b>距离您的距离：</b>{{this.distence}}</span>
+                    <br />
                     <echarts [options]="this.option" style="width: 320px;height: 320px;"></echarts>
                 </div>
             </p-tabPanel>

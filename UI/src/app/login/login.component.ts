@@ -16,4 +16,8 @@ export class LoginComponent {
   clientWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
   clientHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
 
+  SimulateLocation(){
+    AppService.myposition = { lat: 22.544672905021145, lng: 113.98615590628268 };
+  }
+
 }
