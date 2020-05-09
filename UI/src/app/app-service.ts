@@ -2,6 +2,7 @@ import { HttpClient } from "@angular/common/http"
 import { Injectable } from '@angular/core';
 import { DataStorage } from './datastorage';
 import { CommonFunction } from './common';
+import { SelectItem } from 'primeng/api/selectitem';
 
 
 @Injectable()
@@ -16,7 +17,13 @@ export class AppService {
     FavItem: any[] = [];
     AddToFav(item: any, type: enmItemType) {
         item["ItemType"] = type;
+        if (this.FavItem.find(x=>x.Name === item.Name) !== undefined) return;
         this.FavItem.push(item);
+        this.localstorage.Save("FavItem", this.FavItem);
+    }
+
+    DelFromFav(itemname){
+        this.FavItem = this.FavItem.filter(x => x.Name !== itemname);
         this.localstorage.Save("FavItem", this.FavItem);
     }
 
@@ -158,7 +165,11 @@ export class AppService {
     SearchHotel(key: string): Promise<HotelInfo[]> {
         return this.common.httpRequestGet<HotelInfo[]>("search/SearchHotel?key=" + key);
     }
+
+    CitySelect: SelectItem[] =   [{label: '深圳', value: '深圳市'},{label: '江门', value: '江门市'}];
+
 }
+
 
 /**景区 */
 export interface SpotInfo {
@@ -176,7 +187,8 @@ export interface SpotInfo {
     lng: number;
     Comments: string[];
     CommentCount: number;
-    WordCloud: { name: string, value: number }[]
+    WordCloud: { name: string, value: number }[];
+    City:string;
 }
 
 /**美食 */
@@ -189,7 +201,8 @@ export interface FoodInfo {
     lng: number;
     Comments: string[];
     CommentCount: number;
-    WordCloud: { name: string, value: number }[]
+    WordCloud: { name: string, value: number }[];
+    City:string;
 }
 
 /**宾馆酒店 */
@@ -208,6 +221,7 @@ export interface HotelInfo {
     CommentCount: number;
     WordCloud: { name: string, value: number }[],
     Score: number;
+    City:string;
 }
 
 export interface TourInfo {

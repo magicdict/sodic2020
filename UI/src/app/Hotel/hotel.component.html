@@ -2,13 +2,14 @@
     [ngStyle]="{'height':this.appservice.clientHeight + 'px','width':appservice.clientWidth + 'px'}">
     <nav class="navbar navbar-light bg-light" style="position: absolute;z-index: 99;top:0px;width: 100%;">
         <img src="assets/image/酒店.png" width="30" height="30" alt="">
-        <input #key class="form-control" style="width: 50%;" type="search" placeholder="想住哪里" aria-label="Search">
+        <input #key class="form-control" style="width: 35%;" type="search" placeholder="想住哪里" aria-label="Search">
+        <p-selectButton [options]="types" [(ngModel)]="selectedTypes" multiple="multiple"></p-selectButton>
         <button class="btn btn-outline-success my-2 my-sm-0" (click)="Search(key.value)">检索</button>
         <img src="assets/image/返回.png" width="30" height="30" alt="" (click)="Return()" style="float: right;">
     </nav>
     <div style="position: absolute;z-index: 99;top:50px;text-align: center;overflow-y: scroll;"
         [ngStyle]="{height:this.appservice.clientHeight-50 + 'px','width':appservice.clientWidth + 'px'}">
-        <div *ngFor="let hotel of this.appservice.HotelList_CurrentShow">
+        <div *ngFor="let hotel of filter(this.appservice.HotelList_CurrentShow)">
             <hotel-item [Hotel]="hotel"  [Mode]="this.appservice.IsAddToPlanMode?2:0"></hotel-item>
         </div>
     </div>

@@ -23,6 +23,7 @@ public class 特色美食信息 : POI, IEqualityComparer<特色美食信息>
         {
             var row = sheet.GetRow(i);
             var r = new 特色美食信息();
+            r.City = BaiduApi.DefaultCity;
             r.Name = row.GetCell(0).StringCellValue;
             r.Address = row.GetCell(1).StringCellValue;
             r.Item = row.GetCell(2).StringCellValue.Split(",\n".ToCharArray()).Where(x => !string.IsNullOrEmpty(x)).Select(x => x.Trim()).ToArray();

@@ -1,3 +1,5 @@
 <div (click)="Go()">
     <img [src]="'assets/image/' + ImageName +  '.png'" width="30" height="30" alt="">{{Item.Name}}
+    <button style="float: right;margin-right: 15px;" class="btn btn-danger" (click)="this.appservice.DelFromFav(Item.Name)"><i
+            class="far fa-trash-alt"></i>&nbsp;删除</button>
 </div>

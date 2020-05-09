@@ -29,6 +29,7 @@ import { CardModule } from 'primeng/card';
 import { DailyPlanComponent } from './PlanMaker/dailyPlan.component';
 import { HotelItemComponent } from './Hotel/hotelItem.component';
 import { FoodItemComponent } from './Food/foodItem.component';
+import {SelectButtonModule} from 'primeng/selectbutton';
 
 @NgModule({
   declarations: [
@@ -60,6 +61,7 @@ import { FoodItemComponent } from './Food/foodItem.component';
     NgxEchartsModule,
     CalendarModule,
     TabViewModule,
+    SelectButtonModule,
     CardModule,
     BrowserAnimationsModule,
     FormsModule

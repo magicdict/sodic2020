@@ -30,6 +30,7 @@ public class 宾馆酒店信息 : POI, IEqualityComparer<宾馆酒店信息>
             var row = sheet.GetRow(i);
             if (row.GetCell(0) == null) continue;
             var r = new 宾馆酒店信息();
+            r.City = BaiduApi.DefaultCity;
             r.Name = row.GetCell(0).StringCellValue;
             if (string.IsNullOrEmpty(r.Name)) continue;
             if (row.GetCell(1) != null) r.Grade = row.GetCell(1).StringCellValue;

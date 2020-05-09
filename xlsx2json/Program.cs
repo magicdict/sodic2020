@@ -16,8 +16,10 @@ namespace xlsx2json
 
         static void Main(string[] args)
         {
+            //CreateSpot();
             //CreateFood();
-            CreateHotel();
+            //CreateHotel();
+            //CreatePark();
             //return;
             //旅游景点信息.CreateSpotSimple(JsonFolder_WepApi + "深圳市旅游景点信息.json",JsonFolder_Visualization_AngularAssets + "深圳市旅游景点信息.json");
             //旅游景点信息.CreateSpotSimple(JsonFolder_WepApi + "江门市旅游景点信息.json",JsonFolder_Visualization_AngularAssets + "江门市旅游景点信息.json");
@@ -120,8 +122,8 @@ namespace xlsx2json
             Hotel_SZ.Sort((x, y) => { return y.CommentCount - x.CommentCount; });
             Hotel_JM.Sort((x, y) => { return y.CommentCount - x.CommentCount; });
 
-            var HotHotel = Hotel_SZ.Take(70).ToList();
-            HotHotel.AddRange(Hotel_JM.Take(30));
+            var HotHotel = Hotel_SZ.Take(50).ToList();
+            HotHotel.AddRange(Hotel_JM.Take(50));
             HotHotel = HotHotel.Select(
                 (y) =>
                 {

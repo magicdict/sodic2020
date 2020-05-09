@@ -19,6 +19,7 @@ public class 停车场信息 : POI
         {
             var row = sheet.GetRow(i);
             var r = new 停车场信息();
+            r.City = BaiduApi.DefaultCity;
             r.Name = row.GetCell(1).StringCellValue;
             var address = row.GetCell(2).StringCellValue;
             //对于地址进行处理

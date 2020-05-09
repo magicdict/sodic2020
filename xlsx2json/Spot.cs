@@ -34,6 +34,7 @@ public class 旅游景点信息 : POI, IEqualityComparer<旅游景点信息>
         {
             var row = sheet.GetRow(i);
             var r = new 旅游景点信息();
+            r.City = BaiduApi.DefaultCity;
             r.Name = row.GetCell(0).StringCellValue;
             if (row.GetCell(1) != null) r.Type = row.GetCell(1).StringCellValue;
             if (row.GetCell(2) != null) r.ALevel = row.GetCell(2).StringCellValue;

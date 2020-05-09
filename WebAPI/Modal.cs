@@ -20,6 +20,8 @@ public class POI
     public int CommentCount { get; set; }
 
     public List<WordCloudItem> WordCloud { get; set; }
+
+    public string City { get; set; }
 }
 
 public class SpotInfo : POI
@@ -35,6 +37,7 @@ public class SpotInfo : POI
     public string IssueTel { get; set; }
 
     public string TrafficGuide { get; set; }
+
 }
 
 public class WordCloudItem
