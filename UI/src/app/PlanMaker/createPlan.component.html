@@ -6,7 +6,7 @@
         <img src="assets/image/返回.png" width="30" height="30" alt="" (click)="Return()" style="float: right;">
     </nav>
     <div *ngIf="this.appservice.Plan === null"
-        style="position: absolute;z-index: 99;top:150px;text-align: center;overflow-y: scroll;height: 400px;"
+        style="position: absolute;z-index: 99;top:150px;text-align: center;overflow-y: scroll;height: 200px;"
         [ngStyle]="{'width':appservice.clientWidth + 'px'}">
         <div style="margin-right: auto;margin-left: auto;">
             <span>开始日期&nbsp;&nbsp;</span>
@@ -24,7 +24,7 @@
         <button class="btn btn-lg btn-primary" (click)="CreatePlan()">创建</button>
     </div>
     <div *ngIf="this.appservice.Plan !== null"
-        style="position: absolute;z-index: 99;top:150px;text-align: center;overflow-y: scroll;height: 400px;"
+        style="position: absolute;z-index: 99;top:150px;text-align: center;overflow-y: scroll;height: 200px;"
         [ngStyle]="{'width':appservice.clientWidth + 'px'}">
         <div style="margin-right: auto;margin-left: auto;">
             <button class="btn btn-lg btn-primary" style="width: 300px;height: 36px;" (click)="this.router.navigateByUrl('dailylist');">编辑</button>

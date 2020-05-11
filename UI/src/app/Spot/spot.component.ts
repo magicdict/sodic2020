@@ -17,7 +17,7 @@ export class SpotComponent {
   }
   Search(key: string) {
     if (key === "") {
-      this.appservice.SpotList_CurrentShow = this.appservice.SpotList_GradeAOnly;
+      this.appservice.SpotList_CurrentShow = this.appservice.SpotList_GradeA;
       return;
     }
     this.appservice.SearchSpot(key).then(

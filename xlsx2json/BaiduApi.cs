@@ -9,8 +9,19 @@ public class BaiduApi
 
     public static (double lat, double lng) GetGeoInfo(string Address)
     {
-        Address = Address.Replace("#","");
-        if (!Address.StartsWith(DefaultCity)) Address = DefaultCity + Address;
+        Address = Address.Replace("#", "");
+
+        var Prefix = "广东省" + DefaultCity;
+        if (Address.StartsWith("广东省")) Prefix = "";
+        if (Address.StartsWith("深圳")) Prefix = "广东省";
+        if (Address.StartsWith("江门")) Prefix = "广东省";
+        if (Address.StartsWith("台山市")) Prefix = "广东省江门市";
+        if (Address.StartsWith("开平市")) Prefix = "广东省江门市";
+        if (Address.StartsWith("鹤山市")) Prefix = "广东省江门市";
+        if (Address.StartsWith("恩平市")) Prefix = "广东省江门市";
+
+
+        Address = Prefix + Address;
         var json = Get("http://api.map.baidu.com/geocoding/v3/?address=" + Address + "&output=json&ak=E79497e9924e284e95ac0b55e6df53f7&callback=showLocation");
         if (json.Contains("配额超限，限制访问"))
         {

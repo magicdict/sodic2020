@@ -20,20 +20,29 @@ export class SpotOverviewComponent implements OnInit {
             params => {
                 let kbn = params['name'];
                 let spot: Promise<POIInfo[]>;
+                let park: Promise<POIInfo[]>;
                 this._map.bmap.zoom = 15;
                 if (kbn === "sz") {
                     this._title = "深圳景点"
                     spot = this.http.get("assets/json/深圳市旅游景点信息.json").toPromise().then(x => x as POIInfo[]);
+                    park = this.http.get("assets/json/深圳市景点停车场信息.json").toPromise().then(x => x as POIInfo[]);
                 } else {
                     this._title = "江门景点"
                     spot = this.http.get("assets/json/江门市旅游景点信息.json").toPromise().then(x => x as POIInfo[]);
+                    park = this.http.get("assets/json/江门市景点停车场信息.json").toPromise().then(x => x as POIInfo[]);
                 }
                 spot.then(
                     r => {
                         this._map.bmap.center = [r[0].lng, r[0].lat];
-                        this._map.series[0].data = r.filter(x => x.ALevel === "").map(x => [x.lng, x.lat, 0, x.Name]);
+                        this._map.series[0].data = r.filter(x => x.ALevel === "").map(x => [x.lng, x.lat, 0, "玩", x.Name]);
                         //重要的放在最下面，绘制的时候则在最上面
-                        this._map.series[1].data = r.filter(x => x.ALevel !== "").map(x => [x.lng, x.lat, x.ALevel.length, x.Name]);
+                        this._map.series[1].data = r.filter(x => x.ALevel !== "").map(x => [x.lng, x.lat, x.ALevel.length, x.Name, x.Name]);
+                        this.chart.setOption(this._map);
+                    }
+                )
+                park.then(
+                    r => {
+                        this._map.series[2].data = r.map(x => [x.lng, x.lat, 0, "P", x.Name]);
                         this.chart.setOption(this._map);
                     }
                 )
@@ -54,12 +63,17 @@ export class SpotOverviewComponent implements OnInit {
             // 百度地图的自定义样式，见 http://developer.baidu.com/map/jsdevelop-11.htm
             mapStyle: {}
         },
+        tooltip: {
+            trigger: 'item',
+            formatter: this.SpotToolTip,
+        },
         series: [{
             type: 'effectScatter',
             // 使用百度地图坐标系
             coordinateSystem: 'bmap',
             data: [[]],
             symbolSize: this.symbolSizeForLow,
+
             itemStyle: {
                 normal: {
                     shadowBlur: 15,
@@ -88,13 +102,35 @@ export class SpotOverviewComponent implements OnInit {
                 show: true,
                 formatter: "{@[3]}"
             }
-        }]
+        },
+        {
+            type: 'effectScatter',
+            // 使用百度地图坐标系
+            coordinateSystem: 'bmap',
+            data: [[]],
+            symbolSize: 10,
+            itemStyle: {
+                normal: {
+                    color: 'blue',
+                    shadowBlur: 15,
+                    shadowColor: '#333'
+                }
+            },
+            label: {
+                show: true,
+                formatter: "{@[3]}"
+            }
+        }
+        ]
     }
 
     symbolSizeForHigh(val: any) {
         return val[2] * 10;
     };
-
+    SpotToolTip(val: any) {
+        console.log(val);
+        return val.data[4];
+    }
     symbolSizeForLow(val: any) {
         return 15;
     };

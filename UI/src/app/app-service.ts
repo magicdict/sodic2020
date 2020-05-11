@@ -29,7 +29,7 @@ export class AppService {
             }
         })
     }
-    distanceByLnglat(lng1, lat1, lng2, lat2):string {
+    distanceByLnglat(lng1, lat1, lng2, lat2): string {
         var radLat1 = this.Rad(lat1);
         var radLat2 = this.Rad(lat2);
         var a = radLat1 - radLat2;
@@ -37,8 +37,8 @@ export class AppService {
         var s = 2 * Math.asin(Math.sqrt(Math.pow(Math.sin(a / 2), 2) + Math.cos(radLat1) * Math.cos(radLat2) * Math.pow(Math.sin(b / 2), 2)));
         s = s * 6378137.0; // 取WGS84标准参考椭球中的地球长半径(单位:m)
         s = Math.round(s * 10000) / 10000;
-        if (s > 1000) return String(Math.round(s/1000)) + "公里" 
-        return String(Math.round(s)) + "米" 
+        if (s > 1000) return String(Math.round(s / 1000)) + "公里"
+        return String(Math.round(s)) + "米"
     }
     Rad(d) {
         return d * Math.PI / 180.0;
@@ -88,7 +88,10 @@ export class AppService {
     loadMsg = "";
 
     SpotList_CurrentShow: SpotInfo[] = [];
-    SpotList_GradeAOnly: SpotInfo[] = [];
+    SpotList_GradeA: SpotInfo[] = [];
+    SpotList_Red: SpotInfo[] = [];
+    SpotList_Cult: SpotInfo[] = [];
+    SpotList_Relax: SpotInfo[] = [];
 
     FoodList_CurrentShow: FoodInfo[] = [];
     FoodList_Hot: FoodInfo[] = [];
@@ -107,13 +110,16 @@ export class AppService {
         this.Plan = this.localstorage.Load("Plan");
         console.log("User Plan:" + this.Plan);
 
-        let spot_gradeA = this.http.get("assets/json/A级旅游景点评价信息.json").toPromise().then(x => x as SpotInfo[]);
+        let spot_gradeA = this.http.get("assets/json/旅游景点信息.json").toPromise().then(x => x as SpotInfo[]);
         spot_gradeA.then(
             r => {
-                this.SpotList_GradeAOnly = r;
+                this.SpotList_GradeA = r;
+                this.SpotList_Red = r.filter(x => x.Type.indexOf("红色之旅") !== -1);
+                this.SpotList_Cult = r.filter(x => x.Type.indexOf("文化之旅") !== -1);
+                this.SpotList_Relax = r.filter(x => x.Type.indexOf("休闲之旅") !== -1);
                 this.SpotList_CurrentShow = r;
                 this.IsLoadSpotFinished = true;
-                this.loadMsg = "[完成]A级旅游景点评价信息";
+                this.loadMsg = "[完成]旅游景点信息";
             }
         )
 

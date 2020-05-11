@@ -13,7 +13,9 @@
     "lat": 22.542195480333724,
     "lng": 113.98024410292683,
     "Comments": null,
-    "CommentCount": 2937
+    "CommentCount": 2937,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -29,7 +31,9 @@
     "lat": 22.623765968381466,
     "lng": 114.30690999191086,
     "Comments": null,
-    "CommentCount": 2706
+    "CommentCount": 2706,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -45,7 +49,9 @@
     "lat": 22.544672905021145,
     "lng": 113.98615590628268,
     "Comments": null,
-    "CommentCount": 0
+    "CommentCount": 0,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -61,7 +67,9 @@
     "lat": 22.539632298692748,
     "lng": 114.06209856424059,
     "Comments": null,
-    "CommentCount": 0
+    "CommentCount": 0,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -77,7 +85,9 @@
     "lat": 22.544672905021145,
     "lng": 113.98615590628268,
     "Comments": null,
-    "CommentCount": 0
+    "CommentCount": 0,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -93,7 +103,9 @@
     "lat": 22.60417098609298,
     "lng": 113.97218599797942,
     "Comments": null,
-    "CommentCount": 0
+    "CommentCount": 0,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -109,10 +121,12 @@
     "lat": 22.59376467659405,
     "lng": 114.28273107864273,
     "Comments": null,
-    "CommentCount": 0
+    "CommentCount": 0,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "红色之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-83067950",
@@ -125,7 +139,9 @@
     "lat": 22.560122730533173,
     "lng": 114.06402545830463,
     "Comments": null,
-    "CommentCount": 0
+    "CommentCount": 0,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -141,7 +157,9 @@
     "lat": 22.563437914836104,
     "lng": 114.24343015510262,
     "Comments": null,
-    "CommentCount": 2979
+    "CommentCount": 2979,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -157,7 +175,9 @@
     "lat": 22.534726371488237,
     "lng": 114.03354210491864,
     "Comments": null,
-    "CommentCount": 759
+    "CommentCount": 759,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -173,10 +193,12 @@
     "lat": 22.608836034982186,
     "lng": 114.33405346068304,
     "Comments": null,
-    "CommentCount": 846
+    "CommentCount": 846,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "红色之旅",
     "ALevel": "AAAA",
     "OpenTime": null,
     "ServiceTel": "0755-25738430,0755-25736061",
@@ -189,7 +211,9 @@
     "lat": 22.572576250199088,
     "lng": 114.17612174021212,
     "Comments": null,
-    "CommentCount": 457
+    "CommentCount": 457,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -205,7 +229,9 @@
     "lat": 22.56618537028607,
     "lng": 113.93921818577411,
     "Comments": null,
-    "CommentCount": 1285
+    "CommentCount": 1285,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -221,7 +247,9 @@
     "lat": 22.623765968381466,
     "lng": 114.30690999191086,
     "Comments": null,
-    "CommentCount": 1806
+    "CommentCount": 1806,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -237,7 +265,9 @@
     "lat": 22.48944753469115,
     "lng": 113.9243215899986,
     "Comments": null,
-    "CommentCount": 483
+    "CommentCount": 483,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -253,7 +283,9 @@
     "lat": 22.72601655078104,
     "lng": 114.25445487896184,
     "Comments": null,
-    "CommentCount": 269
+    "CommentCount": 269,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -269,7 +301,9 @@
     "lat": 22.55448487585574,
     "lng": 114.13743190157126,
     "Comments": null,
-    "CommentCount": 733
+    "CommentCount": 733,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -285,7 +319,9 @@
     "lat": 22.543327518874136,
     "lng": 114.12509342836178,
     "Comments": null,
-    "CommentCount": 407
+    "CommentCount": 407,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -301,7 +337,9 @@
     "lat": 22.600308653980385,
     "lng": 114.5207439289953,
     "Comments": null,
-    "CommentCount": 361
+    "CommentCount": 361,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -317,7 +355,9 @@
     "lat": 22.720385203924202,
     "lng": 114.11381679718,
     "Comments": null,
-    "CommentCount": 1103
+    "CommentCount": 1103,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -333,7 +373,9 @@
     "lat": 22.556730533494473,
     "lng": 114.23713438093802,
     "Comments": null,
-    "CommentCount": 420
+    "CommentCount": 420,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -349,7 +391,9 @@
     "lat": 22.72601655078104,
     "lng": 114.25445487896184,
     "Comments": null,
-    "CommentCount": 211
+    "CommentCount": 211,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -365,7 +409,9 @@
     "lat": 22.562368003373734,
     "lng": 114.54776097025005,
     "Comments": null,
-    "CommentCount": 379
+    "CommentCount": 379,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -381,7 +427,9 @@
     "lat": 22.74183093741052,
     "lng": 113.78025233600046,
     "Comments": null,
-    "CommentCount": 913
+    "CommentCount": 913,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -397,7 +445,9 @@
     "lat": 22.531856433458582,
     "lng": 113.99590827021797,
     "Comments": null,
-    "CommentCount": 832
+    "CommentCount": 832,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -413,7 +463,9 @@
     "lat": 22.594312041924624,
     "lng": 114.19994300571786,
     "Comments": null,
-    "CommentCount": 380
+    "CommentCount": 380,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -429,7 +481,9 @@
     "lat": 22.766411910561658,
     "lng": 113.96712359727962,
     "Comments": null,
-    "CommentCount": 997
+    "CommentCount": 997,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -445,10 +499,12 @@
     "lat": 22.617256723329216,
     "lng": 114.14450381169623,
     "Comments": null,
-    "CommentCount": 0
+    "CommentCount": 0,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "文化之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-26536114",
@@ -461,10 +517,12 @@
     "lat": 22.532931913522173,
     "lng": 113.93788033398872,
     "Comments": null,
-    "CommentCount": 0
+    "CommentCount": 0,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "红色之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-82462232",
@@ -477,7 +535,9 @@
     "lat": 22.54883080819928,
     "lng": 114.11651593574494,
     "Comments": null,
-    "CommentCount": 160
+    "CommentCount": 160,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -493,7 +553,9 @@
     "lat": 22.697317670499523,
     "lng": 113.84292666225817,
     "Comments": null,
-    "CommentCount": 320
+    "CommentCount": 320,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -509,7 +571,9 @@
     "lat": 22.538500195784383,
     "lng": 113.93653916925258,
     "Comments": null,
-    "CommentCount": 0
+    "CommentCount": 0,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -525,10 +589,12 @@
     "lat": 22.623765968381466,
     "lng": 114.30690999191086,
     "Comments": null,
-    "CommentCount": 1356
+    "CommentCount": 1356,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "红色之旅/文化之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-88125550,0755-25100385,0755-82738315,0755-83254753",
@@ -541,7 +607,9 @@
     "lat": 22.54935250857916,
     "lng": 114.06617390684634,
     "Comments": null,
-    "CommentCount": 0
+    "CommentCount": 0,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -557,7 +625,9 @@
     "lat": 22.55328238704501,
     "lng": 114.06841302315978,
     "Comments": null,
-    "CommentCount": 236
+    "CommentCount": 236,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -573,7 +643,9 @@
     "lat": 22.553882371960615,
     "lng": 114.11087079887116,
     "Comments": null,
-    "CommentCount": 346
+    "CommentCount": 346,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -589,7 +661,9 @@
     "lat": 22.604474103607366,
     "lng": 114.48082193858515,
     "Comments": null,
-    "CommentCount": 319
+    "CommentCount": 319,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -605,7 +679,9 @@
     "lat": 22.5427844359623,
     "lng": 114.0023965988635,
     "Comments": null,
-    "CommentCount": 177
+    "CommentCount": 177,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -621,7 +697,9 @@
     "lat": 22.528275544310123,
     "lng": 113.9966392214112,
     "Comments": null,
-    "CommentCount": 907
+    "CommentCount": 907,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -637,10 +715,12 @@
     "lat": 22.549846233316757,
     "lng": 113.9166731114653,
     "Comments": null,
-    "CommentCount": 301
+    "CommentCount": 301,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "文化之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-26604540,0755-26918118",
@@ -653,7 +733,9 @@
     "lat": 22.5424497645787,
     "lng": 113.97886355097218,
     "Comments": null,
-    "CommentCount": 186
+    "CommentCount": 186,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -669,7 +751,9 @@
     "lat": 22.531856433458582,
     "lng": 113.99590827021797,
     "Comments": null,
-    "CommentCount": 1183
+    "CommentCount": 1183,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -685,7 +769,9 @@
     "lat": 22.540976202392788,
     "lng": 114.00433375157645,
     "Comments": null,
-    "CommentCount": 260
+    "CommentCount": 260,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -701,10 +787,12 @@
     "lat": 22.665088315848955,
     "lng": 114.10822457589059,
     "Comments": null,
-    "CommentCount": 231
+    "CommentCount": 231,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "文化之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-83063086",
@@ -717,7 +805,9 @@
     "lat": 22.55511332486554,
     "lng": 114.07057585986085,
     "Comments": null,
-    "CommentCount": 142
+    "CommentCount": 142,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -733,7 +823,9 @@
     "lat": 22.66708515564427,
     "lng": 114.25164120644442,
     "Comments": null,
-    "CommentCount": 389
+    "CommentCount": 389,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -749,7 +841,9 @@
     "lat": 22.72601655078104,
     "lng": 114.25445487896184,
     "Comments": null,
-    "CommentCount": 65
+    "CommentCount": 65,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -765,7 +859,9 @@
     "lat": 22.54656866490083,
     "lng": 114.11049207865813,
     "Comments": null,
-    "CommentCount": 225
+    "CommentCount": 225,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -781,7 +877,9 @@
     "lat": 22.4971427154463,
     "lng": 114.58857080989377,
     "Comments": null,
-    "CommentCount": 83
+    "CommentCount": 83,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -797,7 +895,9 @@
     "lat": 22.572576250199088,
     "lng": 114.17612174021212,
     "Comments": null,
-    "CommentCount": 82
+    "CommentCount": 82,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -813,7 +913,9 @@
     "lat": 22.638202424201655,
     "lng": 114.28696239942398,
     "Comments": null,
-    "CommentCount": 143
+    "CommentCount": 143,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -829,7 +931,9 @@
     "lat": 22.59057888314993,
     "lng": 114.28487851030262,
     "Comments": null,
-    "CommentCount": 374
+    "CommentCount": 374,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -845,7 +949,9 @@
     "lat": 22.74638963058871,
     "lng": 114.09759569304912,
     "Comments": null,
-    "CommentCount": 109
+    "CommentCount": 109,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -861,7 +967,9 @@
     "lat": 22.72278088013692,
     "lng": 114.24543741876401,
     "Comments": null,
-    "CommentCount": 52
+    "CommentCount": 52,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -877,7 +985,9 @@
     "lat": 22.538264198462166,
     "lng": 114.06586811646442,
     "Comments": null,
-    "CommentCount": 492
+    "CommentCount": 492,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -893,7 +1003,9 @@
     "lat": 22.538358134982843,
     "lng": 113.92569180503659,
     "Comments": null,
-    "CommentCount": 31
+    "CommentCount": 31,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -909,7 +1021,9 @@
     "lat": 22.59376467659405,
     "lng": 114.28273107864273,
     "Comments": null,
-    "CommentCount": 16
+    "CommentCount": 16,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -925,7 +1039,9 @@
     "lat": 22.686094811362647,
     "lng": 114.23087322746777,
     "Comments": null,
-    "CommentCount": 9
+    "CommentCount": 9,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -941,7 +1057,9 @@
     "lat": 22.550778996792182,
     "lng": 114.57827398298905,
     "Comments": null,
-    "CommentCount": 6
+    "CommentCount": 6,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -957,7 +1075,9 @@
     "lat": 22.580590728645696,
     "lng": 114.15210805766623,
     "Comments": null,
-    "CommentCount": 253
+    "CommentCount": 253,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -973,7 +1093,9 @@
     "lat": 22.5503593911796,
     "lng": 114.09325712986121,
     "Comments": null,
-    "CommentCount": 297
+    "CommentCount": 297,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -989,7 +1111,9 @@
     "lat": 22.48982934149967,
     "lng": 113.9344286004576,
     "Comments": null,
-    "CommentCount": 144
+    "CommentCount": 144,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1005,10 +1129,12 @@
     "lat": 22.57483010477833,
     "lng": 114.12894230994516,
     "Comments": null,
-    "CommentCount": 308
+    "CommentCount": 308,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "红色之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-26612335",
@@ -1021,7 +1147,9 @@
     "lat": 22.553582613889265,
     "lng": 113.92531789614786,
     "Comments": null,
-    "CommentCount": 223
+    "CommentCount": 223,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1037,7 +1165,9 @@
     "lat": 22.55078341934139,
     "lng": 114.08411324753578,
     "Comments": null,
-    "CommentCount": 231
+    "CommentCount": 231,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1053,7 +1183,9 @@
     "lat": 22.52449801216757,
     "lng": 114.0803799796681,
     "Comments": null,
-    "CommentCount": 111
+    "CommentCount": 111,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1069,7 +1201,9 @@
     "lat": 22.528465912071983,
     "lng": 114.06154700465763,
     "Comments": null,
-    "CommentCount": 67
+    "CommentCount": 67,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1085,7 +1219,9 @@
     "lat": 22.534619046079943,
     "lng": 114.53759008577778,
     "Comments": null,
-    "CommentCount": 63
+    "CommentCount": 63,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1101,7 +1237,9 @@
     "lat": 22.514222899995346,
     "lng": 114.06276178319838,
     "Comments": null,
-    "CommentCount": 215
+    "CommentCount": 215,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1117,7 +1255,9 @@
     "lat": 22.544949034375634,
     "lng": 113.98563695518973,
     "Comments": null,
-    "CommentCount": 174
+    "CommentCount": 174,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1130,10 +1270,12 @@
     "Price": 168,
     "Description": null,
     "Address": "深圳市盐田区大梅沙东部华侨城云海谷体育公园旁",
-    "lat": 22.618598680655715,
-    "lng": 114.3112479092171,
+    "lat": 22.563437914836104,
+    "lng": 114.24343015510262,
     "Comments": null,
-    "CommentCount": 67
+    "CommentCount": 67,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1149,7 +1291,9 @@
     "lat": 22.729924320332305,
     "lng": 114.07915729603887,
     "Comments": null,
-    "CommentCount": 54
+    "CommentCount": 54,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1165,7 +1309,9 @@
     "lat": 22.73787943077786,
     "lng": 114.274390613816,
     "Comments": null,
-    "CommentCount": 203
+    "CommentCount": 203,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1181,7 +1327,9 @@
     "lat": 22.540876904234675,
     "lng": 113.93369716238278,
     "Comments": null,
-    "CommentCount": 158
+    "CommentCount": 158,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1197,7 +1345,9 @@
     "lat": 22.538035034459277,
     "lng": 114.49821304342203,
     "Comments": null,
-    "CommentCount": 4
+    "CommentCount": 4,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1213,7 +1363,9 @@
     "lat": 22.557882093522046,
     "lng": 114.126621243915,
     "Comments": null,
-    "CommentCount": 129
+    "CommentCount": 129,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1229,7 +1381,9 @@
     "lat": 22.709316339021342,
     "lng": 114.24657009218116,
     "Comments": null,
-    "CommentCount": 51
+    "CommentCount": 51,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1245,7 +1399,9 @@
     "lat": 22.552545363136634,
     "lng": 114.06661520481781,
     "Comments": null,
-    "CommentCount": 182
+    "CommentCount": 182,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1261,7 +1417,9 @@
     "lat": 22.542195480333724,
     "lng": 113.98024410292683,
     "Comments": null,
-    "CommentCount": 353
+    "CommentCount": 353,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1277,7 +1435,9 @@
     "lat": 22.618703032670673,
     "lng": 114.3947411043569,
     "Comments": null,
-    "CommentCount": 100
+    "CommentCount": 100,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1293,7 +1453,9 @@
     "lat": 22.546015211883706,
     "lng": 114.06532067651052,
     "Comments": null,
-    "CommentCount": 180
+    "CommentCount": 180,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1309,7 +1471,9 @@
     "lat": 22.562368003373734,
     "lng": 114.54776097025005,
     "Comments": null,
-    "CommentCount": 3
+    "CommentCount": 3,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1322,10 +1486,12 @@
     "Price": 0,
     "Description": null,
     "Address": "深圳市盐田区大梅沙东部华侨城大侠谷内",
-    "lat": 22.6149750318554,
-    "lng": 114.30986101534072,
+    "lat": 22.611207075316546,
+    "lng": 114.31214262150475,
     "Comments": null,
-    "CommentCount": 34
+    "CommentCount": 34,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1341,7 +1507,9 @@
     "lat": 22.533806032758346,
     "lng": 113.98941603663842,
     "Comments": null,
-    "CommentCount": 101
+    "CommentCount": 101,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1357,10 +1525,12 @@
     "lat": 22.64415667927093,
     "lng": 114.34210432618634,
     "Comments": null,
-    "CommentCount": 79
+    "CommentCount": 79,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "文化之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-26032948,0755-26032921",
@@ -1373,10 +1543,12 @@
     "lat": 22.59345292062651,
     "lng": 113.97337661210196,
     "Comments": null,
-    "CommentCount": 109
+    "CommentCount": 109,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "文化之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-82841888,0755-82841666",
@@ -1389,10 +1561,12 @@
     "lat": 22.552479544340397,
     "lng": 114.06356432215428,
     "Comments": null,
-    "CommentCount": 103
+    "CommentCount": 103,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "文化之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-84732633",
@@ -1405,7 +1579,9 @@
     "lat": 22.615800989073914,
     "lng": 114.1426649803179,
     "Comments": null,
-    "CommentCount": 79
+    "CommentCount": 79,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1421,7 +1597,9 @@
     "lat": 22.553109660350955,
     "lng": 114.06816338405864,
     "Comments": null,
-    "CommentCount": 85
+    "CommentCount": 85,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1437,7 +1615,9 @@
     "lat": 22.56064573432849,
     "lng": 114.13219965196059,
     "Comments": null,
-    "CommentCount": 178
+    "CommentCount": 178,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1450,10 +1630,12 @@
     "Price": 0,
     "Description": null,
     "Address": "深圳市宝安区人民北路（近公园路）",
-    "lat": 22.787315064479063,
-    "lng": 114.31144003969781,
+    "lat": 22.58706533566288,
+    "lng": 113.90576136479513,
     "Comments": null,
-    "CommentCount": 286
+    "CommentCount": 286,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1469,7 +1651,9 @@
     "lat": 22.53205969014551,
     "lng": 114.04221419719039,
     "Comments": null,
-    "CommentCount": 131
+    "CommentCount": 131,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1485,10 +1669,12 @@
     "lat": 22.524103056143517,
     "lng": 114.06307093503953,
     "Comments": null,
-    "CommentCount": 208
+    "CommentCount": 208,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "休闲之旅",
     "ALevel": "AAAAA",
     "OpenTime": null,
     "ServiceTel": "0755-26600248",
@@ -1501,7 +1687,9 @@
     "lat": 22.544672905021145,
     "lng": 113.98615590628268,
     "Comments": null,
-    "CommentCount": 28
+    "CommentCount": 28,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1517,7 +1705,9 @@
     "lat": 22.565041812865967,
     "lng": 114.09097149749188,
     "Comments": null,
-    "CommentCount": 146
+    "CommentCount": 146,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1533,7 +1723,9 @@
     "lat": 22.498786255502278,
     "lng": 113.9315116138235,
     "Comments": null,
-    "CommentCount": 217
+    "CommentCount": 217,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1549,7 +1741,9 @@
     "lat": 22.5220042136717,
     "lng": 113.94537943868865,
     "Comments": null,
-    "CommentCount": 107
+    "CommentCount": 107,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1565,7 +1759,9 @@
     "lat": 22.6757251581361,
     "lng": 113.83056669708935,
     "Comments": null,
-    "CommentCount": 225
+    "CommentCount": 225,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1581,7 +1777,9 @@
     "lat": 22.57500681983078,
     "lng": 114.0461517118835,
     "Comments": null,
-    "CommentCount": 96
+    "CommentCount": 96,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1597,7 +1795,9 @@
     "lat": 22.490693782524637,
     "lng": 113.94906073958259,
     "Comments": null,
-    "CommentCount": 63
+    "CommentCount": 63,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1613,7 +1813,9 @@
     "lat": 22.540708535890914,
     "lng": 113.92843953025165,
     "Comments": null,
-    "CommentCount": 50
+    "CommentCount": 50,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1629,7 +1831,9 @@
     "lat": 22.54166273336112,
     "lng": 113.9891005517434,
     "Comments": null,
-    "CommentCount": 93
+    "CommentCount": 93,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1645,7 +1849,9 @@
     "lat": 22.70778160039678,
     "lng": 114.23454243986447,
     "Comments": null,
-    "CommentCount": 120
+    "CommentCount": 120,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1661,7 +1867,9 @@
     "lat": 22.733890934263776,
     "lng": 114.27277914356218,
     "Comments": null,
-    "CommentCount": 86
+    "CommentCount": 86,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1677,7 +1885,9 @@
     "lat": 22.5375319841519,
     "lng": 113.99476796120399,
     "Comments": null,
-    "CommentCount": 60
+    "CommentCount": 60,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1693,7 +1903,9 @@
     "lat": 22.638202424201655,
     "lng": 114.28696239942398,
     "Comments": null,
-    "CommentCount": 51
+    "CommentCount": 51,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1709,7 +1921,9 @@
     "lat": 22.601698059116412,
     "lng": 114.52641642286507,
     "Comments": null,
-    "CommentCount": 94
+    "CommentCount": 94,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1725,7 +1939,9 @@
     "lat": 22.590529081425842,
     "lng": 113.97252951000632,
     "Comments": null,
-    "CommentCount": 35
+    "CommentCount": 35,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1741,7 +1957,9 @@
     "lat": 22.697317670499523,
     "lng": 113.84292666225817,
     "Comments": null,
-    "CommentCount": 68
+    "CommentCount": 68,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1757,10 +1975,12 @@
     "lat": 22.734764041199075,
     "lng": 113.84034654917326,
     "Comments": null,
-    "CommentCount": 133
+    "CommentCount": 133,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "红色之旅/文化之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-26887006",
@@ -1773,7 +1993,9 @@
     "lat": 22.497112795413358,
     "lng": 113.9198303876368,
     "Comments": null,
-    "CommentCount": 35
+    "CommentCount": 35,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1789,7 +2011,9 @@
     "lat": 22.597234048132496,
     "lng": 114.55445864629968,
     "Comments": null,
-    "CommentCount": 168
+    "CommentCount": 168,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1805,7 +2029,9 @@
     "lat": 22.72601655078104,
     "lng": 114.25445487896184,
     "Comments": null,
-    "CommentCount": 64
+    "CommentCount": 64,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1821,7 +2047,9 @@
     "lat": 22.548821211964388,
     "lng": 114.11153240626889,
     "Comments": null,
-    "CommentCount": 82
+    "CommentCount": 82,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1837,7 +2065,9 @@
     "lat": 22.552326097976128,
     "lng": 114.133060999385,
     "Comments": null,
-    "CommentCount": 174
+    "CommentCount": 174,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1853,7 +2083,9 @@
     "lat": 22.56813782553009,
     "lng": 114.11188301221439,
     "Comments": null,
-    "CommentCount": 69
+    "CommentCount": 69,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1869,7 +2101,9 @@
     "lat": 22.651135129412566,
     "lng": 114.24745321632773,
     "Comments": null,
-    "CommentCount": 133
+    "CommentCount": 133,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1885,7 +2119,9 @@
     "lat": 22.545453559398673,
     "lng": 114.1172955750968,
     "Comments": null,
-    "CommentCount": 96
+    "CommentCount": 96,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1901,7 +2137,9 @@
     "lat": 22.50896031512237,
     "lng": 113.95633252268345,
     "Comments": null,
-    "CommentCount": 101
+    "CommentCount": 101,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1917,7 +2155,9 @@
     "lat": 22.613562977852855,
     "lng": 114.42278403655456,
     "Comments": null,
-    "CommentCount": 24
+    "CommentCount": 24,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1933,10 +2173,12 @@
     "lat": 22.57028955456291,
     "lng": 114.14318069751101,
     "Comments": null,
-    "CommentCount": 149
+    "CommentCount": 149,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "红色之旅/文化之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-26611170,0755-26504300",
@@ -1949,7 +2191,9 @@
     "lat": 22.548049505578444,
     "lng": 113.92746897852135,
     "Comments": null,
-    "CommentCount": 68
+    "CommentCount": 68,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1965,7 +2209,9 @@
     "lat": 22.72601655078104,
     "lng": 114.25445487896184,
     "Comments": null,
-    "CommentCount": 142
+    "CommentCount": 142,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -1981,10 +2227,12 @@
     "lat": 22.546015211883706,
     "lng": 114.06532067651052,
     "Comments": null,
-    "CommentCount": 134
+    "CommentCount": 134,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "红色之旅/文化之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-25251107,0755-25251104",
@@ -1997,7 +2245,9 @@
     "lat": 22.628925312799005,
     "lng": 114.08634134703046,
     "Comments": null,
-    "CommentCount": 51
+    "CommentCount": 51,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2013,7 +2263,9 @@
     "lat": 22.597368681045058,
     "lng": 114.47860746279184,
     "Comments": null,
-    "CommentCount": 25
+    "CommentCount": 25,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2029,7 +2281,9 @@
     "lat": 22.552649805752683,
     "lng": 114.12618924879538,
     "Comments": null,
-    "CommentCount": 95
+    "CommentCount": 95,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2045,7 +2299,9 @@
     "lat": 22.48430706972471,
     "lng": 113.9056516520483,
     "Comments": null,
-    "CommentCount": 55
+    "CommentCount": 55,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2061,7 +2317,9 @@
     "lat": 22.564295056126344,
     "lng": 114.09831159493015,
     "Comments": null,
-    "CommentCount": 62
+    "CommentCount": 62,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2077,10 +2335,12 @@
     "lat": 22.543487915629132,
     "lng": 114.04284495228536,
     "Comments": null,
-    "CommentCount": 58
+    "CommentCount": 58,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "休闲之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "",
@@ -2093,7 +2353,9 @@
     "lat": 22.577491998610405,
     "lng": 114.46048007981005,
     "Comments": null,
-    "CommentCount": 76
+    "CommentCount": 76,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2109,7 +2371,9 @@
     "lat": 22.621215834647135,
     "lng": 114.4094868692475,
     "Comments": null,
-    "CommentCount": 29
+    "CommentCount": 29,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2125,7 +2389,9 @@
     "lat": 22.58706533566288,
     "lng": 113.90576136479513,
     "Comments": null,
-    "CommentCount": 111
+    "CommentCount": 111,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2141,7 +2407,9 @@
     "lat": 22.542333001327204,
     "lng": 114.03775502391152,
     "Comments": null,
-    "CommentCount": 51
+    "CommentCount": 51,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2157,7 +2425,9 @@
     "lat": 22.573289397791214,
     "lng": 113.91397835573294,
     "Comments": null,
-    "CommentCount": 43
+    "CommentCount": 43,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2173,7 +2443,9 @@
     "lat": 22.550340077262,
     "lng": 114.11316078712392,
     "Comments": null,
-    "CommentCount": 93
+    "CommentCount": 93,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2189,7 +2461,9 @@
     "lat": 22.61119498125572,
     "lng": 114.15340098878632,
     "Comments": null,
-    "CommentCount": 113
+    "CommentCount": 113,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2205,7 +2479,9 @@
     "lat": 22.546663710888566,
     "lng": 114.04302142979259,
     "Comments": null,
-    "CommentCount": 83
+    "CommentCount": 83,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2221,7 +2497,9 @@
     "lat": 22.50991395049056,
     "lng": 113.95033187062457,
     "Comments": null,
-    "CommentCount": 84
+    "CommentCount": 84,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2237,10 +2515,12 @@
     "lat": 22.734228431532863,
     "lng": 114.23532464926838,
     "Comments": null,
-    "CommentCount": 98
+    "CommentCount": 98,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "休闲之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-28886666",
@@ -2253,7 +2533,9 @@
     "lat": 22.623765968381466,
     "lng": 114.30690999191086,
     "Comments": null,
-    "CommentCount": 386
+    "CommentCount": 386,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2269,7 +2551,9 @@
     "lat": 22.680906027612806,
     "lng": 113.85728598599987,
     "Comments": null,
-    "CommentCount": 51
+    "CommentCount": 51,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2285,7 +2569,9 @@
     "lat": 22.525961341385212,
     "lng": 113.93539927076422,
     "Comments": null,
-    "CommentCount": 58
+    "CommentCount": 58,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2301,7 +2587,9 @@
     "lat": 22.697317670499523,
     "lng": 113.84292666225817,
     "Comments": null,
-    "CommentCount": 59
+    "CommentCount": 59,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2317,7 +2605,9 @@
     "lat": 22.552475586875623,
     "lng": 113.97188350797192,
     "Comments": null,
-    "CommentCount": 40
+    "CommentCount": 40,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2333,7 +2623,9 @@
     "lat": 22.606345509826333,
     "lng": 114.31603228436167,
     "Comments": null,
-    "CommentCount": 41
+    "CommentCount": 41,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2349,7 +2641,9 @@
     "lat": 22.55315899432358,
     "lng": 114.06579421230197,
     "Comments": null,
-    "CommentCount": 145
+    "CommentCount": 145,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2365,7 +2659,9 @@
     "lat": 22.572484976670438,
     "lng": 114.04401881839998,
     "Comments": null,
-    "CommentCount": 42
+    "CommentCount": 42,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2381,7 +2677,9 @@
     "lat": 22.638202424201655,
     "lng": 114.28696239942398,
     "Comments": null,
-    "CommentCount": 30
+    "CommentCount": 30,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2397,7 +2695,9 @@
     "lat": 22.578353306303022,
     "lng": 114.03403909334017,
     "Comments": null,
-    "CommentCount": 47
+    "CommentCount": 47,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2413,7 +2713,9 @@
     "lat": 22.548485009535106,
     "lng": 114.10235396972372,
     "Comments": null,
-    "CommentCount": 93
+    "CommentCount": 93,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2429,7 +2731,9 @@
     "lat": 22.474365172270932,
     "lng": 113.89696205000557,
     "Comments": null,
-    "CommentCount": 54
+    "CommentCount": 54,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2445,10 +2749,12 @@
     "lat": 22.545356230859003,
     "lng": 113.99290121767687,
     "Comments": null,
-    "CommentCount": 55
+    "CommentCount": 55,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "红色之旅/文化之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-83877898",
@@ -2461,7 +2767,9 @@
     "lat": 22.532498182097235,
     "lng": 114.0312625513827,
     "Comments": null,
-    "CommentCount": 54
+    "CommentCount": 54,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2477,7 +2785,9 @@
     "lat": 22.603987563801827,
     "lng": 114.31880220940077,
     "Comments": null,
-    "CommentCount": 97
+    "CommentCount": 97,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2493,7 +2803,9 @@
     "lat": 22.535694191679337,
     "lng": 113.97013250841482,
     "Comments": null,
-    "CommentCount": 40
+    "CommentCount": 40,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2509,7 +2821,9 @@
     "lat": 22.536170534455955,
     "lng": 113.99384495229279,
     "Comments": null,
-    "CommentCount": 26
+    "CommentCount": 26,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2525,7 +2839,9 @@
     "lat": 22.534619046079943,
     "lng": 114.53759008577778,
     "Comments": null,
-    "CommentCount": 19
+    "CommentCount": 19,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2541,7 +2857,9 @@
     "lat": 22.746891494309164,
     "lng": 114.38229324987533,
     "Comments": null,
-    "CommentCount": 65
+    "CommentCount": 65,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2557,7 +2875,9 @@
     "lat": 22.589729081384576,
     "lng": 113.91797290114796,
     "Comments": null,
-    "CommentCount": 36
+    "CommentCount": 36,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2573,7 +2893,9 @@
     "lat": 22.55055599982603,
     "lng": 114.02091700038713,
     "Comments": null,
-    "CommentCount": 38
+    "CommentCount": 38,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2589,7 +2911,9 @@
     "lat": 22.54388398477153,
     "lng": 114.0291567130645,
     "Comments": null,
-    "CommentCount": 61
+    "CommentCount": 61,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2605,7 +2929,9 @@
     "lat": 22.612438898941058,
     "lng": 114.12410568667687,
     "Comments": null,
-    "CommentCount": 185
+    "CommentCount": 185,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2621,7 +2947,9 @@
     "lat": 22.61108229792011,
     "lng": 114.11035589554285,
     "Comments": null,
-    "CommentCount": 88
+    "CommentCount": 88,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2637,7 +2965,9 @@
     "lat": 22.548702969606065,
     "lng": 114.12740501547219,
     "Comments": null,
-    "CommentCount": 43
+    "CommentCount": 43,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2653,7 +2983,9 @@
     "lat": 22.737095548655837,
     "lng": 114.2602879359584,
     "Comments": null,
-    "CommentCount": 29
+    "CommentCount": 29,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2669,7 +3001,9 @@
     "lat": 22.608506030717006,
     "lng": 113.87727562547275,
     "Comments": null,
-    "CommentCount": 58
+    "CommentCount": 58,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2685,7 +3019,9 @@
     "lat": 22.522882080253034,
     "lng": 113.95599008862318,
     "Comments": null,
-    "CommentCount": 79
+    "CommentCount": 79,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2701,7 +3037,9 @@
     "lat": 22.56581291639196,
     "lng": 114.55028655619053,
     "Comments": null,
-    "CommentCount": 22
+    "CommentCount": 22,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2717,7 +3055,9 @@
     "lat": 22.5512826658144,
     "lng": 114.24212895957184,
     "Comments": null,
-    "CommentCount": 31
+    "CommentCount": 31,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2733,7 +3073,9 @@
     "lat": 22.66929058590515,
     "lng": 113.81782617736766,
     "Comments": null,
-    "CommentCount": 90
+    "CommentCount": 90,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2749,7 +3091,9 @@
     "lat": 22.701476324672907,
     "lng": 114.22341195580267,
     "Comments": null,
-    "CommentCount": 25
+    "CommentCount": 25,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2765,7 +3109,9 @@
     "lat": 22.551644979259102,
     "lng": 114.06793898734233,
     "Comments": null,
-    "CommentCount": 73
+    "CommentCount": 73,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2781,7 +3127,9 @@
     "lat": 22.651200662944287,
     "lng": 114.5049525966779,
     "Comments": null,
-    "CommentCount": 35
+    "CommentCount": 35,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2797,7 +3145,9 @@
     "lat": 22.539837254547326,
     "lng": 114.03636534528805,
     "Comments": null,
-    "CommentCount": 40
+    "CommentCount": 40,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2813,7 +3163,9 @@
     "lat": 22.687409469980075,
     "lng": 114.34925844923156,
     "Comments": null,
-    "CommentCount": 58
+    "CommentCount": 58,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2829,7 +3181,9 @@
     "lat": 22.508839610935656,
     "lng": 113.90249213280796,
     "Comments": null,
-    "CommentCount": 45
+    "CommentCount": 45,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2845,7 +3199,9 @@
     "lat": 22.69609930133847,
     "lng": 114.26921449213019,
     "Comments": null,
-    "CommentCount": 37
+    "CommentCount": 37,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2861,7 +3217,9 @@
     "lat": 22.55391917924481,
     "lng": 114.12216147146636,
     "Comments": null,
-    "CommentCount": 123
+    "CommentCount": 123,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2877,7 +3235,9 @@
     "lat": 22.662379918637644,
     "lng": 113.82215173039687,
     "Comments": null,
-    "CommentCount": 43
+    "CommentCount": 43,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2893,7 +3253,9 @@
     "lat": 22.623765968381466,
     "lng": 114.30690999191086,
     "Comments": null,
-    "CommentCount": 17
+    "CommentCount": 17,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2909,7 +3271,9 @@
     "lat": 22.634288423108803,
     "lng": 114.296104454596,
     "Comments": null,
-    "CommentCount": 47
+    "CommentCount": 47,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2925,7 +3289,9 @@
     "lat": 22.58186848904872,
     "lng": 113.89334189676767,
     "Comments": null,
-    "CommentCount": 77
+    "CommentCount": 77,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2941,7 +3307,9 @@
     "lat": 22.744350971859568,
     "lng": 114.08390798472682,
     "Comments": null,
-    "CommentCount": 62
+    "CommentCount": 62,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2957,7 +3325,9 @@
     "lat": 22.548614412688192,
     "lng": 114.02855723876398,
     "Comments": null,
-    "CommentCount": 45
+    "CommentCount": 45,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2973,7 +3343,9 @@
     "lat": 22.514159799176497,
     "lng": 113.9113009166359,
     "Comments": null,
-    "CommentCount": 56
+    "CommentCount": 56,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -2989,7 +3361,9 @@
     "lat": 22.54629846356612,
     "lng": 113.98917151787867,
     "Comments": null,
-    "CommentCount": 53
+    "CommentCount": 53,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3005,7 +3379,9 @@
     "lat": 22.514111305008882,
     "lng": 114.63330777173417,
     "Comments": null,
-    "CommentCount": 18
+    "CommentCount": 18,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3021,7 +3397,9 @@
     "lat": 22.572162098157953,
     "lng": 114.5020674028724,
     "Comments": null,
-    "CommentCount": 38
+    "CommentCount": 38,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3037,7 +3415,9 @@
     "lat": 22.804623627927413,
     "lng": 113.91300814625704,
     "Comments": null,
-    "CommentCount": 233
+    "CommentCount": 233,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3053,7 +3433,9 @@
     "lat": 22.78320502839469,
     "lng": 113.85147403918278,
     "Comments": null,
-    "CommentCount": 173
+    "CommentCount": 173,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3069,7 +3451,9 @@
     "lat": 22.552129406518457,
     "lng": 114.06359406235478,
     "Comments": null,
-    "CommentCount": 44
+    "CommentCount": 44,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3085,7 +3469,9 @@
     "lat": 22.722038330056208,
     "lng": 114.2841909472655,
     "Comments": null,
-    "CommentCount": 39
+    "CommentCount": 39,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3101,7 +3487,9 @@
     "lat": 22.540434178375005,
     "lng": 113.99186176321906,
     "Comments": null,
-    "CommentCount": 43
+    "CommentCount": 43,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3117,10 +3505,12 @@
     "lat": 22.529862490597047,
     "lng": 113.9321035163069,
     "Comments": null,
-    "CommentCount": 37
+    "CommentCount": 37,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "红色之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-84642252",
@@ -3133,7 +3523,9 @@
     "lat": 22.692893108674077,
     "lng": 114.35968277533217,
     "Comments": null,
-    "CommentCount": 20
+    "CommentCount": 20,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3149,7 +3541,9 @@
     "lat": 22.587826830917006,
     "lng": 113.89847194616048,
     "Comments": null,
-    "CommentCount": 74
+    "CommentCount": 74,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3165,7 +3559,9 @@
     "lat": 22.734917954096577,
     "lng": 113.83780021237551,
     "Comments": null,
-    "CommentCount": 124
+    "CommentCount": 124,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3178,10 +3574,12 @@
     "Price": 0,
     "Description": null,
     "Address": "深圳市盐田区大梅沙东部华侨城大侠谷内",
-    "lat": 22.6149750318554,
-    "lng": 114.30986101534072,
+    "lat": 22.611207075316546,
+    "lng": 114.31214262150475,
     "Comments": null,
-    "CommentCount": 22
+    "CommentCount": 22,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3197,7 +3595,9 @@
     "lat": 22.572576250199088,
     "lng": 114.17612174021212,
     "Comments": null,
-    "CommentCount": 9
+    "CommentCount": 9,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3213,7 +3613,9 @@
     "lat": 22.644157560422318,
     "lng": 114.0383986598092,
     "Comments": null,
-    "CommentCount": 10
+    "CommentCount": 10,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3229,7 +3631,9 @@
     "lat": 22.632810916624326,
     "lng": 114.13690549903411,
     "Comments": null,
-    "CommentCount": 0
+    "CommentCount": 0,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3245,7 +3649,9 @@
     "lat": 22.562122697682923,
     "lng": 113.9532145940899,
     "Comments": null,
-    "CommentCount": 0
+    "CommentCount": 0,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3261,7 +3667,9 @@
     "lat": 22.523784507389262,
     "lng": 113.9443524509147,
     "Comments": null,
-    "CommentCount": 0
+    "CommentCount": 0,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3277,7 +3685,9 @@
     "lat": 22.567149707427095,
     "lng": 114.47377059965635,
     "Comments": null,
-    "CommentCount": 0
+    "CommentCount": 0,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3293,7 +3703,9 @@
     "lat": 22.58744651110916,
     "lng": 114.13776005257394,
     "Comments": null,
-    "CommentCount": 0
+    "CommentCount": 0,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3309,7 +3721,9 @@
     "lat": 22.56607248282216,
     "lng": 114.24690174657533,
     "Comments": null,
-    "CommentCount": 0
+    "CommentCount": 0,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3325,7 +3739,9 @@
     "lat": 22.48797403462454,
     "lng": 114.55706921194137,
     "Comments": null,
-    "CommentCount": 0
+    "CommentCount": 0,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3341,7 +3757,9 @@
     "lat": 22.66537207974374,
     "lng": 114.30080474834486,
     "Comments": null,
-    "CommentCount": 0
+    "CommentCount": 0,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3357,7 +3775,9 @@
     "lat": 22.589134369652758,
     "lng": 113.84465796826358,
     "Comments": null,
-    "CommentCount": 0
+    "CommentCount": 0,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3373,7 +3793,9 @@
     "lat": 22.56087621163037,
     "lng": 114.05002939044661,
     "Comments": null,
-    "CommentCount": 42
+    "CommentCount": 42,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3389,7 +3811,9 @@
     "lat": 22.559256676825058,
     "lng": 114.06519268773812,
     "Comments": null,
-    "CommentCount": 39
+    "CommentCount": 39,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3405,7 +3829,9 @@
     "lat": 22.606294796358387,
     "lng": 114.3160593233575,
     "Comments": null,
-    "CommentCount": 34
+    "CommentCount": 34,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3421,7 +3847,9 @@
     "lat": 22.497701602097035,
     "lng": 113.92559191526054,
     "Comments": null,
-    "CommentCount": 65
+    "CommentCount": 65,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3437,10 +3865,12 @@
     "lat": 22.720385203924202,
     "lng": 114.11381679718,
     "Comments": null,
-    "CommentCount": 204
+    "CommentCount": 204,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "休闲之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-27164148",
@@ -3453,7 +3883,9 @@
     "lat": 22.713494627285563,
     "lng": 113.91480323015703,
     "Comments": null,
-    "CommentCount": 103
+    "CommentCount": 103,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3469,10 +3901,12 @@
     "lat": 22.697469292079372,
     "lng": 114.23512837490435,
     "Comments": null,
-    "CommentCount": 51
+    "CommentCount": 51,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "文化之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-33993111,0755-33993222",
@@ -3485,7 +3919,9 @@
     "lat": 22.538920878593956,
     "lng": 113.99124794387785,
     "Comments": null,
-    "CommentCount": 30
+    "CommentCount": 30,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3501,7 +3937,9 @@
     "lat": 22.570194251133934,
     "lng": 113.98863379489549,
     "Comments": null,
-    "CommentCount": 44
+    "CommentCount": 44,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3517,7 +3955,9 @@
     "lat": 22.71525635071478,
     "lng": 113.86189995258925,
     "Comments": null,
-    "CommentCount": 203
+    "CommentCount": 203,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3533,7 +3973,9 @@
     "lat": 22.53329922440904,
     "lng": 114.01280679012693,
     "Comments": null,
-    "CommentCount": 41
+    "CommentCount": 41,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3549,7 +3991,9 @@
     "lat": 22.536170534455955,
     "lng": 113.99384495229279,
     "Comments": null,
-    "CommentCount": 34
+    "CommentCount": 34,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3565,7 +4009,9 @@
     "lat": 22.48257176267313,
     "lng": 113.91979268844948,
     "Comments": null,
-    "CommentCount": 37
+    "CommentCount": 37,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3581,7 +4027,9 @@
     "lat": 22.561619319010664,
     "lng": 114.50157773653908,
     "Comments": null,
-    "CommentCount": 61
+    "CommentCount": 61,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3597,10 +4045,12 @@
     "lat": 22.505033828591664,
     "lng": 113.90692724677035,
     "Comments": null,
-    "CommentCount": 17
+    "CommentCount": 17,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "文化之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-82512151,0755-82512130",
@@ -3613,7 +4063,9 @@
     "lat": 22.577313796338903,
     "lng": 114.07381444435893,
     "Comments": null,
-    "CommentCount": 28
+    "CommentCount": 28,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3629,7 +4081,9 @@
     "lat": 22.590729706350597,
     "lng": 114.46300611490328,
     "Comments": null,
-    "CommentCount": 11
+    "CommentCount": 11,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3645,7 +4099,9 @@
     "lat": 22.55044363363345,
     "lng": 114.11338507155206,
     "Comments": null,
-    "CommentCount": 24
+    "CommentCount": 24,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3661,7 +4117,9 @@
     "lat": 22.707935355216193,
     "lng": 113.9089213951713,
     "Comments": null,
-    "CommentCount": 43
+    "CommentCount": 43,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3677,7 +4135,9 @@
     "lat": 22.565189070526326,
     "lng": 114.16813580423106,
     "Comments": null,
-    "CommentCount": 19
+    "CommentCount": 19,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3693,7 +4153,9 @@
     "lat": 22.485267832762716,
     "lng": 113.89370185407353,
     "Comments": null,
-    "CommentCount": 18
+    "CommentCount": 18,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3709,7 +4171,9 @@
     "lat": 22.707073378973416,
     "lng": 114.14315366839654,
     "Comments": null,
-    "CommentCount": 51
+    "CommentCount": 51,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3725,7 +4189,9 @@
     "lat": 22.474348980276314,
     "lng": 113.92041117179288,
     "Comments": null,
-    "CommentCount": 30
+    "CommentCount": 30,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3741,7 +4207,9 @@
     "lat": 22.615021988862985,
     "lng": 114.43838920493643,
     "Comments": null,
-    "CommentCount": 13
+    "CommentCount": 13,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3757,7 +4225,9 @@
     "lat": 22.545453559398673,
     "lng": 114.1172955750968,
     "Comments": null,
-    "CommentCount": 20
+    "CommentCount": 20,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3773,10 +4243,12 @@
     "lat": 22.560032908924555,
     "lng": 113.89042744066019,
     "Comments": null,
-    "CommentCount": 35
+    "CommentCount": 35,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "休闲之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-28020888-36888/36866",
@@ -3789,7 +4261,9 @@
     "lat": 22.729924320332305,
     "lng": 114.07915729603887,
     "Comments": null,
-    "CommentCount": 16
+    "CommentCount": 16,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3805,7 +4279,9 @@
     "lat": 22.546097594312098,
     "lng": 114.13852641766528,
     "Comments": null,
-    "CommentCount": 32
+    "CommentCount": 32,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3818,10 +4294,12 @@
     "Price": 0,
     "Description": null,
     "Address": "深圳市盐田区大梅沙东部华侨城大侠谷内",
-    "lat": 22.6149750318554,
-    "lng": 114.30986101534072,
+    "lat": 22.611207075316546,
+    "lng": 114.31214262150475,
     "Comments": null,
-    "CommentCount": 5
+    "CommentCount": 5,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3837,10 +4315,12 @@
     "lat": 22.585560996781457,
     "lng": 113.95605000560067,
     "Comments": null,
-    "CommentCount": 43
+    "CommentCount": 43,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "主题乐园",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "",
@@ -3853,7 +4333,9 @@
     "lat": 22.551679775317716,
     "lng": 114.09588078022095,
     "Comments": null,
-    "CommentCount": 24
+    "CommentCount": 24,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3869,7 +4351,9 @@
     "lat": 22.62974200269158,
     "lng": 114.04039797346682,
     "Comments": null,
-    "CommentCount": 82
+    "CommentCount": 82,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3885,7 +4369,9 @@
     "lat": 22.647990810833992,
     "lng": 114.20344594805285,
     "Comments": null,
-    "CommentCount": 50
+    "CommentCount": 50,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3901,7 +4387,9 @@
     "lat": 22.55951599858012,
     "lng": 114.56834170642627,
     "Comments": null,
-    "CommentCount": 22
+    "CommentCount": 22,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3917,7 +4405,9 @@
     "lat": 22.53691059596052,
     "lng": 113.97578487934285,
     "Comments": null,
-    "CommentCount": 26
+    "CommentCount": 26,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3933,10 +4423,12 @@
     "lat": 22.54323834186289,
     "lng": 114.12628527765438,
     "Comments": null,
-    "CommentCount": 23
+    "CommentCount": 23,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "文化之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "",
@@ -3949,7 +4441,9 @@
     "lat": 22.544836630018622,
     "lng": 113.95924375117923,
     "Comments": null,
-    "CommentCount": 41
+    "CommentCount": 41,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3965,7 +4459,9 @@
     "lat": 22.608344005779408,
     "lng": 114.14801618623908,
     "Comments": null,
-    "CommentCount": 41
+    "CommentCount": 41,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3981,7 +4477,9 @@
     "lat": 22.572576250199088,
     "lng": 114.17612174021212,
     "Comments": null,
-    "CommentCount": 19
+    "CommentCount": 19,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -3997,7 +4495,9 @@
     "lat": 22.609492710614607,
     "lng": 114.12406888847035,
     "Comments": null,
-    "CommentCount": 56
+    "CommentCount": 56,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4013,7 +4513,9 @@
     "lat": 22.636509748276033,
     "lng": 114.0746691820514,
     "Comments": null,
-    "CommentCount": 25
+    "CommentCount": 25,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4029,7 +4531,9 @@
     "lat": 22.60443573433909,
     "lng": 114.15012055672607,
     "Comments": null,
-    "CommentCount": 177
+    "CommentCount": 177,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4045,10 +4549,12 @@
     "lat": 22.505033828591664,
     "lng": 113.90692724677035,
     "Comments": null,
-    "CommentCount": 14
+    "CommentCount": 14,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "休闲之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-29679183,0755-29679888",
@@ -4061,7 +4567,9 @@
     "lat": 22.720385203924202,
     "lng": 114.11381679718,
     "Comments": null,
-    "CommentCount": 70
+    "CommentCount": 70,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4077,10 +4585,12 @@
     "lat": 22.489362177865594,
     "lng": 113.92343675458005,
     "Comments": null,
-    "CommentCount": 21
+    "CommentCount": 21,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "休闲之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-84843816",
@@ -4093,7 +4603,9 @@
     "lat": 22.54646001699178,
     "lng": 114.61365796752374,
     "Comments": null,
-    "CommentCount": 30
+    "CommentCount": 30,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4109,7 +4621,9 @@
     "lat": 22.594795112796298,
     "lng": 114.51758356444948,
     "Comments": null,
-    "CommentCount": 15
+    "CommentCount": 15,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4125,10 +4639,12 @@
     "lat": 22.604032580025752,
     "lng": 113.88883078076931,
     "Comments": null,
-    "CommentCount": 21
+    "CommentCount": 21,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "主题乐园",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-22204654",
@@ -4141,7 +4657,9 @@
     "lat": 22.54706684199339,
     "lng": 114.12601632498477,
     "Comments": null,
-    "CommentCount": 25
+    "CommentCount": 25,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4157,7 +4675,9 @@
     "lat": 22.714478004829594,
     "lng": 113.80442510845212,
     "Comments": null,
-    "CommentCount": 41
+    "CommentCount": 41,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4173,7 +4693,9 @@
     "lat": 22.48505402918066,
     "lng": 114.53694097021649,
     "Comments": null,
-    "CommentCount": 12
+    "CommentCount": 12,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4189,7 +4711,9 @@
     "lat": 22.756614835082086,
     "lng": 113.97181616560108,
     "Comments": null,
-    "CommentCount": 25
+    "CommentCount": 25,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4205,7 +4729,9 @@
     "lat": 22.72601655078104,
     "lng": 114.25445487896184,
     "Comments": null,
-    "CommentCount": 55
+    "CommentCount": 55,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4221,7 +4747,9 @@
     "lat": 22.480637545528033,
     "lng": 113.90629780409972,
     "Comments": null,
-    "CommentCount": 14
+    "CommentCount": 14,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4237,7 +4765,9 @@
     "lat": 22.56994940030252,
     "lng": 114.50321049663347,
     "Comments": null,
-    "CommentCount": 14
+    "CommentCount": 14,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4253,10 +4783,12 @@
     "lat": 22.556730533494473,
     "lng": 114.23713438093802,
     "Comments": null,
-    "CommentCount": 14
+    "CommentCount": 14,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "休闲之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-88845678",
@@ -4269,7 +4801,9 @@
     "lat": 22.64508799038401,
     "lng": 114.24806604034643,
     "Comments": null,
-    "CommentCount": 19
+    "CommentCount": 19,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4285,10 +4819,12 @@
     "lat": 22.54326287584856,
     "lng": 114.00742715193807,
     "Comments": null,
-    "CommentCount": 12
+    "CommentCount": 12,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "文化之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-84425119",
@@ -4301,7 +4837,9 @@
     "lat": 22.53383934445114,
     "lng": 114.52816919567725,
     "Comments": null,
-    "CommentCount": 14
+    "CommentCount": 14,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4317,10 +4855,12 @@
     "lat": 22.48296485648937,
     "lng": 113.91982990434843,
     "Comments": null,
-    "CommentCount": 20
+    "CommentCount": 20,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "休闲之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-84400838",
@@ -4333,7 +4873,9 @@
     "lat": 22.51198756076122,
     "lng": 113.94929106511528,
     "Comments": null,
-    "CommentCount": 11
+    "CommentCount": 11,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4349,7 +4891,9 @@
     "lat": 22.566222832550178,
     "lng": 113.91238571036939,
     "Comments": null,
-    "CommentCount": 21
+    "CommentCount": 21,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4365,7 +4909,9 @@
     "lat": 22.536170534455955,
     "lng": 113.99384495229279,
     "Comments": null,
-    "CommentCount": 22
+    "CommentCount": 22,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4381,7 +4927,9 @@
     "lat": 22.51875428082679,
     "lng": 114.05011174529913,
     "Comments": null,
-    "CommentCount": 20
+    "CommentCount": 20,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4397,7 +4945,9 @@
     "lat": 22.541448100044605,
     "lng": 114.0663409018406,
     "Comments": null,
-    "CommentCount": 37
+    "CommentCount": 37,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4413,7 +4963,9 @@
     "lat": 22.48982934149967,
     "lng": 113.9344286004576,
     "Comments": null,
-    "CommentCount": 26
+    "CommentCount": 26,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4429,7 +4981,9 @@
     "lat": 22.571316019336223,
     "lng": 114.00146896098401,
     "Comments": null,
-    "CommentCount": 41
+    "CommentCount": 41,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4445,7 +4999,9 @@
     "lat": 22.54424832062608,
     "lng": 114.1202898968522,
     "Comments": null,
-    "CommentCount": 28
+    "CommentCount": 28,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4461,7 +5017,9 @@
     "lat": 22.556588031416045,
     "lng": 113.95790301852807,
     "Comments": null,
-    "CommentCount": 16
+    "CommentCount": 16,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4477,7 +5035,9 @@
     "lat": 22.787029510266773,
     "lng": 113.90770994036095,
     "Comments": null,
-    "CommentCount": 36
+    "CommentCount": 36,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4493,7 +5053,9 @@
     "lat": 22.523182252706853,
     "lng": 113.92030966327029,
     "Comments": null,
-    "CommentCount": 30
+    "CommentCount": 30,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4509,7 +5071,9 @@
     "lat": 22.582331235774475,
     "lng": 114.15020993812426,
     "Comments": null,
-    "CommentCount": 48
+    "CommentCount": 48,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4525,7 +5089,9 @@
     "lat": 22.626545482091842,
     "lng": 114.12209917397925,
     "Comments": null,
-    "CommentCount": 25
+    "CommentCount": 25,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4541,7 +5107,9 @@
     "lat": 22.651200662944287,
     "lng": 114.5049525966779,
     "Comments": null,
-    "CommentCount": 8
+    "CommentCount": 8,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4557,7 +5125,9 @@
     "lat": 22.530988405909923,
     "lng": 114.03561660764572,
     "Comments": null,
-    "CommentCount": 27
+    "CommentCount": 27,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4573,7 +5143,9 @@
     "lat": 22.55802294013567,
     "lng": 114.03691052690186,
     "Comments": null,
-    "CommentCount": 42
+    "CommentCount": 42,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4589,7 +5161,9 @@
     "lat": 22.562368003373734,
     "lng": 114.54776097025005,
     "Comments": null,
-    "CommentCount": 5
+    "CommentCount": 5,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4605,7 +5179,9 @@
     "lat": 22.555971721796222,
     "lng": 114.12879676019834,
     "Comments": null,
-    "CommentCount": 19
+    "CommentCount": 19,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4621,7 +5197,9 @@
     "lat": 22.552950951862424,
     "lng": 114.01715912433829,
     "Comments": null,
-    "CommentCount": 13
+    "CommentCount": 13,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4637,7 +5215,9 @@
     "lat": 22.544884028452177,
     "lng": 114.09010476562426,
     "Comments": null,
-    "CommentCount": 12
+    "CommentCount": 12,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4653,7 +5233,9 @@
     "lat": 22.549030075950313,
     "lng": 113.92694005623724,
     "Comments": null,
-    "CommentCount": 29
+    "CommentCount": 29,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4669,7 +5251,9 @@
     "lat": 22.714478004829594,
     "lng": 113.80442510845212,
     "Comments": null,
-    "CommentCount": 15
+    "CommentCount": 15,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4685,7 +5269,9 @@
     "lat": 22.477344688350936,
     "lng": 114.52735766737811,
     "Comments": null,
-    "CommentCount": 10
+    "CommentCount": 10,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4701,7 +5287,9 @@
     "lat": 22.497701602097035,
     "lng": 113.92559191526054,
     "Comments": null,
-    "CommentCount": 9
+    "CommentCount": 9,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4717,7 +5305,9 @@
     "lat": 22.48609499318196,
     "lng": 113.92295795774338,
     "Comments": null,
-    "CommentCount": 14
+    "CommentCount": 14,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4733,10 +5323,12 @@
     "lat": 22.54517559521468,
     "lng": 114.02663624746543,
     "Comments": null,
-    "CommentCount": 21
+    "CommentCount": 21,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "文化之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "",
@@ -4749,7 +5341,9 @@
     "lat": 22.552169756284428,
     "lng": 113.98819577843406,
     "Comments": null,
-    "CommentCount": 28
+    "CommentCount": 28,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4765,7 +5359,9 @@
     "lat": 22.562456029627953,
     "lng": 114.07688871530472,
     "Comments": null,
-    "CommentCount": 39
+    "CommentCount": 39,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4781,7 +5377,9 @@
     "lat": 22.691291096212737,
     "lng": 114.36098205477731,
     "Comments": null,
-    "CommentCount": 21
+    "CommentCount": 21,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4797,7 +5395,9 @@
     "lat": 22.549818632662713,
     "lng": 114.11062942957057,
     "Comments": null,
-    "CommentCount": 37
+    "CommentCount": 37,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4813,7 +5413,9 @@
     "lat": 22.597988652945602,
     "lng": 114.04310232489864,
     "Comments": null,
-    "CommentCount": 29
+    "CommentCount": 29,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4829,7 +5431,9 @@
     "lat": 22.64508799038401,
     "lng": 114.24806604034643,
     "Comments": null,
-    "CommentCount": 11
+    "CommentCount": 11,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4845,7 +5449,9 @@
     "lat": 22.714478004829594,
     "lng": 113.80442510845212,
     "Comments": null,
-    "CommentCount": 13
+    "CommentCount": 13,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4861,10 +5467,12 @@
     "lat": 22.516880870323654,
     "lng": 114.49044368889933,
     "Comments": null,
-    "CommentCount": 6
+    "CommentCount": 6,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "文化之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-86700071",
@@ -4877,7 +5485,9 @@
     "lat": 22.537622752545623,
     "lng": 113.93077225748506,
     "Comments": null,
-    "CommentCount": 39
+    "CommentCount": 39,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4893,7 +5503,9 @@
     "lat": 22.54326287584856,
     "lng": 114.00742715193807,
     "Comments": null,
-    "CommentCount": 13
+    "CommentCount": 13,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4909,7 +5521,9 @@
     "lat": 22.724147378312775,
     "lng": 114.07542519596835,
     "Comments": null,
-    "CommentCount": 46
+    "CommentCount": 46,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4925,10 +5539,12 @@
     "lat": 22.6149750318554,
     "lng": 114.30986101534072,
     "Comments": null,
-    "CommentCount": 2
+    "CommentCount": 2,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "休闲之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-83939591",
@@ -4941,7 +5557,9 @@
     "lat": 22.55218243969208,
     "lng": 114.04872845452613,
     "Comments": null,
-    "CommentCount": 10
+    "CommentCount": 10,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4957,7 +5575,9 @@
     "lat": 22.795863505395765,
     "lng": 113.97037151068041,
     "Comments": null,
-    "CommentCount": 11
+    "CommentCount": 11,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4970,10 +5590,12 @@
     "Price": 0,
     "Description": null,
     "Address": "深圳市龙岗区大鹏新区鹏飞路400号",
-    "lat": 22.604474103607366,
-    "lng": 114.48082193858515,
+    "lat": 22.59874953939156,
+    "lng": 114.53432366728349,
     "Comments": null,
-    "CommentCount": 7
+    "CommentCount": 7,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -4989,7 +5611,9 @@
     "lat": 22.68871997411518,
     "lng": 114.21099198382583,
     "Comments": null,
-    "CommentCount": 14
+    "CommentCount": 14,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5005,7 +5629,9 @@
     "lat": 22.575296359840767,
     "lng": 113.9612580207253,
     "Comments": null,
-    "CommentCount": 14
+    "CommentCount": 14,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5021,7 +5647,9 @@
     "lat": 22.539938146791023,
     "lng": 114.0093689291278,
     "Comments": null,
-    "CommentCount": 12
+    "CommentCount": 12,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5037,7 +5665,9 @@
     "lat": 22.48534296865522,
     "lng": 113.92245104394426,
     "Comments": null,
-    "CommentCount": 19
+    "CommentCount": 19,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5053,7 +5683,9 @@
     "lat": 22.505033828591664,
     "lng": 113.90692724677035,
     "Comments": null,
-    "CommentCount": 8
+    "CommentCount": 8,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5069,7 +5701,9 @@
     "lat": 22.542694420598544,
     "lng": 113.99972139744547,
     "Comments": null,
-    "CommentCount": 9
+    "CommentCount": 9,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5085,7 +5719,9 @@
     "lat": 22.573779319697753,
     "lng": 113.87922107942691,
     "Comments": null,
-    "CommentCount": 16
+    "CommentCount": 16,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5101,7 +5737,9 @@
     "lat": 22.727133425044848,
     "lng": 114.08402584240969,
     "Comments": null,
-    "CommentCount": 91
+    "CommentCount": 91,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5117,7 +5755,9 @@
     "lat": 22.72562903442425,
     "lng": 114.25694498183468,
     "Comments": null,
-    "CommentCount": 17
+    "CommentCount": 17,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5133,7 +5773,9 @@
     "lat": 22.479327875987543,
     "lng": 114.54227438968857,
     "Comments": null,
-    "CommentCount": 11
+    "CommentCount": 11,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5149,7 +5791,9 @@
     "lat": 22.493546414528936,
     "lng": 113.94302208740402,
     "Comments": null,
-    "CommentCount": 6
+    "CommentCount": 6,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5165,7 +5809,9 @@
     "lat": 22.55685794660958,
     "lng": 114.23374745925113,
     "Comments": null,
-    "CommentCount": 16
+    "CommentCount": 16,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5181,7 +5827,9 @@
     "lat": 22.604474103607366,
     "lng": 114.48082193858515,
     "Comments": null,
-    "CommentCount": 7
+    "CommentCount": 7,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5197,7 +5845,9 @@
     "lat": 22.47458500915181,
     "lng": 113.89768997121432,
     "Comments": null,
-    "CommentCount": 20
+    "CommentCount": 20,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5213,10 +5863,12 @@
     "lat": 22.55398998010702,
     "lng": 114.09116755087275,
     "Comments": null,
-    "CommentCount": 21
+    "CommentCount": 21,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "文化之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "",
@@ -5229,7 +5881,9 @@
     "lat": 22.539250008468876,
     "lng": 114.03508876332823,
     "Comments": null,
-    "CommentCount": 15
+    "CommentCount": 15,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5245,7 +5899,9 @@
     "lat": 22.55012546594038,
     "lng": 114.12933843213254,
     "Comments": null,
-    "CommentCount": 26
+    "CommentCount": 26,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5261,7 +5917,9 @@
     "lat": 22.601729589280815,
     "lng": 114.52254274984621,
     "Comments": null,
-    "CommentCount": 20
+    "CommentCount": 20,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5277,10 +5935,12 @@
     "lat": 22.610736073408436,
     "lng": 114.15474718942312,
     "Comments": null,
-    "CommentCount": 42
+    "CommentCount": 42,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "文化之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-25426069",
@@ -5293,7 +5953,9 @@
     "lat": 22.569760798040452,
     "lng": 114.14718203321738,
     "Comments": null,
-    "CommentCount": 29
+    "CommentCount": 29,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5309,7 +5971,9 @@
     "lat": 22.714478004829594,
     "lng": 113.80442510845212,
     "Comments": null,
-    "CommentCount": 8
+    "CommentCount": 8,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5325,7 +5989,9 @@
     "lat": 22.72601655078104,
     "lng": 114.25445487896184,
     "Comments": null,
-    "CommentCount": 3
+    "CommentCount": 3,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5341,7 +6007,9 @@
     "lat": 22.473356287464345,
     "lng": 113.90218354330605,
     "Comments": null,
-    "CommentCount": 14
+    "CommentCount": 14,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5357,7 +6025,9 @@
     "lat": 22.536170534455955,
     "lng": 113.99384495229279,
     "Comments": null,
-    "CommentCount": 23
+    "CommentCount": 23,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5373,7 +6043,9 @@
     "lat": 22.54348918914104,
     "lng": 113.98158317191618,
     "Comments": null,
-    "CommentCount": 52
+    "CommentCount": 52,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5389,7 +6061,9 @@
     "lat": 22.573779319697753,
     "lng": 113.87922107942691,
     "Comments": null,
-    "CommentCount": 79
+    "CommentCount": 79,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5405,7 +6079,9 @@
     "lat": 22.623765968381466,
     "lng": 114.30690999191086,
     "Comments": null,
-    "CommentCount": 1
+    "CommentCount": 1,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5421,7 +6097,9 @@
     "lat": 22.572466037822746,
     "lng": 114.50146446021431,
     "Comments": null,
-    "CommentCount": 13
+    "CommentCount": 13,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5437,7 +6115,9 @@
     "lat": 22.65571276816081,
     "lng": 114.22145005656954,
     "Comments": null,
-    "CommentCount": 18
+    "CommentCount": 18,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5453,7 +6133,9 @@
     "lat": 22.603987563801827,
     "lng": 114.31880220940077,
     "Comments": null,
-    "CommentCount": 5
+    "CommentCount": 5,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5469,7 +6151,9 @@
     "lat": 22.682180331430363,
     "lng": 114.23080006946705,
     "Comments": null,
-    "CommentCount": 14
+    "CommentCount": 14,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5485,7 +6169,9 @@
     "lat": 22.536170534455955,
     "lng": 113.99384495229279,
     "Comments": null,
-    "CommentCount": 28
+    "CommentCount": 28,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5501,7 +6187,9 @@
     "lat": 22.566222832550178,
     "lng": 113.91238571036939,
     "Comments": null,
-    "CommentCount": 22
+    "CommentCount": 22,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5517,7 +6205,9 @@
     "lat": 22.544212448107608,
     "lng": 114.03213191887869,
     "Comments": null,
-    "CommentCount": 17
+    "CommentCount": 17,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5533,7 +6223,9 @@
     "lat": 22.64508799038401,
     "lng": 114.24806604034643,
     "Comments": null,
-    "CommentCount": 5
+    "CommentCount": 5,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5549,7 +6241,9 @@
     "lat": 22.7411315755653,
     "lng": 114.07045468743065,
     "Comments": null,
-    "CommentCount": 220
+    "CommentCount": 220,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5565,7 +6259,9 @@
     "lat": 22.605214739810734,
     "lng": 113.97678961560476,
     "Comments": null,
-    "CommentCount": 26
+    "CommentCount": 26,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5581,7 +6277,9 @@
     "lat": 22.61090889384822,
     "lng": 114.14379334186863,
     "Comments": null,
-    "CommentCount": 9
+    "CommentCount": 9,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5597,7 +6295,9 @@
     "lat": 22.54348918914104,
     "lng": 113.98158317191618,
     "Comments": null,
-    "CommentCount": 13
+    "CommentCount": 13,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5613,7 +6313,9 @@
     "lat": 22.52289798431925,
     "lng": 114.05806561806163,
     "Comments": null,
-    "CommentCount": 31
+    "CommentCount": 31,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5629,7 +6331,9 @@
     "lat": 22.56721728919965,
     "lng": 114.11147383674965,
     "Comments": null,
-    "CommentCount": 27
+    "CommentCount": 27,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5645,7 +6349,9 @@
     "lat": 22.60402526590278,
     "lng": 114.31878020091578,
     "Comments": null,
-    "CommentCount": 9
+    "CommentCount": 9,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5661,7 +6367,9 @@
     "lat": 22.54424832062608,
     "lng": 114.1202898968522,
     "Comments": null,
-    "CommentCount": 21
+    "CommentCount": 21,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5677,7 +6385,9 @@
     "lat": 22.604123094298036,
     "lng": 113.96086742671001,
     "Comments": null,
-    "CommentCount": 14
+    "CommentCount": 14,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5693,10 +6403,12 @@
     "lat": 22.58947056107528,
     "lng": 113.95711350949358,
     "Comments": null,
-    "CommentCount": 24
+    "CommentCount": 24,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "文化之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-86626702,0755-86093340",
@@ -5709,7 +6421,9 @@
     "lat": 22.558655997140995,
     "lng": 113.89409908476992,
     "Comments": null,
-    "CommentCount": 16
+    "CommentCount": 16,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5725,7 +6439,9 @@
     "lat": 22.62364203650759,
     "lng": 114.05908995942755,
     "Comments": null,
-    "CommentCount": 52
+    "CommentCount": 52,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5741,10 +6457,12 @@
     "lat": 22.50102484642559,
     "lng": 114.57944474455982,
     "Comments": null,
-    "CommentCount": 15
+    "CommentCount": 15,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "红色之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-26853133",
@@ -5757,7 +6475,9 @@
     "lat": 22.548456637984177,
     "lng": 114.06455183658751,
     "Comments": null,
-    "CommentCount": 16
+    "CommentCount": 16,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5773,7 +6493,9 @@
     "lat": 22.66075174439682,
     "lng": 114.1121930201407,
     "Comments": null,
-    "CommentCount": 10
+    "CommentCount": 10,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5789,7 +6511,9 @@
     "lat": 22.54549953900947,
     "lng": 114.06324956309012,
     "Comments": null,
-    "CommentCount": 15
+    "CommentCount": 15,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5805,10 +6529,12 @@
     "lat": 22.55994896960288,
     "lng": 114.53346497704679,
     "Comments": null,
-    "CommentCount": 13
+    "CommentCount": 13,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "文化之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "",
@@ -5821,7 +6547,9 @@
     "lat": 22.561646019069798,
     "lng": 114.07567303845846,
     "Comments": null,
-    "CommentCount": 3
+    "CommentCount": 3,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5837,7 +6565,9 @@
     "lat": 22.525380185690853,
     "lng": 113.93626419793608,
     "Comments": null,
-    "CommentCount": 45
+    "CommentCount": 45,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5853,7 +6583,9 @@
     "lat": 22.55052157080335,
     "lng": 114.08914348889834,
     "Comments": null,
-    "CommentCount": 14
+    "CommentCount": 14,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5869,7 +6601,9 @@
     "lat": 22.54725468015352,
     "lng": 114.06049913128058,
     "Comments": null,
-    "CommentCount": 12
+    "CommentCount": 12,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5885,7 +6619,9 @@
     "lat": 22.494104888796915,
     "lng": 113.93121809698974,
     "Comments": null,
-    "CommentCount": 11
+    "CommentCount": 11,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5898,13 +6634,15 @@
     "Price": 0,
     "Description": null,
     "Address": "文心五路33号保利文化广场(近文心五路)",
-    "lat": 22.522810599483183,
-    "lng": 113.94480088502513,
+    "lat": 22.52299972294322,
+    "lng": 113.9442045898278,
     "Comments": null,
-    "CommentCount": 27
+    "CommentCount": 27,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "休闲之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "",
@@ -5917,7 +6655,9 @@
     "lat": 22.729000472868734,
     "lng": 114.25670360714423,
     "Comments": null,
-    "CommentCount": 7
+    "CommentCount": 7,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5933,7 +6673,9 @@
     "lat": 22.68223610174769,
     "lng": 114.04760566246958,
     "Comments": null,
-    "CommentCount": 15
+    "CommentCount": 15,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5949,7 +6691,9 @@
     "lat": 22.551181976968223,
     "lng": 113.97518788975538,
     "Comments": null,
-    "CommentCount": 16
+    "CommentCount": 16,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5965,7 +6709,9 @@
     "lat": 22.489772824468645,
     "lng": 113.92327694602987,
     "Comments": null,
-    "CommentCount": 19
+    "CommentCount": 19,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5981,7 +6727,9 @@
     "lat": 22.738612469860048,
     "lng": 114.26776750969992,
     "Comments": null,
-    "CommentCount": 12
+    "CommentCount": 12,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -5997,7 +6745,9 @@
     "lat": 22.54190440406308,
     "lng": 114.52284035846158,
     "Comments": null,
-    "CommentCount": 6
+    "CommentCount": 6,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6013,10 +6763,12 @@
     "lat": 22.634642665071958,
     "lng": 114.04192030666154,
     "Comments": null,
-    "CommentCount": 16
+    "CommentCount": 16,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "休闲之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-27737784,18719039483",
@@ -6029,7 +6781,9 @@
     "lat": 22.54190440406308,
     "lng": 114.52284035846158,
     "Comments": null,
-    "CommentCount": 5
+    "CommentCount": 5,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6045,7 +6799,9 @@
     "lat": 22.551480427993564,
     "lng": 114.14159186455605,
     "Comments": null,
-    "CommentCount": 16
+    "CommentCount": 16,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6061,10 +6817,12 @@
     "lat": 22.530164271195847,
     "lng": 113.9307063817477,
     "Comments": null,
-    "CommentCount": 23
+    "CommentCount": 23,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "文化之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-22197080",
@@ -6077,7 +6835,9 @@
     "lat": 22.544335023403733,
     "lng": 114.10315903112149,
     "Comments": null,
-    "CommentCount": 15
+    "CommentCount": 15,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6093,7 +6853,9 @@
     "lat": 22.49199081457387,
     "lng": 113.92428063445381,
     "Comments": null,
-    "CommentCount": 12
+    "CommentCount": 12,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6109,7 +6871,9 @@
     "lat": 22.516296895012022,
     "lng": 113.93498521211073,
     "Comments": null,
-    "CommentCount": 15
+    "CommentCount": 15,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6125,7 +6889,9 @@
     "lat": 22.57753479715494,
     "lng": 114.07290922189684,
     "Comments": null,
-    "CommentCount": 16
+    "CommentCount": 16,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6141,10 +6907,12 @@
     "lat": 22.579954619839516,
     "lng": 114.49392468922396,
     "Comments": null,
-    "CommentCount": 2
+    "CommentCount": 2,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "文化之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-84273000",
@@ -6157,7 +6925,9 @@
     "lat": 22.69344576942268,
     "lng": 114.21999706973766,
     "Comments": null,
-    "CommentCount": 12
+    "CommentCount": 12,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6173,7 +6943,9 @@
     "lat": 22.572541626335724,
     "lng": 113.86867021172407,
     "Comments": null,
-    "CommentCount": 16
+    "CommentCount": 16,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6189,7 +6961,9 @@
     "lat": 22.68029421413704,
     "lng": 114.03714857786193,
     "Comments": null,
-    "CommentCount": 12
+    "CommentCount": 12,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6205,7 +6979,9 @@
     "lat": 22.638171736403372,
     "lng": 113.82170545221966,
     "Comments": null,
-    "CommentCount": 11
+    "CommentCount": 11,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6221,7 +6997,9 @@
     "lat": 22.561567253880316,
     "lng": 114.54053724649395,
     "Comments": null,
-    "CommentCount": 1
+    "CommentCount": 1,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6237,10 +7015,12 @@
     "lat": 22.51009899989263,
     "lng": 113.94101102391033,
     "Comments": null,
-    "CommentCount": 26
+    "CommentCount": 26,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "休闲之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-27737784,0755-27733180,13554985511",
@@ -6253,7 +7033,9 @@
     "lat": 22.534619046079943,
     "lng": 114.53759008577778,
     "Comments": null,
-    "CommentCount": 1
+    "CommentCount": 1,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6269,7 +7051,9 @@
     "lat": 22.538035034459277,
     "lng": 114.49821304342203,
     "Comments": null,
-    "CommentCount": 1
+    "CommentCount": 1,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6285,7 +7069,9 @@
     "lat": 22.680906027612806,
     "lng": 113.85728598599987,
     "Comments": null,
-    "CommentCount": 12
+    "CommentCount": 12,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6301,7 +7087,9 @@
     "lat": 22.721688388374883,
     "lng": 114.20041129238005,
     "Comments": null,
-    "CommentCount": 11
+    "CommentCount": 11,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6317,7 +7105,9 @@
     "lat": 22.528275544310123,
     "lng": 113.9966392214112,
     "Comments": null,
-    "CommentCount": 4
+    "CommentCount": 4,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6333,10 +7123,12 @@
     "lat": 22.58610541440375,
     "lng": 113.89838705628982,
     "Comments": null,
-    "CommentCount": 2
+    "CommentCount": 2,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "休闲之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "",
@@ -6349,7 +7141,9 @@
     "lat": 22.619361313521694,
     "lng": 114.38533251205878,
     "Comments": null,
-    "CommentCount": 3
+    "CommentCount": 3,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6365,10 +7159,12 @@
     "lat": 22.56473192661144,
     "lng": 113.90272398546,
     "Comments": null,
-    "CommentCount": 6
+    "CommentCount": 6,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "文化之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "18218140091,18924670246",
@@ -6381,7 +7177,9 @@
     "lat": 22.590497515632176,
     "lng": 113.9893763827383,
     "Comments": null,
-    "CommentCount": 16
+    "CommentCount": 16,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6397,10 +7195,12 @@
     "lat": 22.645009650144825,
     "lng": 114.11072746524405,
     "Comments": null,
-    "CommentCount": 13
+    "CommentCount": 13,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "主题乐园",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-28608022",
@@ -6413,7 +7213,9 @@
     "lat": 22.649819425769643,
     "lng": 114.21654521865612,
     "Comments": null,
-    "CommentCount": 13
+    "CommentCount": 13,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6429,7 +7231,9 @@
     "lat": 22.5938378672824,
     "lng": 114.28059473117452,
     "Comments": null,
-    "CommentCount": 1
+    "CommentCount": 1,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6445,7 +7249,9 @@
     "lat": 22.546382828524564,
     "lng": 113.95068146238316,
     "Comments": null,
-    "CommentCount": 22
+    "CommentCount": 22,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6461,7 +7267,9 @@
     "lat": 22.707183555345264,
     "lng": 114.35500221466046,
     "Comments": null,
-    "CommentCount": 7
+    "CommentCount": 7,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6477,7 +7285,9 @@
     "lat": 22.53197302129754,
     "lng": 114.55701836784954,
     "Comments": null,
-    "CommentCount": 1
+    "CommentCount": 1,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6493,7 +7303,9 @@
     "lat": 22.601813836509642,
     "lng": 114.52216842594034,
     "Comments": null,
-    "CommentCount": 14
+    "CommentCount": 14,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6509,10 +7321,12 @@
     "lat": 22.54348918914104,
     "lng": 113.98158317191618,
     "Comments": null,
-    "CommentCount": 2
+    "CommentCount": 2,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "文化之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-26036097",
@@ -6525,7 +7339,9 @@
     "lat": 22.600487495302716,
     "lng": 113.98356458593823,
     "Comments": null,
-    "CommentCount": 37
+    "CommentCount": 37,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6541,10 +7357,12 @@
     "lat": 22.541458698198408,
     "lng": 114.06633146963274,
     "Comments": null,
-    "CommentCount": 23
+    "CommentCount": 23,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "文化之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-25702716",
@@ -6557,7 +7375,9 @@
     "lat": 22.57397535619626,
     "lng": 114.1754648111895,
     "Comments": null,
-    "CommentCount": 0
+    "CommentCount": 0,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6573,7 +7393,9 @@
     "lat": 22.550618032592222,
     "lng": 114.09250656506549,
     "Comments": null,
-    "CommentCount": 38
+    "CommentCount": 38,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6589,7 +7411,9 @@
     "lat": 22.653584717404463,
     "lng": 114.53821208059745,
     "Comments": null,
-    "CommentCount": 4
+    "CommentCount": 4,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6605,7 +7429,9 @@
     "lat": 22.54085587799124,
     "lng": 114.05969439956093,
     "Comments": null,
-    "CommentCount": 16
+    "CommentCount": 16,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6621,7 +7447,9 @@
     "lat": 22.475598473778824,
     "lng": 114.53633757571073,
     "Comments": null,
-    "CommentCount": 6
+    "CommentCount": 6,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6637,7 +7465,9 @@
     "lat": 22.5496345864372,
     "lng": 114.02105365601109,
     "Comments": null,
-    "CommentCount": 3
+    "CommentCount": 3,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6653,7 +7483,9 @@
     "lat": 22.6215499393342,
     "lng": 114.07323090509985,
     "Comments": null,
-    "CommentCount": 24
+    "CommentCount": 24,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6669,7 +7501,9 @@
     "lat": 22.474664993375995,
     "lng": 113.91996695971834,
     "Comments": null,
-    "CommentCount": 5
+    "CommentCount": 5,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6685,7 +7519,9 @@
     "lat": 22.548456637984177,
     "lng": 114.06455183658751,
     "Comments": null,
-    "CommentCount": 15
+    "CommentCount": 15,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6701,7 +7537,9 @@
     "lat": 22.54424832062608,
     "lng": 114.1202898968522,
     "Comments": null,
-    "CommentCount": 25
+    "CommentCount": 25,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6717,7 +7555,9 @@
     "lat": 22.488918972006953,
     "lng": 113.92109406364133,
     "Comments": null,
-    "CommentCount": 483
+    "CommentCount": 483,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6733,7 +7573,9 @@
     "lat": 22.554086356000614,
     "lng": 113.95122439823322,
     "Comments": null,
-    "CommentCount": 8
+    "CommentCount": 8,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6749,7 +7591,9 @@
     "lat": 22.545598841564303,
     "lng": 113.99904515305779,
     "Comments": null,
-    "CommentCount": 5
+    "CommentCount": 5,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6765,10 +7609,12 @@
     "lat": 22.580143795562222,
     "lng": 113.88550533372167,
     "Comments": null,
-    "CommentCount": 26
+    "CommentCount": 26,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "休闲之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "",
@@ -6781,7 +7627,9 @@
     "lat": 22.692770444601816,
     "lng": 113.85451740841904,
     "Comments": null,
-    "CommentCount": 4
+    "CommentCount": 4,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6797,7 +7645,9 @@
     "lat": 22.580383080981104,
     "lng": 114.49654605788771,
     "Comments": null,
-    "CommentCount": 10
+    "CommentCount": 10,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6813,7 +7663,9 @@
     "lat": 22.60417098609298,
     "lng": 113.97218599797942,
     "Comments": null,
-    "CommentCount": 9
+    "CommentCount": 9,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6829,7 +7681,9 @@
     "lat": 22.639678636787707,
     "lng": 113.8349782754474,
     "Comments": null,
-    "CommentCount": 13
+    "CommentCount": 13,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6845,7 +7699,9 @@
     "lat": 22.76994195274249,
     "lng": 113.85063663878667,
     "Comments": null,
-    "CommentCount": 5
+    "CommentCount": 5,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6861,10 +7717,12 @@
     "lat": 22.540495764943152,
     "lng": 113.99321407233333,
     "Comments": null,
-    "CommentCount": 6
+    "CommentCount": 6,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "主题乐园",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-28482963",
@@ -6877,7 +7735,9 @@
     "lat": 22.632481031351407,
     "lng": 114.08987452992211,
     "Comments": null,
-    "CommentCount": 8
+    "CommentCount": 8,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6893,10 +7753,12 @@
     "lat": 22.489772824468645,
     "lng": 113.92327694602987,
     "Comments": null,
-    "CommentCount": 9
+    "CommentCount": 9,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "红色之旅/文化之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "",
@@ -6909,7 +7771,9 @@
     "lat": 22.692978587381937,
     "lng": 113.94014469807681,
     "Comments": null,
-    "CommentCount": 13
+    "CommentCount": 13,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6925,7 +7789,9 @@
     "lat": 22.543534251477478,
     "lng": 114.1104106023484,
     "Comments": null,
-    "CommentCount": 3
+    "CommentCount": 3,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6941,7 +7807,9 @@
     "lat": 22.727740526757177,
     "lng": 114.3616551550957,
     "Comments": null,
-    "CommentCount": 9
+    "CommentCount": 9,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6957,7 +7825,9 @@
     "lat": 22.612665694571593,
     "lng": 114.14256733450901,
     "Comments": null,
-    "CommentCount": 9
+    "CommentCount": 9,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6973,7 +7843,9 @@
     "lat": 22.733142320262285,
     "lng": 113.7763121883739,
     "Comments": null,
-    "CommentCount": 6
+    "CommentCount": 6,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -6989,7 +7861,9 @@
     "lat": 22.527092604273008,
     "lng": 114.0569465126509,
     "Comments": null,
-    "CommentCount": 18
+    "CommentCount": 18,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -7005,7 +7879,9 @@
     "lat": 22.544672905021145,
     "lng": 113.98615590628268,
     "Comments": null,
-    "CommentCount": 2
+    "CommentCount": 2,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -7021,7 +7897,9 @@
     "lat": 22.612665694571593,
     "lng": 114.14256733450901,
     "Comments": null,
-    "CommentCount": 5
+    "CommentCount": 5,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -7037,7 +7915,9 @@
     "lat": 22.61568117087485,
     "lng": 114.12381320377311,
     "Comments": null,
-    "CommentCount": 5
+    "CommentCount": 5,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -7053,7 +7933,9 @@
     "lat": 22.73188849606403,
     "lng": 113.84925549406553,
     "Comments": null,
-    "CommentCount": 7
+    "CommentCount": 7,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -7069,7 +7951,9 @@
     "lat": 22.558248041787092,
     "lng": 114.03597060649112,
     "Comments": null,
-    "CommentCount": 22
+    "CommentCount": 22,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -7085,7 +7969,9 @@
     "lat": 22.685315938125882,
     "lng": 114.13750708974241,
     "Comments": null,
-    "CommentCount": 3
+    "CommentCount": 3,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -7101,10 +7987,12 @@
     "lat": 22.71949271076409,
     "lng": 114.11129857734471,
     "Comments": null,
-    "CommentCount": 4
+    "CommentCount": 4,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "文化之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "",
@@ -7117,7 +8005,9 @@
     "lat": 22.638926337345218,
     "lng": 114.06862996394037,
     "Comments": null,
-    "CommentCount": 16
+    "CommentCount": 16,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -7133,7 +8023,9 @@
     "lat": 22.548456637984177,
     "lng": 114.06455183658751,
     "Comments": null,
-    "CommentCount": 13
+    "CommentCount": 13,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -7149,7 +8041,9 @@
     "lat": 22.53038543188594,
     "lng": 113.93194298911231,
     "Comments": null,
-    "CommentCount": 7
+    "CommentCount": 7,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -7165,10 +8059,12 @@
     "lat": 22.688511574712308,
     "lng": 113.824270473772,
     "Comments": null,
-    "CommentCount": 5
+    "CommentCount": 5,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "休闲之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-89345386",
@@ -7181,7 +8077,9 @@
     "lat": 22.55038997878932,
     "lng": 114.57785303702721,
     "Comments": null,
-    "CommentCount": 3
+    "CommentCount": 3,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -7197,7 +8095,9 @@
     "lat": 22.613562977852855,
     "lng": 114.42278403655456,
     "Comments": null,
-    "CommentCount": 3
+    "CommentCount": 3,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -7213,7 +8113,9 @@
     "lat": 22.694096841538244,
     "lng": 113.848469698626,
     "Comments": null,
-    "CommentCount": 11
+    "CommentCount": 11,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -7229,7 +8131,9 @@
     "lat": 22.578521495933664,
     "lng": 113.87014136665726,
     "Comments": null,
-    "CommentCount": 12
+    "CommentCount": 12,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -7245,10 +8149,12 @@
     "lat": 22.553455030077615,
     "lng": 114.48777096051637,
     "Comments": null,
-    "CommentCount": 3
+    "CommentCount": 3,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "文化之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "",
@@ -7261,7 +8167,9 @@
     "lat": 22.55162036333698,
     "lng": 114.12494797024212,
     "Comments": null,
-    "CommentCount": 5
+    "CommentCount": 5,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -7277,7 +8185,9 @@
     "lat": 22.59372845065185,
     "lng": 114.5156473567539,
     "Comments": null,
-    "CommentCount": 5
+    "CommentCount": 5,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -7293,7 +8203,9 @@
     "lat": 22.74096900034916,
     "lng": 113.7883570279699,
     "Comments": null,
-    "CommentCount": 4
+    "CommentCount": 4,
+    "WordCloud": null,
+    "City": "深圳市"
   },
   {
     "Type": "",
@@ -7309,6 +8221,116 @@
     "lat": 22.49187312190223,
     "lng": 114.54631649499048,
     "Comments": null,
-    "CommentCount": 3
+    "CommentCount": 3,
+    "WordCloud": null,
+    "City": "深圳市"
+  },
+  {
+    "Type": "",
+    "ALevel": "",
+    "OpenTime": null,
+    "ServiceTel": "",
+    "IssueTel": "",
+    "TrafficGuide": null,
+    "Name": "深圳湾公园C区-运动公园",
+    "Price": 0,
+    "Description": null,
+    "Address": "深圳湾公园C区-运动公园内",
+    "lat": 22.49187153577619,
+    "lng": 113.9535949366427,
+    "Comments": null,
+    "CommentCount": 11,
+    "WordCloud": null,
+    "City": "深圳市"
+  },
+  {
+    "Type": "红色之旅",
+    "ALevel": "",
+    "OpenTime": null,
+    "ServiceTel": "",
+    "IssueTel": "",
+    "TrafficGuide": null,
+    "Name": "庚子首义纪念馆",
+    "Price": 0,
+    "Description": null,
+    "Address": "盐田区大梅沙东部华侨城",
+    "lat": 22.623765968381466,
+    "lng": 114.30690999191086,
+    "Comments": null,
+    "CommentCount": 0,
+    "WordCloud": null,
+    "City": "深圳市"
+  },
+  {
+    "Type": "红色之旅",
+    "ALevel": "",
+    "OpenTime": null,
+    "ServiceTel": "",
+    "IssueTel": "",
+    "TrafficGuide": null,
+    "Name": "中国文化名人大营救纪念馆",
+    "Price": 0,
+    "Description": null,
+    "Address": "龙华区民治办事处白石龙村梅林路",
+    "lat": 22.608705917244407,
+    "lng": 114.04610486345456,
+    "Comments": null,
+    "CommentCount": 0,
+    "WordCloud": null,
+    "City": "深圳市"
+  },
+  {
+    "Type": "红色之旅",
+    "ALevel": "",
+    "OpenTime": null,
+    "ServiceTel": "",
+    "IssueTel": "",
+    "TrafficGuide": null,
+    "Name": "求水山公园",
+    "Price": 0,
+    "Description": null,
+    "Address": "广东省深圳市龙岗区南湾街道南岭村",
+    "lat": 22.619706598648506,
+    "lng": 114.15360445498426,
+    "Comments": null,
+    "CommentCount": 0,
+    "WordCloud": null,
+    "City": "深圳市"
+  },
+  {
+    "Type": "红色之旅",
+    "ALevel": "",
+    "OpenTime": null,
+    "ServiceTel": "",
+    "IssueTel": "",
+    "TrafficGuide": null,
+    "Name": "东纵北撤纪念亭",
+    "Price": 0,
+    "Description": null,
+    "Address": "深圳市龙岗区葵涌镇沙鱼涌海滩",
+    "lat": 22.613562977852855,
+    "lng": 114.42278403655456,
+    "Comments": null,
+    "CommentCount": 0,
+    "WordCloud": null,
+    "City": "深圳市"
+  },
+  {
+    "Type": "红色之旅/文化之旅",
+    "ALevel": "",
+    "OpenTime": null,
+    "ServiceTel": "",
+    "IssueTel": "",
+    "TrafficGuide": null,
+    "Name": "大鹏古城博物馆",
+    "Price": 0,
+    "Description": null,
+    "Address": "深圳市龙岗区大鹏镇鹏城村赖府巷10号",
+    "lat": 22.601108827398424,
+    "lng": 114.52073931170499,
+    "Comments": null,
+    "CommentCount": 1,
+    "WordCloud": null,
+    "City": "深圳市"
   }
 ]

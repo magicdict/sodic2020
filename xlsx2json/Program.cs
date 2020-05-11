@@ -20,9 +20,11 @@ namespace xlsx2json
             //CreateFood();
             //CreateHotel();
             //CreatePark();
+            //CreateGift();
+            //CreateTour();
             //return;
-            //旅游景点信息.CreateSpotSimple(JsonFolder_WepApi + "深圳市旅游景点信息.json",JsonFolder_Visualization_AngularAssets + "深圳市旅游景点信息.json");
-            //旅游景点信息.CreateSpotSimple(JsonFolder_WepApi + "江门市旅游景点信息.json",JsonFolder_Visualization_AngularAssets + "江门市旅游景点信息.json");
+            旅游景点信息.CreateSpotSimple(JsonFolder_WepApi + "深圳市旅游景点信息.json",JsonFolder_Visualization_AngularAssets + "深圳市旅游景点信息.json");
+            旅游景点信息.CreateSpotSimple(JsonFolder_WepApi + "江门市旅游景点信息.json",JsonFolder_Visualization_AngularAssets + "江门市旅游景点信息.json");
         }
 
         static void CreatePark()
@@ -89,7 +91,7 @@ namespace xlsx2json
         {
             var records = 特产品信息.CreateGift(ShenzhenDataFolder + "深圳市地方特产信息.xlsx");
             records.AddRange(特产品信息.CreateGift(JiangmenDataFolder + "江门市地方特产信息.xlsx"));
-            var json = JsonConvert.SerializeObject(records, Formatting.Indented);
+            var json = JsonConvert.SerializeObject(records, Formatting.None);
             using (var sw = new StreamWriter(JsonFolder_AngularAssets + "地方特产信息.json", false))
             {
                 sw.Write(json);
@@ -101,7 +103,7 @@ namespace xlsx2json
         {
             var records = 旅游目的地包团信息.CreateTour(ShenzhenDataFolder + "深圳市旅游目的地包团信息.xlsx");
             records.AddRange(旅游目的地包团信息.CreateTour(JiangmenDataFolder + "江门市旅游目的地包团信息.xlsx"));
-            string json = JsonConvert.SerializeObject(records, Formatting.Indented);
+            string json = JsonConvert.SerializeObject(records, Formatting.None);
             using (var sw = new StreamWriter(JsonFolder_AngularAssets + "旅游目的地包团信息.json", false))
             {
                 sw.Write(json);
@@ -127,13 +129,13 @@ namespace xlsx2json
             HotHotel = HotHotel.Select(
                 (y) =>
                 {
-                    if (y.Comments != null) y.Comments = y.Comments.Take(50).ToList();
+                    if (y.Comments != null) y.Comments = y.Comments.Take(30).ToList();
                     return y;
                 }
             ).ToList();
 
             HotHotel.Sort((x, y) => { return y.CommentCount - x.CommentCount; });
-            string json = JsonConvert.SerializeObject(HotHotel, Formatting.Indented);
+            string json = JsonConvert.SerializeObject(HotHotel, Formatting.None);
             using (var sw = new StreamWriter(JsonFolder_AngularAssets + "热门宾馆酒店信息.json", false))
             {
                 sw.Write(json);
@@ -155,18 +157,18 @@ namespace xlsx2json
             Food_SZ.Sort((x, y) => { return y.CommentCount - x.CommentCount; });
             Food_JM.Sort((x, y) => { return y.CommentCount - x.CommentCount; });
 
-            var HotFood = Food_SZ.Take(70).ToList();
-            HotFood.AddRange(Food_JM.Take(30));
+            var HotFood = Food_SZ.Take(50).ToList();
+            HotFood.AddRange(Food_JM.Take(50));
             HotFood = HotFood.Select(
                 (y) =>
                 {
-                    if (y.Comments != null) y.Comments = y.Comments.Take(50).ToList();
+                    if (y.Comments != null) y.Comments = y.Comments.Take(30).ToList();
                     return y;
                 }
             ).ToList();
 
             HotFood.Sort((x, y) => { return y.CommentCount - x.CommentCount; });
-            string json = JsonConvert.SerializeObject(HotFood, Formatting.Indented);
+            string json = JsonConvert.SerializeObject(HotFood, Formatting.None);
             using (var sw = new StreamWriter(JsonFolder_AngularAssets + "热门特色美食信息.json", false))
             {
                 sw.Write(json);
@@ -184,25 +186,23 @@ namespace xlsx2json
             var SpotComment_JM = 旅游景点评论.CreateSpotComment(JiangmenDataFolder + "江门市旅游景点评价信息.xlsx");
             var Spot_JM = 旅游景点信息.CreateSpot(JiangmenDataFolder + "江门市旅游景点信息.xlsx", JsonFolder_WepApi + "江门市旅游景点信息.json", SpotComment_JM);
 
-            var GradeASpot = Spot_SZ;
-            GradeASpot.AddRange(Spot_JM);
-            GradeASpot = GradeASpot.Where(x => !string.IsNullOrEmpty(x.ALevel)).Select(
-                (y) =>
-                {
-                    if (y.Comments != null) y.Comments = y.Comments.Take(50).ToList();  //其实不用限制，CreateSpot时候已经限制了。。。
-                    return y;
-                }
-            ).ToList();
-            GradeASpot.Sort((x, y) => { return y.CommentCount - x.CommentCount; });
-            string json = JsonConvert.SerializeObject(GradeASpot, Formatting.Indented);
-            using (var sw = new StreamWriter(JsonFolder_AngularAssets + "A级旅游景点评价信息.json", false))
+            var ALLSpot = Spot_SZ;
+            ALLSpot.AddRange(Spot_JM);
+
+            var GradeImport = ALLSpot.Where(x => !string.IsNullOrEmpty(x.ALevel) || !string.IsNullOrEmpty(x.Type)).Select(
+                 (y) =>
+                 {
+                     if (y.Comments != null) y.Comments = y.Comments.Take(30).ToList();
+                     return y;
+                 }
+             ).ToList();
+            GradeImport.Sort((x, y) => { return y.CommentCount - x.CommentCount; });
+            string json = JsonConvert.SerializeObject(GradeImport, Formatting.None);
+            using (var sw = new StreamWriter(JsonFolder_AngularAssets + "旅游景点信息.json", false))
             {
                 sw.Write(json);
                 sw.Close();
             }
         }
-
     }
 }
-
-

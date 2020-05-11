@@ -10,9 +10,15 @@
 
         <p-tabView>
             <p-tabPanel header="景点">
-                <button style="width: 96px;height: 36px;float: right;" class="btn btn-success"
-                    (click)="this.appservice.IsAddToPlanMode = true;this.appservice.SpotList_CurrentShow = this.appservice.SpotList_GradeAOnly;this.router.navigateByUrl('spot');"><i
-                        class="fas fa-plus"></i>&nbsp;添加</button>
+                <button style="width: 64px;height: 36px;float: right;" class="btn btn-success"
+                    (click)="PlusASpot()"><i
+                        class="fas fa-plus"></i>&nbsp;A级</button>
+                        <button class="btn btn-danger" style="width: 64px;height: 36px;float: right;" (click)="PlusRed()"><i
+                            class="fas fa-plus"></i>&nbsp;红色</button>
+                        <button class="btn btn-primary" style="width: 64px;height: 36px;float: right;" (click)="PlusCult()"><i
+                            class="fas fa-plus"></i>&nbsp;文化</button>
+                        <button class="btn btn-success" style="width: 64px;height: 36px;float: right;" (click)="PlusRelax()"><i
+                            class="fas fa-plus"></i>&nbsp;休闲</button>
                 <br />
                 <br />
                 <br />
