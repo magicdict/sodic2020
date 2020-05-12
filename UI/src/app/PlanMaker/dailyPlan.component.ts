@@ -33,6 +33,11 @@ export class DailyPlanComponent {
     this.appservice.SpotList_CurrentShow = this.appservice.SpotList_Cult;
     this.router.navigateByUrl('spot');
   }
+  PlusChild(){
+    this.appservice.IsAddToPlanMode = true;
+    this.appservice.SpotList_CurrentShow = this.appservice.SpotList_Child;
+    this.router.navigateByUrl('spot');
+  }
   Return() {
     this._location.back();
   }

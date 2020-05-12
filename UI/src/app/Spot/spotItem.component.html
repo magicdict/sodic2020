@@ -1,11 +1,17 @@
 <div class="card">
     <div class="card-header">
         <h4 class="card-title">
-            {{this.Spot.Name}} 
-            <button *ngIf="this.Spot.ALevel !==''" class="btn btn-sm btn-warning">{{this.Spot.ALevel}}</button>
-            <button *ngIf="this.Spot.Type.indexOf('红色之旅') !==-1" class="btn btn-sm btn-danger">红色</button>
-            <button *ngIf="this.Spot.Type.indexOf('文化之旅') !==-1" class="btn btn-sm btn-primary">文化</button>
-            <button *ngIf="this.Spot.Type.indexOf('休闲之旅') !==-1" class="btn btn-sm btn-success">休闲</button>
+            {{this.Spot.Name}}
+            <button *ngIf="this.Spot.ALevel !==''" style="margin-right: 5px;"
+                class="btn btn-sm btn-outline-warning">{{this.Spot.ALevel}}</button>
+            <button *ngIf="this.Spot.Type.indexOf('红色') !==-1" style="margin-right: 5px;"
+                class="btn btn-sm btn-outline-danger">红色</button>
+            <button *ngIf="this.Spot.Type.indexOf('文化') !==-1" style="margin-right: 5px;"
+                class="btn btn-sm btn-outline-primary">文化</button>
+            <button *ngIf="this.Spot.Type.indexOf('休闲') !==-1" style="margin-right: 5px;"
+                class="btn btn-sm btn-outline-success">休闲</button>
+            <button *ngIf="this.Spot.Type.indexOf('亲子') !==-1" style="margin-right: 5px;"
+                class="btn btn-sm btn-outline-info">亲子</button>
         </h4>
         <p class="category"><i class="fas fa-map-marked-alt"></i>&nbsp;{{this.Spot.Address}}</p>
     </div>

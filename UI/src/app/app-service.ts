@@ -92,6 +92,7 @@ export class AppService {
     SpotList_Red: SpotInfo[] = [];
     SpotList_Cult: SpotInfo[] = [];
     SpotList_Relax: SpotInfo[] = [];
+    SpotList_Child: SpotInfo[] = [];
 
     FoodList_CurrentShow: FoodInfo[] = [];
     FoodList_Hot: FoodInfo[] = [];
@@ -113,11 +114,12 @@ export class AppService {
         let spot_gradeA = this.http.get("assets/json/旅游景点信息.json").toPromise().then(x => x as SpotInfo[]);
         spot_gradeA.then(
             r => {
-                this.SpotList_GradeA = r;
-                this.SpotList_Red = r.filter(x => x.Type.indexOf("红色之旅") !== -1);
-                this.SpotList_Cult = r.filter(x => x.Type.indexOf("文化之旅") !== -1);
-                this.SpotList_Relax = r.filter(x => x.Type.indexOf("休闲之旅") !== -1);
-                this.SpotList_CurrentShow = r;
+                this.SpotList_GradeA = r.filter(x => x.ALevel.length !== 0);;
+                this.SpotList_Red = r.filter(x => x.Type.indexOf("红色") !== -1);
+                this.SpotList_Cult = r.filter(x => x.Type.indexOf("文化") !== -1);
+                this.SpotList_Relax = r.filter(x => x.Type.indexOf("休闲") !== -1);
+                this.SpotList_Child = r.filter(x => x.Type.indexOf("亲子") !== -1);
+                this.SpotList_CurrentShow = this.SpotList_GradeA;
                 this.IsLoadSpotFinished = true;
                 this.loadMsg = "[完成]旅游景点信息";
             }

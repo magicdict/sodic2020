@@ -16,15 +16,15 @@ namespace xlsx2json
 
         static void Main(string[] args)
         {
-            //CreateSpot();
+            CreateSpot();
             //CreateFood();
             //CreateHotel();
             //CreatePark();
             //CreateGift();
             //CreateTour();
             //return;
-            旅游景点信息.CreateSpotSimple(JsonFolder_WepApi + "深圳市旅游景点信息.json",JsonFolder_Visualization_AngularAssets + "深圳市旅游景点信息.json");
-            旅游景点信息.CreateSpotSimple(JsonFolder_WepApi + "江门市旅游景点信息.json",JsonFolder_Visualization_AngularAssets + "江门市旅游景点信息.json");
+            //旅游景点信息.CreateSpotSimple(JsonFolder_WepApi + "深圳市旅游景点信息.json",JsonFolder_Visualization_AngularAssets + "深圳市旅游景点信息.json");
+            //旅游景点信息.CreateSpotSimple(JsonFolder_WepApi + "江门市旅游景点信息.json",JsonFolder_Visualization_AngularAssets + "江门市旅游景点信息.json");
         }
 
         static void CreatePark()
