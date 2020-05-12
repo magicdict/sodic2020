@@ -1,9 +1,0 @@
-<input #takepicture type="file" accept="image/*" capture="camera" (change)="PreviewImage($event)"
-    style="display: none;">
-<button class="btn btn-primary" (click)="takepicture.click()">获取图像</button>
-<button class="btn btn-primary" (click)="SaveToLoalStorage()">保存图像</button>
-<button class="btn btn-primary" (click)="LoadFromLoalStorage()">加载图像</button>
-<button class="btn btn-primary" (click)="Return()">返回</button>
-<div id="preview" width="320px">
-
-</div>

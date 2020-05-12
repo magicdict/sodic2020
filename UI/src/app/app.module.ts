@@ -14,7 +14,7 @@ import { LoginComponent } from './login/login.component';
 import { SpotDetailComponent } from './Spot/spotDetail.component';
 import { LazyLoadImageModule } from 'ng-lazyload-image';
 import { NgxEchartsModule } from 'ngx-echarts';
-import { ToolComponent } from './Misc/tool.component';
+import { FootPrintComponent } from './footPrint/footprint.component';
 import { FoodDetailComponent } from './Food/foodDetail.component';
 import { HotelDetailComponent } from './Hotel/hotelDetail.component';
 import { CommonFunction } from './common';
@@ -30,6 +30,8 @@ import { DailyPlanComponent } from './PlanMaker/dailyPlan.component';
 import { HotelItemComponent } from './Hotel/hotelItem.component';
 import { FoodItemComponent } from './Food/foodItem.component';
 import {SelectButtonModule} from 'primeng/selectbutton';
+import { FootPrintCellComponent } from './footPrint/footprintCell.component';
+import { AddFootPrintComponent } from './footPrint/addfootprint.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +48,9 @@ import {SelectButtonModule} from 'primeng/selectbutton';
     FoodItemComponent,
     FoodDetailComponent,
     GiftComponent,
-    ToolComponent,
+    FootPrintComponent,
+    AddFootPrintComponent,
+    FootPrintCellComponent,
     FavItemComponent,
     FavItemCellComponent,
     CreatePlanComponent,

@@ -18,7 +18,7 @@
                     src="assets/image/美食.png" width="64px" height="64px"></div>
             <div class="col-3"></div>
         </div>
-        <br /><br />
+        <br />
         <div class="row">
             <div class="col-3"></div>
             <div class="col-3"><img
@@ -28,7 +28,7 @@
                     height="64px"></div>
             <div class="col-3"></div>
         </div>
-        <br /><br />
+        <br />
         <div class="row">
             <div class="col-3"></div>
             <div class="col-3"> <img (click)="this.router.navigateByUrl('favitem');" src="assets/image/收藏.png"
@@ -37,6 +37,16 @@
                     src="assets/image/工具.png" width="64px" height="64px"></div>
             <div class="col-3"></div>
         </div>
+        <br />
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-3"> <img (click)="this.router.navigateByUrl('footprint');" src="assets/image/足迹.png"
+                    width="64px" height="64px"></div>
+            <div class="col-3"> <img (click)="this.app.IsAddToPlanMode = true;this.router.navigateByUrl('help');"
+                    src="assets/image/帮助.png" width="64px" height="64px"></div>
+            <div class="col-3"></div>
+        </div>
+
     </div>
 </div>
 

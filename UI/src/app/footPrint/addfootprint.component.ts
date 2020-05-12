@@ -1,14 +1,20 @@
 import { Component } from '@angular/core';
+import { AppService } from '../app-service';
+import { Router } from '@angular/router';
 import { DataStorage } from '../datastorage';
 import { Location } from '@angular/common';
 
 @Component({
-    templateUrl: './tool.component.html',
+    templateUrl: './addfootprint.component.html',
 })
-export class ToolComponent {
-    constructor(private _location: Location, public localstorage: DataStorage) {
+export class AddFootPrintComponent {
+    constructor(private _location: Location,public router: Router, public localstorage: DataStorage,public appservice: AppService) {
 
     }
+
+    title:string;
+    address:string;
+
     PreviewImage(x: Event) {
         let e = x.srcElement as HTMLInputElement;
         let fileObj = e.files[0];
@@ -17,28 +23,16 @@ export class ToolComponent {
         reader.onload = this.FinishRun;
     }
 
-    FinishRun(this: FileReader, ev: ProgressEvent<FileReader>): any {
+    FinishRun(this: FileReader): any {
         var preview = document.getElementById("preview");
-        let x = ToolComponent.compress(this.result, 320, 0.5) as Promise<string>;
+        let x = AddFootPrintComponent.compress(this.result, 320, 0.5) as Promise<string>;
         x.then(
             r => {
+                console.log("FinishRun!");
                 preview.innerHTML = '<img id="PreviewImage" src="' + r + '" alt="" width="320px" />';
             }
         )
     }
-
-    SaveToLoalStorage(){
-        var preview = document.getElementById("PreviewImage") as HTMLImageElement;
-        this.localstorage.Save("Img",preview.src);
-    }
-    LoadFromLoalStorage(){
-        var preview = document.getElementById("preview");
-        let r = this.localstorage.Load("Img");
-        preview.innerHTML = '<img id="PreviewImage" src="' + r + '" alt="" width="320px" />';
-    }
-    Return() {
-        this._location.back();
-      }
     static compress(base64String, w, quality) {
         var getMimeType = function (urlData) {
             var arr = urlData.split(',');
@@ -74,5 +68,12 @@ export class ToolComponent {
             console.log(base64);
             return base64;
         });
+    }
+    SaveToLoalStorage() {
+        var preview = document.getElementById("PreviewImage") as HTMLImageElement;
+        this.localstorage.Save("Img", preview.src);
+    }
+    Return() {
+        this._location.back();
     }
 }
