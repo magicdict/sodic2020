@@ -1,0 +1,25 @@
+<div style="position:relative;"
+    [ngStyle]="{'height':this.appservice.clientHeight + 'px','width':appservice.clientWidth + 'px'}">
+    <nav class="navbar navbar-light bg-light" style="position: absolute;z-index: 99;top:0px;width: 100%;">
+        <img src="assets/image/帮助.png" width="30" height="30" alt="">
+        帮助
+        <img src="assets/image/返回.png" width="30" height="30" alt="" (click)="Return()" style="float: right;">
+    </nav>
+    <div style="position: absolute;z-index: 99;top:50px;text-align: left;overflow-y: scroll;"
+        [ngStyle]="{height:this.appservice.clientHeight-50 + 'px','width':appservice.clientWidth + 'px'}">
+        <div style="margin: 20px;">
+            Q:第一次加载慢  <br />
+            A:第一次加载的时候需要加载一些热门的酒店，景点，美食信息，所以比较慢，以后就不需要加载了 <br/>
+    
+            <br/>
+    
+            Q:当前位置定位不准  <br />
+            A:百度定位系统依赖IP地址，所以可能出现定位错误。当前位置信息仅供参考，导航功能请使用高德地图，百度地图，腾讯地图等专业App <br/>
+    
+            <br />
+    
+            Q:没有网络能够使用吗？  <br />
+            A:热门景点，餐厅，饭店等信息，定制行程，收藏夹，我的足迹是可以正常使用的。检索功能则需要网络。 <br/>
+        </div>
+    </div>
+</div>

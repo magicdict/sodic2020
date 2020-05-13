@@ -1,14 +1,18 @@
 <div class="card">
     <div class="card-header">
-        <h4 class="card-title">
-
-        </h4>
+        <h4 class="card-title"> {{Item.Title}} </h4>
+        <p class="category"><i class="fas fa-map-marked-alt"></i>&nbsp;{{Item.Address}}</p>
+        <p class="category"><i class="fas fa-calendar-week"></i>&nbsp;{{Item.Datetime}}</p>
     </div>
     <div class="card-body">
-        <div class="card-footer">
-            <button style="width: 96px;height: 36px;" class="btn btn-danger"><i
-                    class="fas fa-heart"></i>&nbsp;删除</button>
+        <div style="text-align:center;">
+            <img [lazyLoad]="Item.Src" width="320px" height="320px" style="margin-left: auto;margin-right: auto;">
         </div>
+        <div style="width: 320px;margin-left: auto;margin-right: auto;text-align: left;">{{Item.Description}}</div>
+    </div>
+    <div class="card-footer">
+        <button style="width: 96px;height: 36px;" class="btn btn-danger"
+            (click)="this.appservice.DelFromFootprint(Item)"><i class="fas fa-heart"></i>&nbsp;删除</button>
     </div>
 </div>
 <br />

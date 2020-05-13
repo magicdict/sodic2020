@@ -14,6 +14,7 @@ import { DailyListComponent } from './PlanMaker/dailyList.component';
 import { DailyPlanComponent } from './PlanMaker/dailyPlan.component';
 import { FootPrintComponent } from './footPrint/footprint.component';
 import { AddFootPrintComponent } from './footPrint/addfootprint.component';
+import { HelpComponent } from './login/help.component';
 
 const routes: Routes = [
   { path: 'home', component: LoginComponent },
@@ -30,6 +31,7 @@ const routes: Routes = [
   { path: 'dailyplan', component: DailyPlanComponent },
   { path: 'footprint', component: FootPrintComponent },
   { path: 'addfootprint', component: AddFootPrintComponent },
+  { path: 'help', component: HelpComponent },
   { path: '', redirectTo: 'home', pathMatch: 'full' }
 ];
 

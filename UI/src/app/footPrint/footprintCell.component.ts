@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { AppService } from '../app-service';
+import { AppService, FootprintItem } from '../app-service';
 import { Router } from '@angular/router';
 @Component({
     selector: "footprint-item",
@@ -9,7 +9,6 @@ export class FootPrintCellComponent {
     constructor(public router: Router, public appservice: AppService) {
 
     }
-    @Input() Item: any;
-
+    @Input() Item: FootprintItem;
 }
 

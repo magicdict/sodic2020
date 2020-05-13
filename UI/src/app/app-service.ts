@@ -45,17 +45,28 @@ export class AppService {
     }
 
     /**收藏夹 */
-    FavItem: any[] = [];
+    favorites: any[] = [];
     AddToFav(item: any, type: enmItemType) {
         item["ItemType"] = type;
-        if (this.FavItem.find(x => x.Name === item.Name) !== undefined) return;
-        this.FavItem.push(item);
-        this.localstorage.Save("FavItem", this.FavItem);
+        if (this.favorites.find(x => x.Name === item.Name) !== undefined) return;
+        this.favorites.push(item);
+        this.localstorage.Save("favorites", this.favorites);
     }
 
     DelFromFav(itemname) {
-        this.FavItem = this.FavItem.filter(x => x.Name !== itemname);
-        this.localstorage.Save("FavItem", this.FavItem);
+        this.favorites = this.favorites.filter(x => x.Name !== itemname);
+        this.localstorage.Save("favorites", this.favorites);
+    }
+
+    footprints: FootprintItem[] = [];
+    AddToFootprint(item: FootprintItem) {
+        this.footprints.push(item);
+        this.localstorage.Save("footprints", this.footprints);
+    }
+    DelFromFootprint(item: FootprintItem) {
+        console.log(item.Datetime.toString());
+        this.footprints = this.footprints.filter(x => x.Datetime.toString() !== item.Datetime.toString());
+        this.localstorage.Save("footprints", this.footprints);
     }
 
     /**出行计划 */
@@ -105,9 +116,11 @@ export class AppService {
 
     constructor(private http: HttpClient, private localstorage: DataStorage, private common: CommonFunction) {
         //用户数据的载入
-        this.FavItem = this.localstorage.Load("FavItem");
-        if (this.FavItem === null) this.FavItem = [];
-        console.log("Fav Spot Name List:" + this.FavItem);
+        this.favorites = this.localstorage.Load("favorites");
+        this.footprints = this.localstorage.Load("footprints");
+        if (this.favorites === null) { this.favorites = []; this.localstorage.Save("favorites", this.favorites); }
+        if (this.footprints === null) { this.footprints = []; this.localstorage.Save("footprints", this.footprints); }
+        console.log("Fav Spot Name List:" + this.favorites);
         this.Plan = this.localstorage.Load("Plan");
         console.log("User Plan:" + this.Plan);
 
@@ -294,4 +307,12 @@ export interface DailyInfo {
     Spot: SpotInfo[];
     Food: FoodInfo[];
     Hotel: HotelInfo;
+}
+
+export interface FootprintItem {
+    Title: string;
+    Address: string;
+    Src: string;
+    Datetime: string;
+    Description: string;
 }

@@ -7,6 +7,6 @@
     </nav>
     <div style="position: absolute;z-index: 99;top:50px;text-align: center;overflow-y: scroll;"
         [ngStyle]="{height:this.appservice.clientHeight-50 + 'px','width':appservice.clientWidth + 'px'}">
-        <fav-item *ngFor="let f of this.appservice.FavItem" [Item]="f"></fav-item>
+        <fav-item *ngFor="let f of this.appservice.favorites" [Item]="f"></fav-item>
     </div>
 </div>

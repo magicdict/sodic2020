@@ -29,9 +29,10 @@ import { CardModule } from 'primeng/card';
 import { DailyPlanComponent } from './PlanMaker/dailyPlan.component';
 import { HotelItemComponent } from './Hotel/hotelItem.component';
 import { FoodItemComponent } from './Food/foodItem.component';
-import {SelectButtonModule} from 'primeng/selectbutton';
+import { SelectButtonModule } from 'primeng/selectbutton';
 import { FootPrintCellComponent } from './footPrint/footprintCell.component';
 import { AddFootPrintComponent } from './footPrint/addfootprint.component';
+import { HelpComponent } from './login/help.component';
 
 @NgModule({
   declarations: [
@@ -56,6 +57,7 @@ import { AddFootPrintComponent } from './footPrint/addfootprint.component';
     CreatePlanComponent,
     DailyListComponent,
     DailyPlanComponent,
+    HelpComponent
   ],
   imports: [
     BrowserModule,
