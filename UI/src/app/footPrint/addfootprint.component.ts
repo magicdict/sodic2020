@@ -3,35 +3,60 @@ import { AppService, FootprintItem } from '../app-service';
 import { Router } from '@angular/router';
 import { DataStorage } from '../datastorage';
 import { Location } from '@angular/common';
+import { getOrientation } from "get-orientation/browser";
+import { DomSanitizer } from '@angular/platform-browser';
+import { FootPrintComponent } from './footprint.component';
 
 @Component({
     templateUrl: './addfootprint.component.html',
 })
 export class AddFootPrintComponent {
-    constructor(private _location: Location, public router: Router, public localstorage: DataStorage, public appservice: AppService) {
+    constructor(private _location: Location, private sanitizer: DomSanitizer, public router: Router, public localstorage: DataStorage, public appservice: AppService) {
 
     }
     item: FootprintItem = {
-        Title: "", Address: "", Src: "", Datetime: "", Description: ""
+        Title: "", Address: "", Src: "", Datetime: "", Description: "", Rotate: ""
     };
     title: string;
     address: string;
-    description:string;
+    description: string;
+    static Orientation = 1;
+    static OrientationClass = "";
     PreviewImage(x: Event) {
         let e = x.srcElement as HTMLInputElement;
         let fileObj = e.files[0];
-        var reader = new FileReader();
-        reader.readAsDataURL(fileObj);
-        reader.onload = this.FinishRun;
+        getOrientation(fileObj).then(
+            orientation => {
+                var reader = new FileReader();
+                AddFootPrintComponent.Orientation = orientation;
+                reader.readAsDataURL(fileObj);
+                reader.onload = this.FinishRun;
+            }
+        );
     }
-
     FinishRun(this: FileReader): any {
         var preview = document.getElementById("preview");
         let x = AddFootPrintComponent.compress(this.result, 320, 0.5) as Promise<string>;
         x.then(
             r => {
-                console.log("FinishRun!");
-                preview.innerHTML = '<img id="PreviewImage" src="' + r + '" alt="" width="320px" height="320px" />';
+                switch (AddFootPrintComponent.Orientation) {
+                    case 3:
+                        AddFootPrintComponent.OrientationClass = "rotate180";
+                        preview.innerHTML = '<img id="PreviewImage" src="' + r + '" alt="" width="320px" height="320px" class="rotate180" />';
+                        break;
+                    case 6:
+                        AddFootPrintComponent.OrientationClass = "rotate90";
+                        preview.innerHTML = '<img id="PreviewImage" src="' + r + '" alt="" width="320px" height="320px" class="rotate90" />';
+                        break;
+                    case 9:
+                        AddFootPrintComponent.OrientationClass = "rotate270";
+                        preview.innerHTML = '<img id="PreviewImage" src="' + r + '" alt="" width="320px" height="320px" class="rotate270" />';
+                        break;
+                    default:
+                        AddFootPrintComponent.OrientationClass = "";
+                        preview.innerHTML = '<img id="PreviewImage" src="' + r + '" alt="" width="320px" height="320px" />';
+                        break;
+                }
             }
         )
     }
@@ -39,7 +64,6 @@ export class AddFootPrintComponent {
         var getMimeType = function (urlData) {
             var arr = urlData.split(',');
             var mime = arr[0].match(/:(.*?);/)[1];
-            // return mime.replace("image/", "");
             return mime;
         };
         var newImage = new Image();
@@ -65,14 +89,15 @@ export class AddFootPrintComponent {
                 canvas.height = imgHeight;
             }
             ctx.clearRect(0, 0, canvas.width, canvas.height);
+            //这里如果使用ctx.rotate方法的话，保存之后的数据是不可用的...
             ctx.drawImage(newImage, 0, 0, canvas.width, canvas.height);
             var base64 = canvas.toDataURL(getMimeType(base64String), quality);
-            console.log(base64);
             return base64;
         });
     }
     SaveToLoalStorage() {
         this.item.Title = this.title;
+        this.item.Rotate = AddFootPrintComponent.OrientationClass;
         this.item.Address = this.address;
         this.item.Description = this.description;
         var preview = document.getElementById("PreviewImage") as HTMLImageElement;

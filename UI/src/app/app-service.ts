@@ -315,4 +315,5 @@ export interface FootprintItem {
     Src: string;
     Datetime: string;
     Description: string;
+    Rotate:string;
 }
