@@ -18,10 +18,12 @@
                 </div>
                 <div class="card-footer">
                     <button style="width: 96px;height: 36px;" class="btn btn-danger"
-                        (click)="this.appservice.AddToFav(f,type)"><i class="fas fa-heart"></i>&nbsp;收藏</button>
+                        (click)="this.appservice.AddToFav(f,type);this.toastService.show(this.f.Name + ' 加入心愿单', { classname: 'bg-danger text-light', delay: 3000 });"><i class="fas fa-heart"></i>&nbsp;收藏</button>
                 </div>
             </div>
             <br />
         </div>
     </div>
 </div>
+<app-toasts aria-live="polite" aria-atomic="true"></app-toasts>
+<br />

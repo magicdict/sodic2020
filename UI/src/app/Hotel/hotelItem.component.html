@@ -16,7 +16,8 @@
                 class="fas fa-list"></i>&nbsp;详细</button>
         &nbsp;&nbsp;&nbsp;&nbsp;
         <button style="width: 96px;height: 36px;" class="btn btn-danger"
-            (click)="this.appservice.AddToFav(Hotel,type)"><i class="fas fa-heart"></i>&nbsp;收藏</button>
+            (click)="this.appservice.AddToFav(Hotel,type);this.toastService.show(this.Hotel.Name + ' 加入心愿单', { classname: 'bg-danger text-light', delay: 3000 });"><i
+                class="fas fa-heart"></i>&nbsp;收藏</button>
     </div>
     <div *ngIf="Mode === 1" class="card-footer">
         <button style="width: 96px;height: 36px;" class="btn btn-primary"
@@ -24,15 +25,18 @@
                 class="fas fa-list"></i>&nbsp;详细</button>
         &nbsp;&nbsp;&nbsp;&nbsp;
         <button style="width: 96px;height: 36px;" class="btn btn-danger"
-            (click)="this.appservice.DelFormPlan(Hotel.Name)"><i class="far fa-trash-alt"></i>&nbsp;删除</button>
+            (click)="this.appservice.DelFormPlan(Hotel.Name);"><i
+                class="far fa-trash-alt"></i>&nbsp;删除</button>
     </div>
     <div *ngIf="Mode === 2" class="card-footer">
         <button style="width: 96px;height: 36px;" class="btn btn-primary"
-            (click)="this.router.navigateByUrl('food/' +  this.appservice.EncodeURI(Hotel.Name));"><i
+            (click)="this.router.navigateByUrl('hotel/' +  this.appservice.EncodeURI(Hotel.Name));"><i
                 class="fas fa-list"></i>&nbsp;详细</button>
         &nbsp;&nbsp;&nbsp;&nbsp;
         <button style="width: 96px;height: 36px;" class="btn btn-success"
-            (click)="this.appservice.AddToPlan(Hotel,type)"><i class="fas fa-plus"></i>&nbsp;添加</button>
+            (click)="this.appservice.AddToPlan(Hotel,type);this.toastService.show(this.Hotel.Name + ' 已添加', { classname: 'bg-success text-light', delay: 3000 });"><i
+                class="fas fa-plus"></i>&nbsp;添加</button>
     </div>
 </div>
+<app-toasts aria-live="polite" aria-atomic="true"></app-toasts>
 <br />

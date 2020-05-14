@@ -75,7 +75,7 @@ export class AppService {
     DelFormPlan(itemname: string) {
         this.CurrentDailyInfo.Spot = this.CurrentDailyInfo.Spot.filter(x => x.Name !== itemname);
         this.CurrentDailyInfo.Food = this.CurrentDailyInfo.Food.filter(x => x.Name !== itemname);
-        if (this.CurrentDailyInfo.Hotel.Name === itemname) this.CurrentDailyInfo.Hotel = null;
+        if (this.CurrentDailyInfo.Hotel !==null && this.CurrentDailyInfo.Hotel.Name === itemname) this.CurrentDailyInfo.Hotel = null;
         this.localstorage.Save("Plan", this.Plan);
     }
     AddToPlan(item: any, type: enmItemType) {
@@ -304,6 +304,8 @@ export interface PlanInfo {
 export interface DailyInfo {
     strDate: string;
     strWeek: string;
+    citys:string[];
+    CompanyWith:string;
     Spot: SpotInfo[];
     Food: FoodInfo[];
     Hotel: HotelInfo;

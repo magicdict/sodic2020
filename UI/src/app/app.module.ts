@@ -33,7 +33,9 @@ import { SelectButtonModule } from 'primeng/selectbutton';
 import { FootPrintCellComponent } from './footPrint/footprintCell.component';
 import { AddFootPrintComponent } from './footPrint/addfootprint.component';
 import { HelpComponent } from './login/help.component';
-
+import { ToastService } from './toasts/toast-service';
+import { ToastsContainer } from './toasts/toast-container.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 @NgModule({
   declarations: [
     AppComponent,
@@ -57,7 +59,9 @@ import { HelpComponent } from './login/help.component';
     CreatePlanComponent,
     DailyListComponent,
     DailyPlanComponent,
-    HelpComponent
+    HelpComponent,
+    ToastsContainer,
+    
   ],
   imports: [
     BrowserModule,
@@ -70,9 +74,10 @@ import { HelpComponent } from './login/help.component';
     SelectButtonModule,
     CardModule,
     BrowserAnimationsModule,
-    FormsModule
+    FormsModule,
+    NgbModule
   ],
-  providers: [AppService, CommonFunction],
+  providers: [AppService, CommonFunction,ToastService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

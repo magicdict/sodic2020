@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { Location } from '@angular/common';
 import { AppService, GiftInfo, enmItemType } from '../app-service';
-import { ActivatedRoute } from '@angular/router';
+import { ToastService } from '../toasts/toast-service';
 @Component({
   templateUrl: './gift.component.html',
 })
 export class GiftComponent implements OnInit {
   ShowItem: GiftInfo[] = [];
-  constructor(private _location: Location, public appservice: AppService, private route: ActivatedRoute, ) {
+  constructor(private _location: Location, public appservice: AppService, public toastService: ToastService ) {
 
   }
   type = enmItemType.Gift;

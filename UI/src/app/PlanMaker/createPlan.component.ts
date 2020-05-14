@@ -4,6 +4,7 @@ import { Location } from '@angular/common';
 import { differenceInDays, addDays } from 'date-fns';
 import { DataStorage } from '../datastorage';
 import { Router } from '@angular/router';
+import { SelectItem } from 'primeng/api/selectitem';
 
 @Component({
   templateUrl: './createPlan.component.html',
@@ -15,6 +16,42 @@ export class CreatePlanComponent {
   startdate: Date;
   enddate: Date;
   Days: number = 0;
+
+  CompanyWith: SelectItem[] = [
+    { label: '家族', value: '家族' },
+    { label: '亲子', value: '亲子' },
+    { label: '朋友、同事', value: '朋友' },
+    { label: '情侣、夫妻', value: '情侣' },
+    { label: '一个人', value: '一个人' },
+  ];
+  selectedCompanyWith: string = "一个人";
+  TravelTips = "选自己喜欢的地方，尽情防空吧";
+
+  selectedcitys: SelectItem[] = this.appservice.CitySelect;
+  selectedCityTypes: string[] = ["深圳市", "江门市"];
+
+  ChangeTips() {
+    switch (this.selectedCompanyWith) {
+      case '家族':
+        this.TravelTips = "红色之旅，让父母带你回到哪个年代";
+        break;
+      case '亲子':
+        this.TravelTips = "儿童乐园，博物馆，带小朋友大开眼界吧";
+        break;
+      case '朋友、同事':
+        this.TravelTips = "温泉，度假村，啤酒撸串走起";
+        break;
+      case '情侣、夫妻':
+        this.TravelTips = "手牵手在海边走走吧";
+        break;
+      case '一个人':
+        this.TravelTips = "选自己喜欢的地方，尽情防空吧";
+        break;
+      default:
+        break;
+    }
+  }
+
   GetDays() {
     if (this.startdate === undefined) return 0;
     if (this.enddate === undefined) return 0;
@@ -33,8 +70,10 @@ export class CreatePlanComponent {
       let d: DailyInfo = {
         strDate: x.getFullYear() + "年" + (x.getMonth() + 1) + "月" + x.getDate() + "日",
         strWeek: "星期" + this.ConvertNumberToWeekday(x.getDay()),
+        citys: this.selectedCityTypes,
+        CompanyWith: this.selectedCompanyWith,
         Spot: [],
-        Food:[],
+        Food: [],
         Hotel: null
       }
       p.Daily.push(d);
