@@ -2,7 +2,7 @@
     <div class="card-header">
         <h4 class="card-title">
             {{this.Spot.Name}}
-            <button *ngIf="this.Spot.ALevel !==''" style="margin-right: 5px;"
+            <button *ngIf="this.Spot.ALevel !=='' && this.Spot.ALevel !=='+'" style="margin-right: 5px;"
                 class="btn btn-sm btn-outline-warning">{{this.Spot.ALevel}}</button>
             <button *ngIf="this.Spot.Type.indexOf('红色') !==-1" style="margin-right: 5px;"
                 class="btn btn-sm btn-outline-danger">红色</button>

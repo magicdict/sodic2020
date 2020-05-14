@@ -312,27 +312,27 @@
     "Address": "深圳市南山区华侨城侨城西路",
     "lat": 22.544672905021145,
     "lng": 113.98615590628268,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "深圳市"
   },
   {
     "Type": "",
-    "ALevel": "",
+    "ALevel": "+",
     "OpenTime": "1月1日-12月31日 09:00-21:45",
     "ServiceTel": "0755-29163888",
     "IssueTel": "0755-29163888",
     "TrafficGuide": "",
     "Name": "深圳平安金融中心云际观光层",
     "Price": 130,
-    "Description": "",
+    "Description": "心云际观光层，位于平安金融中心116层，以高空547.6米的超级视野，集观光娱乐、文化创意、科普教育于一体，是深圳颇具文化内涵的观光地标。作为深圳城市崛起的新地标，平安金融中心不仅是深圳新时期的建筑地标、商业地标，更代表着城市品质生活与精神文化的新体验。诚邀您登上全球地标建筑平安金融中心的Free Sky云际观光层，共同见证这座城市生生不息、拔地而起的“奇迹”。",
     "Address": "深圳市福田区益田路5033号平安金融中心116层",
     "lat": 22.539632298692748,
     "lng": 114.06209856424059,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "深圳市"
   },
   {
@@ -348,9 +348,9 @@
     "Address": "深圳市南山区深南大道中段西端华侨城",
     "lat": 22.544672905021145,
     "lng": 113.98615590628268,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "深圳市"
   },
   {
@@ -366,14 +366,14 @@
     "Address": "深圳市南山区西丽湖东侧",
     "lat": 22.60417098609298,
     "lng": 113.97218599797942,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "深圳市"
   },
   {
     "Type": "",
-    "ALevel": "",
+    "ALevel": "+",
     "OpenTime": "暂停营业",
     "ServiceTel": "0755-25061070",
     "IssueTel": "0755-25061070",
@@ -384,14 +384,14 @@
     "Address": "深圳市盐田区盐葵路大梅沙段148号",
     "lat": 22.59376467659405,
     "lng": 114.28273107864273,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "深圳市"
   },
   {
     "Type": "红色之旅",
-    "ALevel": "",
+    "ALevel": "+",
     "OpenTime": "6:00-23:00",
     "ServiceTel": "0755-83067950",
     "IssueTel": "0755-83067950",
@@ -402,14 +402,14 @@
     "Address": "深圳市福田区红荔路6030号",
     "lat": 22.560122730533173,
     "lng": 114.06402545830463,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "深圳市"
   },
   {
     "Type": "",
-    "ALevel": "",
+    "ALevel": "+",
     "OpenTime": "暂停营业",
     "ServiceTel": "0755-25035555",
     "IssueTel": "0755-25035555",
@@ -559,7 +559,7 @@
   },
   {
     "Type": "",
-    "ALevel": "",
+    "ALevel": "+",
     "OpenTime": "全天开放",
     "ServiceTel": "0755-83707868",
     "IssueTel": "0755-83707868",
@@ -709,7 +709,7 @@
   },
   {
     "Type": "",
-    "ALevel": "",
+    "ALevel": "+",
     "OpenTime": "1月1日-12月31日 全天开放；网络换票9:00开始",
     "ServiceTel": "0755-22720053",
     "IssueTel": "0755-22720053",
@@ -1159,7 +1159,7 @@
   },
   {
     "Type": "",
-    "ALevel": "",
+    "ALevel": "+",
     "OpenTime": "1月1日-12月31日 09:30-18:00；周末及法定节假日提前半小时开园。如遇大型活动，时间以当日公布为准",
     "ServiceTel": "0755-25032247,0755-88889888",
     "IssueTel": "0755-25032247,0755-88889888",
@@ -1309,7 +1309,7 @@
   },
   {
     "Type": "",
-    "ALevel": "",
+    "ALevel": "+",
     "OpenTime": "全天开放",
     "ServiceTel": "0755-26890000",
     "IssueTel": "0755-26890000",
@@ -1459,7 +1459,7 @@
   },
   {
     "Type": "",
-    "ALevel": "",
+    "ALevel": "+",
     "OpenTime": "暂停营业",
     "ServiceTel": "0755-82203430",
     "IssueTel": "0755-82203430",
@@ -1609,7 +1609,7 @@
   },
   {
     "Type": "",
-    "ALevel": "",
+    "ALevel": "+",
     "OpenTime": "全天开放",
     "ServiceTel": "",
     "IssueTel": "",
@@ -1759,7 +1759,7 @@
   },
   {
     "Type": "",
-    "ALevel": "",
+    "ALevel": "+",
     "OpenTime": "6:30-24:00",
     "ServiceTel": "",
     "IssueTel": "",
@@ -1909,7 +1909,7 @@
   },
   {
     "Type": "",
-    "ALevel": "",
+    "ALevel": "+",
     "OpenTime": "1月1日-12月31日 全天开放",
     "ServiceTel": "0755-84315618,0755-84316936",
     "IssueTel": "0755-84315618,0755-84316936",
@@ -3270,9 +3270,9 @@
     "Address": "深圳市龙岗区布吉镇大芬村",
     "lat": 22.617256723329216,
     "lng": 114.14450381169623,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "深圳市"
   },
   {
@@ -3288,9 +3288,9 @@
     "Address": "深圳市南山区南海大道3688号",
     "lat": 22.532931913522173,
     "lng": 113.93788033398872,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "深圳市"
   },
   {
@@ -3606,9 +3606,9 @@
     "Address": "深圳市南山区滨海侨城东立交桥",
     "lat": 22.538500195784383,
     "lng": 113.93653916925258,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "深圳市"
   },
   {
@@ -3774,9 +3774,9 @@
     "Address": "深圳市福田区福中路市民中心A区",
     "lat": 22.54935250857916,
     "lng": 114.06617390684634,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "深圳市"
   },
   {
@@ -27908,9 +27908,9 @@
     "Address": "深圳市龙岗区景芬路",
     "lat": 22.632810916624326,
     "lng": 114.13690549903411,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "深圳市"
   },
   {
@@ -27926,9 +27926,9 @@
     "Address": "南山区高新科技园北区乌石头路9号",
     "lat": 22.562122697682923,
     "lng": 113.9532145940899,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "深圳市"
   },
   {
@@ -27944,9 +27944,9 @@
     "Address": "深圳市南山区海德三道海岸大厦东座202、203室",
     "lat": 22.523784507389262,
     "lng": 113.9443524509147,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "深圳市"
   },
   {
@@ -27962,9 +27962,9 @@
     "Address": "深圳市大鹏新区大鹏镇大澳湾（老干部疗养基地）",
     "lat": 22.567149707427095,
     "lng": 114.47377059965635,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "深圳市"
   },
   {
@@ -27980,9 +27980,9 @@
     "Address": "深圳市罗湖区金稻田路1603号",
     "lat": 22.58744651110916,
     "lng": 114.13776005257394,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "深圳市"
   },
   {
@@ -27998,9 +27998,9 @@
     "Address": "深圳市盐田区深盐路2100号",
     "lat": 22.56607248282216,
     "lng": 114.24690174657533,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "深圳市"
   },
   {
@@ -28016,9 +28016,9 @@
     "Address": "深圳市龙岗区南澳镇西冲沙滩的一个小岛",
     "lat": 22.48797403462454,
     "lng": 114.55706921194137,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "深圳市"
   },
   {
@@ -28034,9 +28034,9 @@
     "Address": "深圳市坪山区碧岭社区碧岭现代农业科技园内",
     "lat": 22.66537207974374,
     "lng": 114.30080474834486,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "深圳市"
   },
   {
@@ -28052,9 +28052,9 @@
     "Address": "深圳市宝安区金湾大道与西海堤交汇处",
     "lat": 22.589134369652758,
     "lng": 113.84465796826358,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "深圳市"
   },
   {
@@ -52008,9 +52008,9 @@
     "Address": "广东省深圳市罗湖区莲塘仙湖路160号 518004",
     "lat": 22.57397535619626,
     "lng": 114.1754648111895,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "深圳市"
   },
   {
@@ -57266,9 +57266,9 @@
     "Address": "盐田区大梅沙东部华侨城",
     "lat": 22.623765968381466,
     "lng": 114.30690999191086,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "深圳市"
   },
   {
@@ -57284,9 +57284,9 @@
     "Address": "龙华区民治办事处白石龙村梅林路",
     "lat": 22.608705917244407,
     "lng": 114.04610486345456,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "深圳市"
   },
   {
@@ -57302,9 +57302,9 @@
     "Address": "广东省深圳市龙岗区南湾街道南岭村",
     "lat": 22.619706598648506,
     "lng": 114.15360445498426,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "深圳市"
   },
   {
@@ -57320,9 +57320,9 @@
     "Address": "深圳市龙岗区葵涌镇沙鱼涌海滩",
     "lat": 22.613562977852855,
     "lng": 114.42278403655456,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "深圳市"
   },
   {

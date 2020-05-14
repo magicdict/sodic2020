@@ -4,14 +4,12 @@ import { Router } from '@angular/router';
 import { DataStorage } from '../datastorage';
 import { Location } from '@angular/common';
 import { getOrientation } from "get-orientation/browser";
-import { DomSanitizer } from '@angular/platform-browser';
-import { FootPrintComponent } from './footprint.component';
 
 @Component({
     templateUrl: './addfootprint.component.html',
 })
 export class AddFootPrintComponent {
-    constructor(private _location: Location, private sanitizer: DomSanitizer, public router: Router, public localstorage: DataStorage, public appservice: AppService) {
+    constructor(private _location: Location, public router: Router, public localstorage: DataStorage, public appservice: AppService) {
 
     }
     item: FootprintItem = {

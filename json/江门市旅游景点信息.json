@@ -258,7 +258,7 @@
   },
   {
     "Type": "",
-    "ALevel": "",
+    "ALevel": "+",
     "OpenTime": "暂停营业",
     "ServiceTel": "",
     "IssueTel": "12345",
@@ -558,7 +558,7 @@
   },
   {
     "Type": "红色之旅",
-    "ALevel": "",
+    "ALevel": "+",
     "OpenTime": "1月1日-12月31日 08:30-17:30",
     "ServiceTel": "0750-2678888",
     "IssueTel": "12345",
@@ -1387,9 +1387,9 @@
     "Address": "江门市台山市白沙镇朗南村",
     "lat": 22.16452611165422,
     "lng": 112.62061394337601,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -1405,9 +1405,9 @@
     "Address": "江门市开平市塘口镇东距开平市区25公里",
     "lat": 22.38852724983387,
     "lng": 112.57036006070554,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -2244,9 +2244,9 @@
     "Address": "广东省江门市台山市",
     "lat": 22.257923470251228,
     "lng": 112.80044482505359,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -5935,9 +5935,9 @@
     "Address": "江门市恩平市那吉镇",
     "lat": 22.172605034587132,
     "lng": 112.12416849901147,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -6234,7 +6234,7 @@
     "City": "江门市"
   },
   {
-    "Type": "",
+    "Type": "休闲之旅",
     "ALevel": "",
     "OpenTime": "暂停营业",
     "ServiceTel": "0750-6378686",
@@ -11970,9 +11970,9 @@
     "Address": "江门市开平市",
     "lat": 22.382499490200658,
     "lng": 112.70446429490508,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -15436,9 +15436,9 @@
     "Address": "江门市蓬江区",
     "lat": 22.601065786023433,
     "lng": 113.08454642893685,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -17284,9 +17284,9 @@
     "Address": "江门市台山市",
     "lat": 22.257923470251228,
     "lng": 112.80044482505359,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -19142,9 +19142,9 @@
     "Address": "山东省,莒南县,莒南县城北10公里处,276600",
     "lat": 35.18081163178793,
     "lng": 118.84154077027218,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -21479,9 +21479,9 @@
     "Address": "江门市台山市川岛镇上川岛、下川岛旅游度假区",
     "lat": 21.630784746904844,
     "lng": 112.58863291977309,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -23813,9 +23813,9 @@
     "Address": "赤溪镇田头铜鼓鱼塘湾(近沿海高速)",
     "lat": 21.88428617525822,
     "lng": 112.89610924149324,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -23831,9 +23831,9 @@
     "Address": "广东省江门市台山市S273",
     "lat": 22.257923470251228,
     "lng": 112.80044482505359,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -23849,9 +23849,9 @@
     "Address": "江门市新会区圭峰山国家森林公园内",
     "lat": 22.557632023672458,
     "lng": 113.03818101886851,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -23867,9 +23867,9 @@
     "Address": "鹤山市沙坪镇人民东路45号",
     "lat": 22.77724779366481,
     "lng": 112.97818824235388,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -23885,9 +23885,9 @@
     "Address": "江门市新会区启超大道9号美吉特广场3楼34号",
     "lat": 22.50436220894399,
     "lng": 113.05972678668766,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -23903,9 +23903,9 @@
     "Address": "广东省台山市台城环北大道诗山",
     "lat": 22.258100833215423,
     "lng": 112.80011775201751,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -23921,9 +23921,9 @@
     "Address": "江门市新会区大同里村",
     "lat": 22.52014214471139,
     "lng": 112.95216673919717,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -23939,9 +23939,9 @@
     "Address": "江门市新会区石井镇官冲崖门古战场",
     "lat": 22.23002908303015,
     "lng": 113.10303526310655,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -23957,9 +23957,9 @@
     "Address": "广东省江门市台山市三合镇同乐路喜运来温泉大酒店",
     "lat": 22.195477092600978,
     "lng": 112.75787879813845,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -24125,9 +24125,9 @@
     "Address": "古兜温泉旅游度假邨",
     "lat": 22.158279606746206,
     "lng": 113.02801750050142,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -24143,9 +24143,9 @@
     "Address": "紫云路48-1号",
     "lat": 22.527402820314236,
     "lng": 113.02356873229527,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -24161,9 +24161,9 @@
     "Address": "086乡道与931乡道交叉口东北200米",
     "lat": 22.584603880965,
     "lng": 113.08855619524043,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -24179,9 +24179,9 @@
     "Address": "赤水镇大同村村口",
     "lat": 22.135372490583606,
     "lng": 112.59125543287806,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -24197,9 +24197,9 @@
     "Address": "广东省江门市新会区y216",
     "lat": 22.465113060519734,
     "lng": 113.03845482238786,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -24215,9 +24215,9 @@
     "Address": "江门市新会区会城街道圭峰路9号（冈州宾馆内）",
     "lat": 22.535399757969298,
     "lng": 113.04122834064901,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -24233,9 +24233,9 @@
     "Address": "江门市区白沙街道胜利路47号地王又一城3楼C028",
     "lat": 22.58440917009919,
     "lng": 113.09004217221454,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -24251,9 +24251,9 @@
     "Address": "江门市白石大道166号汇悦城2楼057号铺",
     "lat": 22.61710117552329,
     "lng": 113.08955735673095,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -24269,9 +24269,9 @@
     "Address": "睦洲镇南安村江睦大道旁",
     "lat": 22.494886895128843,
     "lng": 113.17648970463318,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -24287,9 +24287,9 @@
     "Address": "广东省潮安县市区北郊 510000",
     "lat": 23.468357129830867,
     "lng": 116.68452606068884,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -24305,9 +24305,9 @@
     "Address": "沂水里2号104(新之城后面)",
     "lat": 22.59838826876143,
     "lng": 113.08599279063799,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -24323,9 +24323,9 @@
     "Address": "广东省台山市端芬镇 510760",
     "lat": 22.0102247062461,
     "lng": 112.68975092740268,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -24341,9 +24341,9 @@
     "Address": "广东省恩平市朗底镇 529400",
     "lat": 22.342613847039736,
     "lng": 112.23127683716964,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -24359,9 +24359,9 @@
     "Address": "广东省鹤山市仙鹤湖畔 529738",
     "lat": 22.77116943137714,
     "lng": 112.97052666652624,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -24377,9 +24377,9 @@
     "Address": "广东省恩平市牛江镇东边朗村 529444",
     "lat": 22.391163446944535,
     "lng": 112.37592122408392,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -24395,9 +24395,9 @@
     "Address": "广东省江门市新会区境内 529100",
     "lat": 22.465113060519734,
     "lng": 113.03845482238786,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -24413,9 +24413,9 @@
     "Address": "礼乐工业路乐新街7号",
     "lat": 22.535068112438022,
     "lng": 113.09375666549707,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -24431,9 +24431,9 @@
     "Address": "中山公园游乐场",
     "lat": 22.183156596978822,
     "lng": 112.30962596575743,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -24449,9 +24449,9 @@
     "Address": "广东省开平市325国道",
     "lat": 22.382499490200658,
     "lng": 112.70446429490508,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -24467,9 +24467,9 @@
     "Address": "中国广东省江门市鹤山市",
     "lat": 22.77116943137714,
     "lng": 112.97052666652624,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -24485,9 +24485,9 @@
     "Address": "白沙大道东6号世纪名城3楼",
     "lat": 22.58397048566516,
     "lng": 113.08820446371811,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -24503,13 +24503,13 @@
     "Address": "五邑华侨广场会展中心",
     "lat": 22.620428942305537,
     "lng": 113.09173386115037,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
-    "Type": "",
+    "Type": "文化之旅",
     "ALevel": "",
     "OpenTime": "周一至周日 09:30-22:00",
     "ServiceTel": "0750-5535833",
@@ -24521,9 +24521,9 @@
     "Address": "台城镇环北大道142号",
     "lat": 22.259795846399072,
     "lng": 112.80541326299709,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -24539,9 +24539,9 @@
     "Address": "富源西路25号(近华莱士)",
     "lat": 22.193657139540626,
     "lng": 112.31824835119211,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -24557,9 +24557,9 @@
     "Address": "南和里166号",
     "lat": 22.148158011339092,
     "lng": 112.80415698274179,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -24575,9 +24575,9 @@
     "Address": "广东省江门市新会区围垦银湖湾三龙桥 529100",
     "lat": 22.14958497760932,
     "lng": 113.09515496785345,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -24593,9 +24593,9 @@
     "Address": "广东省广州市黄埔区长洲镇 510530",
     "lat": 23.187491541424553,
     "lng": 113.48707083968644,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -24611,9 +24611,9 @@
     "Address": "广东省江门市新会区双水塔岭观音山 529100",
     "lat": 22.378281476245796,
     "lng": 112.99884718500776,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -24629,9 +24629,9 @@
     "Address": "牛江镇西坑水库二副坎",
     "lat": 22.4158603177745,
     "lng": 112.35093122088973,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -24647,9 +24647,9 @@
     "Address": "蟠龙村路口小明农场",
     "lat": 22.519838004995716,
     "lng": 112.97224826903555,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -24665,9 +24665,9 @@
     "Address": "鹤城镇五星村南水北流水库",
     "lat": 22.615003055932924,
     "lng": 112.77622273562943,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -24683,9 +24683,9 @@
     "Address": "沙坪镇新湖路20号(近市慢性病防治站)",
     "lat": 22.772402897030794,
     "lng": 112.96988940859768,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -24701,9 +24701,9 @@
     "Address": "发展大道五邑华侨广场内,会展中心和美术馆",
     "lat": 22.619231039050327,
     "lng": 113.0901970400844,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -24719,9 +24719,9 @@
     "Address": "广东省江门市新会区三和路 529100",
     "lat": 22.465113060519734,
     "lng": 113.03845482238786,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -24737,9 +24737,9 @@
     "Address": "富华路75-79号",
     "lat": 22.77762082101558,
     "lng": 112.96475159515033,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -24755,9 +24755,9 @@
     "Address": "S273荷丰农庄西南500米(双和公路)",
     "lat": 22.615493171593936,
     "lng": 112.48164794052074,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -24773,9 +24773,9 @@
     "Address": "广东省江门市新会区新会圭峰山周恩来总理纪念广场 529100",
     "lat": 22.557632023672458,
     "lng": 113.03818101886851,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -24791,9 +24791,9 @@
     "Address": "广东省鹤山市新华路",
     "lat": 22.777436027800935,
     "lng": 112.96860085222542,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -24809,9 +24809,9 @@
     "Address": "广东省江门鹤山市双合镇",
     "lat": 22.64665411325397,
     "lng": 112.55114794687168,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -24827,9 +24827,9 @@
     "Address": "会城街道城东路29号柒发廊",
     "lat": 22.53260169258869,
     "lng": 113.04755950805068,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -24845,9 +24845,9 @@
     "Address": "新会大道西37号",
     "lat": 22.51097241871711,
     "lng": 113.04966702260695,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -24863,9 +24863,9 @@
     "Address": "富华路79号",
     "lat": 22.777684841897038,
     "lng": 112.96471895521962,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -24982,9 +24982,9 @@
     "Address": "赤坎影视城里",
     "lat": 21.272134812703147,
     "lng": 110.372532540958,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -25000,9 +25000,9 @@
     "Address": "蚬冈镇春一村委会南兴里",
     "lat": 22.2634451970064,
     "lng": 112.56674319077429,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -25018,9 +25018,9 @@
     "Address": "蚬冈镇沙塘里",
     "lat": 22.271707515595775,
     "lng": 112.53681506475264,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -25036,9 +25036,9 @@
     "Address": "百合镇马降龙村落",
     "lat": 22.319470324328442,
     "lng": 112.53825888514748,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -25054,9 +25054,9 @@
     "Address": "赤水镇香江温泉度假村",
     "lat": 22.150699191170272,
     "lng": 112.62386778559318,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -25072,9 +25072,9 @@
     "Address": "江门市-鹤山市-古劳镇西江河畔古劳水乡内",
     "lat": 22.820547059698622,
     "lng": 112.95111338615652,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -25135,9 +25135,9 @@
     "Address": "叱石景区内",
     "lat": 22.585543144251314,
     "lng": 113.01712455806049,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -25153,9 +25153,9 @@
     "Address": "新业路206号",
     "lat": 22.779851710387078,
     "lng": 112.96697440003231,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -25171,9 +25171,9 @@
     "Address": "上川岛镇飞沙里村",
     "lat": 21.711039015567646,
     "lng": 112.81165495917,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -25189,9 +25189,9 @@
     "Address": "台城镇碧桂园凤凰街278号",
     "lat": 22.23326897801265,
     "lng": 112.80166903580218,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -25207,9 +25207,9 @@
     "Address": "273省道西200米",
     "lat": 22.584603880965,
     "lng": 113.08855619524043,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -25225,9 +25225,9 @@
     "Address": "台城东云路34号地下",
     "lat": 22.25591300627617,
     "lng": 112.80278356344805,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -25243,9 +25243,9 @@
     "Address": "沙坪镇东升路37号",
     "lat": 22.77519001893862,
     "lng": 112.97377402297762,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -25261,9 +25261,9 @@
     "Address": "561县道北150米",
     "lat": 22.584603880965,
     "lng": 113.08855619524043,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -25279,9 +25279,9 @@
     "Address": "561县道旁边",
     "lat": 22.584603880965,
     "lng": 113.08855619524043,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -25297,9 +25297,9 @@
     "Address": "幕桥西路28号开平花园酒店内",
     "lat": 22.381032565738376,
     "lng": 112.67986401886137,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -25315,13 +25315,13 @@
     "Address": "港口一路102号",
     "lat": 22.598289421746774,
     "lng": 113.10222041017873,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
-    "Type": "",
+    "Type": "文化之旅",
     "ALevel": "",
     "OpenTime": "",
     "ServiceTel": "0750-2612250",
@@ -25333,9 +25333,9 @@
     "Address": "开平市赤坎古镇",
     "lat": 22.382499490200658,
     "lng": 112.70446429490508,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -25351,9 +25351,9 @@
     "Address": "广东省江门市新会区大鳌镇",
     "lat": 22.482541778926038,
     "lng": 113.21827897216394,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -25369,9 +25369,9 @@
     "Address": "广东省江门市开平市儒西村",
     "lat": 22.31362173326162,
     "lng": 112.56365068422664,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -25387,9 +25387,9 @@
     "Address": "广东省江门市台山市冲蒌镇桥昌路41号",
     "lat": 22.135966343718955,
     "lng": 112.83877556067713,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -25555,9 +25555,9 @@
     "Address": "侨兴北路与明兴路交叉口南200米",
     "lat": 22.528686737759056,
     "lng": 113.05791561144108,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -25573,9 +25573,9 @@
     "Address": "礼乐三路202号附近",
     "lat": 22.543544348776752,
     "lng": 113.0903778689835,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -25591,9 +25591,9 @@
     "Address": "江门市开平市塘口镇赓华村立园内",
     "lat": 22.355867923078517,
     "lng": 112.5722053374259,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -25609,9 +25609,9 @@
     "Address": "长振路77附近",
     "lat": 22.393650795993075,
     "lng": 112.71868896265089,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -25627,9 +25627,9 @@
     "Address": "百汇市场一街与红进路交叉口南150米",
     "lat": 22.390645072645036,
     "lng": 112.70620206691355,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -25645,9 +25645,9 @@
     "Address": "龙岗路东50米",
     "lat": 22.383143969551718,
     "lng": 112.7676880248125,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -25663,9 +25663,9 @@
     "Address": "中心东路与新建路交叉口东南100米",
     "lat": 22.358298490681747,
     "lng": 113.11609808676039,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -25681,9 +25681,9 @@
     "Address": "广东省中山市仁和中街附近",
     "lat": 22.65464891867632,
     "lng": 113.28602647339774,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -25699,9 +25699,9 @@
     "Address": "江门市台山市川岛国家4A级旅游景区下川岛王府洲景区观音山公园内",
     "lat": 21.629039965251714,
     "lng": 112.58520300967602,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -25717,9 +25717,9 @@
     "Address": "344乡道",
     "lat": 22.584603880965,
     "lng": 113.08855619524043,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -25735,9 +25735,9 @@
     "Address": "广东省江门市蓬江区西江大堤",
     "lat": 22.723882840777836,
     "lng": 113.08942007498806,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -25753,9 +25753,9 @@
     "Address": "中兴三路与同裕路交叉处附近",
     "lat": 22.66088952356242,
     "lng": 113.14178231752025,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -25771,9 +25771,9 @@
     "Address": "广东省江门市台山市石华路",
     "lat": 22.267658848919197,
     "lng": 112.81291564741042,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -25789,9 +25789,9 @@
     "Address": "斗山镇",
     "lat": 22.05512206175099,
     "lng": 112.8572683204419,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -25807,9 +25807,9 @@
     "Address": "新民一路与新民二路交叉口西100米",
     "lat": 22.555931259424778,
     "lng": 113.08745124981944,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -25825,9 +25825,9 @@
     "Address": "江翠路201号",
     "lat": 22.577166233752582,
     "lng": 113.11633013793796,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -25843,9 +25843,9 @@
     "Address": "江杜中路北150米",
     "lat": 22.610612550114745,
     "lng": 113.02270351586905,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -25861,9 +25861,9 @@
     "Address": "跃进路8号附近",
     "lat": 22.586948829127127,
     "lng": 113.1034344278547,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -25879,9 +25879,9 @@
     "Address": "银海特色餐厅附近",
     "lat": 22.660305343765067,
     "lng": 113.06067216340605,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -25897,9 +25897,9 @@
     "Address": "圣桥街附近",
     "lat": 22.293507243208595,
     "lng": 112.39446170543059,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -25915,9 +25915,9 @@
     "Address": "153乡道附近",
     "lat": 22.584603880965,
     "lng": 113.08855619524043,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -25933,9 +25933,9 @@
     "Address": "象溪路4号象溪商业城第二层240",
     "lat": 22.582806590658347,
     "lng": 113.09329403815958,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -25951,9 +25951,9 @@
     "Address": "棠下大道10号",
     "lat": 22.687523934739673,
     "lng": 113.04301426542602,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -25969,9 +25969,9 @@
     "Address": "塔岭村附近",
     "lat": 22.382382691571372,
     "lng": 112.99941392595382,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -25987,9 +25987,9 @@
     "Address": "广东省江门市新会区",
     "lat": 22.465113060519734,
     "lng": 113.03845482238786,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -26005,9 +26005,9 @@
     "Address": "中山市西岸北路4号",
     "lat": 22.66908478675761,
     "lng": 113.17725284480775,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -26023,9 +26023,9 @@
     "Address": "银龙路东50米",
     "lat": 22.167844853325434,
     "lng": 112.49743451900538,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -26041,9 +26041,9 @@
     "Address": "公园路与圭峰路交叉口东200米",
     "lat": 22.534599242060985,
     "lng": 113.04462068271135,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -26059,9 +26059,9 @@
     "Address": "江门市开平市百合镇马降龙村(百合墟东南面)马降龙碉楼群内",
     "lat": 22.29235028404828,
     "lng": 112.5744840690123,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -26077,9 +26077,9 @@
     "Address": "蓬江区江会路（近人人乐）",
     "lat": 22.573860997886815,
     "lng": 113.08910002939598,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -26206,9 +26206,9 @@
     "Address": "",
     "lat": 22.584603880965,
     "lng": 113.08855619524043,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -26224,9 +26224,9 @@
     "Address": "蓬江区白沙大道与港口二路交叉口",
     "lat": 22.583647592663404,
     "lng": 113.08656222650058,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -26242,9 +26242,9 @@
     "Address": "蓬江区白沙大道与港口二路交叉口",
     "lat": 22.583647592663404,
     "lng": 113.08656222650058,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -26260,9 +26260,9 @@
     "Address": "蓬江区北新路与白沙大道交叉口东北150米",
     "lat": 22.583647592663404,
     "lng": 113.08656222650058,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -26278,9 +26278,9 @@
     "Address": "位于江门市市区北街区海傍街现江门海关内，始建于1904年，是清政府在江门北街设关时的办公旧址。据1933年绘制的《北街江门海关地段平面图》记载，该旧址原占地面积20519平方米，建有多座建筑，现只保存两座建筑，即税务司办公室，及关址后的蛇山山顶上的税务司公寓一座。税务司办公室，建成于1905年，坐西北向东南，面宽24米，进深15.5米，占地364平方米，单层建筑，其下有地窖，四周有回廊，内有壁炉设置，为英式结构建筑物，保存完好。 税务司公馆，建于1924年，坐西向北，占地733平方米。整座建筑依山坡而建成，平面呈不规则形，楼高二层，其下有地下室，内有壁炉，为英式结构的建筑物，在其正门上刻有“1924”年的阿拉伯数字，保存完好。 据史料记载，清光绪二十八年（1902年），英国强迫清政府签订的《中英续议通商行船条约》开辟江门为通商口岸，光绪三十年，清政府正式在江门北街设立关口，称“江门关”，管理江门进出的船只，税务司长由英国人担任，所得关税为英国所有。江门口岸的开通，使江门成为外国列强侵略中国的一个据点，同时在一定程度上推进了江门地方经济的发展。海关旧址对研究地方史和进行爱国主义教育有着重要的意义。2008年公布为广东省文物保护单位。",
     "lat": -1.0,
     "lng": -1.0,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -26296,9 +26296,9 @@
     "Address": "卢边庙前大街1号",
     "lat": 22.584603880965,
     "lng": 113.08855619524043,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -26314,9 +26314,9 @@
     "Address": "蓬江区潮连大道潮连全民健身文化广场后面",
     "lat": 22.631793860917494,
     "lng": 113.12476563270795,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -26332,9 +26332,9 @@
     "Address": "",
     "lat": 22.584603880965,
     "lng": 113.08855619524043,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -26350,9 +26350,9 @@
     "Address": "蓬江区潮连街道富冈村洪圣公园对面",
     "lat": 22.646174012057728,
     "lng": 113.12520795834092,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -26368,9 +26368,9 @@
     "Address": "蓬江区潮连环岛西路北50米",
     "lat": 22.64297821877543,
     "lng": 113.10942176882256,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -26386,9 +26386,9 @@
     "Address": "",
     "lat": 22.584603880965,
     "lng": 113.08855619524043,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -26404,9 +26404,9 @@
     "Address": "蓬江区棠下良溪村村口",
     "lat": 22.709867928469986,
     "lng": 113.03576080416433,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -26422,9 +26422,9 @@
     "Address": "蓬江区棠下镇石头坑塘村",
     "lat": 22.669067334293082,
     "lng": 113.06526708591862,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -26440,9 +26440,9 @@
     "Address": "蓬江区棠下镇西南的乐溪村",
     "lat": 22.66326936976565,
     "lng": 113.04174271038384,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -26458,9 +26458,9 @@
     "Address": "",
     "lat": 22.584603880965,
     "lng": 113.08855619524043,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -26476,9 +26476,9 @@
     "Address": "蓬江区群星公园内",
     "lat": 22.641013830739436,
     "lng": 113.05047037722426,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -26494,9 +26494,9 @@
     "Address": "蓬江区北环路与西环路交叉路口处以西",
     "lat": 22.638077378968767,
     "lng": 113.06063863684783,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -26512,9 +26512,9 @@
     "Address": "",
     "lat": 22.584603880965,
     "lng": 113.08855619524043,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -26530,9 +26530,9 @@
     "Address": "蓬江区松园大道附近",
     "lat": 22.6279996884533,
     "lng": 113.02921612122095,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -26548,9 +26548,9 @@
     "Address": "鹤山市沙坪镇雁前路",
     "lat": 22.79496584698308,
     "lng": 113.02669555411337,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -26716,9 +26716,9 @@
     "Address": "广东省鹤山市龙口镇霄南村民委员会霄乡村",
     "lat": 22.780852741577053,
     "lng": 112.93035103057237,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -26734,9 +26734,9 @@
     "Address": "广东省鹤山市龙口镇粉洞村民委员会",
     "lat": 22.74728975578638,
     "lng": 112.84729826923413,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -26752,9 +26752,9 @@
     "Address": "广东省江门市鹤山市宅梧镇靖村村委会从新下村",
     "lat": 22.62388973334328,
     "lng": 112.63981405584828,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -26770,9 +26770,9 @@
     "Address": "鹤山市宅梧镇荷村村委会龙潭坑1号",
     "lat": 22.646559671073216,
     "lng": 112.67754216861049,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -26788,9 +26788,9 @@
     "Address": "鹤山市宅梧镇双和公路与954乡道交汇处150米（榴花坪路口斜对面）",
     "lat": 22.624617308912846,
     "lng": 112.66911884767676,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -26806,9 +26806,9 @@
     "Address": "广东省江门市鹤山市S273（双和公路）龙潭山荔枝园侧（原荷丰生态农场）",
     "lat": 22.620060548604272,
     "lng": 112.66990241711521,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -26824,9 +26824,9 @@
     "Address": "鹤山市宅梧镇泗云村委会元坑村（X524）",
     "lat": 22.664672374934774,
     "lng": 112.67211835175667,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -26992,9 +26992,9 @@
     "Address": "",
     "lat": 22.584603880965,
     "lng": 113.08855619524043,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -27010,9 +27010,9 @@
     "Address": "",
     "lat": 22.584603880965,
     "lng": 113.08855619524043,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -27028,9 +27028,9 @@
     "Address": "",
     "lat": 22.584603880965,
     "lng": 113.08855619524043,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -27046,9 +27046,9 @@
     "Address": "",
     "lat": 22.584603880965,
     "lng": 113.08855619524043,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -27064,9 +27064,9 @@
     "Address": "",
     "lat": 22.584603880965,
     "lng": 113.08855619524043,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -27082,9 +27082,9 @@
     "Address": "江门市新会区大泽镇莲塘村委会新会古典家具城",
     "lat": 22.519746028471957,
     "lng": 112.99285899064968,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -27100,9 +27100,9 @@
     "Address": "江门市新会区双水镇双水大道北73号501",
     "lat": 22.395963248490162,
     "lng": 112.99013284542788,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
@@ -27118,14 +27118,14 @@
     "Address": "新会区睦洲镇东面",
     "lat": 22.44986093719044,
     "lng": 113.19060190363088,
-    "Comments": null,
+    "Comments": [],
     "CommentCount": 0,
-    "WordCloud": null,
+    "WordCloud": [],
     "City": "江门市"
   },
   {
     "Type": "",
-    "ALevel": "",
+    "ALevel": "+",
     "OpenTime": "夏季7:30~晚上19:00、春冬季7:30~18:30",
     "ServiceTel": "0750—6300783",
     "IssueTel": "12345",

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using Newtonsoft.Json;
+using System.Diagnostics;
 
 namespace xlsx2json
 {
@@ -25,6 +26,14 @@ namespace xlsx2json
             //return;
             //旅游景点信息.CreateSpotSimple(JsonFolder_WepApi + "深圳市旅游景点信息.json",JsonFolder_Visualization_AngularAssets + "深圳市旅游景点信息.json");
             //旅游景点信息.CreateSpotSimple(JsonFolder_WepApi + "江门市旅游景点信息.json",JsonFolder_Visualization_AngularAssets + "江门市旅游景点信息.json");
+            /* var SpotComment_SZ = 旅游景点评论.CreateSpotComment(ShenzhenDataFolder + "深圳市旅游景点评价信息.xlsx");
+            //世界之窗：东部华侨城
+            var g = SpotComment_SZ.Where(x =>true).ToList();
+            g.Sort((x, y) => { return x.CommentDate.CompareTo(y.CommentDate); });
+            foreach (var item in g.GroupBy(x => x.CommentDate.Substring(0, 7)))
+            {
+                Debug.WriteLine(item.Key + ":" + item.Count());
+            } */
         }
 
         static void CreatePark()

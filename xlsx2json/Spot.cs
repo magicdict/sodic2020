@@ -101,13 +101,13 @@ public class 旅游景点信息 : POI, IEqualityComparer<旅游景点信息>
             item.lng = loc.lng;
 
             //评论
-            var c = Comments.Where(x => x.Name == item.Name).FirstOrDefault();
+            var c = Comments.Where(x => x.Name == item.Name).ToList();
             if (c != null)
             {
                 //词云的制作
-                item.WordCloud = WordCloudItem.Create(c.Comments, 20);
-                item.Comments = c.Comments.Take(50).ToList();
-                item.CommentCount = c.Comments.Count;
+                item.WordCloud = WordCloudItem.Create(c.Select(x => x.Comment).ToList(), 20);
+                item.CommentCount = c.Count;
+                item.Comments = c.Select(x => x.Comment).Take(50).ToList();
             }
         }
 
@@ -160,9 +160,8 @@ public class 旅游景点信息 : POI, IEqualityComparer<旅游景点信息>
 public class 旅游景点评论
 {
     public string Name { get; set; }
-
-    public List<string> Comments { get; set; }
-
+    public string Comment { get; set; }
+    public string CommentDate { get; set; }
     public static List<旅游景点评论> CreateSpotComment(string xlsxFilename)
     {
         var records = new List<旅游景点评论>();
@@ -175,22 +174,12 @@ public class 旅游景点评论
         for (int i = 1; i < rlast; i++)
         {
             var row = sheet.GetRow(i);
-            var Name = row.GetCell(0).StringCellValue;
-            var Food = records.Where(x => x.Name == Name).FirstOrDefault();
-            if (Food == null)
-            {
-                var r = new 旅游景点评论();
-                r.Name = Name;
-                r.Comments = new List<string>();
-                r.Comments.Add(row.GetCell(2).StringCellValue);
-                records.Add(r);
-            }
-            else
-            {
-                Food.Comments.Add(row.GetCell(2).StringCellValue);
-            }
+            var r = new 旅游景点评论();
+            r.Name = row.GetCell(0).StringCellValue;
+            r.Comment  = row.GetCell(2).StringCellValue;
+            r.CommentDate  = row.GetCell(3).StringCellValue;
+            records.Add(r);
         }
         return records;
     }
-
 }
