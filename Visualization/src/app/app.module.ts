@@ -10,6 +10,8 @@ import { MyCommonModule } from './Common/MyCommon.module';
 import { PirceSegementComponent } from './visualization/pricesegment.component';
 import { HotfoodComponent } from './visualization/hotfood.component';
 import { SpotOverviewComponent } from './visualization/spotoverview.component';
+import { SelectButtonModule } from 'primeng/selectbutton';
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +26,9 @@ import { SpotOverviewComponent } from './visualization/spotoverview.component';
     AppRoutingModule,
     NgxEchartsModule,
     HttpClientModule,
-    MyCommonModule
+    MyCommonModule,
+    SelectButtonModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

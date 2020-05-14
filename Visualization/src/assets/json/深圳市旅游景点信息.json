@@ -55,7 +55,7 @@
   },
   {
     "Type": "",
-    "ALevel": "",
+    "ALevel": "+",
     "OpenTime": null,
     "ServiceTel": "0755-29163888",
     "IssueTel": "0755-29163888",
@@ -90,7 +90,7 @@
     "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "亲子",
     "ALevel": "AAAA",
     "OpenTime": null,
     "ServiceTel": "0755-26622888,0755-26628068",
@@ -109,7 +109,7 @@
   },
   {
     "Type": "",
-    "ALevel": "",
+    "ALevel": "+",
     "OpenTime": null,
     "ServiceTel": "0755-25061070",
     "IssueTel": "0755-25061070",
@@ -127,7 +127,7 @@
   },
   {
     "Type": "红色之旅",
-    "ALevel": "",
+    "ALevel": "+",
     "OpenTime": null,
     "ServiceTel": "0755-83067950",
     "IssueTel": "0755-83067950",
@@ -145,7 +145,7 @@
   },
   {
     "Type": "",
-    "ALevel": "",
+    "ALevel": "+",
     "OpenTime": null,
     "ServiceTel": "0755-25035555",
     "IssueTel": "0755-25035555",
@@ -163,7 +163,7 @@
   },
   {
     "Type": "",
-    "ALevel": "",
+    "ALevel": "+",
     "OpenTime": null,
     "ServiceTel": "0755-83707868",
     "IssueTel": "0755-83707868",
@@ -181,7 +181,7 @@
   },
   {
     "Type": "",
-    "ALevel": "",
+    "ALevel": "+",
     "OpenTime": null,
     "ServiceTel": "0755-22720053",
     "IssueTel": "0755-22720053",
@@ -198,7 +198,7 @@
     "City": "深圳市"
   },
   {
-    "Type": "红色之旅",
+    "Type": "红色之旅/亲子",
     "ALevel": "AAAA",
     "OpenTime": null,
     "ServiceTel": "0755-25738430,0755-25736061",
@@ -235,7 +235,7 @@
   },
   {
     "Type": "",
-    "ALevel": "",
+    "ALevel": "+",
     "OpenTime": null,
     "ServiceTel": "0755-25032247,0755-88889888",
     "IssueTel": "0755-25032247,0755-88889888",
@@ -253,7 +253,7 @@
   },
   {
     "Type": "",
-    "ALevel": "",
+    "ALevel": "+",
     "OpenTime": null,
     "ServiceTel": "0755-26890000",
     "IssueTel": "0755-26890000",
@@ -271,7 +271,7 @@
   },
   {
     "Type": "",
-    "ALevel": "",
+    "ALevel": "+",
     "OpenTime": null,
     "ServiceTel": "0755-82203430",
     "IssueTel": "0755-82203430",
@@ -289,7 +289,7 @@
   },
   {
     "Type": "",
-    "ALevel": "",
+    "ALevel": "+",
     "OpenTime": null,
     "ServiceTel": "",
     "IssueTel": "",
@@ -307,7 +307,7 @@
   },
   {
     "Type": "",
-    "ALevel": "",
+    "ALevel": "+",
     "OpenTime": null,
     "ServiceTel": "",
     "IssueTel": "",
@@ -325,7 +325,7 @@
   },
   {
     "Type": "",
-    "ALevel": "",
+    "ALevel": "+",
     "OpenTime": null,
     "ServiceTel": "0755-84315618,0755-84316936",
     "IssueTel": "0755-84315618,0755-84316936",
@@ -342,7 +342,7 @@
     "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "文化之旅",
     "ALevel": "AAAA",
     "OpenTime": null,
     "ServiceTel": "0755-29679888,0755-29679183",
@@ -666,7 +666,7 @@
     "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "文化之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-26936340,0755-26935044",
@@ -846,7 +846,7 @@
     "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "红色之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "",
@@ -882,7 +882,7 @@
     "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "宗教",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-25737095",
@@ -1260,7 +1260,7 @@
     "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "宗教",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-25032298",
@@ -1278,7 +1278,7 @@
     "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "休闲之旅",
     "ALevel": "AAAAA",
     "OpenTime": null,
     "ServiceTel": "0755-28020888",
@@ -1602,7 +1602,7 @@
     "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "亲子",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-82222716,0755-82239822",
@@ -1908,7 +1908,7 @@
     "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "宗教",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-84319055",
@@ -1962,7 +1962,7 @@
     "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "亲子",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-27880242,0755-27880172",
@@ -2034,7 +2034,7 @@
     "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "文化之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-25906000,0755-25906088",
@@ -2088,7 +2088,7 @@
     "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "风景区",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-28675668",
@@ -2286,7 +2286,7 @@
     "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "宗教",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-26851350",
@@ -2538,7 +2538,7 @@
     "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "宗教",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "",
@@ -2628,7 +2628,7 @@
     "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "文化之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-33066515,0755-22312345",
@@ -2934,7 +2934,7 @@
     "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "文化之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-89798888",
@@ -3096,7 +3096,7 @@
     "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "文化之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-82760159",
@@ -3474,7 +3474,7 @@
     "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "文化之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-26602204,0755-26928457,0755-26602414,0755-26932360",
@@ -4068,7 +4068,7 @@
     "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "宗教",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "",
@@ -4104,7 +4104,7 @@
     "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "宗教",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-27164389",
@@ -5076,7 +5076,7 @@
     "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "文化之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "",
@@ -5274,7 +5274,7 @@
     "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "文化之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "",
@@ -5292,7 +5292,7 @@
     "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "文化之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-26671187",
@@ -5346,7 +5346,7 @@
     "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "亲子",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-83869721",
@@ -5400,7 +5400,7 @@
     "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "宗教",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "",
@@ -5634,7 +5634,7 @@
     "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "文化之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "",
@@ -5724,7 +5724,7 @@
     "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "文化之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-28015722",
@@ -5886,7 +5886,7 @@
     "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "文化之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "",
@@ -6246,7 +6246,7 @@
     "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "亲子",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-26622888,0755-26628068",
@@ -6264,7 +6264,7 @@
     "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "亲子",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "",
@@ -6282,7 +6282,7 @@
     "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "亲子",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-86266936",
@@ -6408,7 +6408,7 @@
     "City": "深圳市"
   },
   {
-    "Type": "文化之旅",
+    "Type": "文化之旅/亲子",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-86626702,0755-86093340",
@@ -6516,7 +6516,7 @@
     "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "亲子",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "",
@@ -6552,7 +6552,7 @@
     "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "休闲之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "",
@@ -6624,7 +6624,7 @@
     "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "文化之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-86371698,0755-86371699",
@@ -6696,7 +6696,7 @@
     "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "文化之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "",
@@ -6714,7 +6714,7 @@
     "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "宗教",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-28393132",
@@ -6804,7 +6804,7 @@
     "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "休闲之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "",
@@ -6966,7 +6966,7 @@
     "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "亲子",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "",
@@ -7200,7 +7200,7 @@
     "City": "深圳市"
   },
   {
-    "Type": "主题乐园",
+    "Type": "主题乐园/亲子",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-28608022",
@@ -7308,7 +7308,7 @@
     "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "文化之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "",
@@ -7452,7 +7452,7 @@
     "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "亲子",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-82829037",
@@ -7830,7 +7830,7 @@
     "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "亲子",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "",
@@ -7884,7 +7884,7 @@
     "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "文化之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0755-84707285",
@@ -7902,7 +7902,7 @@
     "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "亲子",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "",
@@ -8208,7 +8208,7 @@
     "City": "深圳市"
   },
   {
-    "Type": "",
+    "Type": "休闲之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "13543295890",
@@ -8236,8 +8236,8 @@
     "Price": 0,
     "Description": null,
     "Address": "深圳湾公园C区-运动公园内",
-    "lat": 22.49187153577619,
-    "lng": 113.9535949366427,
+    "lat": 22.48982934149967,
+    "lng": 113.9344286004576,
     "Comments": null,
     "CommentCount": 11,
     "WordCloud": null,

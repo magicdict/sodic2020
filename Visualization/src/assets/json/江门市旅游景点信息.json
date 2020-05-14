@@ -37,7 +37,7 @@
   },
   {
     "Type": "",
-    "ALevel": "",
+    "ALevel": "+",
     "OpenTime": null,
     "ServiceTel": "",
     "IssueTel": "12345",
@@ -73,7 +73,7 @@
   },
   {
     "Type": "红色之旅",
-    "ALevel": "",
+    "ALevel": "+",
     "OpenTime": null,
     "ServiceTel": "0750-2678888",
     "IssueTel": "12345",
@@ -576,7 +576,7 @@
     "City": "江门市"
   },
   {
-    "Type": "",
+    "Type": "风景区",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0750-7173987",
@@ -882,7 +882,7 @@
     "City": "江门市"
   },
   {
-    "Type": "",
+    "Type": "休闲之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0750-6378686",
@@ -1098,7 +1098,7 @@
     "City": "江门市"
   },
   {
-    "Type": "",
+    "Type": "宗教",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "13189433698",
@@ -1170,7 +1170,7 @@
     "City": "江门市"
   },
   {
-    "Type": "",
+    "Type": "风景区",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "",
@@ -1818,7 +1818,7 @@
     "City": "江门市"
   },
   {
-    "Type": "",
+    "Type": "宗教",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "",
@@ -2088,7 +2088,7 @@
     "City": "江门市"
   },
   {
-    "Type": "",
+    "Type": "宗教",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "",
@@ -2124,7 +2124,7 @@
     "City": "江门市"
   },
   {
-    "Type": "",
+    "Type": "文化之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "",
@@ -2250,7 +2250,7 @@
     "City": "江门市"
   },
   {
-    "Type": "",
+    "Type": "宗教",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "",
@@ -2268,7 +2268,7 @@
     "City": "江门市"
   },
   {
-    "Type": "",
+    "Type": "宗教",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "",
@@ -2448,7 +2448,7 @@
     "City": "江门市"
   },
   {
-    "Type": "主题乐园",
+    "Type": "主题乐园/亲子",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0750-8200992",
@@ -2682,7 +2682,7 @@
     "City": "江门市"
   },
   {
-    "Type": "主题乐园",
+    "Type": "主题乐园/亲子",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "13427213033",
@@ -3492,7 +3492,7 @@
     "City": "江门市"
   },
   {
-    "Type": "主题乐园",
+    "Type": "主题乐园/亲子",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "",
@@ -3564,7 +3564,7 @@
     "City": "江门市"
   },
   {
-    "Type": "",
+    "Type": "宗教",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "",
@@ -3726,7 +3726,7 @@
     "City": "江门市"
   },
   {
-    "Type": "",
+    "Type": "休闲之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "13802612779",
@@ -4194,7 +4194,7 @@
     "City": "江门市"
   },
   {
-    "Type": "",
+    "Type": "风景区",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "",
@@ -4266,7 +4266,7 @@
     "City": "江门市"
   },
   {
-    "Type": "",
+    "Type": "亲子",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "",
@@ -4572,7 +4572,7 @@
     "City": "江门市"
   },
   {
-    "Type": "",
+    "Type": "文化之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0750-5535833",
@@ -4716,7 +4716,7 @@
     "City": "江门市"
   },
   {
-    "Type": "",
+    "Type": "休闲之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0750-8386277",
@@ -5274,7 +5274,7 @@
     "City": "江门市"
   },
   {
-    "Type": "",
+    "Type": "文化之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0750-2612250",
@@ -5382,7 +5382,7 @@
     "City": "江门市"
   },
   {
-    "Type": "",
+    "Type": "宗教",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "",
@@ -5706,7 +5706,7 @@
     "City": "江门市"
   },
   {
-    "Type": "",
+    "Type": "文化之旅",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "",
@@ -5742,7 +5742,7 @@
     "City": "江门市"
   },
   {
-    "Type": "",
+    "Type": "亲子",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "",
@@ -5778,7 +5778,7 @@
     "City": "江门市"
   },
   {
-    "Type": "",
+    "Type": "宗教",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "",
@@ -5796,7 +5796,7 @@
     "City": "江门市"
   },
   {
-    "Type": "",
+    "Type": "宗教",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "",
@@ -6156,7 +6156,7 @@
     "City": "江门市"
   },
   {
-    "Type": "",
+    "Type": "宗教",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": null,
@@ -6264,7 +6264,7 @@
     "City": "江门市"
   },
   {
-    "Type": "",
+    "Type": "风景区",
     "ALevel": "AAAA",
     "OpenTime": null,
     "ServiceTel": "0750-8978980",
@@ -6354,7 +6354,7 @@
     "City": "江门市"
   },
   {
-    "Type": "",
+    "Type": "风景区",
     "ALevel": "AA",
     "OpenTime": null,
     "ServiceTel": "0750-8926999",
@@ -6444,7 +6444,7 @@
     "City": "江门市"
   },
   {
-    "Type": "",
+    "Type": "风景区",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0750-3863786",
@@ -6516,7 +6516,7 @@
     "City": "江门市"
   },
   {
-    "Type": "",
+    "Type": "亲子",
     "ALevel": "",
     "OpenTime": null,
     "ServiceTel": "0750-3808666",
@@ -6589,7 +6589,7 @@
   },
   {
     "Type": "",
-    "ALevel": "",
+    "ALevel": "+",
     "OpenTime": null,
     "ServiceTel": "0750—6300783",
     "IssueTel": "12345",
