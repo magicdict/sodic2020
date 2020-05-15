@@ -38,6 +38,12 @@ public class SpotInfo : POI
 
     public string TrafficGuide { get; set; }
 
+    public int ScoreCnt { get; set; }
+
+    public double Scenery { get; set; }
+    public double Funny { get; set; }
+    public double PriceValue { get; set; }
+
 }
 
 public class WordCloudItem

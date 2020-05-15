@@ -21,6 +21,12 @@ public class 旅游景点信息 : POI, IEqualityComparer<旅游景点信息>
 
     public string TrafficGuide { get; set; }
 
+    public int ScoreCnt { get; set; }
+
+    public double Scenery { get; set; }
+    public double Funny { get; set; }
+    public double PriceValue { get; set; }
+
     public static List<旅游景点信息> CreateSpot(string xlsxFilename, string jsonFilename, List<旅游景点评论> Comments)
     {
         var records = new List<旅游景点信息>();
@@ -108,6 +114,13 @@ public class 旅游景点信息 : POI, IEqualityComparer<旅游景点信息>
                 item.WordCloud = WordCloudItem.Create(c.Select(x => x.Comment).ToList(), 20);
                 item.CommentCount = c.Count;
                 item.Comments = c.Select(x => x.Comment).Take(50).ToList();
+                //打分
+                item.ScoreCnt = c.Where(x => x.Scenery != 0).Count();
+                if (item.ScoreCnt != 0) {
+                    item.Scenery = System.Math.Round(c.Where(x => x.Scenery != 0).Average(x => x.Scenery), 2);
+                    item.Funny = System.Math.Round(c.Where(x => x.Funny != 0).Average(x => x.Funny), 2);
+                    item.PriceValue = System.Math.Round(c.Where(x => x.PriceValue != 0).Average(x => x.PriceValue), 2);
+                }
             }
         }
 
@@ -162,6 +175,9 @@ public class 旅游景点评论
     public string Name { get; set; }
     public string Comment { get; set; }
     public string CommentDate { get; set; }
+    public int Scenery { get; set; }
+    public int Funny { get; set; }
+    public int PriceValue { get; set; }
     public static List<旅游景点评论> CreateSpotComment(string xlsxFilename)
     {
         var records = new List<旅游景点评论>();
@@ -176,8 +192,18 @@ public class 旅游景点评论
             var row = sheet.GetRow(i);
             var r = new 旅游景点评论();
             r.Name = row.GetCell(0).StringCellValue;
-            r.Comment  = row.GetCell(2).StringCellValue;
-            r.CommentDate  = row.GetCell(3).StringCellValue;
+            if (row.GetCell(1) != null && !string.IsNullOrEmpty(row.GetCell(1).StringCellValue))
+            {
+                var scores = row.GetCell(1).StringCellValue.Replace(" ", string.Empty).Split("\n");
+                if (scores.Length == 3)
+                {
+                    r.Scenery = int.Parse(scores[0].Substring(3).Trim());
+                    r.Funny = int.Parse(scores[1].Substring(3).Trim());
+                    r.PriceValue = int.Parse(scores[2].Substring(4).Trim());
+                }
+            }
+            r.Comment = row.GetCell(2).StringCellValue;
+            r.CommentDate = row.GetCell(3).StringCellValue;
             records.Add(r);
         }
         return records;

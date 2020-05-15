@@ -17,15 +17,15 @@ namespace xlsx2json
 
         static void Main(string[] args)
         {
-            //CreateSpot();
+            CreateSpot();
             //CreateFood();
             //CreateHotel();
             //CreatePark();
             //CreateGift();
             //CreateTour();
             //return;
-            旅游景点信息.CreateSpotSimple(JsonFolder_WepApi + "深圳市旅游景点信息.json",JsonFolder_Visualization_AngularAssets + "深圳市旅游景点信息.json");
-            旅游景点信息.CreateSpotSimple(JsonFolder_WepApi + "江门市旅游景点信息.json",JsonFolder_Visualization_AngularAssets + "江门市旅游景点信息.json");
+            //旅游景点信息.CreateSpotSimple(JsonFolder_WepApi + "深圳市旅游景点信息.json",JsonFolder_Visualization_AngularAssets + "深圳市旅游景点信息.json");
+            //旅游景点信息.CreateSpotSimple(JsonFolder_WepApi + "江门市旅游景点信息.json",JsonFolder_Visualization_AngularAssets + "江门市旅游景点信息.json");
             /* var SpotComment_SZ = 旅游景点评论.CreateSpotComment(ShenzhenDataFolder + "深圳市旅游景点评价信息.xlsx");
             //世界之窗：东部华侨城
             var g = SpotComment_SZ.Where(x =>true).ToList();

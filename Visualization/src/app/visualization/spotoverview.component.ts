@@ -133,8 +133,17 @@ export class SpotOverviewComponent implements OnInit {
         return val[2] * 10;
     };
     SpotToolTip(val: any) {
-        console.log(val);
-        return val.data[4];
+        if (val.data[2] ===0){
+            return '<div style="border-bottom: 1px solid rgba(255,255,255,.3); font-size: 18px;padding-bottom: 7px;margin-bottom: 7px">'
+            + val.data[4]
+            + '</div>'
+        }else{
+            let url = "http://datavisualization.club:8888/assets/image/spot/" + val.data[4] + ".jpg";
+            return '<div style="border-bottom: 1px solid rgba(255,255,255,.3); font-size: 18px;padding-bottom: 7px;margin-bottom: 7px">'
+            + val.data[4]
+            + '</div>'
+            + '<img src="' + url + '" width="320px" height="320px" />';
+        }
     }
     symbolSizeForLow(val: any) {
         return 15;

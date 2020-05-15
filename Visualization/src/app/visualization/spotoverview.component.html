@@ -12,7 +12,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;过滤器：<input type="text" #key>&nbsp;&nbsp;&nbsp;&nbsp;<button class="btn btn-primary" (click)="Search(key.value)">检索</button>
 &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" #park checked (click)="ParkStatusChange(park.checked)"/>停车场
 &nbsp;&nbsp;&nbsp;&nbsp;
-<p-selectButton [options]="spotType" [(ngModel)]="selectedspotType" (onChange)="spotTypeSwith()"></p-selectButton><br /><br />
+<p-selectButton style="vertical-align:bottom;" [options]="spotType" [(ngModel)]="selectedspotType" (onChange)="spotTypeSwith()"></p-selectButton><br /><br />
 <section class="content">
     <div class="row">
         <div class="col-md-12">

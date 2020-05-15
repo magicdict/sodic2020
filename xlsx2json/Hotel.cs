@@ -105,7 +105,7 @@ public class 宾馆酒店信息 : POI, IEqualityComparer<宾馆酒店信息>
                 item.WordCloud = WordCloudItem.Create(c.Select(x => x.Comment).ToList(), 20);
                 item.CommentCount = c.Count;
                 item.ScoreCnt = c.Where(x => x.Score != 0).Count();
-                if (item.ScoreCnt != 0) item.Score = System.Math.Round(c.Where(x => x.Score != 0).Average(x => x.Score), 4);
+                if (item.ScoreCnt != 0) item.Score = System.Math.Round(c.Where(x => x.Score != 0).Average(x => x.Score), 2);
                 item.Comments = c.Select(x => x.Comment).Take(50).ToList();
             }
             cnt++;

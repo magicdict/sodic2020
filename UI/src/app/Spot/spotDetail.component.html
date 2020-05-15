@@ -32,7 +32,12 @@
             </p-tabPanel>
             <p-tabPanel *ngIf="this.SpotDetailInfo.Comments !== null && this.SpotDetailInfo.Comments.length !==0"
                 header="评论" style="text-align: left;">
-                评论数：{{this.SpotDetailInfo.CommentCount}} (展示前50条)
+                <b>打分人数：</b>{{this.SpotDetailInfo.ScoreCnt}} <br />
+                <b>景色：</b>{{this.SpotDetailInfo.Scenery}} &nbsp;&nbsp;&nbsp;&nbsp;
+                <b>趣味：</b>{{this.SpotDetailInfo.Funny}} &nbsp;&nbsp;&nbsp;&nbsp;
+                <b>性价比：</b>{{this.SpotDetailInfo.PriceValue}}
+                <br />
+                <b>评论数：</b>{{this.SpotDetailInfo.CommentCount}} (展示前50条)
                 <echarts [options]="this.opiton_wordcoudy" style="width: 320px;height: 320px;"></echarts>
                 <ul>
                     <li *ngFor="let c of this.SpotDetailInfo.Comments.slice(0,100)">
