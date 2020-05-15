@@ -24,8 +24,14 @@ public class 旅游景点信息 : POI, IEqualityComparer<旅游景点信息>
     public int ScoreCnt { get; set; }
 
     public double Scenery { get; set; }
+
     public double Funny { get; set; }
+
     public double PriceValue { get; set; }
+
+    public List<(string Name,double Distence)> NearFood { get; set; }
+
+    public List<(string Name,double Distence)> NearHotel { get; set; }
 
     public static List<旅游景点信息> CreateSpot(string xlsxFilename, string jsonFilename, List<旅游景点评论> Comments)
     {
@@ -116,7 +122,8 @@ public class 旅游景点信息 : POI, IEqualityComparer<旅游景点信息>
                 item.Comments = c.Select(x => x.Comment).Take(50).ToList();
                 //打分
                 item.ScoreCnt = c.Where(x => x.Scenery != 0).Count();
-                if (item.ScoreCnt != 0) {
+                if (item.ScoreCnt != 0)
+                {
                     item.Scenery = System.Math.Round(c.Where(x => x.Scenery != 0).Average(x => x.Scenery), 2);
                     item.Funny = System.Math.Round(c.Where(x => x.Funny != 0).Average(x => x.Funny), 2);
                     item.PriceValue = System.Math.Round(c.Where(x => x.PriceValue != 0).Average(x => x.PriceValue), 2);

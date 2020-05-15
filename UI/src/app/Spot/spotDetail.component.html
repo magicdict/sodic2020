@@ -45,5 +45,19 @@
                     </li>
                 </ul>
             </p-tabPanel>
+            <p-tabPanel header="附近餐厅">
+                <ul>
+                    <li *ngFor="let t of this.SpotDetailInfo.NearFood" style="text-align: left;">
+                        {{t.Item1}}（{{ this.appservice.formatdistence(t.Item2)}}）
+                    </li>
+                </ul>
+            </p-tabPanel>
+            <p-tabPanel header="附近宾馆">
+                <ul>
+                    <li *ngFor="let t of this.SpotDetailInfo.NearHotel" style="text-align: left;">
+                        {{t.Item1}}（{{ this.appservice.formatdistence(t.Item2)}}）
+                    </li>
+                </ul>
+            </p-tabPanel>
         </p-tabView>
     </div>

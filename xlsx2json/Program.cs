@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using Newtonsoft.Json;
 using System.Diagnostics;
+using System;
 
 namespace xlsx2json
 {
@@ -17,6 +18,7 @@ namespace xlsx2json
 
         static void Main(string[] args)
         {
+            //CreateNear();
             CreateSpot();
             //CreateFood();
             //CreateHotel();
@@ -36,6 +38,72 @@ namespace xlsx2json
             } */
         }
 
+        static void CreateNear()
+        {
+            var sr = new StreamReader(JsonFolder_WepApi + "深圳市旅游景点信息.json");
+            var records_spot = JsonConvert.DeserializeObject<List<旅游景点信息>>(sr.ReadToEnd());
+            sr.Close();
+
+            sr = new StreamReader(JsonFolder_WepApi + "深圳市特色美食信息.json");
+            var records_food = JsonConvert.DeserializeObject<List<特色美食信息>>(sr.ReadToEnd());
+            sr.Close();
+
+            sr = new StreamReader(JsonFolder_WepApi + "深圳市宾馆酒店信息.json");
+            var records_hotel = JsonConvert.DeserializeObject<List<宾馆酒店信息>>(sr.ReadToEnd());
+            sr.Close();
+
+            foreach (var item in records_spot)
+            {
+                item.NearFood = new List<(string, double)>();
+                records_food.Sort((x, y) => { return GetDistance(x.lat, x.lng, item.lat, item.lng).CompareTo(GetDistance(y.lat, y.lng, item.lat, item.lng)); });
+                item.NearFood.AddRange(records_food.Select(x => (x.Name, GetDistance(x.lat, x.lng, item.lat, item.lng))).Take(20));
+
+                item.NearHotel = new List<(string, double)>();
+                records_hotel.Sort((x, y) => { return GetDistance(x.lat, x.lng, item.lat, item.lng).CompareTo(GetDistance(y.lat, y.lng, item.lat, item.lng)); });
+                item.NearHotel.AddRange(records_hotel.Select(x => (x.Name, GetDistance(x.lat, x.lng, item.lat, item.lng))).Take(20));
+            }
+
+            string json = JsonConvert.SerializeObject(records_spot, Formatting.Indented);
+            using (var sw = new StreamWriter(JsonFolder_WepApi + "深圳市旅游景点信息(附近).json", false))
+            {
+                sw.Write(json);
+                sw.Close();
+            }
+        }
+
+
+        private const double EARTH_RADIUS = 6378137;
+        /// <summary>
+        /// 计算两点位置的距离，返回两点的距离，单位 米
+        /// 该公式为GOOGLE提供，误差小于0.2米
+        /// </summary>
+        /// <param name="lat1">第一点纬度</param>
+        /// <param name="lng1">第一点经度</param>
+        /// <param name="lat2">第二点纬度</param>
+        /// <param name="lng2">第二点经度</param>
+        /// <returns></returns>
+        public static double GetDistance(double lat1, double lng1, double lat2, double lng2)
+        {
+            if (lat1 == -1 || lat2 == -1) return double.MaxValue;
+            double radLat1 = Rad(lat1);
+            double radLng1 = Rad(lng1);
+            double radLat2 = Rad(lat2);
+            double radLng2 = Rad(lng2);
+            double a = radLat1 - radLat2;
+            double b = radLng1 - radLng2;
+            double result = 2 * Math.Asin(Math.Sqrt(Math.Pow(Math.Sin(a / 2), 2) + Math.Cos(radLat1) * Math.Cos(radLat2) * Math.Pow(Math.Sin(b / 2), 2))) * EARTH_RADIUS;
+            return result;
+        }
+
+        /// <summary>
+        /// 经纬度转化成弧度
+        /// </summary>
+        /// <param name="d"></param>
+        /// <returns></returns>
+        private static double Rad(double d)
+        {
+            return (double)d * Math.PI / 180d;
+        }
         static void CreatePark()
         {
             BaiduApi.DefaultCity = "深圳市";
@@ -191,9 +259,65 @@ namespace xlsx2json
             BaiduApi.DefaultCity = "深圳市";
             var SpotComment_SZ = 旅游景点评论.CreateSpotComment(ShenzhenDataFolder + "深圳市旅游景点评价信息.xlsx");
             var Spot_SZ = 旅游景点信息.CreateSpot(ShenzhenDataFolder + "深圳市旅游景点信息.xlsx", JsonFolder_WepApi + "深圳市旅游景点信息.json", SpotComment_SZ);
+
             BaiduApi.DefaultCity = "江门市";
             var SpotComment_JM = 旅游景点评论.CreateSpotComment(JiangmenDataFolder + "江门市旅游景点评价信息.xlsx");
             var Spot_JM = 旅游景点信息.CreateSpot(JiangmenDataFolder + "江门市旅游景点信息.xlsx", JsonFolder_WepApi + "江门市旅游景点信息.json", SpotComment_JM);
+
+
+            var sr = new StreamReader(JsonFolder_WepApi + "深圳市特色美食信息.json");
+            var records_food = JsonConvert.DeserializeObject<List<特色美食信息>>(sr.ReadToEnd());
+            sr.Close();
+
+            sr = new StreamReader(JsonFolder_WepApi + "深圳市宾馆酒店信息.json");
+            var records_hotel = JsonConvert.DeserializeObject<List<宾馆酒店信息>>(sr.ReadToEnd());
+            sr.Close();
+
+            foreach (var item in Spot_SZ)
+            {
+                item.NearFood = new List<(string, double)>();
+                records_food.Sort((x, y) => { return GetDistance(x.lat, x.lng, item.lat, item.lng).CompareTo(GetDistance(y.lat, y.lng, item.lat, item.lng)); });
+                item.NearFood.AddRange(records_food.Select(x => (x.Name, GetDistance(x.lat, x.lng, item.lat, item.lng))).Take(20));
+
+                item.NearHotel = new List<(string, double)>();
+                records_hotel.Sort((x, y) => { return GetDistance(x.lat, x.lng, item.lat, item.lng).CompareTo(GetDistance(y.lat, y.lng, item.lat, item.lng)); });
+                item.NearHotel.AddRange(records_hotel.Select(x => (x.Name, GetDistance(x.lat, x.lng, item.lat, item.lng))).Take(20));
+            }
+
+            //重新保存
+            string json_sz = JsonConvert.SerializeObject(Spot_SZ, Formatting.Indented);
+            using (var sw = new StreamWriter(JsonFolder_WepApi + "深圳市旅游景点信息.json", false))
+            {
+                sw.Write(json_sz);
+                sw.Close();
+            }
+
+            sr = new StreamReader(JsonFolder_WepApi + "江门市特色美食信息.json");
+            records_food = JsonConvert.DeserializeObject<List<特色美食信息>>(sr.ReadToEnd());
+            sr.Close();
+
+            sr = new StreamReader(JsonFolder_WepApi + "深圳市宾馆酒店信息.json");
+            records_hotel = JsonConvert.DeserializeObject<List<宾馆酒店信息>>(sr.ReadToEnd());
+            sr.Close();
+
+            foreach (var item in Spot_JM)
+            {
+                item.NearFood = new List<(string, double)>();
+                records_food.Sort((x, y) => { return GetDistance(x.lat, x.lng, item.lat, item.lng).CompareTo(GetDistance(y.lat, y.lng, item.lat, item.lng)); });
+                item.NearFood.AddRange(records_food.Select(x => (x.Name, GetDistance(x.lat, x.lng, item.lat, item.lng))).Take(20));
+
+                item.NearHotel = new List<(string, double)>();
+                records_hotel.Sort((x, y) => { return GetDistance(x.lat, x.lng, item.lat, item.lng).CompareTo(GetDistance(y.lat, y.lng, item.lat, item.lng)); });
+                item.NearHotel.AddRange(records_hotel.Select(x => (x.Name, GetDistance(x.lat, x.lng, item.lat, item.lng))).Take(20));
+            }
+
+            //重新保存
+            string json_jm = JsonConvert.SerializeObject(Spot_JM, Formatting.Indented);
+            using (var sw = new StreamWriter(JsonFolder_WepApi + "江门市旅游景点信息.json", false))
+            {
+                sw.Write(json_jm);
+                sw.Close();
+            }
 
             var ALLSpot = Spot_SZ;
             ALLSpot.AddRange(Spot_JM);

@@ -37,13 +37,15 @@ export class AppService {
         var s = 2 * Math.asin(Math.sqrt(Math.pow(Math.sin(a / 2), 2) + Math.cos(radLat1) * Math.cos(radLat2) * Math.pow(Math.sin(b / 2), 2)));
         s = s * 6378137.0; // 取WGS84标准参考椭球中的地球长半径(单位:m)
         s = Math.round(s * 10000) / 10000;
-        if (s > 1000) return String(Math.round(s / 1000)) + "公里"
-        return String(Math.round(s)) + "米"
+        return this.formatdistence(s);
     }
     Rad(d) {
         return d * Math.PI / 180.0;
     }
-
+    formatdistence(s:number):string{
+        if (s > 1000) return String(Math.round(s / 1000)) + "公里"
+        return String(Math.round(s)) + "米"
+    }
     /**收藏夹 */
     favorites: any[] = [];
     AddToFav(item: any, type: enmItemType) {
@@ -248,6 +250,8 @@ export interface SpotInfo {
     Scenery: number;
     Funny: number;
     PriceValue: number;
+    NearFood: { Item1: string, Item2: number }[];
+    NearHotel: { Item1: string, Item2: number }[];
 }
 
 /**美食 */
