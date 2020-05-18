@@ -9,7 +9,7 @@ import { HotelComponent } from './Hotel/hotel.component';
 import { SpotComponent } from './Spot/spot.component';
 import { FoodComponent } from './Food/food.component';
 import { SpotItemComponent } from './Spot/spotItem.component';
-import { AppService } from './app-service';
+import { AppService, IFoodInfoResolver, IHotelInfoResolver } from './app-service';
 import { LoginComponent } from './login/login.component';
 import { SpotDetailComponent } from './Spot/spotDetail.component';
 import { LazyLoadImageModule } from 'ng-lazyload-image';
@@ -61,7 +61,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     DailyPlanComponent,
     HelpComponent,
     ToastsContainer,
-    
+
   ],
   imports: [
     BrowserModule,
@@ -77,7 +77,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     FormsModule,
     NgbModule
   ],
-  providers: [AppService, CommonFunction,ToastService],
+  providers: [AppService, CommonFunction, ToastService, IFoodInfoResolver, IHotelInfoResolver],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -44,6 +44,20 @@ public class SpotInfo : POI
     public double Funny { get; set; }
     public double PriceValue { get; set; }
 
+    public List<clsTuple> NearFood { get; set; }
+
+    public List<clsTuple> NearHotel { get; set; }
+
+}
+
+/// <summary>
+/// 不支持Tuple，所以构建了clsTuple，只是为了JSON输出
+/// </summary>
+public class clsTuple
+{
+    public string Item1 { get; set; }
+
+    public double Item2 { get; set; }
 }
 
 public class WordCloudItem

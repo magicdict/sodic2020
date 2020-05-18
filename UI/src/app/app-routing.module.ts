@@ -15,6 +15,7 @@ import { DailyPlanComponent } from './PlanMaker/dailyPlan.component';
 import { FootPrintComponent } from './footPrint/footprint.component';
 import { AddFootPrintComponent } from './footPrint/addfootprint.component';
 import { HelpComponent } from './login/help.component';
+import { IFoodInfoResolver, IHotelInfoResolver } from './app-service';
 
 const routes: Routes = [
   { path: 'home', component: LoginComponent },
@@ -25,8 +26,8 @@ const routes: Routes = [
   { path: 'tool', component: CreatePlanComponent },
   { path: 'favitem', component: FavItemComponent },
   { path: 'spot/:name', component: SpotDetailComponent },
-  { path: 'food/:name', component: FoodDetailComponent },
-  { path: 'hotel/:name', component: HotelDetailComponent },
+  { path: 'food/:name', component: FoodDetailComponent, resolve: { food: IFoodInfoResolver } },
+  { path: 'hotel/:name', component: HotelDetailComponent, resolve: { hotel: IHotelInfoResolver } },
   { path: 'dailylist', component: DailyListComponent },
   { path: 'dailyplan', component: DailyPlanComponent },
   { path: 'footprint', component: FootPrintComponent },

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { AppService, SpotInfo, TourInfo } from '../app-service';
 import { Location } from '@angular/common';
 
@@ -7,7 +7,7 @@ import { Location } from '@angular/common';
   templateUrl: './spotDetail.component.html',
 })
 export class SpotDetailComponent implements OnInit {
-  constructor(private _location: Location, public appservice: AppService, private route: ActivatedRoute, ) {
+  constructor(private _location: Location, public appservice: AppService, private route: ActivatedRoute,public router: Router, ) {
   }
   TourInfoList: TourInfo[] = [];
   SpotDetailInfo: SpotInfo;

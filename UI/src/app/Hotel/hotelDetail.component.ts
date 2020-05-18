@@ -18,9 +18,12 @@ export class HotelDetailComponent implements OnInit {
     this._location.back();
   }
   ngOnInit(): void {
-    this.route.params.subscribe(
-      params => {
-        this.HotelDetailInfo = this.appservice.GetHotelInfoByName(params['name']) as HotelInfo;
+    this.route.data.subscribe(
+      (xxx: { hotel: HotelInfo }) => {
+        this.HotelDetailInfo = xxx.hotel;
+        if (this.HotelDetailInfo.Name === null){
+          return;
+        }
         console.log("this.appservice.myposition.lat:" + AppService.myposition.lat)
         let mapPoint = [[this.HotelDetailInfo.lng, this.HotelDetailInfo.lat, 1,this.HotelDetailInfo.Name]];
         if (AppService.myposition.lat !== -1) {

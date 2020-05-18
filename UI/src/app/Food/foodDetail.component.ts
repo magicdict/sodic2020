@@ -18,10 +18,12 @@ export class FoodDetailComponent implements OnInit {
     this._location.back();
   }
   ngOnInit(): void {
-    this.route.params.subscribe(
-      params => {
-        this.FoodDetailInfo = this.appservice.GetFoodInfoByName(params['name']) as FoodInfo;
-
+    this.route.data.subscribe(
+      (xxx: { food: FoodInfo }) => {
+        this.FoodDetailInfo = xxx.food;
+        if (this.FoodDetailInfo.Name === null){
+          return;
+        }
         console.log("this.appservice.myposition.lat:" + AppService.myposition.lat)
         let mapPoint = [[this.FoodDetailInfo.lng, this.FoodDetailInfo.lat, 1, this.FoodDetailInfo.Name]];
         if (AppService.myposition.lat !== -1) {

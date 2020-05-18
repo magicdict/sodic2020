@@ -2,10 +2,11 @@
     [ngStyle]="{'height':this.appservice.clientHeight + 'px','width':appservice.clientWidth + 'px'}">
     <nav class="navbar navbar-light bg-light" style="position: absolute;z-index: 99;top:0px;width: 100%;">
         <img src="assets/image/酒店.png" width="30" height="30" alt="">
-        {{this.HotelDetailInfo.Name}}
+        {{this.HotelDetailInfo.Name === null?"找不到酒店":this.HotelDetailInfo.Name}}
         <img src="assets/image/返回.png" width="30" height="30" alt="" (click)="Return()" style="float: right;">
     </nav>
-    <div style="position: absolute;z-index: 99;top:50px;text-align: center;overflow-y: scroll; margin: 20px;"
+    <div *ngIf="this.HotelDetailInfo.Name"
+        style="position: absolute;z-index: 99;top:50px;text-align: center;overflow-y: scroll; margin: 20px;"
         [ngStyle]="{height:this.appservice.clientHeight - 90 + 'px','width':appservice.clientWidth - 40 + 'px'}">
         <p-tabView>
             <p-tabPanel header="详细">
@@ -25,7 +26,7 @@
             </p-tabPanel>
             <p-tabPanel header="评论" *ngIf="this.HotelDetailInfo.Comments !== null" style="text-align: left;">
                 <b>评分：</b>{{this.HotelDetailInfo.Score}} <br />
-                <b>评论数：</b>{{this.HotelDetailInfo.CommentCount}} (展示前50条) 
+                <b>评论数：</b>{{this.HotelDetailInfo.CommentCount}} (展示前50条)
                 <echarts [options]="this.opiton_wordcoudy" style="width: 320px;height: 320px;"></echarts>
                 <ul>
                     <li *ngFor="let c of this.HotelDetailInfo.Comments.slice(0,100)">

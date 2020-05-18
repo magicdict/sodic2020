@@ -200,22 +200,10 @@ export class AppService {
         return this.common.httpRequestGet<SpotInfo[]>("search/SearchSpot?key=" + key);
     }
 
-    /**根据名字获得美食信息 */
-    GetFoodInfoByName(name: string): FoodInfo {
-        let x = this.FoodList_CurrentShow.find(x => this.EncodeURI(x.Name) === name);
-        return x;
-    }
 
     /**美食检索 */
     SearchFood(key: string): Promise<FoodInfo[]> {
         return this.common.httpRequestGet<FoodInfo[]>("search/SearchFood?key=" + key);
-    }
-
-    /**根据名字获得美食信息 */
-    GetHotelInfoByName(name: string): HotelInfo {
-        let x = this.HotelList_CurrentShow.find(x => this.EncodeURI(x.Name) === name);
-        if (x !== undefined) return x;
-        //WebApi
     }
 
     /**酒店检索 */
@@ -326,4 +314,33 @@ export interface FootprintItem {
     Datetime: string;
     Description: string;
     Rotate: string;
+}
+
+import { Observable } from 'rxjs';
+import { ActivatedRouteSnapshot, Resolve, RouterStateSnapshot } from '@angular/router';
+
+@Injectable()
+export class IFoodInfoResolver implements Resolve<FoodInfo> {
+    constructor(private homeservice: AppService,public commonFunction: CommonFunction) {
+
+    }
+    resolve(route: ActivatedRouteSnapshot, _state: RouterStateSnapshot): FoodInfo | Observable<FoodInfo> | Promise<FoodInfo> {
+        let name = route.paramMap.get('name');
+        let x = this.homeservice.FoodList_CurrentShow.find(x => this.homeservice.EncodeURI(x.Name) === name);
+        if (x != undefined) return x;
+        return this.commonFunction.httpRequestGet<FoodInfo>("search/GetFoodByName?Name=" + name);
+    }
+}
+
+@Injectable()
+export class IHotelInfoResolver implements Resolve<HotelInfo> {
+    constructor(private homeservice: AppService,public commonFunction: CommonFunction) {
+
+    }
+    resolve(route: ActivatedRouteSnapshot, _state: RouterStateSnapshot): HotelInfo | Observable<HotelInfo> | Promise<HotelInfo> {
+        let name = route.paramMap.get('name');
+        let x = this.homeservice.HotelList_CurrentShow.find(x => this.homeservice.EncodeURI(x.Name) === name);
+        if (x != undefined) return x;
+        return this.commonFunction.httpRequestGet<HotelInfo>("search/GetHotelByName?Name=" + name);
+    }
 }

@@ -46,16 +46,24 @@
                 </ul>
             </p-tabPanel>
             <p-tabPanel header="附近餐厅">
-                <ul>
-                    <li *ngFor="let t of this.SpotDetailInfo.NearFood" style="text-align: left;">
-                        {{t.Item1}}（{{ this.appservice.formatdistence(t.Item2)}}）
+                <ul style="padding:5px;">
+                    <li *ngFor="let t of this.SpotDetailInfo.NearFood" style="text-align: left;margin: 5px;">
+                        {{t.Item1}} <br />
+                        {{ this.appservice.formatdistence(t.Item2)}}
+                        <button class="btn btn-sm btn-primary"
+                            (click)="this.router.navigateByUrl('food/' +  this.appservice.EncodeURI(t.Item1));"><i
+                                class="fas fa-list"></i>&nbsp;详细</button>
                     </li>
                 </ul>
             </p-tabPanel>
             <p-tabPanel header="附近宾馆">
-                <ul>
-                    <li *ngFor="let t of this.SpotDetailInfo.NearHotel" style="text-align: left;">
-                        {{t.Item1}}（{{ this.appservice.formatdistence(t.Item2)}}）
+                <ul style="padding:5px;">
+                    <li *ngFor="let t of this.SpotDetailInfo.NearHotel" style="text-align: left;margin: 5px;">
+                        {{t.Item1}}<br />
+                        {{ this.appservice.formatdistence(t.Item2)}}
+                        <button class="btn btn-sm btn-primary"
+                            (click)="this.router.navigateByUrl('hotel/' +  this.appservice.EncodeURI(t.Item1));"><i
+                                class="fas fa-list"></i>&nbsp;详细</button>
                     </li>
                 </ul>
             </p-tabPanel>
