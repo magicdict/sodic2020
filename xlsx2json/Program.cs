@@ -18,8 +18,9 @@ namespace xlsx2json
 
         static void Main(string[] args)
         {
+            AnlayzeSpotScore();
             //CreateNear();
-            CreateSpot();
+            //CreateSpot();
             //CreateFood();
             //CreateHotel();
             //CreatePark();
@@ -37,6 +38,9 @@ namespace xlsx2json
                 Debug.WriteLine(item.Key + ":" + item.Count());
             } */
         }
+
+
+
 
         static void CreateNear()
         {
@@ -254,6 +258,87 @@ namespace xlsx2json
 
         }
 
+
+        static void AnlayzeSpotScore()
+        {
+            var sr = new StreamReader(JsonFolder_WepApi + "深圳市旅游景点信息.json");
+            var records_spot = JsonConvert.DeserializeObject<List<旅游景点信息>>(sr.ReadToEnd());
+            sr.Close();
+            
+            
+            records_spot.Sort((x, y) => { return y.Scenery.CompareTo(x.Scenery); });
+            var top10 = records_spot.Where(x => x.Scenery != 0 && x.ScoreCnt > 50).Take(10);
+            Console.WriteLine("景色TOP10");
+            foreach (var item in top10)
+            {
+                Console.WriteLine(item.Name + ":" + item.Scenery + "(" + item.ScoreCnt + ")");
+            }
+
+            records_spot.Sort((x, y) => { return y.Funny.CompareTo(x.Funny); });
+            top10 = records_spot.Where(x => x.Funny != 0 && x.ScoreCnt > 50).Take(10);
+            Console.WriteLine("趣味TOP10");
+            foreach (var item in top10)
+            {
+                Console.WriteLine(item.Name + ":" + item.Funny + "(" + item.ScoreCnt + ")");
+            }
+
+
+            records_spot.Sort((x, y) => { return y.PriceValue.CompareTo(x.PriceValue); });
+            top10 = records_spot.Where(x => x.PriceValue != 0 && x.ScoreCnt > 50).Take(10);
+            Console.WriteLine("性价比TOP10");
+            foreach (var item in top10)
+            {
+                Console.WriteLine(item.Name + ":" + item.PriceValue + "(" + item.ScoreCnt + ")");
+            }
+
+            records_spot.Sort((x, y) => { return y.ScoreAvg.CompareTo(x.ScoreAvg); });
+            top10 = records_spot.Where(x => x.ScoreAvg != 0 && x.ScoreCnt > 50).Take(10);
+            Console.WriteLine("综合TOP10");
+            foreach (var item in top10)
+            {
+                Console.WriteLine(item.Name + ":" + item.ScoreAvg + "(" + item.ScoreCnt + ")");
+            }
+
+
+            records_spot.Sort((x, y) => { return x.Scenery.CompareTo(y.Scenery); });
+            top10 = records_spot.Where(x => x.Scenery != 0 && x.ScoreCnt > 50).Take(10);
+            Console.WriteLine("景色LOW10");
+            foreach (var item in top10)
+            {
+                Console.WriteLine(item.Name + ":" + item.Scenery + "(" + item.ScoreCnt + ")");
+            }
+
+            records_spot.Sort((x, y) => { return x.Funny.CompareTo(y.Funny); });
+            top10 = records_spot.Where(x => x.Funny != 0 && x.ScoreCnt > 50).Take(10);
+            Console.WriteLine("趣味LOW10");
+            foreach (var item in top10)
+            {
+                Console.WriteLine(item.Name + ":" + item.Funny + "(" + item.ScoreCnt + ")");
+            }
+
+
+            records_spot.Sort((x, y) => { return x.PriceValue.CompareTo(y.PriceValue); });
+            top10 = records_spot.Where(x => x.PriceValue != 0 && x.ScoreCnt > 50).Take(10);
+            Console.WriteLine("性价比LOW10");
+            foreach (var item in top10)
+            {
+                Console.WriteLine(item.Name + ":" + item.PriceValue + "(" + item.ScoreCnt + ")");
+            }
+
+            records_spot.Sort((x, y) => { return x.ScoreAvg.CompareTo(y.ScoreAvg); });
+            top10 = records_spot.Where(x => x.ScoreAvg != 0 && x.ScoreCnt > 50).Take(10);
+            Console.WriteLine("综合LOW10");
+            foreach (var item in top10)
+            {
+                Console.WriteLine(item.Name + ":" + item.ScoreAvg + "(" + item.ScoreCnt + ")");
+            }
+
+
+        }
+
+        /// <summary>
+        /// 景点（必须有餐厅和酒店数据支持）
+        /// </summary>
         static void CreateSpot()
         {
             BaiduApi.DefaultCity = "深圳市";

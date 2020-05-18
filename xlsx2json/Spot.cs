@@ -29,9 +29,17 @@ public class 旅游景点信息 : POI, IEqualityComparer<旅游景点信息>
 
     public double PriceValue { get; set; }
 
-    public List<(string Name,double Distence)> NearFood { get; set; }
+    public double ScoreAvg
+    {
+        get
+        {
+            return System.Math.Round((Scenery + Funny + PriceValue) / 3, 2);
+        }
+    }
 
-    public List<(string Name,double Distence)> NearHotel { get; set; }
+    public List<(string Name, double Distence)> NearFood { get; set; }
+
+    public List<(string Name, double Distence)> NearHotel { get; set; }
 
     public static List<旅游景点信息> CreateSpot(string xlsxFilename, string jsonFilename, List<旅游景点评论> Comments)
     {
