@@ -14,6 +14,7 @@ import { LoginComponent } from './login/login.component';
 import { SpotDetailComponent } from './Spot/spotDetail.component';
 import { LazyLoadImageModule } from 'ng-lazyload-image';
 import { NgxEchartsModule } from 'ngx-echarts';
+import * as echarts from 'echarts';
 import { FootPrintComponent } from './footPrint/footprint.component';
 import { FoodDetailComponent } from './Food/foodDetail.component';
 import { HotelDetailComponent } from './Hotel/hotelDetail.component';
@@ -68,7 +69,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     AppRoutingModule,
     HttpClientModule,
     LazyLoadImageModule,
-    NgxEchartsModule,
+    NgxEchartsModule.forRoot({
+      echarts,
+    }),
     CalendarModule,
     TabViewModule,
     SelectButtonModule,

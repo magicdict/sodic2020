@@ -20,18 +20,18 @@
     "@angular/platform-browser-dynamic": "~9.1.7",
     "@angular/router": "~9.1.7",
     "admin-lte": "^2.4.18",
-    "bootstrap": "^4.4.1",
+    "bootstrap": "^4.5.0",
     "echarts": "^4.7.0",
     "echarts-bmap": "^1.0.3",
     "echarts-gl": "^1.1.1",
     "jquery-ui-dist": "^1.12.1",
     "ng-lazyload-image": "^7.1.0",
-    "ngx-echarts": "^4.2.2",
+    "ngx-echarts": "^5.0.0",
+    "primeicons": "^3.0.0-rc.1",
+    "primeng": "^9.0.6",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
-    "zone.js": "~0.10.2",
-    "primeicons": "^3.0.0-rc.1",
-    "primeng": "^9.0.6"
+    "zone.js": "~0.10.2"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.901.6",

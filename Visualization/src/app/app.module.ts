@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PriceTopLowComponent } from './visualization/pricetoplow.component';
 import { NgxEchartsModule } from 'ngx-echarts';
+import * as echarts from 'echarts';
 import { MainComponent } from './Main.component';
 import { MyCommonModule } from './Common/MyCommon.module';
 import { PirceSegementComponent } from './visualization/pricesegment.component';
@@ -24,7 +25,9 @@ import { FormsModule } from '@angular/forms';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgxEchartsModule,
+    NgxEchartsModule.forRoot({
+      echarts,
+    }),
     HttpClientModule,
     MyCommonModule,
     SelectButtonModule,
