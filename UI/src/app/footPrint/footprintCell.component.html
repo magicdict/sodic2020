@@ -1,23 +1,25 @@
 <div class="card">
     <div class="card-header">
         <h4 class="card-title"> {{Item.Title}} </h4>
-        <p class="category"><i class="fas fa-map-marked-alt"></i>&nbsp;{{Item.Address}}</p>
-        <p class="category"><i class="fas fa-calendar-week"></i>&nbsp;{{Item.Datetime}}</p>
+        <p class="category"><i class="fas fa-map-marked-alt"></i>&nbsp;{{Item.Address}}&nbsp;&nbsp;&nbsp;&nbsp;
+            <i class="fas fa-calendar-week"></i>&nbsp;{{Item.Datetime}}</p>
     </div>
     <div class="card-body">
+        <div style="width: 320px;margin-left: auto;margin-right: auto;text-align: left;">{{Item.Description}}</div>
+        <br />
         <!--图片框旋转是布局之后旋转，所以这里使用边距的方法调整纵向图片框的位置-->
-        <div *ngIf="Item.Rotate === 'rotate90' || Item.Rotate === 'rotate270'" style="text-align:center;height: 320px;margin-top: 96px;">
-            <img [lazyLoad]="Item.Src" width="320px"
-                style="margin-left: auto;margin-right: auto;" [ngClass]="Item.Rotate">
+        <div *ngIf="Item.Rotate === 'rotate90' || Item.Rotate === 'rotate270'"
+            style="text-align:center;height: 320px;margin-top: 96px;">
+            <img [lazyLoad]="Item.Src" width="320px" style="margin-left: auto;margin-right: auto;"
+                [ngClass]="Item.Rotate">
         </div>
         <div *ngIf="Item.Rotate === 'rotate180'" style="text-align:center;">
-            <img [lazyLoad]="Item.Src" width="320px"
-                style="margin-left: auto;margin-right: auto;" [ngClass]="Item.Rotate">
+            <img [lazyLoad]="Item.Src" width="320px" style="margin-left: auto;margin-right: auto;"
+                [ngClass]="Item.Rotate">
         </div>
         <div *ngIf="!Item.Rotate" style="text-align:center;">
             <img [lazyLoad]="Item.Src" width="320px" style="margin-left: auto;margin-right: auto;">
         </div>
-        <div style="width: 320px;margin-left: auto;margin-right: auto;text-align: left;">{{Item.Description}}</div>
     </div>
     <div class="card-footer">
         <button style="width: 96px;height: 36px;" class="btn btn-danger"

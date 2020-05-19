@@ -1,14 +1,15 @@
 <div style="position:relative;"
     [ngStyle]="{'height':this.appservice.clientHeight + 'px','width':appservice.clientWidth + 'px'}">
     <nav class="navbar navbar-light bg-light" style="position: absolute;z-index: 99;top:0px;width: 100%;">
-        <img src="assets/image/足迹.png" width="30" height="30" alt="">
+        <img src="assets/image/足迹.png" width="30" height="30" alt="" />
         我的足迹
-        <button class="btn btn-outline-success my-2 my-sm-0" style="float: right;"
-            (click)="this.router.navigateByUrl('addfootprint');"><i class="fas fa-plus"></i>添加</button>
-        <img src="assets/image/返回.png" width="30" height="30" alt="" (click)="Return()" style="float: right;">
+        <img style="float: right;" src="assets/image/返回.png" width="30" height="30" alt="" (click)="Return()" />
     </nav>
     <div style="position: absolute;z-index: 99;top:50px;text-align: center;overflow-y: scroll;"
         [ngStyle]="{height:this.appservice.clientHeight-50 + 'px','width':appservice.clientWidth + 'px'}">
+        <button class="btn btn-outline-success" style="float: right;"
+            (click)="this.router.navigateByUrl('addfootprint');"><i class="fas fa-plus"></i>添加</button>
+        <br /> <br />
         <footprint-item *ngFor="let f of this.appservice.footprints" [Item]="f"></footprint-item>
     </div>
 </div>

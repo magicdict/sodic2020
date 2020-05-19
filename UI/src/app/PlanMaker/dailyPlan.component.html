@@ -10,16 +10,18 @@
 
         <p-tabView>
             <p-tabPanel header="景点">
-                <button style="width: 64px;height: 36px;float: right;" class="btn btn-success" (click)="PlusASpot()"><i
-                        class="fas fa-plus"></i>&nbsp;A级</button>
-                <button class="btn btn-danger" style="width: 64px;height: 36px;float: right;" (click)="PlusRed()"><i
+                <button style="float: right;" class="btn btn-success" (click)="PlusASpot()"><i
+                        class="fas fa-plus"></i>&nbsp;热门</button>
+                <button class="btn btn-danger" style="float: right;" (click)="PlusRed()"><i
                         class="fas fa-plus"></i>&nbsp;红色</button>
-                <button class="btn btn-primary" style="width: 64px;height: 36px;float: right;" (click)="PlusCult()"><i
+                <button class="btn btn-primary" style="float: right;" (click)="PlusCult()"><i
                         class="fas fa-plus"></i>&nbsp;文化</button>
-                <button class="btn btn-success" style="width: 64px;height: 36px;float: right;" (click)="PlusRelax()"><i
+                <button class="btn btn-success" style="float: right;" (click)="PlusRelax()"><i
                         class="fas fa-plus"></i>&nbsp;休闲</button>
-                <button class="btn btn-info" style="width: 64px;height: 36px;float: right;" (click)="PlusChild()"><i
+                <button class="btn btn-info" style="float: right;" (click)="PlusChild()"><i
                         class="fas fa-plus"></i>&nbsp;亲子</button>
+                <button class="btn btn-warning" style="float: right;" (click)="PlusFar()"><i
+                        class="fas fa-plus"></i>&nbsp;收藏</button>
                 <br />
                 <br />
                 <br />
@@ -27,9 +29,10 @@
                 </spot-item>
             </p-tabPanel>
             <p-tabPanel header="餐饮">
-                <button style="width: 96px;height: 36px;float: right;" class="btn btn-success"
-                    (click)="this.appservice.IsAddToPlanMode = true;this.appservice.FoodList_CurrentShow = this.appservice.FoodList_Hot;this.router.navigateByUrl('food');"><i
-                        class="fas fa-plus"></i>&nbsp;添加</button>
+                <button style="float: right;" class="btn btn-success" (click)="PlusHotFood()"><i
+                        class="fas fa-plus"></i>&nbsp;热门</button>
+                <button style="float: right;" class="btn btn-warning" (click)="PlusFavFood()"><i
+                        class="fas fa-plus"></i>&nbsp;收藏</button>
                 <br />
                 <br />
                 <br />
@@ -37,9 +40,10 @@
                 </food-item>
             </p-tabPanel>
             <p-tabPanel header="酒店">
-                <button style="width: 96px;height: 36px;float: right;" class="btn btn-success"
-                    (click)="this.appservice.IsAddToPlanMode = true;this.appservice.HotelList_CurrentShow = this.appservice.HotelList_Hot;this.router.navigateByUrl('hotel');"><i
-                        class="fas fa-plus"></i>&nbsp;添加</button>
+                <button style="float: right;" class="btn btn-success" (click)="PlusHotHotel()"><i
+                        class="fas fa-plus"></i>&nbsp;热门</button>
+                <button style="float: right;" class="btn btn-warning" (click)="PlusFavHotel()"><i
+                        class="fas fa-plus"></i>&nbsp;收藏</button>
                 <br />
                 <br />
                 <br />

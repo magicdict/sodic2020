@@ -30,6 +30,19 @@ export class CreatePlanComponent {
   selectedcitys: SelectItem[] = this.appservice.CitySelect;
   selectedCityTypes: string[] = ["深圳市", "江门市"];
 
+  zh = {
+    firstDayOfWeek: 0,
+    dayNames: ["周日", "周一", "周二", "周三", "周四", "周五", "周六"],
+    dayNamesShort: ["日", "一", "二", "三", "四", "五", "六"],
+    dayNamesMin: ["日", "一", "二", "三", "四", "五", "六"],
+    monthNames: [ "一月","二月","三月","四月","五月","六月","七月","八月","九月","十月","十一月","十二月" ],
+    monthNamesShort: [  "一月","二月","三月","四月","五月","六月","七月","八月","九月","十月","十一月","十二月" ],
+    today: '今天',
+    clear: '清除',
+    dateFormat: 'mm/dd/yy',
+    weekHeader: 'Wk'
+  }
+
   ChangeTips() {
     switch (this.selectedCompanyWith) {
       case '家族':

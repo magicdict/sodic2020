@@ -9,16 +9,13 @@
         [ngStyle]="{height:this.appservice.clientHeight-50 + 'px','width':appservice.clientWidth + 'px'}">
         <input #takepicture type="file" accept="image/*" capture="camera" (change)="PreviewImage($event)"
             style="display: none;">
-        <div id="preview" style="margin: 10px;height: 320px;border:1px dashed black">
-
-        </div>
-        <b>标题：</b><input type="text" style="width:50%;" [(ngModel)]="title"> <br /><br />
-        <b>地点：</b><input type="text" style="width:50%;" [(ngModel)]="address"> <br /><br />
-        <b style="vertical-align:top">描述：</b><textarea style="width:50%;" [(ngModel)]="description"></textarea>
+        <div id="preview" style="margin: 10px;height: 320px;border:1px dashed black"></div>
+        <b>标题：</b><input type="text" style="width:80%;" [(ngModel)]="title"> <br /><br />
+        <b>地点：</b><input type="text" style="width:80%;" [(ngModel)]="address"> <br /><br />
+        <b style="vertical-align:top">描述：</b><textarea style="width:80%;" [(ngModel)]="description"></textarea>
         <br /><br />
         <button class="btn btn-primary" (click)="takepicture.click()"><i class="fas fa-camera"></i>&nbsp;相册</button>
         &nbsp;&nbsp;
         <button class="btn btn-success" (click)="SaveToLoalStorage()"><i class="fas fa-check"></i>&nbsp;保存</button>
-
     </div>
 </div>
