@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using Newtonsoft.Json;
-using System.Diagnostics;
 using System;
 
 namespace xlsx2json
@@ -15,10 +14,9 @@ namespace xlsx2json
         public const string JsonFolder_AngularAssets = @"F:\sodic2020\UI\src\assets\json\";
         public const string JsonFolder_Visualization_AngularAssets = @"F:\sodic2020\Visualization\src\assets\json\";
         public const string JsonFolder_WepApi = @"F:\sodic2020\json\";
-
         static void Main(string[] args)
         {
-            AnlayzeSpotScore();
+            HotelPriceHeatMap();
             //CreateNear();
             //CreateSpot();
             //CreateFood();
@@ -39,8 +37,41 @@ namespace xlsx2json
             } */
         }
 
+        class GeoHeatMap
+        {
+            public double lat { get; set; }
 
+            public double lng { get; set; }
 
+            public double value { get; set; }
+        }
+
+        static void HotelPriceHeatMap()
+        {
+            var sr = new StreamReader(JsonFolder_WepApi + "深圳市宾馆酒店信息.json");
+            var records_hotel = JsonConvert.DeserializeObject<List<宾馆酒店信息>>(sr.ReadToEnd());
+            sr.Close();
+            var g = records_hotel.GroupBy(x => (x.lat, x.lng));
+            var p = g.Select(x => { return new GeoHeatMap() { lat = x.Key.lat, lng = x.Key.lng, value = x.Average(y => y.Price) }; });
+            string json = JsonConvert.SerializeObject(p, Formatting.Indented);
+            using (var sw = new StreamWriter(JsonFolder_Visualization_AngularAssets + "深圳市宾馆酒店价格热力图.json", false))
+            {
+                sw.Write(json);
+                sw.Close();
+            }
+
+            sr = new StreamReader(JsonFolder_WepApi + "江门市宾馆酒店信息.json");
+            records_hotel = JsonConvert.DeserializeObject<List<宾馆酒店信息>>(sr.ReadToEnd());
+            sr.Close();
+            g = records_hotel.GroupBy(x => (x.lat, x.lng));
+            p = g.Select(x => { return new GeoHeatMap() { lat = x.Key.lat, lng = x.Key.lng, value = x.Average(y => y.Price) }; });
+            json = JsonConvert.SerializeObject(p, Formatting.Indented);
+            using (var sw = new StreamWriter(JsonFolder_Visualization_AngularAssets + "江门市宾馆酒店价格热力图.json", false))
+            {
+                sw.Write(json);
+                sw.Close();
+            }
+        }
 
         static void CreateNear()
         {
@@ -264,8 +295,25 @@ namespace xlsx2json
             var sr = new StreamReader(JsonFolder_WepApi + "深圳市旅游景点信息.json");
             var records_spot = JsonConvert.DeserializeObject<List<旅游景点信息>>(sr.ReadToEnd());
             sr.Close();
-            
-            
+
+            sr = new StreamReader(JsonFolder_AngularAssets + "旅游目的地包团信息.json");
+            var records_tour = JsonConvert.DeserializeObject<List<旅游目的地包团信息>>(sr.ReadToEnd());
+            var c = records_spot.Select(x => (x.Name, records_tour.Count(y => y.IsContain(x.Name)))).ToList();
+            c.Sort((x, y) => { return y.Item2.CompareTo(x.Item2); });
+            Console.WriteLine("地接团TOP10");
+            foreach (var item in c.Take(10))
+            {
+                Console.WriteLine(item.Name + ":" + item.Item2);
+            }
+
+
+            var SpotNameInfo = WordCloudItem.Create(records_spot.Select(x => x.Name).ToList(), 30);
+            Console.WriteLine("名称单词TOP30");
+            foreach (var item in SpotNameInfo)
+            {
+                Console.WriteLine(item.name + ":" + item.value);
+            }
+
             records_spot.Sort((x, y) => { return y.Scenery.CompareTo(x.Scenery); });
             var top10 = records_spot.Where(x => x.Scenery != 0 && x.ScoreCnt > 50).Take(10);
             Console.WriteLine("景色TOP10");

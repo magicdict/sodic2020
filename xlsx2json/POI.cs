@@ -35,7 +35,7 @@ public class WordCloudItem
 
     public static JiebaSegmenter segmenter = new JiebaSegmenter();
 
-    public static List<WordCloudItem> Create(List<string> comments, int Top)
+    public static List<WordCloudItem> Create(List<string> comments, int Top = 20)
     {
         var r = new List<WordCloudItem>();
         var dic = new Dictionary<string, int>();

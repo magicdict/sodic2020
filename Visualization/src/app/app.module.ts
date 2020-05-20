@@ -13,6 +13,7 @@ import { HotfoodComponent } from './visualization/hotfood.component';
 import { SpotOverviewComponent } from './visualization/spotoverview.component';
 import { SelectButtonModule } from 'primeng/selectbutton';
 import { FormsModule } from '@angular/forms';
+import { SimpleHeatMapComponent } from './visualization/SimpleHeatMap.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +21,8 @@ import { FormsModule } from '@angular/forms';
     SpotOverviewComponent,
     PirceSegementComponent,
     HotfoodComponent,
-    PriceTopLowComponent
+    PriceTopLowComponent,
+    SimpleHeatMapComponent
   ],
   imports: [
     BrowserModule,

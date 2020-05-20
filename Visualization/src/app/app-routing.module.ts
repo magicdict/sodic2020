@@ -5,6 +5,7 @@ import { MainComponent } from './Main.component';
 import { PirceSegementComponent } from './visualization/pricesegment.component';
 import { HotfoodComponent } from './visualization/hotfood.component';
 import { SpotOverviewComponent } from './visualization/spotoverview.component';
+import { SimpleHeatMapComponent } from './visualization/SimpleHeatMap.component';
 
 
 const routes: Routes = [
@@ -16,6 +17,7 @@ const routes: Routes = [
       { path: 'food/pricetop/:name', component: PriceTopLowComponent },
       { path: 'food/hot',component:HotfoodComponent},
       { path: 'hotel/pricetop/:name', component: PriceTopLowComponent },
+      { path: 'hotel/priceheatmap/:name', component: SimpleHeatMapComponent },
     ]
   },
   { path: '', redirectTo: 'main/dashboard/pricesegment', pathMatch: 'full' }

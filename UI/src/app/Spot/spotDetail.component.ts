@@ -7,7 +7,7 @@ import { Location } from '@angular/common';
   templateUrl: './spotDetail.component.html',
 })
 export class SpotDetailComponent implements OnInit {
-  constructor(private _location: Location, public appservice: AppService, private route: ActivatedRoute,public router: Router, ) {
+  constructor(private _location: Location, public appservice: AppService, private route: ActivatedRoute, public router: Router, ) {
   }
   TourInfoList: TourInfo[] = [];
   SpotDetailInfo: SpotInfo;
@@ -22,13 +22,21 @@ export class SpotDetailComponent implements OnInit {
     this.route.params.subscribe(
       params => {
         this.SpotDetailInfo = this.appservice.GetSpotInfoByName(params['name']) as SpotInfo;
-        this.TourInfoList = this.appservice.TourList.filter(x => x.Description.indexOf(this.SpotDetailInfo.Name) !== -1);
+        this.TourInfoList = this.appservice.TourList.filter(
+          (x) => {
+            if (this.SpotDetailInfo.Name === "沙头角中英街") return x.Description.indexOf("中英街") !== -1;
+            if (this.SpotDetailInfo.Name === "深圳欢乐谷") return x.Description.indexOf("欢乐谷") !== -1;
+            if (this.SpotDetailInfo.Name === "鹏城美丽乡村") return x.Description.indexOf("鹏城美丽乡村") !== -1;
+            if (this.SpotDetailInfo.Name.startsWith("地王")) return x.Description.indexOf("地王") !== -1;
+            return x.Description.indexOf(this.SpotDetailInfo.Name) !== -1;
+          }
+        );
 
         console.log("this.appservice.myposition.lat:" + AppService.myposition.lat)
-        let mapPoint = [[this.SpotDetailInfo.lng, this.SpotDetailInfo.lat, 1,this.SpotDetailInfo.Name]];
+        let mapPoint = [[this.SpotDetailInfo.lng, this.SpotDetailInfo.lat, 1, this.SpotDetailInfo.Name]];
         if (AppService.myposition.lat !== -1) {
           this.distence = this.appservice.distanceByLnglat(this.SpotDetailInfo.lng, this.SpotDetailInfo.lat, AppService.myposition.lng, AppService.myposition.lat);
-          mapPoint.push([AppService.myposition.lng, AppService.myposition.lat, 2,"您的位置"])
+          mapPoint.push([AppService.myposition.lng, AppService.myposition.lat, 2, "您的位置"])
         }
 
         this.option = {

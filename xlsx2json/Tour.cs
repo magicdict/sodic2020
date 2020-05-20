@@ -14,6 +14,15 @@ public class 旅游目的地包团信息
 
     public string Days { get; set; }
 
+    public bool IsContain(string SpotName)
+    {
+        if (Description.Contains(SpotName)) return true;
+        if (SpotName.Contains("沙头角中英街"))  return Description.Contains("中英街");
+        if (SpotName.Contains("欢乐谷"))  return Description.Contains("欢乐谷");
+        if (SpotName.Contains("地王"))  return Description.Contains("地王");
+        if (SpotName.Contains("鹏城美丽乡村")) return Description.Contains("大鹏古城");
+        return false;
+    }
 
     public static List<旅游目的地包团信息> CreateTour(string xlsxFilename)
     {
