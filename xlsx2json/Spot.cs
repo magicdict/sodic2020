@@ -172,6 +172,8 @@ public class 旅游景点信息 : POI, IEqualityComparer<旅游景点信息>
             item.TrafficGuide = null;
             item.OpenTime = null;
             item.WordCloud = null;
+            item.NearFood = null;
+            item.NearHotel = null;
         }
         string json = JsonConvert.SerializeObject(records, Formatting.Indented);
         using (var sw = new StreamWriter(simplejsonfile, false))

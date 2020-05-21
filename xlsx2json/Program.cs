@@ -16,7 +16,7 @@ namespace xlsx2json
         public const string JsonFolder_WepApi = @"F:\sodic2020\json\";
         static void Main(string[] args)
         {
-            HotelPriceHeatMap();
+            //HotelPriceHeatMap();
             //CreateNear();
             //CreateSpot();
             //CreateFood();
@@ -25,8 +25,8 @@ namespace xlsx2json
             //CreateGift();
             //CreateTour();
             //return;
-            //旅游景点信息.CreateSpotSimple(JsonFolder_WepApi + "深圳市旅游景点信息.json",JsonFolder_Visualization_AngularAssets + "深圳市旅游景点信息.json");
-            //旅游景点信息.CreateSpotSimple(JsonFolder_WepApi + "江门市旅游景点信息.json",JsonFolder_Visualization_AngularAssets + "江门市旅游景点信息.json");
+            旅游景点信息.CreateSpotSimple(JsonFolder_WepApi + "深圳市旅游景点信息.json",JsonFolder_Visualization_AngularAssets + "深圳市旅游景点信息.json");
+            旅游景点信息.CreateSpotSimple(JsonFolder_WepApi + "江门市旅游景点信息.json",JsonFolder_Visualization_AngularAssets + "江门市旅游景点信息.json");
             /* var SpotComment_SZ = 旅游景点评论.CreateSpotComment(ShenzhenDataFolder + "深圳市旅游景点评价信息.xlsx");
             //世界之窗：东部华侨城
             var g = SpotComment_SZ.Where(x =>true).ToList();
@@ -67,6 +67,30 @@ namespace xlsx2json
             p = g.Select(x => { return new GeoHeatMap() { lat = x.Key.lat, lng = x.Key.lng, value = x.Average(y => y.Price) }; });
             json = JsonConvert.SerializeObject(p, Formatting.Indented);
             using (var sw = new StreamWriter(JsonFolder_Visualization_AngularAssets + "江门市宾馆酒店价格热力图.json", false))
+            {
+                sw.Write(json);
+                sw.Close();
+            }
+
+            sr = new StreamReader(JsonFolder_WepApi + "深圳市特色美食信息.json");
+            var records_food = JsonConvert.DeserializeObject<List<特色美食信息>>(sr.ReadToEnd());
+            sr.Close();
+            var g_1 = records_food.GroupBy(x => (x.lat, x.lng));
+            var p_1 = g_1.Select(x => { return new GeoHeatMap() { lat = x.Key.lat, lng = x.Key.lng, value = x.Average(y => y.Price) }; });
+            json = JsonConvert.SerializeObject(p_1, Formatting.Indented);
+            using (var sw = new StreamWriter(JsonFolder_Visualization_AngularAssets + "深圳市特色美食价格热力图.json", false))
+            {
+                sw.Write(json);
+                sw.Close();
+            }
+
+            sr = new StreamReader(JsonFolder_WepApi + "江门市特色美食信息.json");
+            records_food = JsonConvert.DeserializeObject<List<特色美食信息>>(sr.ReadToEnd());
+            sr.Close();
+            g_1 = records_food.GroupBy(x => (x.lat, x.lng));
+            p_1 = g_1.Select(x => { return new GeoHeatMap() { lat = x.Key.lat, lng = x.Key.lng, value = x.Average(y => y.Price) }; });
+            json = JsonConvert.SerializeObject(p_1, Formatting.Indented);
+            using (var sw = new StreamWriter(JsonFolder_Visualization_AngularAssets + "江门市特色美食价格热力图.json", false))
             {
                 sw.Write(json);
                 sw.Close();

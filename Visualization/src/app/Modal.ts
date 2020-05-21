@@ -1,4 +1,4 @@
-/**美食 */
+/**POI */
 export interface POIInfo {
     Name: string;
     Address: string;
@@ -8,6 +8,12 @@ export interface POIInfo {
     lng: number;
     Comments: string[];
     CommentCount: number;
-    ALevel:string;
-    Type:string;
+    ALevel: string;
+    Type: string;
+}
+
+export interface SpotInfo extends POIInfo {
+    Scenery: number;
+    Funny: number;
+    PriceValue: number;
 }

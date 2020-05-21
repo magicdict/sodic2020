@@ -8,7 +8,7 @@ import { NgxEchartsModule } from 'ngx-echarts';
 import * as echarts from 'echarts';
 import { MainComponent } from './Main.component';
 import { MyCommonModule } from './Common/MyCommon.module';
-import { PirceSegementComponent } from './visualization/pricesegment.component';
+import { BasicInfoComponent } from './visualization/basicinfo.component';
 import { HotfoodComponent } from './visualization/hotfood.component';
 import { SpotOverviewComponent } from './visualization/spotoverview.component';
 import { SelectButtonModule } from 'primeng/selectbutton';
@@ -19,7 +19,7 @@ import { SimpleHeatMapComponent } from './visualization/SimpleHeatMap.component'
     AppComponent,
     MainComponent,
     SpotOverviewComponent,
-    PirceSegementComponent,
+    BasicInfoComponent,
     HotfoodComponent,
     PriceTopLowComponent,
     SimpleHeatMapComponent

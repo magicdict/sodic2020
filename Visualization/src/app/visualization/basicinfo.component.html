@@ -1,0 +1,93 @@
+<section class="content-header">
+    <h1>
+        消费价格
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="/traffic/dashboard"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li class="active">
+            消费价格
+        </li>
+    </ol>
+</section>
+<section class="content">
+    <div class="row">
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="info-box">
+                <span class="info-box-icon bg-aqua"><i class="ion ion-ios-gear-outline"></i></span>
+
+                <div class="info-box-content">
+                    <span class="info-box-text">深圳市饭店人均价格</span>
+                    <span class="info-box-number">83.72</span>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="info-box">
+                <span class="info-box-icon bg-aqua"><i class="ion ion-ios-gear-outline"></i></span>
+
+                <div class="info-box-content">
+                    <span class="info-box-text">江门市饭店人均价格</span>
+                    <span class="info-box-number">41.83</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="info-box">
+                <span class="info-box-icon bg-aqua"><i class="ion ion-ios-gear-outline"></i></span>
+
+                <div class="info-box-content">
+                    <span class="info-box-text">深圳市宾馆价格</span>
+                    <span class="info-box-number">498.17</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="info-box">
+                <span class="info-box-icon bg-aqua"><i class="ion ion-ios-gear-outline"></i></span>
+
+                <div class="info-box-content">
+                    <span class="info-box-text">江门市宾馆价格</span>
+                    <span class="info-box-number">414.05</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <chart [options]="foodszoption" [title]="'深圳市饭店人均价格'" [boxstyle]="this._commonFunction.boxstyle_Col6"
+                [chartstyle]="this._commonFunction.chartstyle_Col6">
+            </chart>
+        </div>
+        <div class="col-md-6">
+            <chart [options]="foodjmoption" [title]="'江门市饭店人均价格'" [boxstyle]="this._commonFunction.boxstyle_Col6"
+                [chartstyle]="this._commonFunction.chartstyle_Col6">
+            </chart>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <chart [options]="hotelszoption" [title]="'深圳市宾馆价格'" [boxstyle]="this._commonFunction.boxstyle_Col6"
+                [chartstyle]="this._commonFunction.chartstyle_Col6">
+            </chart>
+        </div>
+        <div class="col-md-6">
+            <chart [options]="hoteljmoption" [title]="'江门市宾馆价格'" [boxstyle]="this._commonFunction.boxstyle_Col6"
+                [chartstyle]="this._commonFunction.chartstyle_Col6">
+            </chart>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <chart [options]="szoption" [title]="'深圳景点评价'" [boxstyle]="this._commonFunction.boxstyle_Col6"
+                [chartstyle]="this._commonFunction.chartstyle_Col6" (ChartInit)="this.GetSZSpotChart($event)">
+            </chart>
+        </div>
+        <div class="col-md-6">
+            <chart [options]="jmoption" [title]="'江门景点评价'" [boxstyle]="this._commonFunction.boxstyle_Col6"
+                [chartstyle]="this._commonFunction.chartstyle_Col6" (ChartInit)="this.GetJMSpotChart($event)">
+            </chart>
+        </div>
+    </div>
+</section>

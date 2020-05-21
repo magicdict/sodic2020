@@ -136,6 +136,19 @@ export const IBarStardard = {
   }]
 };
 
+export const IScatter3DStardard = {
+  grid3D: {},
+  xAxis3D: {},
+  yAxis3D: {},
+  zAxis3D: {},
+  series: [
+      {
+          type: 'scatter3D',
+          symbolSize: 2.5,
+          data:[]
+      }
+  ]
+};
 
 export const I3DarStardard = {
   visualMap: {

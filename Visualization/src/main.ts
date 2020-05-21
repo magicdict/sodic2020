@@ -6,6 +6,7 @@ import { environment } from './environments/environment';
 
 import 'echarts/dist/extension/bmap.min.js';
 import 'echarts-bmap';
+import 'echarts-gl';
 
 if (environment.production) {
   enableProdMode();
