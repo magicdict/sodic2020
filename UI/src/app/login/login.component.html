@@ -45,8 +45,17 @@
     </div>
 </div>
 
-<div *ngIf="!this.app.IsLoadFinish" style="position: absolute;z-index: 99; bottom: 50px;width: 100%;text-align: center;"
-    [ngStyle]="{'height':'50px'}">
+<div *ngIf="!this.app.IsLoadFinish" style="position: absolute;z-index: 99; bottom: 100px;width: 100%;text-align: center;"
+    [ngStyle]="{'height':'100px'}">
+    <div class="sk-chase" style="height: 50px;width: 50px;margin: auto;">
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+      </div>
+      <br /><br />
     <font color="blue">{{this.app.loadMsg}}</font><br />
     <font color="red">数据加载中，请稍等...</font>
 </div>

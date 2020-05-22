@@ -141,12 +141,20 @@ export const IScatter3DStardard = {
   xAxis3D: {},
   yAxis3D: {},
   zAxis3D: {},
+  visualMap: [{
+    inRange: {
+      color: ['blue', 'blue', 'green', 'yellow', 'red']
+    },
+    max: 0
+  }],
   series: [
-      {
-          type: 'scatter3D',
-          symbolSize: 2.5,
-          data:[]
-      }
+    {
+      type: 'scatter3D',
+      symbolSize: function (val) {
+        return val[1] / 10;
+      },
+      data: []
+    }
   ]
 };
 
@@ -758,7 +766,7 @@ export const IHeatBaiduMapStardard = {
     roam: true,
   },
   visualMap: {
-    show: false,
+    show: true,
     top: 'top',
     min: 0,
     max: 5,

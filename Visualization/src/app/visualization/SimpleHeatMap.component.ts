@@ -43,7 +43,7 @@ export class SimpleHeatMapComponent implements OnInit {
                         r => {
                             this._map.bmap.zoom = 11;
                             if (cls.indexOf("hotel") !== -1) {
-                                this._map.visualMap.max = 1000;
+                                this._map.visualMap.max = (kbn === "sz" ? 1000 : 500);
                             } else {
                                 this._map.visualMap.max = 100;
                             }
@@ -52,8 +52,8 @@ export class SimpleHeatMapComponent implements OnInit {
                             let sorted = r.sort((x, y) => { return y.value - x.value }).slice(0, 10);
                             this._map.series[1].data = sorted.map(x => { return { "name": "", value: [x.lng, x.lat, x.value] } });
                             if (cls.indexOf("hotel") !== -1) {
-                            this._map.series[1].symbolSize = this.symbolSizeForHotel;
-                            }else{
+                                this._map.series[1].symbolSize = this.symbolSizeForHotel;
+                            } else {
                                 this._map.series[1].symbolSize = this.symbolSizeForFood;
                             }
                             this._map.bmap.center = [r[0].lng, r[0].lat];

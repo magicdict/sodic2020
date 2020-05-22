@@ -16,4 +16,5 @@ export interface SpotInfo extends POIInfo {
     Scenery: number;
     Funny: number;
     PriceValue: number;
+    ScoreCnt:number;
 }
