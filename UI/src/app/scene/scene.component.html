@@ -4,8 +4,9 @@
     background-size: 100% 100%;"
     [ngStyle]="{'height':clientHeight + 'px','width':clientWidth + 'px','background-image': 'url(/assets/scene/' + this.scene.Background  + '.jpg)'}"
     (click)="Next()">
-    <h6 style="color: aliceblue;">{{this.scene.Title}}</h6>
-    <button class="btn btn-danger" (click)="Exit()" style="float: right;">休息</button>
+    <h6 style="color: aliceblue;padding: 20px;"><b>{{this.scene.Title}}</b> <button class="btn btn-danger"
+            (click)="Exit()" style="float: right;">退出</button></h6>
+
 
     <div *ngIf="this.WaitForBranchPicker"
         style="position: absolute;z-index: 99; bottom: 300px;width: 100%;height: 100px;text-align: center;">

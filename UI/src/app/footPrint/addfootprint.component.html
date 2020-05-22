@@ -1,21 +1,22 @@
-<div style="position:relative;"
+<div class="frame-items"
     [ngStyle]="{'height':this.appservice.clientHeight + 'px','width':appservice.clientWidth + 'px'}">
-    <nav class="navbar navbar-light bg-light" style="position: absolute;z-index: 99;top:0px;width: 100%;">
-        <img src="assets/image/足迹.png" width="30" height="30" alt="">
-        添加足迹
-        <img src="assets/image/返回.png" width="30" height="30" alt="" (click)="Return()" style="float: right;">
-    </nav>
-    <div style="position: absolute;z-index: 99;top:50px;text-align: center;overflow-y: scroll;"
-        [ngStyle]="{height:this.appservice.clientHeight-50 + 'px','width':appservice.clientWidth + 'px'}">
-        <input #takepicture type="file" accept="image/*" capture="camera" (change)="PreviewImage($event)"
-            style="display: none;">
-        <div id="preview" style="margin: 10px;height: 320px;border:1px dashed black"></div>
-        <b>标题：</b><input type="text" style="width:80%;" [(ngModel)]="title"> <br /><br />
-        <b>地点：</b><input type="text" style="width:80%;" [(ngModel)]="address"> <br /><br />
-        <b style="vertical-align:top">描述：</b><textarea style="width:80%;" [(ngModel)]="description"></textarea>
-        <br /><br />
-        <button class="btn btn-primary" (click)="takepicture.click()"><i class="fas fa-camera"></i>&nbsp;相册</button>
-        &nbsp;&nbsp;
-        <button class="btn btn-success" (click)="SaveToLoalStorage()"><i class="fas fa-check"></i>&nbsp;保存</button>
-    </div>
+
+</div>
+<nav class="navbar navbar-light bg-light" style="position: absolute;z-index: 99;top:0px;width: 100%;">
+    <img src="assets/image/足迹.png" width="30" height="30" alt="">
+    添加足迹
+    <img src="assets/image/返回.png" width="30" height="30" alt="" (click)="Return()" style="float: right;">
+</nav>
+<div style="position: absolute;z-index: 99;top:50px;text-align: center;overflow-y: scroll;"
+    [ngStyle]="{height:this.appservice.clientHeight-50 + 'px','width':appservice.clientWidth + 'px'}">
+    <input #takepicture type="file" accept="image/*" capture="camera" (change)="PreviewImage($event)"
+        style="display: none;">
+    <div id="preview" style="margin: 10px;height: 320px;border:1px dashed black"></div>
+    <b>标题：</b><input type="text" style="width:80%;" [(ngModel)]="title"> <br /><br />
+    <b>地点：</b><input type="text" style="width:80%;" [(ngModel)]="address"> <br /><br />
+    <b style="vertical-align:top">描述：</b><textarea style="width:80%;" [(ngModel)]="description"></textarea>
+    <br /><br />
+    <button class="btn btn-primary" (click)="takepicture.click()"><i class="fas fa-camera"></i>&nbsp;相册</button>
+    &nbsp;&nbsp;
+    <button class="btn btn-success" (click)="SaveToLoalStorage()"><i class="fas fa-check"></i>&nbsp;保存</button>
 </div>

@@ -32,7 +32,7 @@ const routes: Routes = [
   { path: 'dailyplan', component: DailyPlanComponent },
   { path: 'footprint', component: FootPrintComponent },
   { path: 'addfootprint', component: AddFootPrintComponent },
-  { path: 'help', component: SceneComponent },
+  { path: 'introduce', component: SceneComponent },
   { path: '', redirectTo: 'home', pathMatch: 'full' }
 ];
 

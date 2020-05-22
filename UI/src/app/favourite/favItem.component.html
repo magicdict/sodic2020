@@ -1,12 +1,13 @@
-<div style="position:relative;"
+<div style="background-image: url('assets/image/cover3.jpg');" class="frame"
     [ngStyle]="{'height':this.appservice.clientHeight + 'px','width':appservice.clientWidth + 'px'}">
-    <nav class="navbar navbar-light bg-light" style="position: absolute;z-index: 99;top:0px;width: 100%;">
-        <img src="assets/image/收藏.png" width="30" height="30" alt="">
-        我的心愿单
-        <img src="assets/image/返回.png" width="30" height="30" alt="" (click)="Return()" style="float: right;">
-    </nav>
-    <div style="position: absolute;z-index: 99;top:50px;text-align: center;overflow-y: scroll;"
-        [ngStyle]="{height:this.appservice.clientHeight-50 + 'px','width':appservice.clientWidth + 'px'}">
-        <fav-item *ngFor="let f of this.appservice.favorites" [Item]="f"></fav-item>
-    </div>
+
+</div>
+<nav class="navbar navbar-light bg-light" style="position: absolute;z-index: 99;top:0px;width: 100%;">
+    <img src="assets/image/收藏.png" width="30" height="30" alt="">
+    我的心愿单
+    <img src="assets/image/返回.png" width="30" height="30" alt="" (click)="Return()" style="float: right;">
+</nav>
+<div style="position: absolute;z-index: 99;top:50px;text-align: center;overflow-y: scroll;"
+    [ngStyle]="{height:this.appservice.clientHeight-50 + 'px','width':appservice.clientWidth + 'px'}">
+    <fav-item *ngFor="let f of this.appservice.favorites" [Item]="f"></fav-item>
 </div>

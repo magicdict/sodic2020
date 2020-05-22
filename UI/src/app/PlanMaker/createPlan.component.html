@@ -1,45 +1,48 @@
-<div style="position:relative;"
+<div style="background-image: url('assets/image/cover2.jpg'); " class="frame"
     [ngStyle]="{'height':this.appservice.clientHeight + 'px','width':appservice.clientWidth + 'px'}">
-    <nav class="navbar navbar-light bg-light" style="position: absolute;z-index: 99;top:0px;width: 100%;">
-        <img src="assets/image/工具.png" width="30" height="30" alt="">
-        新建计划
-        <img src="assets/image/返回.png" width="30" height="30" alt="" (click)="Return()" style="float: right;">
-    </nav>
-    <div *ngIf="this.appservice.Plan === null"
-        style="position: absolute;z-index: 99;top:150px;text-align: center;overflow-y: scroll;height: 300px;"
-        [ngStyle]="{'width':appservice.clientWidth + 'px'}">
-        <div style="margin-right: auto;margin-left: auto;">
-            <span>开始日期&nbsp;&nbsp;</span>
-            <p-calendar [(ngModel)]="startdate" dateFormat="yy/mm/dd" [touchUI]="true" [readonlyInput]="true" [locale]="zh"
-                (onSelect)="GetDays()">
-            </p-calendar>
-            <br /><br />
-            <span>结束时间&nbsp;&nbsp;</span>
-            <p-calendar [(ngModel)]="enddate" dateFormat="yy/mm/dd" [touchUI]="true" [readonlyInput]="true"
-                (onSelect)="GetDays()">
-            </p-calendar>
-        </div>
-        <br />
-        <span style="vertical-align:top;">选择天数:{{Days}}</span>
-        &nbsp;&nbsp;&nbsp;
-        <p-selectButton [options]="selectedcitys" [(ngModel)]="selectedCityTypes" multiple="multiple"></p-selectButton><br /><br />
-        <p-selectButton [options]="CompanyWith" [(ngModel)]="selectedCompanyWith" (onChange)="ChangeTips()">
-        </p-selectButton>
-        <br />
-        {{TravelTips}}
+
+</div>
+
+<nav class="navbar navbar-light bg-light" style="position: absolute;z-index: 99;top:0px;width: 100%;">
+    <img src="assets/image/工具.png" width="30" height="30" alt="">
+    新建计划
+    <img src="assets/image/返回.png" width="30" height="30" alt="" (click)="Return()" style="float: right;">
+</nav>
+<div *ngIf="this.appservice.Plan === null"
+    style="position: absolute;z-index: 99;top:150px;text-align: center;overflow-y: scroll;height: 300px;"
+    [ngStyle]="{'width':appservice.clientWidth + 'px'}">
+    <div style="margin-right: auto;margin-left: auto;">
+        <span>开始日期&nbsp;&nbsp;</span>
+        <p-calendar [(ngModel)]="startdate" dateFormat="yy/mm/dd" [touchUI]="true" [readonlyInput]="true" [locale]="zh"
+            (onSelect)="GetDays()">
+        </p-calendar>
         <br /><br />
-        <button class="btn btn-lg btn-primary" (click)="CreatePlan()">创建</button>
+        <span>结束时间&nbsp;&nbsp;</span>
+        <p-calendar [(ngModel)]="enddate" dateFormat="yy/mm/dd" [touchUI]="true" [readonlyInput]="true"
+            (onSelect)="GetDays()">
+        </p-calendar>
     </div>
-    <div *ngIf="this.appservice.Plan !== null"
-        style="position: absolute;z-index: 99;top:150px;text-align: center;overflow-y: scroll;height: 200px;"
-        [ngStyle]="{'width':appservice.clientWidth + 'px'}">
-        <div style="margin-right: auto;margin-left: auto;">
-            <button class="btn btn-lg btn-primary" style="width: 300px;height: 36px;"
-                (click)="this.router.navigateByUrl('dailylist');">编辑</button>
-            <br />
-            <br />
-            <br />
-            <button class="btn btn-lg btn-danger" style="width: 300px;height: 36px;" (click)="DeletePlan()">删除</button>
-        </div>
+    <br />
+    <span style="vertical-align:top;">选择天数:{{Days}}</span>
+    &nbsp;&nbsp;&nbsp;
+    <p-selectButton [options]="selectedcitys" [(ngModel)]="selectedCityTypes" multiple="multiple"></p-selectButton>
+    <br /><br />
+    <p-selectButton [options]="CompanyWith" [(ngModel)]="selectedCompanyWith" (onChange)="ChangeTips()">
+    </p-selectButton>
+    <br />
+    {{TravelTips}}
+    <br /><br />
+    <button class="btn btn-lg btn-primary" (click)="CreatePlan()">创建</button>
+</div>
+<div *ngIf="this.appservice.Plan !== null"
+    style="position: absolute;z-index: 99;top:150px;text-align: center;overflow-y: scroll;height: 200px;"
+    [ngStyle]="{'width':appservice.clientWidth + 'px'}">
+    <div style="margin-right: auto;margin-left: auto;">
+        <button class="btn btn-lg btn-primary" style="width: 300px;height: 36px;"
+            (click)="this.router.navigateByUrl('dailylist');">编辑</button>
+        <br />
+        <br />
+        <br />
+        <button class="btn btn-lg btn-danger" style="width: 300px;height: 36px;" (click)="DeletePlan()">删除</button>
     </div>
 </div>

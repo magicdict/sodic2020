@@ -1,32 +1,32 @@
-<div style="position:relative;"
+<div class="frame-items"
     [ngStyle]="{'height':this.appservice.clientHeight + 'px','width':appservice.clientWidth + 'px'}">
-    <nav class="navbar navbar-light bg-light" style="position: absolute;z-index: 99;top:0px;width: 100%;">
-        <img src="assets/image/美食.png" width="30" height="30" alt="">
-        {{this.FoodDetailInfo.Name === null?"找不到餐厅":this.FoodDetailInfo.Name}}
-        <img src="assets/image/返回.png" width="30" height="30" alt="" (click)="Return()" style="float: right;">
-    </nav>
-    <div *ngIf="this.FoodDetailInfo.Name"
-        style="position: absolute;z-index: 99;top:50px;text-align: center;overflow-y: scroll; margin: 20px;"
-        [ngStyle]="{height:this.appservice.clientHeight - 90 + 'px','width':appservice.clientWidth - 40 + 'px'}">
-        <p-tabView>
-            <p-tabPanel *ngIf="this.FoodDetailInfo.Item !== null" header="详细" style="text-align: left;">
-                {{FoodDetailInfo.Item.join(" ")}}
-                <div *ngIf="this.FoodDetailInfo.lat !== -1">
-                    <br />
-                    <span *ngIf="this.distence"><b>距离您的距离：</b>{{this.distence}}</span>
-                    <br />
-                    <echarts [options]="this.option" style="width: 320px;height: 320px;"></echarts>
-                </div>
-            </p-tabPanel>
-            <p-tabPanel *ngIf="this.FoodDetailInfo.Comments !== null" header="评论" style="text-align: left;">
-                <b>评论数：</b>{{this.FoodDetailInfo.CommentCount}} (展示前50条)
-                <echarts [options]="this.opiton_wordcoudy" style="width: 320px;height: 320px;"></echarts>
-                <ul>
-                    <li *ngFor="let c of this.FoodDetailInfo.Comments.slice(0,100)">
-                        {{c}}
-                    </li>
-                </ul>
-            </p-tabPanel>
-        </p-tabView>
-    </div>
+</div>
+<nav class="navbar navbar-light bg-light" style="position: absolute;z-index: 99;top:0px;width: 100%;">
+    <img src="assets/image/美食.png" width="30" height="30" alt="">
+    {{this.FoodDetailInfo.Name === null?"找不到餐厅":this.FoodDetailInfo.Name}}
+    <img src="assets/image/返回.png" width="30" height="30" alt="" (click)="Return()" style="float: right;">
+</nav>
+<div *ngIf="this.FoodDetailInfo.Name"
+    style="position: absolute;z-index: 99;top:50px;text-align: center;overflow-y: scroll; margin: 20px;"
+    [ngStyle]="{height:this.appservice.clientHeight - 90 + 'px','width':appservice.clientWidth - 40 + 'px'}">
+    <p-tabView>
+        <p-tabPanel *ngIf="this.FoodDetailInfo.Item !== null" header="详细" style="text-align: left;">
+            {{FoodDetailInfo.Item.join(" ")}}
+            <div *ngIf="this.FoodDetailInfo.lat !== -1">
+                <br />
+                <span *ngIf="this.distence"><b>距离您的距离：</b>{{this.distence}}</span>
+                <br />
+                <echarts [options]="this.option" style="width: 320px;height: 320px;"></echarts>
+            </div>
+        </p-tabPanel>
+        <p-tabPanel *ngIf="this.FoodDetailInfo.Comments !== null" header="评论" style="text-align: left;">
+            <b>评论数：</b>{{this.FoodDetailInfo.CommentCount}} (展示前50条)
+            <echarts [options]="this.opiton_wordcoudy" style="width: 320px;height: 320px;"></echarts>
+            <ul>
+                <li *ngFor="let c of this.FoodDetailInfo.Comments.slice(0,100)">
+                    {{c}}
+                </li>
+            </ul>
+        </p-tabPanel>
+    </p-tabView>
 </div>

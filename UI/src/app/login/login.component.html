@@ -1,9 +1,4 @@
-<div style="position:relative;
-            background-image: url('assets/image/cover.jpg');  
-            background-attachment: fixed;
-            background-repeat: no-repeat;
-            background-size: 100% 100%;
-            opacity: 0.2;" [ngStyle]="{'height':clientHeight + 'px','width':'100%'}">
+<div class="frame" style="background-image: url('assets/image/cover.jpg'); " [ngStyle]="{'height':clientHeight + 'px','width':'100%'}">
 </div>
 <div *ngIf="this.app.IsLoadFinish" style="position: absolute;z-index: 99; bottom: 0px;width: 100%;text-align: center;"
     [ngStyle]="{'height':clientHeight * 0.75 + 'px'}">
@@ -40,10 +35,10 @@
         <br />
         <div class="row">
             <div class="col-3"></div>
+            <div class="col-3"> <img (click)="this.app.InitScene();this.router.navigateByUrl('introduce');"
+                    src="assets/image/介绍.png" width="64px" height="64px"></div>
             <div class="col-3"> <img (click)="this.router.navigateByUrl('favitem');" src="assets/image/收藏.png"
                     width="64px" height="64px"></div>
-            <div class="col-3"> <img (click)="this.app.InitScene();this.router.navigateByUrl('help');"
-                    src="assets/image/帮助.png" width="64px" height="64px"></div>
             <div class="col-3"></div>
         </div>
 
@@ -57,6 +52,6 @@
 </div>
 
 <div style="position: absolute;z-index: 99; bottom: 0px;width: 100%;text-align: center;" [ngStyle]="{'height':'50px'}">
-    ©GrayFur Studio 2019-2020 Powerby Angular 9.1.7<br />
+    ©GrayFur Studio 2019-2020 Powerby Angular 9.1.9<br />
     <button (click)="SimulateLocation()">模拟深圳地址</button>
 </div>

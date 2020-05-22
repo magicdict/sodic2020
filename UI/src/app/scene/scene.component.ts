@@ -72,7 +72,6 @@ export class SceneComponent implements OnInit {
   }
   /**退出 */
   Exit() {
-    if (this.WaitForBranchPicker) return;
     this._location.back();
   }
 }

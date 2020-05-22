@@ -9,7 +9,7 @@
         [ngStyle]="{height:this.appservice.clientHeight-50 + 'px','width':appservice.clientWidth + 'px'}">
         <div *ngFor="let p of this.appservice.Plan.Daily">
             <p-card [header]="p.strDate " [subheader]="p.strWeek" [style]="{width: appservice.clientWidth + 'px'}"
-                styleClass="ui-card-shadow">
+                styleClass="ui-card-shadow items">
                 <div>
                     景点: {{p.Spot.length === 0 ? "未安排":getItemNameList(p.Spot)}} <br />
                     吃饭：{{p.Food.length === 0 ? "未安排":getItemNameList(p.Food)}} <br />

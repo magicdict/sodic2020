@@ -1,6 +1,8 @@
-<div style="position:relative;"
+<div class="frame-items"
     [ngStyle]="{'height':this.appservice.clientHeight + 'px','width':appservice.clientWidth + 'px'}">
-    <nav class="navbar navbar-light bg-light" style="position: absolute;z-index: 99;top:0px;width: 100%;">
+ 
+</div>
+<nav class="navbar navbar-light bg-light" style="position: absolute;z-index: 99;top:0px;width: 100%;">
         <img src="assets/image/工具.png" width="30" height="30" alt="">
         {{this.appservice.CurrentDailyInfo.strDate}}({{this.appservice.CurrentDailyInfo.strWeek}})
         <img src="assets/image/返回.png" width="30" height="30" alt="" (click)="Return()" style="float: right;">
@@ -52,4 +54,3 @@
             </p-tabPanel>
         </p-tabView>
     </div>
-</div>
