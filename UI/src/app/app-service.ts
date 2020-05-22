@@ -116,7 +116,12 @@ export class AppService {
     TourList: TourInfo[] = [];
     GiftList: GiftInfo[] = [];
 
-    constructor(private http: HttpClient, private localstorage: DataStorage, private common: CommonFunction) {
+    public InitScene(){
+        this.scenemgr.lineIdx = 0;
+        this.scenemgr.sceneName = "菜单";
+    }
+
+    constructor(private http: HttpClient, private localstorage: DataStorage, public scenemgr: SceneMgr,private common: CommonFunction) {
         //用户数据的载入
         this.favorites = this.localstorage.Load("favorites");
         this.footprints = this.localstorage.Load("footprints");
@@ -179,6 +184,7 @@ export class AppService {
             }
         )
         this.RefreshGeo();
+        this.InitScene();
     }
 
 
@@ -318,6 +324,7 @@ export interface FootprintItem {
 
 import { Observable } from 'rxjs';
 import { ActivatedRouteSnapshot, Resolve, RouterStateSnapshot } from '@angular/router';
+import { SceneMgr } from './SceneMgr';
 
 @Injectable()
 export class IFoodInfoResolver implements Resolve<FoodInfo> {

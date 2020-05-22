@@ -37,6 +37,8 @@ import { HelpComponent } from './login/help.component';
 import { ToastService } from './toasts/toast-service';
 import { ToastsContainer } from './toasts/toast-container.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { SceneComponent } from './scene/scene.component';
+import { SceneMgr } from './SceneMgr';
 @NgModule({
   declarations: [
     AppComponent,
@@ -62,7 +64,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     DailyPlanComponent,
     HelpComponent,
     ToastsContainer,
-
+    SceneComponent      
   ],
   imports: [
     BrowserModule,
@@ -80,7 +82,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     FormsModule,
     NgbModule
   ],
-  providers: [AppService, CommonFunction, ToastService, IFoodInfoResolver, IHotelInfoResolver],
+  providers: [AppService,SceneMgr, CommonFunction, ToastService, IFoodInfoResolver, IHotelInfoResolver],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
