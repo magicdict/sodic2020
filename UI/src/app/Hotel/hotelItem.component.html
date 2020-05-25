@@ -16,8 +16,8 @@
                 class="fas fa-list"></i>&nbsp;详细</button>
         &nbsp;&nbsp;&nbsp;&nbsp;
         <button style="width: 96px;height: 36px;" class="btn btn-danger"
-            (click)="this.appservice.AddToFav(Hotel,type);this.toastService.show(this.Hotel.Name + ' 加入心愿单', { classname: 'bg-danger text-light', delay: 3000 });"><i
-                class="fas fa-heart"></i>&nbsp;收藏</button>
+            (click)="this.appservice.AddToFav(Hotel,type);this.toastService.show(this.Hotel.Name + ' 加入心愿单', { classname: 'bg-success text-light', delay: 3000 });"><i
+                class="fas fa-heart"></i>&nbsp;心愿单</button>
     </div>
     <div *ngIf="Mode === 1" class="card-footer">
         <button style="width: 96px;height: 36px;" class="btn btn-primary"

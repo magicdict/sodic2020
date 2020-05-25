@@ -3,11 +3,11 @@
  
 </div>
 <nav class="navbar navbar-light bg-light" style="position: absolute;z-index: 99;top:0px;width: 100%;">
-        <img src="assets/image/工具.png" width="30" height="30" alt="">
+        <img src="assets/image/计划.png" width="30" height="30" alt="">
         {{this.appservice.CurrentDailyInfo.strDate}}({{this.appservice.CurrentDailyInfo.strWeek}})
         <img src="assets/image/返回.png" width="30" height="30" alt="" (click)="Return()" style="float: right;">
     </nav>
-    <div style="position: absolute;z-index: 99;top:50px;text-align: center;overflow-y: scroll;"
+    <div style="position: absolute;z-index: 99;top:42px;text-align: center;overflow-y: scroll;"
         [ngStyle]="{height:this.appservice.clientHeight-50 + 'px','width':appservice.clientWidth + 'px'}">
 
         <p-tabView>

@@ -10,7 +10,7 @@
         <img src="assets/image/返回.png" width="30" height="30" alt="" (click)="Return()" />
     </div>
 </nav>
-<div style="position: absolute;z-index: 99;top:50px;text-align: center;overflow-y: scroll;"
+<div style="position: absolute;z-index: 99;top:42px;text-align: center;overflow-y: scroll;"
     [ngStyle]="{height:this.appservice.clientHeight-50 + 'px','width':appservice.clientWidth + 'px'}">
     <footprint-item *ngFor="let f of this.appservice.footprints" [Item]="f"></footprint-item>
 </div>
