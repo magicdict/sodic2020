@@ -6,6 +6,7 @@ import { BasicInfoComponent } from './visualization/basicinfo.component';
 import { HotfoodComponent } from './visualization/hotfood.component';
 import { SpotOverviewComponent } from './visualization/spotoverview.component';
 import { SimpleHeatMapComponent } from './visualization/SimpleHeatMap.component';
+import { BookInfoComponent } from './visualization/bookinfo.component';
 
 
 const routes: Routes = [
@@ -13,6 +14,7 @@ const routes: Routes = [
     path: 'main', component: MainComponent,
     children: [
       { path: 'dashboard/basicinfo', component: BasicInfoComponent },
+      { path: 'dashboard/bookinfo', component: BookInfoComponent },
       { path: 'dashboard/spotoverview/:name', component: SpotOverviewComponent },
       { path: 'food/pricetop/:name', component: PriceTopLowComponent },
       { path: 'food/hot', component: HotfoodComponent },

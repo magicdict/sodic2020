@@ -11,6 +11,9 @@ namespace xlsx2json
     {
         public const string JiangmenDataFolder = @"F:\sodic2020\非JSON数据\江门文旅数据\";
         public const string ShenzhenDataFolder = @"F:\sodic2020\非JSON数据\深圳文旅数据\";
+
+        public const string BookDataFolder = @"F:\sodic2020\非JSON数据\预约数据\";
+
         public const string JsonFolder_AngularAssets = @"F:\sodic2020\UI\src\assets\json\";
         public const string JsonFolder_Visualization_AngularAssets = @"F:\sodic2020\Visualization\src\assets\json\";
         public const string JsonFolder_WepApi = @"F:\sodic2020\json\";
@@ -25,8 +28,8 @@ namespace xlsx2json
             //CreateGift();
             //CreateTour();
             //return;
-            旅游景点信息.CreateSpotSimple(JsonFolder_WepApi + "深圳市旅游景点信息.json",JsonFolder_Visualization_AngularAssets + "深圳市旅游景点信息.json");
-            旅游景点信息.CreateSpotSimple(JsonFolder_WepApi + "江门市旅游景点信息.json",JsonFolder_Visualization_AngularAssets + "江门市旅游景点信息.json");
+            //旅游景点信息.CreateSpotSimple(JsonFolder_WepApi + "深圳市旅游景点信息.json",JsonFolder_Visualization_AngularAssets + "深圳市旅游景点信息.json");
+            //旅游景点信息.CreateSpotSimple(JsonFolder_WepApi + "江门市旅游景点信息.json",JsonFolder_Visualization_AngularAssets + "江门市旅游景点信息.json");
             /* var SpotComment_SZ = 旅游景点评论.CreateSpotComment(ShenzhenDataFolder + "深圳市旅游景点评价信息.xlsx");
             //世界之窗：东部华侨城
             var g = SpotComment_SZ.Where(x =>true).ToList();
@@ -35,6 +38,8 @@ namespace xlsx2json
             {
                 Debug.WriteLine(item.Key + ":" + item.Count());
             } */
+            中英街预约信息.CreateBook(BookDataFolder + "中英街预约数据.xls",JsonFolder_Visualization_AngularAssets + "中英街预约数据.json");
+            大梅沙预约信息.CreateBook(BookDataFolder + "大梅沙预约数据.xlsx",JsonFolder_Visualization_AngularAssets + "大梅沙预约数据.json");
         }
 
         class GeoHeatMap

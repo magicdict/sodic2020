@@ -18,7 +18,7 @@
         </p-calendar>
         <br /><br />
         <span>结束时间&nbsp;&nbsp;</span>
-        <p-calendar [(ngModel)]="enddate" dateFormat="yy/mm/dd" [touchUI]="true" [readonlyInput]="true"
+        <p-calendar [(ngModel)]="enddate" dateFormat="yy/mm/dd" [touchUI]="true" [readonlyInput]="true" [locale]="zh"
             (onSelect)="GetDays()">
         </p-calendar>
     </div>

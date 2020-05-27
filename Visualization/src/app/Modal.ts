@@ -18,3 +18,16 @@ export interface SpotInfo extends POIInfo {
     PriceValue: number;
     ScoreCnt:number;
 }
+
+export interface ZYStreetBook{
+    Date:Date;
+    WeekDay:number;
+    TotalBook:number;
+}
+
+export interface BigMeiShaBook{
+    Date:Date;
+    WeekDay:number;
+    TotalBook:number;
+    InCount:number;
+}

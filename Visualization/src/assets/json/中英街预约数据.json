@@ -1,0 +1,3272 @@
+[
+  {
+    "Date": "2018-05-01T00:00:00",
+    "WeekDay": 2,
+    "TotalBook": 5016,
+    "OnlineBook": 0,
+    "FrontBook": 0,
+    "TeamBook": 0,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-05-02T00:00:00",
+    "WeekDay": 3,
+    "TotalBook": 1316,
+    "OnlineBook": 0,
+    "FrontBook": 0,
+    "TeamBook": 0,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-05-03T00:00:00",
+    "WeekDay": 4,
+    "TotalBook": 732,
+    "OnlineBook": 0,
+    "FrontBook": 0,
+    "TeamBook": 0,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-05-04T00:00:00",
+    "WeekDay": 5,
+    "TotalBook": 661,
+    "OnlineBook": 0,
+    "FrontBook": 0,
+    "TeamBook": 0,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-05-05T00:00:00",
+    "WeekDay": 6,
+    "TotalBook": 2066,
+    "OnlineBook": 0,
+    "FrontBook": 0,
+    "TeamBook": 0,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-05-06T00:00:00",
+    "WeekDay": 0,
+    "TotalBook": 3244,
+    "OnlineBook": 0,
+    "FrontBook": 0,
+    "TeamBook": 0,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-05-07T00:00:00",
+    "WeekDay": 1,
+    "TotalBook": 699,
+    "OnlineBook": 0,
+    "FrontBook": 0,
+    "TeamBook": 0,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-05-08T00:00:00",
+    "WeekDay": 2,
+    "TotalBook": 463,
+    "OnlineBook": 0,
+    "FrontBook": 0,
+    "TeamBook": 0,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-05-09T00:00:00",
+    "WeekDay": 3,
+    "TotalBook": 634,
+    "OnlineBook": 0,
+    "FrontBook": 0,
+    "TeamBook": 0,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-05-10T00:00:00",
+    "WeekDay": 4,
+    "TotalBook": 577,
+    "OnlineBook": 0,
+    "FrontBook": 0,
+    "TeamBook": 0,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-05-11T00:00:00",
+    "WeekDay": 5,
+    "TotalBook": 775,
+    "OnlineBook": 0,
+    "FrontBook": 0,
+    "TeamBook": 0,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-05-12T00:00:00",
+    "WeekDay": 6,
+    "TotalBook": 2020,
+    "OnlineBook": 0,
+    "FrontBook": 0,
+    "TeamBook": 0,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-05-13T00:00:00",
+    "WeekDay": 0,
+    "TotalBook": 3222,
+    "OnlineBook": 0,
+    "FrontBook": 0,
+    "TeamBook": 0,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-05-14T00:00:00",
+    "WeekDay": 1,
+    "TotalBook": 586,
+    "OnlineBook": 0,
+    "FrontBook": 0,
+    "TeamBook": 0,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-05-15T00:00:00",
+    "WeekDay": 2,
+    "TotalBook": 556,
+    "OnlineBook": 0,
+    "FrontBook": 0,
+    "TeamBook": 0,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-05-16T00:00:00",
+    "WeekDay": 3,
+    "TotalBook": 773,
+    "OnlineBook": 0,
+    "FrontBook": 0,
+    "TeamBook": 0,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-05-17T00:00:00",
+    "WeekDay": 4,
+    "TotalBook": 725,
+    "OnlineBook": 0,
+    "FrontBook": 0,
+    "TeamBook": 0,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-05-18T00:00:00",
+    "WeekDay": 5,
+    "TotalBook": 607,
+    "OnlineBook": 0,
+    "FrontBook": 2,
+    "TeamBook": 2,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-05-19T00:00:00",
+    "WeekDay": 6,
+    "TotalBook": 2327,
+    "OnlineBook": 2116,
+    "FrontBook": 2,
+    "TeamBook": 209,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-05-20T00:00:00",
+    "WeekDay": 0,
+    "TotalBook": 3498,
+    "OnlineBook": 3196,
+    "FrontBook": 4,
+    "TeamBook": 298,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-05-21T00:00:00",
+    "WeekDay": 1,
+    "TotalBook": 626,
+    "OnlineBook": 516,
+    "FrontBook": 0,
+    "TeamBook": 110,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-05-22T00:00:00",
+    "WeekDay": 2,
+    "TotalBook": 660,
+    "OnlineBook": 565,
+    "FrontBook": 0,
+    "TeamBook": 95,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-05-23T00:00:00",
+    "WeekDay": 3,
+    "TotalBook": 752,
+    "OnlineBook": 487,
+    "FrontBook": 0,
+    "TeamBook": 265,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-05-24T00:00:00",
+    "WeekDay": 4,
+    "TotalBook": 772,
+    "OnlineBook": 520,
+    "FrontBook": 0,
+    "TeamBook": 252,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-05-25T00:00:00",
+    "WeekDay": 5,
+    "TotalBook": 668,
+    "OnlineBook": 522,
+    "FrontBook": 0,
+    "TeamBook": 146,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-05-26T00:00:00",
+    "WeekDay": 6,
+    "TotalBook": 2307,
+    "OnlineBook": 1978,
+    "FrontBook": 0,
+    "TeamBook": 329,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-05-27T00:00:00",
+    "WeekDay": 0,
+    "TotalBook": 3161,
+    "OnlineBook": 2945,
+    "FrontBook": 0,
+    "TeamBook": 216,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-05-28T00:00:00",
+    "WeekDay": 1,
+    "TotalBook": 860,
+    "OnlineBook": 644,
+    "FrontBook": 1,
+    "TeamBook": 215,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-05-29T00:00:00",
+    "WeekDay": 2,
+    "TotalBook": 868,
+    "OnlineBook": 650,
+    "FrontBook": 0,
+    "TeamBook": 218,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-05-30T00:00:00",
+    "WeekDay": 3,
+    "TotalBook": 864,
+    "OnlineBook": 591,
+    "FrontBook": 0,
+    "TeamBook": 273,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-05-31T00:00:00",
+    "WeekDay": 4,
+    "TotalBook": 925,
+    "OnlineBook": 697,
+    "FrontBook": 0,
+    "TeamBook": 228,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-06-01T00:00:00",
+    "WeekDay": 5,
+    "TotalBook": 939,
+    "OnlineBook": 856,
+    "FrontBook": 0,
+    "TeamBook": 83,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-06-02T00:00:00",
+    "WeekDay": 6,
+    "TotalBook": 2567,
+    "OnlineBook": 2234,
+    "FrontBook": 0,
+    "TeamBook": 333,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-06-03T00:00:00",
+    "WeekDay": 0,
+    "TotalBook": 4030,
+    "OnlineBook": 3813,
+    "FrontBook": 0,
+    "TeamBook": 217,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-06-04T00:00:00",
+    "WeekDay": 1,
+    "TotalBook": 893,
+    "OnlineBook": 727,
+    "FrontBook": 0,
+    "TeamBook": 166,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-06-05T00:00:00",
+    "WeekDay": 2,
+    "TotalBook": 701,
+    "OnlineBook": 650,
+    "FrontBook": 0,
+    "TeamBook": 51,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-06-06T00:00:00",
+    "WeekDay": 3,
+    "TotalBook": 521,
+    "OnlineBook": 387,
+    "FrontBook": 0,
+    "TeamBook": 134,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-06-07T00:00:00",
+    "WeekDay": 4,
+    "TotalBook": 615,
+    "OnlineBook": 314,
+    "FrontBook": 0,
+    "TeamBook": 301,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-06-08T00:00:00",
+    "WeekDay": 5,
+    "TotalBook": 453,
+    "OnlineBook": 314,
+    "FrontBook": 0,
+    "TeamBook": 133,
+    "SpotBook": 6,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-06-09T00:00:00",
+    "WeekDay": 6,
+    "TotalBook": 1769,
+    "OnlineBook": 1596,
+    "FrontBook": 0,
+    "TeamBook": 173,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-06-10T00:00:00",
+    "WeekDay": 0,
+    "TotalBook": 4031,
+    "OnlineBook": 3735,
+    "FrontBook": 0,
+    "TeamBook": 296,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-06-11T00:00:00",
+    "WeekDay": 1,
+    "TotalBook": 1084,
+    "OnlineBook": 909,
+    "FrontBook": 0,
+    "TeamBook": 175,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-06-12T00:00:00",
+    "WeekDay": 2,
+    "TotalBook": 1005,
+    "OnlineBook": 874,
+    "FrontBook": 0,
+    "TeamBook": 131,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-06-13T00:00:00",
+    "WeekDay": 3,
+    "TotalBook": 606,
+    "OnlineBook": 508,
+    "FrontBook": 0,
+    "TeamBook": 98,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-06-14T00:00:00",
+    "WeekDay": 4,
+    "TotalBook": 744,
+    "OnlineBook": 609,
+    "FrontBook": 0,
+    "TeamBook": 135,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-06-15T00:00:00",
+    "WeekDay": 5,
+    "TotalBook": 964,
+    "OnlineBook": 794,
+    "FrontBook": 0,
+    "TeamBook": 170,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-06-16T00:00:00",
+    "WeekDay": 6,
+    "TotalBook": 3048,
+    "OnlineBook": 2830,
+    "FrontBook": 0,
+    "TeamBook": 218,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-06-17T00:00:00",
+    "WeekDay": 0,
+    "TotalBook": 4474,
+    "OnlineBook": 4096,
+    "FrontBook": 0,
+    "TeamBook": 378,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-06-18T00:00:00",
+    "WeekDay": 1,
+    "TotalBook": 3324,
+    "OnlineBook": 3135,
+    "FrontBook": 11,
+    "TeamBook": 178,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-06-19T00:00:00",
+    "WeekDay": 2,
+    "TotalBook": 895,
+    "OnlineBook": 650,
+    "FrontBook": 0,
+    "TeamBook": 245,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-06-20T00:00:00",
+    "WeekDay": 3,
+    "TotalBook": 867,
+    "OnlineBook": 592,
+    "FrontBook": 0,
+    "TeamBook": 275,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-06-21T00:00:00",
+    "WeekDay": 4,
+    "TotalBook": 806,
+    "OnlineBook": 697,
+    "FrontBook": 0,
+    "TeamBook": 109,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-06-22T00:00:00",
+    "WeekDay": 5,
+    "TotalBook": 861,
+    "OnlineBook": 706,
+    "FrontBook": 0,
+    "TeamBook": 155,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-06-23T00:00:00",
+    "WeekDay": 6,
+    "TotalBook": 2169,
+    "OnlineBook": 1838,
+    "FrontBook": 25,
+    "TeamBook": 306,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-06-24T00:00:00",
+    "WeekDay": 0,
+    "TotalBook": 3092,
+    "OnlineBook": 2880,
+    "FrontBook": 0,
+    "TeamBook": 212,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-06-25T00:00:00",
+    "WeekDay": 1,
+    "TotalBook": 918,
+    "OnlineBook": 747,
+    "FrontBook": 0,
+    "TeamBook": 171,
+    "SpotBook": 0,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-06-26T00:00:00",
+    "WeekDay": 2,
+    "TotalBook": 883,
+    "OnlineBook": 755,
+    "FrontBook": 0,
+    "TeamBook": 119,
+    "SpotBook": 9,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-06-27T00:00:00",
+    "WeekDay": 3,
+    "TotalBook": 826,
+    "OnlineBook": 688,
+    "FrontBook": 0,
+    "TeamBook": 135,
+    "SpotBook": 3,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-06-28T00:00:00",
+    "WeekDay": 4,
+    "TotalBook": 2660,
+    "OnlineBook": 734,
+    "FrontBook": 0,
+    "TeamBook": 178,
+    "SpotBook": 1748,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-06-29T00:00:00",
+    "WeekDay": 5,
+    "TotalBook": 4148,
+    "OnlineBook": 794,
+    "FrontBook": 0,
+    "TeamBook": 151,
+    "SpotBook": 3203,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-06-30T00:00:00",
+    "WeekDay": 6,
+    "TotalBook": 7023,
+    "OnlineBook": 2445,
+    "FrontBook": 0,
+    "TeamBook": 374,
+    "SpotBook": 4204,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-07-01T00:00:00",
+    "WeekDay": 0,
+    "TotalBook": 8131,
+    "OnlineBook": 3739,
+    "FrontBook": 0,
+    "TeamBook": 272,
+    "SpotBook": 4120,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-07-02T00:00:00",
+    "WeekDay": 1,
+    "TotalBook": 3502,
+    "OnlineBook": 685,
+    "FrontBook": 0,
+    "TeamBook": 120,
+    "SpotBook": 2697,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-07-03T00:00:00",
+    "WeekDay": 2,
+    "TotalBook": 2686,
+    "OnlineBook": 771,
+    "FrontBook": 0,
+    "TeamBook": 125,
+    "SpotBook": 1790,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-07-04T00:00:00",
+    "WeekDay": 3,
+    "TotalBook": 4682,
+    "OnlineBook": 769,
+    "FrontBook": 0,
+    "TeamBook": 103,
+    "SpotBook": 3810,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-07-05T00:00:00",
+    "WeekDay": 4,
+    "TotalBook": 4146,
+    "OnlineBook": 816,
+    "FrontBook": 0,
+    "TeamBook": 173,
+    "SpotBook": 3157,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-07-06T00:00:00",
+    "WeekDay": 5,
+    "TotalBook": 5241,
+    "OnlineBook": 999,
+    "FrontBook": 0,
+    "TeamBook": 167,
+    "SpotBook": 4075,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-07-07T00:00:00",
+    "WeekDay": 6,
+    "TotalBook": 8065,
+    "OnlineBook": 2761,
+    "FrontBook": 0,
+    "TeamBook": 323,
+    "SpotBook": 4981,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-07-08T00:00:00",
+    "WeekDay": 0,
+    "TotalBook": 5601,
+    "OnlineBook": 3906,
+    "FrontBook": 0,
+    "TeamBook": 415,
+    "SpotBook": 1280,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-07-09T00:00:00",
+    "WeekDay": 1,
+    "TotalBook": 2554,
+    "OnlineBook": 1133,
+    "FrontBook": 0,
+    "TeamBook": 158,
+    "SpotBook": 1263,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-07-10T00:00:00",
+    "WeekDay": 2,
+    "TotalBook": 5801,
+    "OnlineBook": 973,
+    "FrontBook": 0,
+    "TeamBook": 413,
+    "SpotBook": 4415,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-07-11T00:00:00",
+    "WeekDay": 3,
+    "TotalBook": 5968,
+    "OnlineBook": 1075,
+    "FrontBook": 0,
+    "TeamBook": 370,
+    "SpotBook": 4523,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-07-12T00:00:00",
+    "WeekDay": 4,
+    "TotalBook": 5982,
+    "OnlineBook": 1151,
+    "FrontBook": 0,
+    "TeamBook": 467,
+    "SpotBook": 4364,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-07-13T00:00:00",
+    "WeekDay": 5,
+    "TotalBook": 4771,
+    "OnlineBook": 978,
+    "FrontBook": 0,
+    "TeamBook": 447,
+    "SpotBook": 3346,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-07-14T00:00:00",
+    "WeekDay": 6,
+    "TotalBook": 8453,
+    "OnlineBook": 2577,
+    "FrontBook": 0,
+    "TeamBook": 251,
+    "SpotBook": 5625,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-07-15T00:00:00",
+    "WeekDay": 0,
+    "TotalBook": 10000,
+    "OnlineBook": 4168,
+    "FrontBook": 0,
+    "TeamBook": 759,
+    "SpotBook": 5073,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-07-16T00:00:00",
+    "WeekDay": 1,
+    "TotalBook": 6995,
+    "OnlineBook": 1277,
+    "FrontBook": 0,
+    "TeamBook": 352,
+    "SpotBook": 5366,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-07-17T00:00:00",
+    "WeekDay": 2,
+    "TotalBook": 5884,
+    "OnlineBook": 956,
+    "FrontBook": 0,
+    "TeamBook": 348,
+    "SpotBook": 4580,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-07-18T00:00:00",
+    "WeekDay": 3,
+    "TotalBook": 5843,
+    "OnlineBook": 1045,
+    "FrontBook": 0,
+    "TeamBook": 239,
+    "SpotBook": 4559,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-07-19T00:00:00",
+    "WeekDay": 4,
+    "TotalBook": 6559,
+    "OnlineBook": 1246,
+    "FrontBook": 0,
+    "TeamBook": 320,
+    "SpotBook": 4993,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-07-20T00:00:00",
+    "WeekDay": 5,
+    "TotalBook": 2213,
+    "OnlineBook": 1258,
+    "FrontBook": 0,
+    "TeamBook": 447,
+    "SpotBook": 508,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-07-21T00:00:00",
+    "WeekDay": 6,
+    "TotalBook": 5757,
+    "OnlineBook": 3430,
+    "FrontBook": 0,
+    "TeamBook": 635,
+    "SpotBook": 1692,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-07-22T00:00:00",
+    "WeekDay": 0,
+    "TotalBook": 7031,
+    "OnlineBook": 5263,
+    "FrontBook": 0,
+    "TeamBook": 918,
+    "SpotBook": 850,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-07-23T00:00:00",
+    "WeekDay": 1,
+    "TotalBook": 2501,
+    "OnlineBook": 1534,
+    "FrontBook": 0,
+    "TeamBook": 183,
+    "SpotBook": 784,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-07-24T00:00:00",
+    "WeekDay": 2,
+    "TotalBook": 6344,
+    "OnlineBook": 1204,
+    "FrontBook": 0,
+    "TeamBook": 343,
+    "SpotBook": 4797,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-07-25T00:00:00",
+    "WeekDay": 3,
+    "TotalBook": 6543,
+    "OnlineBook": 1281,
+    "FrontBook": 0,
+    "TeamBook": 306,
+    "SpotBook": 4956,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-07-26T00:00:00",
+    "WeekDay": 4,
+    "TotalBook": 5356,
+    "OnlineBook": 1111,
+    "FrontBook": 0,
+    "TeamBook": 223,
+    "SpotBook": 4022,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-07-27T00:00:00",
+    "WeekDay": 5,
+    "TotalBook": 5912,
+    "OnlineBook": 1404,
+    "FrontBook": 2,
+    "TeamBook": 340,
+    "SpotBook": 4166,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-07-28T00:00:00",
+    "WeekDay": 6,
+    "TotalBook": 9347,
+    "OnlineBook": 3562,
+    "FrontBook": 8,
+    "TeamBook": 255,
+    "SpotBook": 5522,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-07-29T00:00:00",
+    "WeekDay": 0,
+    "TotalBook": 10500,
+    "OnlineBook": 5479,
+    "FrontBook": 0,
+    "TeamBook": 506,
+    "SpotBook": 4515,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-07-30T00:00:00",
+    "WeekDay": 1,
+    "TotalBook": 6480,
+    "OnlineBook": 1696,
+    "FrontBook": 0,
+    "TeamBook": 271,
+    "SpotBook": 4513,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-07-31T00:00:00",
+    "WeekDay": 2,
+    "TotalBook": 5638,
+    "OnlineBook": 1313,
+    "FrontBook": 0,
+    "TeamBook": 67,
+    "SpotBook": 4258,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-08-01T00:00:00",
+    "WeekDay": 3,
+    "TotalBook": 5720,
+    "OnlineBook": 1337,
+    "FrontBook": 2,
+    "TeamBook": 269,
+    "SpotBook": 4112,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-08-02T00:00:00",
+    "WeekDay": 4,
+    "TotalBook": 5805,
+    "OnlineBook": 1185,
+    "FrontBook": 0,
+    "TeamBook": 257,
+    "SpotBook": 4363,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-08-03T00:00:00",
+    "WeekDay": 5,
+    "TotalBook": 5676,
+    "OnlineBook": 1439,
+    "FrontBook": 2,
+    "TeamBook": 84,
+    "SpotBook": 4151,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-08-04T00:00:00",
+    "WeekDay": 6,
+    "TotalBook": 9500,
+    "OnlineBook": 3460,
+    "FrontBook": 0,
+    "TeamBook": 183,
+    "SpotBook": 5857,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-08-05T00:00:00",
+    "WeekDay": 0,
+    "TotalBook": 11000,
+    "OnlineBook": 5219,
+    "FrontBook": 0,
+    "TeamBook": 62,
+    "SpotBook": 5719,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-08-06T00:00:00",
+    "WeekDay": 1,
+    "TotalBook": 6715,
+    "OnlineBook": 1726,
+    "FrontBook": 0,
+    "TeamBook": 220,
+    "SpotBook": 4769,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-08-07T00:00:00",
+    "WeekDay": 2,
+    "TotalBook": 6202,
+    "OnlineBook": 1335,
+    "FrontBook": 0,
+    "TeamBook": 324,
+    "SpotBook": 4543,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-08-08T00:00:00",
+    "WeekDay": 3,
+    "TotalBook": 6092,
+    "OnlineBook": 1340,
+    "FrontBook": 0,
+    "TeamBook": 169,
+    "SpotBook": 4583,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-08-09T00:00:00",
+    "WeekDay": 4,
+    "TotalBook": 6091,
+    "OnlineBook": 1372,
+    "FrontBook": 0,
+    "TeamBook": 191,
+    "SpotBook": 4528,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-08-10T00:00:00",
+    "WeekDay": 5,
+    "TotalBook": 6323,
+    "OnlineBook": 1533,
+    "FrontBook": 0,
+    "TeamBook": 324,
+    "SpotBook": 4466,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-08-11T00:00:00",
+    "WeekDay": 6,
+    "TotalBook": 7124,
+    "OnlineBook": 2415,
+    "FrontBook": 0,
+    "TeamBook": 302,
+    "SpotBook": 4407,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-08-12T00:00:00",
+    "WeekDay": 0,
+    "TotalBook": 11100,
+    "OnlineBook": 4420,
+    "FrontBook": 0,
+    "TeamBook": 784,
+    "SpotBook": 5896,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-08-13T00:00:00",
+    "WeekDay": 1,
+    "TotalBook": 6372,
+    "OnlineBook": 1106,
+    "FrontBook": 0,
+    "TeamBook": 164,
+    "SpotBook": 5102,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-08-14T00:00:00",
+    "WeekDay": 2,
+    "TotalBook": 6201,
+    "OnlineBook": 1365,
+    "FrontBook": 0,
+    "TeamBook": 197,
+    "SpotBook": 4639,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-08-15T00:00:00",
+    "WeekDay": 3,
+    "TotalBook": 5634,
+    "OnlineBook": 1184,
+    "FrontBook": 0,
+    "TeamBook": 320,
+    "SpotBook": 4130,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-08-16T00:00:00",
+    "WeekDay": 4,
+    "TotalBook": 6083,
+    "OnlineBook": 1415,
+    "FrontBook": 0,
+    "TeamBook": 117,
+    "SpotBook": 4551,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-08-17T00:00:00",
+    "WeekDay": 5,
+    "TotalBook": 6605,
+    "OnlineBook": 1475,
+    "FrontBook": 0,
+    "TeamBook": 188,
+    "SpotBook": 4942,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-08-18T00:00:00",
+    "WeekDay": 6,
+    "TotalBook": 9440,
+    "OnlineBook": 3430,
+    "FrontBook": 0,
+    "TeamBook": 201,
+    "SpotBook": 5809,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-08-19T00:00:00",
+    "WeekDay": 0,
+    "TotalBook": 11000,
+    "OnlineBook": 5153,
+    "FrontBook": 0,
+    "TeamBook": 447,
+    "SpotBook": 5400,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-08-20T00:00:00",
+    "WeekDay": 1,
+    "TotalBook": 6823,
+    "OnlineBook": 1442,
+    "FrontBook": 0,
+    "TeamBook": 128,
+    "SpotBook": 5253,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-08-21T00:00:00",
+    "WeekDay": 2,
+    "TotalBook": 6177,
+    "OnlineBook": 1170,
+    "FrontBook": 4,
+    "TeamBook": 280,
+    "SpotBook": 4723,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-08-22T00:00:00",
+    "WeekDay": 3,
+    "TotalBook": 6326,
+    "OnlineBook": 1559,
+    "FrontBook": 0,
+    "TeamBook": 105,
+    "SpotBook": 4662,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-08-23T00:00:00",
+    "WeekDay": 4,
+    "TotalBook": 5350,
+    "OnlineBook": 1200,
+    "FrontBook": 0,
+    "TeamBook": 96,
+    "SpotBook": 4054,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-08-24T00:00:00",
+    "WeekDay": 5,
+    "TotalBook": 5562,
+    "OnlineBook": 1452,
+    "FrontBook": 0,
+    "TeamBook": 139,
+    "SpotBook": 3971,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-08-25T00:00:00",
+    "WeekDay": 6,
+    "TotalBook": 8366,
+    "OnlineBook": 3348,
+    "FrontBook": 0,
+    "TeamBook": 93,
+    "SpotBook": 4925,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-08-26T00:00:00",
+    "WeekDay": 0,
+    "TotalBook": 11001,
+    "OnlineBook": 4611,
+    "FrontBook": 0,
+    "TeamBook": 295,
+    "SpotBook": 6095,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-08-27T00:00:00",
+    "WeekDay": 1,
+    "TotalBook": 5921,
+    "OnlineBook": 1291,
+    "FrontBook": 0,
+    "TeamBook": 413,
+    "SpotBook": 4217,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-08-28T00:00:00",
+    "WeekDay": 2,
+    "TotalBook": 4221,
+    "OnlineBook": 954,
+    "FrontBook": 1,
+    "TeamBook": 97,
+    "SpotBook": 3169,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-08-29T00:00:00",
+    "WeekDay": 3,
+    "TotalBook": 3302,
+    "OnlineBook": 825,
+    "FrontBook": 0,
+    "TeamBook": 148,
+    "SpotBook": 2329,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-08-30T00:00:00",
+    "WeekDay": 4,
+    "TotalBook": 2471,
+    "OnlineBook": 526,
+    "FrontBook": 0,
+    "TeamBook": 31,
+    "SpotBook": 1914,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-08-31T00:00:00",
+    "WeekDay": 5,
+    "TotalBook": 3804,
+    "OnlineBook": 924,
+    "FrontBook": 0,
+    "TeamBook": 205,
+    "SpotBook": 2675,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-09-01T00:00:00",
+    "WeekDay": 6,
+    "TotalBook": 5409,
+    "OnlineBook": 1937,
+    "FrontBook": 0,
+    "TeamBook": 130,
+    "SpotBook": 3342,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-09-02T00:00:00",
+    "WeekDay": 0,
+    "TotalBook": 8944,
+    "OnlineBook": 3208,
+    "FrontBook": 0,
+    "TeamBook": 92,
+    "SpotBook": 5644,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-09-03T00:00:00",
+    "WeekDay": 1,
+    "TotalBook": 4049,
+    "OnlineBook": 820,
+    "FrontBook": 0,
+    "TeamBook": 110,
+    "SpotBook": 3119,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-09-04T00:00:00",
+    "WeekDay": 2,
+    "TotalBook": 4414,
+    "OnlineBook": 914,
+    "FrontBook": 2,
+    "TeamBook": 139,
+    "SpotBook": 3359,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-09-05T00:00:00",
+    "WeekDay": 3,
+    "TotalBook": 4744,
+    "OnlineBook": 928,
+    "FrontBook": 0,
+    "TeamBook": 403,
+    "SpotBook": 3413,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-09-06T00:00:00",
+    "WeekDay": 4,
+    "TotalBook": 4166,
+    "OnlineBook": 772,
+    "FrontBook": 0,
+    "TeamBook": 139,
+    "SpotBook": 3255,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-09-07T00:00:00",
+    "WeekDay": 5,
+    "TotalBook": 4625,
+    "OnlineBook": 961,
+    "FrontBook": 0,
+    "TeamBook": 353,
+    "SpotBook": 3311,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-09-08T00:00:00",
+    "WeekDay": 6,
+    "TotalBook": 8234,
+    "OnlineBook": 3142,
+    "FrontBook": 0,
+    "TeamBook": 144,
+    "SpotBook": 4948,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-09-09T00:00:00",
+    "WeekDay": 0,
+    "TotalBook": 11000,
+    "OnlineBook": 4243,
+    "FrontBook": 6,
+    "TeamBook": 261,
+    "SpotBook": 6490,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-09-10T00:00:00",
+    "WeekDay": 1,
+    "TotalBook": 4499,
+    "OnlineBook": 900,
+    "FrontBook": 0,
+    "TeamBook": 78,
+    "SpotBook": 3521,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-09-11T00:00:00",
+    "WeekDay": 2,
+    "TotalBook": 4898,
+    "OnlineBook": 1030,
+    "FrontBook": 0,
+    "TeamBook": 104,
+    "SpotBook": 3764,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-09-12T00:00:00",
+    "WeekDay": 3,
+    "TotalBook": 4720,
+    "OnlineBook": 688,
+    "FrontBook": 0,
+    "TeamBook": 56,
+    "SpotBook": 3976,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-09-13T00:00:00",
+    "WeekDay": 4,
+    "TotalBook": 4207,
+    "OnlineBook": 585,
+    "FrontBook": 0,
+    "TeamBook": 92,
+    "SpotBook": 3530,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-09-14T00:00:00",
+    "WeekDay": 5,
+    "TotalBook": 4735,
+    "OnlineBook": 709,
+    "FrontBook": 0,
+    "TeamBook": 159,
+    "SpotBook": 3867,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-09-15T00:00:00",
+    "WeekDay": 6,
+    "TotalBook": 7762,
+    "OnlineBook": 2146,
+    "FrontBook": 0,
+    "TeamBook": 119,
+    "SpotBook": 5497,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-09-17T00:00:00",
+    "WeekDay": 1,
+    "TotalBook": 1367,
+    "OnlineBook": 59,
+    "FrontBook": 0,
+    "TeamBook": 0,
+    "SpotBook": 1308,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-09-18T00:00:00",
+    "WeekDay": 2,
+    "TotalBook": 3328,
+    "OnlineBook": 461,
+    "FrontBook": 0,
+    "TeamBook": 67,
+    "SpotBook": 2800,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-09-19T00:00:00",
+    "WeekDay": 3,
+    "TotalBook": 4545,
+    "OnlineBook": 782,
+    "FrontBook": 0,
+    "TeamBook": 40,
+    "SpotBook": 3723,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-09-20T00:00:00",
+    "WeekDay": 4,
+    "TotalBook": 4600,
+    "OnlineBook": 781,
+    "FrontBook": 0,
+    "TeamBook": 140,
+    "SpotBook": 3679,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-09-21T00:00:00",
+    "WeekDay": 5,
+    "TotalBook": 4412,
+    "OnlineBook": 754,
+    "FrontBook": 0,
+    "TeamBook": 272,
+    "SpotBook": 3386,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-09-22T00:00:00",
+    "WeekDay": 6,
+    "TotalBook": 7058,
+    "OnlineBook": 2186,
+    "FrontBook": 0,
+    "TeamBook": 159,
+    "SpotBook": 4713,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-09-23T00:00:00",
+    "WeekDay": 0,
+    "TotalBook": 11041,
+    "OnlineBook": 3891,
+    "FrontBook": 2,
+    "TeamBook": 90,
+    "SpotBook": 7058,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-09-24T00:00:00",
+    "WeekDay": 1,
+    "TotalBook": 8632,
+    "OnlineBook": 2499,
+    "FrontBook": 0,
+    "TeamBook": 100,
+    "SpotBook": 6033,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-09-25T00:00:00",
+    "WeekDay": 2,
+    "TotalBook": 2981,
+    "OnlineBook": 418,
+    "FrontBook": 0,
+    "TeamBook": 32,
+    "SpotBook": 2531,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-09-26T00:00:00",
+    "WeekDay": 3,
+    "TotalBook": 3355,
+    "OnlineBook": 453,
+    "FrontBook": 0,
+    "TeamBook": 56,
+    "SpotBook": 2846,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-09-27T00:00:00",
+    "WeekDay": 4,
+    "TotalBook": 3646,
+    "OnlineBook": 561,
+    "FrontBook": 0,
+    "TeamBook": 85,
+    "SpotBook": 3000,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-09-28T00:00:00",
+    "WeekDay": 5,
+    "TotalBook": 3851,
+    "OnlineBook": 630,
+    "FrontBook": 0,
+    "TeamBook": 7,
+    "SpotBook": 3214,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-09-29T00:00:00",
+    "WeekDay": 6,
+    "TotalBook": 4494,
+    "OnlineBook": 786,
+    "FrontBook": 0,
+    "TeamBook": 290,
+    "SpotBook": 3418,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-09-30T00:00:00",
+    "WeekDay": 0,
+    "TotalBook": 5271,
+    "OnlineBook": 1357,
+    "FrontBook": 2,
+    "TeamBook": 0,
+    "SpotBook": 3912,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-10-01T00:00:00",
+    "WeekDay": 1,
+    "TotalBook": 11187,
+    "OnlineBook": 2745,
+    "FrontBook": 0,
+    "TeamBook": 79,
+    "SpotBook": 8363,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-10-02T00:00:00",
+    "WeekDay": 2,
+    "TotalBook": 12988,
+    "OnlineBook": 4823,
+    "FrontBook": 5,
+    "TeamBook": 341,
+    "SpotBook": 7819,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-10-03T00:00:00",
+    "WeekDay": 3,
+    "TotalBook": 14156,
+    "OnlineBook": 5495,
+    "FrontBook": 0,
+    "TeamBook": 235,
+    "SpotBook": 8426,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-10-04T00:00:00",
+    "WeekDay": 4,
+    "TotalBook": 13569,
+    "OnlineBook": 4463,
+    "FrontBook": 0,
+    "TeamBook": 418,
+    "SpotBook": 8688,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-10-05T00:00:00",
+    "WeekDay": 5,
+    "TotalBook": 11279,
+    "OnlineBook": 3360,
+    "FrontBook": 0,
+    "TeamBook": 414,
+    "SpotBook": 7505,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-10-06T00:00:00",
+    "WeekDay": 6,
+    "TotalBook": 8961,
+    "OnlineBook": 2775,
+    "FrontBook": 0,
+    "TeamBook": 154,
+    "SpotBook": 6032,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-10-07T00:00:00",
+    "WeekDay": 0,
+    "TotalBook": 6913,
+    "OnlineBook": 2160,
+    "FrontBook": 0,
+    "TeamBook": 101,
+    "SpotBook": 4652,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-10-08T00:00:00",
+    "WeekDay": 1,
+    "TotalBook": 3488,
+    "OnlineBook": 587,
+    "FrontBook": 0,
+    "TeamBook": 66,
+    "SpotBook": 2835,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-10-09T00:00:00",
+    "WeekDay": 2,
+    "TotalBook": 3428,
+    "OnlineBook": 612,
+    "FrontBook": 0,
+    "TeamBook": 46,
+    "SpotBook": 2770,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-10-10T00:00:00",
+    "WeekDay": 3,
+    "TotalBook": 3482,
+    "OnlineBook": 521,
+    "FrontBook": 0,
+    "TeamBook": 157,
+    "SpotBook": 2804,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-10-11T00:00:00",
+    "WeekDay": 4,
+    "TotalBook": 3840,
+    "OnlineBook": 459,
+    "FrontBook": 0,
+    "TeamBook": 211,
+    "SpotBook": 3170,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-10-12T00:00:00",
+    "WeekDay": 5,
+    "TotalBook": 4027,
+    "OnlineBook": 623,
+    "FrontBook": 0,
+    "TeamBook": 198,
+    "SpotBook": 3206,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-10-13T00:00:00",
+    "WeekDay": 6,
+    "TotalBook": 7166,
+    "OnlineBook": 2164,
+    "FrontBook": 0,
+    "TeamBook": 293,
+    "SpotBook": 4709,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-10-14T00:00:00",
+    "WeekDay": 0,
+    "TotalBook": 9611,
+    "OnlineBook": 3067,
+    "FrontBook": 0,
+    "TeamBook": 243,
+    "SpotBook": 6301,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-10-15T00:00:00",
+    "WeekDay": 1,
+    "TotalBook": 4366,
+    "OnlineBook": 648,
+    "FrontBook": 0,
+    "TeamBook": 137,
+    "SpotBook": 3581,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-10-16T00:00:00",
+    "WeekDay": 2,
+    "TotalBook": 3734,
+    "OnlineBook": 512,
+    "FrontBook": 0,
+    "TeamBook": 144,
+    "SpotBook": 3078,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-10-17T00:00:00",
+    "WeekDay": 3,
+    "TotalBook": 3764,
+    "OnlineBook": 415,
+    "FrontBook": 0,
+    "TeamBook": 115,
+    "SpotBook": 3234,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-10-18T00:00:00",
+    "WeekDay": 4,
+    "TotalBook": 3456,
+    "OnlineBook": 492,
+    "FrontBook": 0,
+    "TeamBook": 88,
+    "SpotBook": 2876,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-10-19T00:00:00",
+    "WeekDay": 5,
+    "TotalBook": 4506,
+    "OnlineBook": 597,
+    "FrontBook": 0,
+    "TeamBook": 292,
+    "SpotBook": 3617,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-10-20T00:00:00",
+    "WeekDay": 6,
+    "TotalBook": 7242,
+    "OnlineBook": 2132,
+    "FrontBook": 0,
+    "TeamBook": 176,
+    "SpotBook": 4934,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-10-21T00:00:00",
+    "WeekDay": 0,
+    "TotalBook": 9968,
+    "OnlineBook": 2879,
+    "FrontBook": 0,
+    "TeamBook": 301,
+    "SpotBook": 6788,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-10-22T00:00:00",
+    "WeekDay": 1,
+    "TotalBook": 4726,
+    "OnlineBook": 703,
+    "FrontBook": 0,
+    "TeamBook": 268,
+    "SpotBook": 3755,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-10-23T00:00:00",
+    "WeekDay": 2,
+    "TotalBook": 4662,
+    "OnlineBook": 653,
+    "FrontBook": 0,
+    "TeamBook": 171,
+    "SpotBook": 3838,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-10-24T00:00:00",
+    "WeekDay": 3,
+    "TotalBook": 4521,
+    "OnlineBook": 576,
+    "FrontBook": 0,
+    "TeamBook": 197,
+    "SpotBook": 3748,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-10-26T00:00:00",
+    "WeekDay": 5,
+    "TotalBook": 569,
+    "OnlineBook": 0,
+    "FrontBook": 3,
+    "TeamBook": 0,
+    "SpotBook": 566,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-10-27T00:00:00",
+    "WeekDay": 6,
+    "TotalBook": 6847,
+    "OnlineBook": 0,
+    "FrontBook": 0,
+    "TeamBook": 260,
+    "SpotBook": 6587,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-10-28T00:00:00",
+    "WeekDay": 0,
+    "TotalBook": 10913,
+    "OnlineBook": 2437,
+    "FrontBook": 0,
+    "TeamBook": 202,
+    "SpotBook": 8274,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-10-29T00:00:00",
+    "WeekDay": 1,
+    "TotalBook": 4715,
+    "OnlineBook": 580,
+    "FrontBook": 0,
+    "TeamBook": 248,
+    "SpotBook": 3887,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-10-30T00:00:00",
+    "WeekDay": 2,
+    "TotalBook": 4697,
+    "OnlineBook": 559,
+    "FrontBook": 0,
+    "TeamBook": 145,
+    "SpotBook": 3993,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-10-31T00:00:00",
+    "WeekDay": 3,
+    "TotalBook": 5031,
+    "OnlineBook": 579,
+    "FrontBook": 0,
+    "TeamBook": 181,
+    "SpotBook": 4271,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-11-01T00:00:00",
+    "WeekDay": 4,
+    "TotalBook": 4861,
+    "OnlineBook": 590,
+    "FrontBook": 3,
+    "TeamBook": 193,
+    "SpotBook": 4075,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-11-02T00:00:00",
+    "WeekDay": 5,
+    "TotalBook": 4542,
+    "OnlineBook": 626,
+    "FrontBook": 0,
+    "TeamBook": 300,
+    "SpotBook": 3616,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-11-03T00:00:00",
+    "WeekDay": 6,
+    "TotalBook": 7944,
+    "OnlineBook": 2183,
+    "FrontBook": 0,
+    "TeamBook": 347,
+    "SpotBook": 5414,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-11-04T00:00:00",
+    "WeekDay": 0,
+    "TotalBook": 11496,
+    "OnlineBook": 3346,
+    "FrontBook": 0,
+    "TeamBook": 234,
+    "SpotBook": 7916,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-11-05T00:00:00",
+    "WeekDay": 1,
+    "TotalBook": 4761,
+    "OnlineBook": 613,
+    "FrontBook": 0,
+    "TeamBook": 263,
+    "SpotBook": 3885,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-11-06T00:00:00",
+    "WeekDay": 2,
+    "TotalBook": 4621,
+    "OnlineBook": 542,
+    "FrontBook": 0,
+    "TeamBook": 343,
+    "SpotBook": 3736,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-11-07T00:00:00",
+    "WeekDay": 3,
+    "TotalBook": 4882,
+    "OnlineBook": 562,
+    "FrontBook": 0,
+    "TeamBook": 368,
+    "SpotBook": 3952,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-11-08T00:00:00",
+    "WeekDay": 4,
+    "TotalBook": 4507,
+    "OnlineBook": 639,
+    "FrontBook": 0,
+    "TeamBook": 377,
+    "SpotBook": 3491,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-11-09T00:00:00",
+    "WeekDay": 5,
+    "TotalBook": 4752,
+    "OnlineBook": 632,
+    "FrontBook": 0,
+    "TeamBook": 191,
+    "SpotBook": 3929,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-11-10T00:00:00",
+    "WeekDay": 6,
+    "TotalBook": 8243,
+    "OnlineBook": 2203,
+    "FrontBook": 0,
+    "TeamBook": 289,
+    "SpotBook": 5751,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-11-11T00:00:00",
+    "WeekDay": 0,
+    "TotalBook": 10426,
+    "OnlineBook": 2827,
+    "FrontBook": 0,
+    "TeamBook": 569,
+    "SpotBook": 7030,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-11-12T00:00:00",
+    "WeekDay": 1,
+    "TotalBook": 4746,
+    "OnlineBook": 534,
+    "FrontBook": 0,
+    "TeamBook": 348,
+    "SpotBook": 3864,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-11-13T00:00:00",
+    "WeekDay": 2,
+    "TotalBook": 4751,
+    "OnlineBook": 560,
+    "FrontBook": 0,
+    "TeamBook": 433,
+    "SpotBook": 3758,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-11-14T00:00:00",
+    "WeekDay": 3,
+    "TotalBook": 4827,
+    "OnlineBook": 608,
+    "FrontBook": 0,
+    "TeamBook": 358,
+    "SpotBook": 3861,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-11-15T00:00:00",
+    "WeekDay": 4,
+    "TotalBook": 5175,
+    "OnlineBook": 658,
+    "FrontBook": 0,
+    "TeamBook": 514,
+    "SpotBook": 4003,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-11-16T00:00:00",
+    "WeekDay": 5,
+    "TotalBook": 5622,
+    "OnlineBook": 590,
+    "FrontBook": 0,
+    "TeamBook": 541,
+    "SpotBook": 4491,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-11-17T00:00:00",
+    "WeekDay": 6,
+    "TotalBook": 8245,
+    "OnlineBook": 2174,
+    "FrontBook": 0,
+    "TeamBook": 335,
+    "SpotBook": 5736,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-11-18T00:00:00",
+    "WeekDay": 0,
+    "TotalBook": 10208,
+    "OnlineBook": 2718,
+    "FrontBook": 0,
+    "TeamBook": 243,
+    "SpotBook": 7247,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-11-19T00:00:00",
+    "WeekDay": 1,
+    "TotalBook": 5209,
+    "OnlineBook": 543,
+    "FrontBook": 0,
+    "TeamBook": 570,
+    "SpotBook": 4096,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-11-20T00:00:00",
+    "WeekDay": 2,
+    "TotalBook": 4956,
+    "OnlineBook": 616,
+    "FrontBook": 0,
+    "TeamBook": 262,
+    "SpotBook": 4078,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-11-21T00:00:00",
+    "WeekDay": 3,
+    "TotalBook": 4825,
+    "OnlineBook": 599,
+    "FrontBook": 0,
+    "TeamBook": 356,
+    "SpotBook": 3870,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-11-22T00:00:00",
+    "WeekDay": 4,
+    "TotalBook": 4740,
+    "OnlineBook": 483,
+    "FrontBook": 0,
+    "TeamBook": 412,
+    "SpotBook": 3845,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-11-23T00:00:00",
+    "WeekDay": 5,
+    "TotalBook": 5026,
+    "OnlineBook": 577,
+    "FrontBook": 0,
+    "TeamBook": 284,
+    "SpotBook": 4165,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-11-24T00:00:00",
+    "WeekDay": 6,
+    "TotalBook": 8579,
+    "OnlineBook": 1780,
+    "FrontBook": 0,
+    "TeamBook": 554,
+    "SpotBook": 6245,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-11-25T00:00:00",
+    "WeekDay": 0,
+    "TotalBook": 8375,
+    "OnlineBook": 0,
+    "FrontBook": 0,
+    "TeamBook": 0,
+    "SpotBook": 8375,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-11-26T00:00:00",
+    "WeekDay": 1,
+    "TotalBook": 4685,
+    "OnlineBook": 405,
+    "FrontBook": 0,
+    "TeamBook": 240,
+    "SpotBook": 4040,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-11-27T00:00:00",
+    "WeekDay": 2,
+    "TotalBook": 4966,
+    "OnlineBook": 472,
+    "FrontBook": 0,
+    "TeamBook": 597,
+    "SpotBook": 3897,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-11-28T00:00:00",
+    "WeekDay": 3,
+    "TotalBook": 4587,
+    "OnlineBook": 437,
+    "FrontBook": 0,
+    "TeamBook": 606,
+    "SpotBook": 3544,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-11-29T00:00:00",
+    "WeekDay": 4,
+    "TotalBook": 5242,
+    "OnlineBook": 621,
+    "FrontBook": 0,
+    "TeamBook": 447,
+    "SpotBook": 4174,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-11-30T00:00:00",
+    "WeekDay": 5,
+    "TotalBook": 5095,
+    "OnlineBook": 585,
+    "FrontBook": 0,
+    "TeamBook": 445,
+    "SpotBook": 4065,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-12-01T00:00:00",
+    "WeekDay": 6,
+    "TotalBook": 9587,
+    "OnlineBook": 2133,
+    "FrontBook": 0,
+    "TeamBook": 792,
+    "SpotBook": 6662,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-12-02T00:00:00",
+    "WeekDay": 0,
+    "TotalBook": 10964,
+    "OnlineBook": 2826,
+    "FrontBook": 0,
+    "TeamBook": 489,
+    "SpotBook": 7649,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-12-03T00:00:00",
+    "WeekDay": 1,
+    "TotalBook": 5393,
+    "OnlineBook": 602,
+    "FrontBook": 0,
+    "TeamBook": 559,
+    "SpotBook": 4232,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-12-04T00:00:00",
+    "WeekDay": 2,
+    "TotalBook": 5069,
+    "OnlineBook": 531,
+    "FrontBook": 0,
+    "TeamBook": 558,
+    "SpotBook": 3980,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-12-05T00:00:00",
+    "WeekDay": 3,
+    "TotalBook": 5233,
+    "OnlineBook": 501,
+    "FrontBook": 0,
+    "TeamBook": 448,
+    "SpotBook": 4284,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-12-06T00:00:00",
+    "WeekDay": 4,
+    "TotalBook": 5658,
+    "OnlineBook": 546,
+    "FrontBook": 0,
+    "TeamBook": 804,
+    "SpotBook": 4308,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-12-07T00:00:00",
+    "WeekDay": 5,
+    "TotalBook": 4708,
+    "OnlineBook": 553,
+    "FrontBook": 0,
+    "TeamBook": 433,
+    "SpotBook": 3722,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-12-08T00:00:00",
+    "WeekDay": 6,
+    "TotalBook": 7808,
+    "OnlineBook": 1798,
+    "FrontBook": 0,
+    "TeamBook": 274,
+    "SpotBook": 5736,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-12-09T00:00:00",
+    "WeekDay": 0,
+    "TotalBook": 10595,
+    "OnlineBook": 2337,
+    "FrontBook": 0,
+    "TeamBook": 920,
+    "SpotBook": 7338,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-12-10T00:00:00",
+    "WeekDay": 1,
+    "TotalBook": 5311,
+    "OnlineBook": 466,
+    "FrontBook": 0,
+    "TeamBook": 494,
+    "SpotBook": 4351,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-12-11T00:00:00",
+    "WeekDay": 2,
+    "TotalBook": 5466,
+    "OnlineBook": 603,
+    "FrontBook": 0,
+    "TeamBook": 585,
+    "SpotBook": 4278,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-12-12T00:00:00",
+    "WeekDay": 3,
+    "TotalBook": 5146,
+    "OnlineBook": 464,
+    "FrontBook": 0,
+    "TeamBook": 783,
+    "SpotBook": 3899,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-12-13T00:00:00",
+    "WeekDay": 4,
+    "TotalBook": 5635,
+    "OnlineBook": 518,
+    "FrontBook": 0,
+    "TeamBook": 531,
+    "SpotBook": 4586,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-12-14T00:00:00",
+    "WeekDay": 5,
+    "TotalBook": 5449,
+    "OnlineBook": 596,
+    "FrontBook": 0,
+    "TeamBook": 533,
+    "SpotBook": 4320,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-12-15T00:00:00",
+    "WeekDay": 6,
+    "TotalBook": 8765,
+    "OnlineBook": 1833,
+    "FrontBook": 0,
+    "TeamBook": 785,
+    "SpotBook": 6147,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-12-16T00:00:00",
+    "WeekDay": 0,
+    "TotalBook": 11467,
+    "OnlineBook": 2806,
+    "FrontBook": 0,
+    "TeamBook": 1061,
+    "SpotBook": 7600,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-12-17T00:00:00",
+    "WeekDay": 1,
+    "TotalBook": 6029,
+    "OnlineBook": 558,
+    "FrontBook": 0,
+    "TeamBook": 890,
+    "SpotBook": 4581,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-12-18T00:00:00",
+    "WeekDay": 2,
+    "TotalBook": 6498,
+    "OnlineBook": 594,
+    "FrontBook": 0,
+    "TeamBook": 822,
+    "SpotBook": 5082,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-12-19T00:00:00",
+    "WeekDay": 3,
+    "TotalBook": 5542,
+    "OnlineBook": 575,
+    "FrontBook": 0,
+    "TeamBook": 521,
+    "SpotBook": 4446,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-12-20T00:00:00",
+    "WeekDay": 4,
+    "TotalBook": 4932,
+    "OnlineBook": 629,
+    "FrontBook": 0,
+    "TeamBook": 267,
+    "SpotBook": 4036,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-12-21T00:00:00",
+    "WeekDay": 5,
+    "TotalBook": 5185,
+    "OnlineBook": 682,
+    "FrontBook": 0,
+    "TeamBook": 598,
+    "SpotBook": 3905,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-12-22T00:00:00",
+    "WeekDay": 6,
+    "TotalBook": 7520,
+    "OnlineBook": 2040,
+    "FrontBook": 0,
+    "TeamBook": 185,
+    "SpotBook": 5295,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-12-23T00:00:00",
+    "WeekDay": 0,
+    "TotalBook": 10000,
+    "OnlineBook": 2986,
+    "FrontBook": 0,
+    "TeamBook": 347,
+    "SpotBook": 6667,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-12-24T00:00:00",
+    "WeekDay": 1,
+    "TotalBook": 4808,
+    "OnlineBook": 526,
+    "FrontBook": 0,
+    "TeamBook": 415,
+    "SpotBook": 3867,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-12-25T00:00:00",
+    "WeekDay": 2,
+    "TotalBook": 5305,
+    "OnlineBook": 568,
+    "FrontBook": 0,
+    "TeamBook": 372,
+    "SpotBook": 4365,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-12-26T00:00:00",
+    "WeekDay": 3,
+    "TotalBook": 5431,
+    "OnlineBook": 655,
+    "FrontBook": 0,
+    "TeamBook": 510,
+    "SpotBook": 4266,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-12-27T00:00:00",
+    "WeekDay": 4,
+    "TotalBook": 5485,
+    "OnlineBook": 763,
+    "FrontBook": 0,
+    "TeamBook": 345,
+    "SpotBook": 4377,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-12-28T00:00:00",
+    "WeekDay": 5,
+    "TotalBook": 5449,
+    "OnlineBook": 903,
+    "FrontBook": 0,
+    "TeamBook": 309,
+    "SpotBook": 4237,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-12-29T00:00:00",
+    "WeekDay": 6,
+    "TotalBook": 5358,
+    "OnlineBook": 884,
+    "FrontBook": 0,
+    "TeamBook": 363,
+    "SpotBook": 4111,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-12-30T00:00:00",
+    "WeekDay": 0,
+    "TotalBook": 9513,
+    "OnlineBook": 2750,
+    "FrontBook": 3,
+    "TeamBook": 272,
+    "SpotBook": 6488,
+    "Cancel": 0
+  },
+  {
+    "Date": "2018-12-31T00:00:00",
+    "WeekDay": 1,
+    "TotalBook": 13513,
+    "OnlineBook": 3811,
+    "FrontBook": 0,
+    "TeamBook": 289,
+    "SpotBook": 9413,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-01-01T00:00:00",
+    "WeekDay": 2,
+    "TotalBook": 12780,
+    "OnlineBook": 3258,
+    "FrontBook": 0,
+    "TeamBook": 494,
+    "SpotBook": 9028,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-01-02T00:00:00",
+    "WeekDay": 3,
+    "TotalBook": 5050,
+    "OnlineBook": 685,
+    "FrontBook": 0,
+    "TeamBook": 373,
+    "SpotBook": 3992,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-01-03T00:00:00",
+    "WeekDay": 4,
+    "TotalBook": 4513,
+    "OnlineBook": 599,
+    "FrontBook": 0,
+    "TeamBook": 0,
+    "SpotBook": 3914,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-01-04T00:00:00",
+    "WeekDay": 5,
+    "TotalBook": 5064,
+    "OnlineBook": 737,
+    "FrontBook": 0,
+    "TeamBook": 0,
+    "SpotBook": 4327,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-01-05T00:00:00",
+    "WeekDay": 6,
+    "TotalBook": 7634,
+    "OnlineBook": 2220,
+    "FrontBook": 0,
+    "TeamBook": 0,
+    "SpotBook": 5414,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-01-06T00:00:00",
+    "WeekDay": 0,
+    "TotalBook": 10374,
+    "OnlineBook": 3097,
+    "FrontBook": 0,
+    "TeamBook": 0,
+    "SpotBook": 7277,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-01-07T00:00:00",
+    "WeekDay": 1,
+    "TotalBook": 6374,
+    "OnlineBook": 856,
+    "FrontBook": 0,
+    "TeamBook": 0,
+    "SpotBook": 5518,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-01-08T00:00:00",
+    "WeekDay": 2,
+    "TotalBook": 5980,
+    "OnlineBook": 988,
+    "FrontBook": 0,
+    "TeamBook": 0,
+    "SpotBook": 4992,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-01-09T00:00:00",
+    "WeekDay": 3,
+    "TotalBook": 6276,
+    "OnlineBook": 933,
+    "FrontBook": 0,
+    "TeamBook": 385,
+    "SpotBook": 4958,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-01-10T00:00:00",
+    "WeekDay": 4,
+    "TotalBook": 6552,
+    "OnlineBook": 977,
+    "FrontBook": 0,
+    "TeamBook": 356,
+    "SpotBook": 5219,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-01-11T00:00:00",
+    "WeekDay": 5,
+    "TotalBook": 6946,
+    "OnlineBook": 1083,
+    "FrontBook": 0,
+    "TeamBook": 747,
+    "SpotBook": 5116,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-01-12T00:00:00",
+    "WeekDay": 6,
+    "TotalBook": 11083,
+    "OnlineBook": 3476,
+    "FrontBook": 0,
+    "TeamBook": 550,
+    "SpotBook": 7057,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-01-13T00:00:00",
+    "WeekDay": 0,
+    "TotalBook": 15076,
+    "OnlineBook": 4994,
+    "FrontBook": 0,
+    "TeamBook": 823,
+    "SpotBook": 9259,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-01-14T00:00:00",
+    "WeekDay": 1,
+    "TotalBook": 8023,
+    "OnlineBook": 1327,
+    "FrontBook": 0,
+    "TeamBook": 428,
+    "SpotBook": 6268,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-01-15T00:00:00",
+    "WeekDay": 2,
+    "TotalBook": 7193,
+    "OnlineBook": 1399,
+    "FrontBook": 0,
+    "TeamBook": 518,
+    "SpotBook": 5276,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-01-16T00:00:00",
+    "WeekDay": 3,
+    "TotalBook": 7993,
+    "OnlineBook": 1361,
+    "FrontBook": 0,
+    "TeamBook": 456,
+    "SpotBook": 6176,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-01-17T00:00:00",
+    "WeekDay": 4,
+    "TotalBook": 7768,
+    "OnlineBook": 1387,
+    "FrontBook": 0,
+    "TeamBook": 378,
+    "SpotBook": 6003,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-01-18T00:00:00",
+    "WeekDay": 5,
+    "TotalBook": 7287,
+    "OnlineBook": 1357,
+    "FrontBook": 0,
+    "TeamBook": 249,
+    "SpotBook": 5681,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-01-19T00:00:00",
+    "WeekDay": 6,
+    "TotalBook": 11870,
+    "OnlineBook": 4091,
+    "FrontBook": 0,
+    "TeamBook": 478,
+    "SpotBook": 7301,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-01-20T00:00:00",
+    "WeekDay": 0,
+    "TotalBook": 15574,
+    "OnlineBook": 4987,
+    "FrontBook": 0,
+    "TeamBook": 317,
+    "SpotBook": 10270,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-01-21T00:00:00",
+    "WeekDay": 1,
+    "TotalBook": 8980,
+    "OnlineBook": 2118,
+    "FrontBook": 0,
+    "TeamBook": 253,
+    "SpotBook": 6609,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-01-22T00:00:00",
+    "WeekDay": 2,
+    "TotalBook": 8341,
+    "OnlineBook": 1932,
+    "FrontBook": 0,
+    "TeamBook": 178,
+    "SpotBook": 6231,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-01-23T00:00:00",
+    "WeekDay": 3,
+    "TotalBook": 8678,
+    "OnlineBook": 1814,
+    "FrontBook": 0,
+    "TeamBook": 151,
+    "SpotBook": 6713,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-01-24T00:00:00",
+    "WeekDay": 4,
+    "TotalBook": 8311,
+    "OnlineBook": 1970,
+    "FrontBook": 0,
+    "TeamBook": 166,
+    "SpotBook": 6175,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-01-25T00:00:00",
+    "WeekDay": 5,
+    "TotalBook": 8300,
+    "OnlineBook": 1824,
+    "FrontBook": 0,
+    "TeamBook": 152,
+    "SpotBook": 6324,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-01-26T00:00:00",
+    "WeekDay": 6,
+    "TotalBook": 12210,
+    "OnlineBook": 4325,
+    "FrontBook": 0,
+    "TeamBook": 170,
+    "SpotBook": 7715,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-01-27T00:00:00",
+    "WeekDay": 0,
+    "TotalBook": 14155,
+    "OnlineBook": 4996,
+    "FrontBook": 0,
+    "TeamBook": 255,
+    "SpotBook": 8904,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-01-28T00:00:00",
+    "WeekDay": 1,
+    "TotalBook": 9487,
+    "OnlineBook": 2293,
+    "FrontBook": 0,
+    "TeamBook": 71,
+    "SpotBook": 7123,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-01-29T00:00:00",
+    "WeekDay": 2,
+    "TotalBook": 8962,
+    "OnlineBook": 2254,
+    "FrontBook": 0,
+    "TeamBook": 92,
+    "SpotBook": 6616,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-01-30T00:00:00",
+    "WeekDay": 3,
+    "TotalBook": 9268,
+    "OnlineBook": 2607,
+    "FrontBook": 0,
+    "TeamBook": 139,
+    "SpotBook": 6522,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-01-31T00:00:00",
+    "WeekDay": 4,
+    "TotalBook": 8711,
+    "OnlineBook": 2178,
+    "FrontBook": 0,
+    "TeamBook": 0,
+    "SpotBook": 6533,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-02-01T00:00:00",
+    "WeekDay": 5,
+    "TotalBook": 8829,
+    "OnlineBook": 2329,
+    "FrontBook": 0,
+    "TeamBook": 0,
+    "SpotBook": 6500,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-02-02T00:00:00",
+    "WeekDay": 6,
+    "TotalBook": 8164,
+    "OnlineBook": 2146,
+    "FrontBook": 0,
+    "TeamBook": 215,
+    "SpotBook": 5803,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-02-03T00:00:00",
+    "WeekDay": 0,
+    "TotalBook": 6923,
+    "OnlineBook": 1824,
+    "FrontBook": 0,
+    "TeamBook": 231,
+    "SpotBook": 4868,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-02-06T00:00:00",
+    "WeekDay": 3,
+    "TotalBook": 14181,
+    "OnlineBook": 4726,
+    "FrontBook": 0,
+    "TeamBook": 982,
+    "SpotBook": 8473,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-02-07T00:00:00",
+    "WeekDay": 4,
+    "TotalBook": 15067,
+    "OnlineBook": 4235,
+    "FrontBook": 0,
+    "TeamBook": 1331,
+    "SpotBook": 9501,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-02-08T00:00:00",
+    "WeekDay": 5,
+    "TotalBook": 14903,
+    "OnlineBook": 4159,
+    "FrontBook": 0,
+    "TeamBook": 1236,
+    "SpotBook": 9508,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-02-09T00:00:00",
+    "WeekDay": 6,
+    "TotalBook": 14143,
+    "OnlineBook": 3790,
+    "FrontBook": 0,
+    "TeamBook": 1310,
+    "SpotBook": 9043,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-02-10T00:00:00",
+    "WeekDay": 0,
+    "TotalBook": 10156,
+    "OnlineBook": 2382,
+    "FrontBook": 0,
+    "TeamBook": 953,
+    "SpotBook": 6821,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-02-11T00:00:00",
+    "WeekDay": 1,
+    "TotalBook": 7450,
+    "OnlineBook": 1549,
+    "FrontBook": 0,
+    "TeamBook": 558,
+    "SpotBook": 5343,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-02-12T00:00:00",
+    "WeekDay": 2,
+    "TotalBook": 6098,
+    "OnlineBook": 1136,
+    "FrontBook": 0,
+    "TeamBook": 358,
+    "SpotBook": 4604,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-02-13T00:00:00",
+    "WeekDay": 3,
+    "TotalBook": 5657,
+    "OnlineBook": 904,
+    "FrontBook": 0,
+    "TeamBook": 274,
+    "SpotBook": 4479,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-02-14T00:00:00",
+    "WeekDay": 4,
+    "TotalBook": 5042,
+    "OnlineBook": 867,
+    "FrontBook": 0,
+    "TeamBook": 227,
+    "SpotBook": 3948,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-02-15T00:00:00",
+    "WeekDay": 5,
+    "TotalBook": 4818,
+    "OnlineBook": 871,
+    "FrontBook": 0,
+    "TeamBook": 194,
+    "SpotBook": 3753,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-02-16T00:00:00",
+    "WeekDay": 6,
+    "TotalBook": 6704,
+    "OnlineBook": 1804,
+    "FrontBook": 0,
+    "TeamBook": 158,
+    "SpotBook": 4742,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-02-17T00:00:00",
+    "WeekDay": 0,
+    "TotalBook": 7276,
+    "OnlineBook": 1985,
+    "FrontBook": 0,
+    "TeamBook": 58,
+    "SpotBook": 5233,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-02-18T00:00:00",
+    "WeekDay": 1,
+    "TotalBook": 2798,
+    "OnlineBook": 600,
+    "FrontBook": 0,
+    "TeamBook": 168,
+    "SpotBook": 2030,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-02-19T00:00:00",
+    "WeekDay": 2,
+    "TotalBook": 2530,
+    "OnlineBook": 414,
+    "FrontBook": 0,
+    "TeamBook": 28,
+    "SpotBook": 2088,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-02-20T00:00:00",
+    "WeekDay": 3,
+    "TotalBook": 3592,
+    "OnlineBook": 460,
+    "FrontBook": 0,
+    "TeamBook": 105,
+    "SpotBook": 3027,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-02-21T00:00:00",
+    "WeekDay": 4,
+    "TotalBook": 3784,
+    "OnlineBook": 583,
+    "FrontBook": 0,
+    "TeamBook": 16,
+    "SpotBook": 3185,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-02-22T00:00:00",
+    "WeekDay": 5,
+    "TotalBook": 3816,
+    "OnlineBook": 617,
+    "FrontBook": 0,
+    "TeamBook": 27,
+    "SpotBook": 3172,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-02-23T00:00:00",
+    "WeekDay": 6,
+    "TotalBook": 6405,
+    "OnlineBook": 1691,
+    "FrontBook": 0,
+    "TeamBook": 271,
+    "SpotBook": 4443,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-02-24T00:00:00",
+    "WeekDay": 0,
+    "TotalBook": 7754,
+    "OnlineBook": 2030,
+    "FrontBook": 0,
+    "TeamBook": 186,
+    "SpotBook": 5538,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-02-25T00:00:00",
+    "WeekDay": 1,
+    "TotalBook": 4205,
+    "OnlineBook": 569,
+    "FrontBook": 0,
+    "TeamBook": 86,
+    "SpotBook": 3550,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-02-26T00:00:00",
+    "WeekDay": 2,
+    "TotalBook": 4303,
+    "OnlineBook": 543,
+    "FrontBook": 0,
+    "TeamBook": 207,
+    "SpotBook": 3553,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-02-27T00:00:00",
+    "WeekDay": 3,
+    "TotalBook": 4305,
+    "OnlineBook": 276,
+    "FrontBook": 0,
+    "TeamBook": 142,
+    "SpotBook": 3887,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-02-28T00:00:00",
+    "WeekDay": 4,
+    "TotalBook": 4847,
+    "OnlineBook": 376,
+    "FrontBook": 0,
+    "TeamBook": 489,
+    "SpotBook": 3982,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-03-01T00:00:00",
+    "WeekDay": 5,
+    "TotalBook": 4977,
+    "OnlineBook": 659,
+    "FrontBook": 0,
+    "TeamBook": 403,
+    "SpotBook": 3915,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-03-02T00:00:00",
+    "WeekDay": 6,
+    "TotalBook": 8356,
+    "OnlineBook": 2100,
+    "FrontBook": 0,
+    "TeamBook": 321,
+    "SpotBook": 5935,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-03-03T00:00:00",
+    "WeekDay": 0,
+    "TotalBook": 9127,
+    "OnlineBook": 2569,
+    "FrontBook": 0,
+    "TeamBook": 441,
+    "SpotBook": 6117,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-03-04T00:00:00",
+    "WeekDay": 1,
+    "TotalBook": 4885,
+    "OnlineBook": 514,
+    "FrontBook": 0,
+    "TeamBook": 550,
+    "SpotBook": 3821,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-03-05T00:00:00",
+    "WeekDay": 2,
+    "TotalBook": 3787,
+    "OnlineBook": 355,
+    "FrontBook": 0,
+    "TeamBook": 397,
+    "SpotBook": 3035,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-03-06T00:00:00",
+    "WeekDay": 3,
+    "TotalBook": 4284,
+    "OnlineBook": 423,
+    "FrontBook": 0,
+    "TeamBook": 835,
+    "SpotBook": 3026,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-03-07T00:00:00",
+    "WeekDay": 4,
+    "TotalBook": 2978,
+    "OnlineBook": 303,
+    "FrontBook": 0,
+    "TeamBook": 0,
+    "SpotBook": 2675,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-03-08T00:00:00",
+    "WeekDay": 5,
+    "TotalBook": 4127,
+    "OnlineBook": 372,
+    "FrontBook": 0,
+    "TeamBook": 240,
+    "SpotBook": 3515,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-03-09T00:00:00",
+    "WeekDay": 6,
+    "TotalBook": 5987,
+    "OnlineBook": 1320,
+    "FrontBook": 0,
+    "TeamBook": 199,
+    "SpotBook": 4468,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-03-10T00:00:00",
+    "WeekDay": 0,
+    "TotalBook": 6719,
+    "OnlineBook": 735,
+    "FrontBook": 0,
+    "TeamBook": 469,
+    "SpotBook": 5515,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-03-11T00:00:00",
+    "WeekDay": 1,
+    "TotalBook": 4515,
+    "OnlineBook": 66,
+    "FrontBook": 0,
+    "TeamBook": 368,
+    "SpotBook": 4081,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-03-12T00:00:00",
+    "WeekDay": 2,
+    "TotalBook": 5616,
+    "OnlineBook": 178,
+    "FrontBook": 0,
+    "TeamBook": 581,
+    "SpotBook": 4857,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-03-13T00:00:00",
+    "WeekDay": 3,
+    "TotalBook": 5343,
+    "OnlineBook": 62,
+    "FrontBook": 5,
+    "TeamBook": 601,
+    "SpotBook": 4675,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-03-14T00:00:00",
+    "WeekDay": 4,
+    "TotalBook": 4965,
+    "OnlineBook": 641,
+    "FrontBook": 0,
+    "TeamBook": 812,
+    "SpotBook": 3512,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-03-15T00:00:00",
+    "WeekDay": 5,
+    "TotalBook": 5054,
+    "OnlineBook": 499,
+    "FrontBook": 0,
+    "TeamBook": 563,
+    "SpotBook": 3992,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-03-16T00:00:00",
+    "WeekDay": 6,
+    "TotalBook": 9545,
+    "OnlineBook": 1976,
+    "FrontBook": 0,
+    "TeamBook": 887,
+    "SpotBook": 6682,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-03-17T00:00:00",
+    "WeekDay": 0,
+    "TotalBook": 12297,
+    "OnlineBook": 2799,
+    "FrontBook": 0,
+    "TeamBook": 776,
+    "SpotBook": 8722,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-03-18T00:00:00",
+    "WeekDay": 1,
+    "TotalBook": 5913,
+    "OnlineBook": 626,
+    "FrontBook": 0,
+    "TeamBook": 577,
+    "SpotBook": 4710,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-03-19T00:00:00",
+    "WeekDay": 2,
+    "TotalBook": 5438,
+    "OnlineBook": 510,
+    "FrontBook": 0,
+    "TeamBook": 586,
+    "SpotBook": 4342,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-03-20T00:00:00",
+    "WeekDay": 3,
+    "TotalBook": 5847,
+    "OnlineBook": 538,
+    "FrontBook": 0,
+    "TeamBook": 670,
+    "SpotBook": 4639,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-03-21T00:00:00",
+    "WeekDay": 4,
+    "TotalBook": 5691,
+    "OnlineBook": 548,
+    "FrontBook": 0,
+    "TeamBook": 639,
+    "SpotBook": 4504,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-03-22T00:00:00",
+    "WeekDay": 5,
+    "TotalBook": 4956,
+    "OnlineBook": 359,
+    "FrontBook": 0,
+    "TeamBook": 551,
+    "SpotBook": 4046,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-03-23T00:00:00",
+    "WeekDay": 6,
+    "TotalBook": 7549,
+    "OnlineBook": 1542,
+    "FrontBook": 0,
+    "TeamBook": 385,
+    "SpotBook": 5622,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-03-24T00:00:00",
+    "WeekDay": 0,
+    "TotalBook": 9659,
+    "OnlineBook": 1966,
+    "FrontBook": 0,
+    "TeamBook": 664,
+    "SpotBook": 7029,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-03-25T00:00:00",
+    "WeekDay": 1,
+    "TotalBook": 4397,
+    "OnlineBook": 435,
+    "FrontBook": 0,
+    "TeamBook": 294,
+    "SpotBook": 3668,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-03-26T00:00:00",
+    "WeekDay": 2,
+    "TotalBook": 5137,
+    "OnlineBook": 506,
+    "FrontBook": 0,
+    "TeamBook": 346,
+    "SpotBook": 4285,
+    "Cancel": 0
+  },
+  {
+    "Date": "2019-03-27T00:00:00",
+    "WeekDay": 3,
+    "TotalBook": 5341,
+    "OnlineBook": 512,
+    "FrontBook": 0,
+    "TeamBook": 219,
+    "SpotBook": 4610,
+    "Cancel": 0
+  }
+]

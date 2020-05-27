@@ -28,13 +28,13 @@ export class AddFootPrintComponent {
                 var reader = new FileReader();
                 AddFootPrintComponent.Orientation = orientation;
                 reader.readAsDataURL(fileObj);
-                reader.onload = this.FinishRun;
+                reader.onload = () => { this.FinishRun(reader.result) };    //Instance Method
             }
         );
     }
-    FinishRun(this: FileReader): any {
+    FinishRun(result: string | ArrayBuffer): any {
         var preview = document.getElementById("preview");
-        let x = AddFootPrintComponent.compress(this.result, 320, 0.5) as Promise<string>;
+        let x = this.compress(result, 320, 0.5) as Promise<string>;
         x.then(
             r => {
                 switch (AddFootPrintComponent.Orientation) {
@@ -58,7 +58,7 @@ export class AddFootPrintComponent {
             }
         )
     }
-    static compress(base64String, w, quality) {
+    compress(base64String, w, quality) {
         var getMimeType = function (urlData) {
             var arr = urlData.split(',');
             var mime = arr[0].match(/:(.*?);/)[1];
