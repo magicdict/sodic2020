@@ -1,9 +1,8 @@
 import { CommonFunction } from '../Common/common';
-import { IBarStardard, IScatter3DStardard, IPieStardard } from '../Common/chartOption';
-import { SpotInfo, ZYStreetBook, BigMeiShaBook } from '../Modal';
+import { IBarStardard, IPieStardard } from '../Common/chartOption';
+import { BigMeiShaBook } from '../Modal';
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
-import { stringify } from 'querystring';
 
 @Component({
     templateUrl: './bookinfo.component.html',

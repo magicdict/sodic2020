@@ -16,8 +16,11 @@
                 <b>交通：</b>{{this.SpotDetailInfo.TrafficGuide}} <br />
                 <b>营业时间：</b>{{this.SpotDetailInfo.OpenTime}} <br />
                 <b>电话：</b><a [href]="'tel:' + this.SpotDetailInfo.ServiceTel">
-                    {{this.SpotDetailInfo.ServiceTel}}</a>
+                    {{this.SpotDetailInfo.ServiceTel}}</a><br /><br />
             </div>
+            <button class="btn btn-primary"
+                (click)="this.toastService.show('该功能建设中，等待接入平台', { classname: 'bg-success text-light', delay: 3000 });"><img
+                    src="assets/image/购票.png" width="30" height="30" />&nbsp;&nbsp;预约购票</button>
             <div *ngIf="this.SpotDetailInfo.lat !== -1">
                 <br />
                 <span *ngIf="this.distence"><b>距离您的距离：</b>{{this.distence}}</span>
@@ -48,25 +51,38 @@
             </ul>
         </p-tabPanel>
         <p-tabPanel header="附近餐厅">
-            <ul style="padding:5px;">
-                <li *ngFor="let t of this.SpotDetailInfo.NearFood" style="text-align: left;margin: 5px;">
-                    {{t.Item1}} <br />
-                    {{ this.appservice.formatdistence(t.Item2)}}
-                    <button class="btn btn-sm btn-primary"
-                        (click)="this.router.navigateByUrl('food/' +  this.appservice.EncodeURI(t.Item1));"><i
-                            class="fas fa-list"></i>&nbsp;详细</button>
-                </li>
-            </ul>
+            <div class="container">
+                <div *ngFor="let t of this.SpotDetailInfo.NearFood" class="row" style="text-align: left;margin: 5px;">
+                    <div class="col-9" style="padding: 5px;">
+                        {{t.Item1}}
+                        <br />
+                        {{t.Item3}}
+                        {{this.appservice.formatdistence(t.Item2)}}
+                    </div>
+                    <div class="col-3" style="padding: 5px;">
+                        <button class="btn btn-sm btn-primary"
+                            (click)="this.router.navigateByUrl('food/' +  this.appservice.EncodeURI(t.Item1));"><i
+                                class="fas fa-list"></i>&nbsp;详细</button>
+                    </div>
+                </div>
+            </div>
         </p-tabPanel>
         <p-tabPanel header="附近宾馆">
-            <ul style="padding:5px;">
-                <li *ngFor="let t of this.SpotDetailInfo.NearHotel" style="text-align: left;margin: 5px;">
-                    {{t.Item1}}<br />
-                    {{ this.appservice.formatdistence(t.Item2)}}
-                    <button class="btn btn-sm btn-primary"
-                        (click)="this.router.navigateByUrl('hotel/' +  this.appservice.EncodeURI(t.Item1));"><i
-                            class="fas fa-list"></i>&nbsp;详细</button>
-                </li>
-            </ul>
+            <div class="container">
+                <div *ngFor="let t of this.SpotDetailInfo.NearHotel" class="row" style="text-align: left;margin: 5px;">
+                    <div class="col-9" style="padding: 5px;">
+                        {{t.Item1}}<br />
+                        {{t.Item3}}
+                        {{ this.appservice.formatdistence(t.Item2)}}
+                    </div>
+                    <div class="col-3" style="padding: 5px;">
+                        <button class="btn btn-sm btn-primary"
+                            (click)="this.router.navigateByUrl('hotel/' +  this.appservice.EncodeURI(t.Item1));"><i
+                                class="fas fa-list"></i>&nbsp;详细</button>
+                    </div>
+                </div>
+            </div>
         </p-tabPanel>
     </p-tabView>
+
+    <app-toasts aria-live="polite" aria-atomic="true"></app-toasts>

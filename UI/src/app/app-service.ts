@@ -42,7 +42,7 @@ export class AppService {
     Rad(d) {
         return d * Math.PI / 180.0;
     }
-    formatdistence(s:number):string{
+    formatdistence(s: number): string {
         if (s > 1000) return String(Math.round(s / 1000)) + "公里"
         return String(Math.round(s)) + "米"
     }
@@ -116,12 +116,12 @@ export class AppService {
     TourList: TourInfo[] = [];
     GiftList: GiftInfo[] = [];
 
-    public InitScene(){
+    public InitScene() {
         this.scenemgr.lineIdx = 0;
         this.scenemgr.sceneName = "菜单";
     }
 
-    constructor(private http: HttpClient, private localstorage: DataStorage, public scenemgr: SceneMgr,private common: CommonFunction) {
+    constructor(private http: HttpClient, private localstorage: DataStorage, public scenemgr: SceneMgr, private common: CommonFunction) {
         //用户数据的载入
         this.favorites = this.localstorage.Load("favorites");
         this.footprints = this.localstorage.Load("footprints");
@@ -244,8 +244,8 @@ export interface SpotInfo {
     Scenery: number;
     Funny: number;
     PriceValue: number;
-    NearFood: { Item1: string, Item2: number }[];
-    NearHotel: { Item1: string, Item2: number }[];
+    NearFood: { Item1: string, Item2: number, Item3: string }[];
+    NearHotel: { Item1: string, Item2: number, Item3: string }[];
 }
 
 /**美食 */
@@ -328,7 +328,7 @@ import { SceneMgr } from './SceneMgr';
 
 @Injectable()
 export class IFoodInfoResolver implements Resolve<FoodInfo> {
-    constructor(private homeservice: AppService,public commonFunction: CommonFunction) {
+    constructor(private homeservice: AppService, public commonFunction: CommonFunction) {
 
     }
     resolve(route: ActivatedRouteSnapshot, _state: RouterStateSnapshot): FoodInfo | Observable<FoodInfo> | Promise<FoodInfo> {
@@ -341,7 +341,7 @@ export class IFoodInfoResolver implements Resolve<FoodInfo> {
 
 @Injectable()
 export class IHotelInfoResolver implements Resolve<HotelInfo> {
-    constructor(private homeservice: AppService,public commonFunction: CommonFunction) {
+    constructor(private homeservice: AppService, public commonFunction: CommonFunction) {
 
     }
     resolve(route: ActivatedRouteSnapshot, _state: RouterStateSnapshot): HotelInfo | Observable<HotelInfo> | Promise<HotelInfo> {

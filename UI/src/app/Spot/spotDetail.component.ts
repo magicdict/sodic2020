@@ -2,12 +2,16 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { AppService, SpotInfo, TourInfo } from '../app-service';
 import { Location } from '@angular/common';
-
+import { ToastService } from '../toasts/toast-service';
 @Component({
   templateUrl: './spotDetail.component.html',
 })
 export class SpotDetailComponent implements OnInit {
-  constructor(private _location: Location, public appservice: AppService, private route: ActivatedRoute, public router: Router, ) {
+  constructor(private _location: Location, 
+              public appservice: AppService, 
+              private route: ActivatedRoute, 
+              public router: Router,
+              public toastService: ToastService ) {
   }
   TourInfoList: TourInfo[] = [];
   SpotDetailInfo: SpotInfo;

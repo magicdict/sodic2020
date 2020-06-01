@@ -58,6 +58,8 @@ public class clsTuple
     public string Item1 { get; set; }
 
     public double Item2 { get; set; }
+
+    public string Item3 { get; set; }
 }
 
 public class WordCloudItem
