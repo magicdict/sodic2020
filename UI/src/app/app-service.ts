@@ -230,10 +230,10 @@ export interface SpotInfo {
     Address: string;
     Description: string;
     Price: number;
-    OpenTime: number;
-    ServiceTel: number;
-    IssueTel: number;
-    TrafficGuide: number;
+    OpenTime: string;
+    ServiceTel: string;
+    IssueTel: string;
+    TrafficGuide: string;
     lat: number;
     lng: number;
     Comments: string[];

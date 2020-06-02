@@ -48,9 +48,12 @@
             (click)="this.router.navigateByUrl('spot/' +  this.appservice.EncodeURI(Spot.Name));"><i
                 class="fas fa-list"></i>&nbsp;详细</button>
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <button style="width: 96px;height: 36px;" class="btn btn-success"
+        <button *ngIf="!isStop()" style="width: 96px;height: 36px;" class="btn btn-success"
             (click)="this.appservice.AddToPlan(Spot,type);this.toastService.show(this.Spot.Name + ' 已添加', { classname: 'bg-success text-light', delay: 3000 });"><i
                 class="fas fa-plus"></i>&nbsp;添加</button>
+        <button *ngIf="isStop()" style="width: 96px;height: 36px;" class="btn btn-warning"
+            (click)="this.appservice.AddToPlan(Spot,type);this.toastService.show(this.Spot.Name + ' 已添加,暂停营业！！', { classname: 'bg-danger text-light', delay: 3000 });"><i
+                class="fas fa-plus"></i>&nbsp;添加[停业]</button>
     </div>
 </div>
 <app-toasts aria-live="polite" aria-atomic="true"></app-toasts>

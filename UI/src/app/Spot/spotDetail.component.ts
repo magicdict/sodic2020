@@ -18,6 +18,7 @@ export class SpotDetailComponent implements OnInit {
   option = {};
   opiton_wordcoudy = {};
   distence: string;
+  isStop:boolean;
   Return() {
     this._location.back();
   }
@@ -35,7 +36,8 @@ export class SpotDetailComponent implements OnInit {
             return x.Description.indexOf(this.SpotDetailInfo.Name) !== -1;
           }
         );
-
+        if (this.SpotDetailInfo.OpenTime.indexOf("暂停营业")!==-1) this.isStop = true;
+        if (this.SpotDetailInfo.OpenTime.indexOf("暂时停业")!==-1) this.isStop = true;
         console.log("this.appservice.myposition.lat:" + AppService.myposition.lat)
         let mapPoint = [[this.SpotDetailInfo.lng, this.SpotDetailInfo.lat, 1, this.SpotDetailInfo.Name]];
         if (AppService.myposition.lat !== -1) {

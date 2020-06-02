@@ -11,13 +11,22 @@
     [ngStyle]="{height:this.appservice.clientHeight - 90 + 'px','width':appservice.clientWidth - 40 + 'px'}">
     <p-tabView>
         <p-tabPanel header="详细">
-            <div *ngIf="this.SpotDetailInfo.Description" style="text-align: left;">
-                {{this.SpotDetailInfo.Description}}<br /><br />
-                <b>交通：</b>{{this.SpotDetailInfo.TrafficGuide}} <br />
-                <b>营业时间：</b>{{this.SpotDetailInfo.OpenTime}} <br />
-                <b>电话：</b><a [href]="'tel:' + this.SpotDetailInfo.ServiceTel">
-                    {{this.SpotDetailInfo.ServiceTel}}</a><br /><br />
+            <div style="text-align: left;">
+                <span *ngIf="this.SpotDetailInfo.Description"> {{this.SpotDetailInfo.Description}}<br /><br /></span>
+                <span
+                    *ngIf="this.SpotDetailInfo.TrafficGuide"><b>交通：</b>{{this.SpotDetailInfo.TrafficGuide}}<br /></span>
+                <span *ngIf="this.SpotDetailInfo.OpenTime"><b>营业时间：</b>
+                    <span *ngIf="!isStop">{{this.SpotDetailInfo.OpenTime}} </span>
+                    <span *ngIf="isStop">
+                        <font color="red">{{this.SpotDetailInfo.OpenTime}}</font>
+                    </span>
+                    <br />
+                </span>
+                <span *ngIf="this.SpotDetailInfo.ServiceTel"><b>电话：</b><a
+                        [href]="'tel:' + this.SpotDetailInfo.ServiceTel">
+                        {{this.SpotDetailInfo.ServiceTel}}</a> </span>
             </div>
+            <br /><br />
             <button class="btn btn-primary"
                 (click)="this.toastService.show('该功能建设中，等待接入平台', { classname: 'bg-success text-light', delay: 3000 });"><img
                     src="assets/image/购票.png" width="30" height="30" />&nbsp;&nbsp;预约购票</button>
