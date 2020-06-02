@@ -7,6 +7,7 @@ import { HotfoodComponent } from './visualization/hotfood.component';
 import { SpotOverviewComponent } from './visualization/spotoverview.component';
 import { SimpleHeatMapComponent } from './visualization/SimpleHeatMap.component';
 import { BookInfoComponent } from './visualization/bookinfo.component';
+import { SearchKeyComponent } from './app/searchkey.component';
 
 
 const routes: Routes = [
@@ -21,6 +22,7 @@ const routes: Routes = [
       { path: 'hotel/pricetop/:name', component: PriceTopLowComponent },
       { path: 'hotel/priceheatmap/:name', component: SimpleHeatMapComponent },
       { path: 'food/priceheatmap/:name', component: SimpleHeatMapComponent },
+      { path: 'app/searchkey', component: SearchKeyComponent },
     ]
   },
   { path: '', redirectTo: 'main/dashboard/basicinfo', pathMatch: 'full' }

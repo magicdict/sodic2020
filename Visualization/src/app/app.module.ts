@@ -15,6 +15,7 @@ import { SelectButtonModule } from 'primeng/selectbutton';
 import { FormsModule } from '@angular/forms';
 import { SimpleHeatMapComponent } from './visualization/SimpleHeatMap.component';
 import { BookInfoComponent } from './visualization/bookinfo.component';
+import { SearchKeyComponent } from './app/searchkey.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +25,8 @@ import { BookInfoComponent } from './visualization/bookinfo.component';
     BookInfoComponent,
     HotfoodComponent,
     PriceTopLowComponent,
-    SimpleHeatMapComponent
+    SimpleHeatMapComponent,
+    SearchKeyComponent
   ],
   imports: [
     BrowserModule,

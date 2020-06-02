@@ -1,0 +1,30 @@
+<section class="content-header">
+    <h1>
+        检索关键词
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href=""><i class="fa fa-dashboard"></i> Home</a></li>
+        <li class="active">
+            检索关键词
+        </li>
+    </ol>
+</section>
+<section class="content">
+    <div class="row">
+        <div class="col-md-4">
+            <chart [options]="spotoption" [title]="'景点'" [boxstyle]="this._commonFunction.boxstyle_Col4"
+                [chartstyle]="this._commonFunction.chartstyle_Col4" (ChartInit)="this.GetSpotChart($event)">
+            </chart>
+        </div>
+        <div class="col-md-4">
+            <chart [options]="foodoption" [title]="'餐厅'" [boxstyle]="this._commonFunction.boxstyle_Col4"
+                [chartstyle]="this._commonFunction.boxstyle_Col4" (ChartInit)="this.GetFoodChart($event)">
+            </chart>
+        </div>
+        <div class="col-md-4">
+            <chart [options]="spotoption" [title]="'宾馆'" [boxstyle]="this._commonFunction.boxstyle_Col4"
+                [chartstyle]="this._commonFunction.boxstyle_Col4" (ChartInit)="this.GetHotelChart($event)">
+            </chart>
+        </div>
+    </div>
+</section>

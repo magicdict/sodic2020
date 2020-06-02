@@ -41,7 +41,9 @@ public class SpotInfo : POI
     public int ScoreCnt { get; set; }
 
     public double Scenery { get; set; }
+
     public double Funny { get; set; }
+
     public double PriceValue { get; set; }
 
     public List<clsTuple> NearFood { get; set; }
@@ -81,4 +83,12 @@ public class HotelInfo : POI
     public string Distract { get; set; }
     public string ServiceTel { get; set; }
     public string ServiceFax { get; set; }
+}
+
+
+public class SearchKey
+{
+    public List<WordCloudItem> Spot { get; set; }
+    public List<WordCloudItem> Food { get; set; }
+    public List<WordCloudItem> Hotel { get; set; }
 }

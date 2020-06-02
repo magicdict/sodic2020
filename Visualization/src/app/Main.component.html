@@ -208,7 +208,7 @@
 
         <li [class]="this._path.startsWith('/main/dashboard')? 'active treeview menu-open':'treeview'">
           <a href="#">
-            <i class="fa fa-edit"></i> <span>概要</span>
+            <i class="fa fa-edit"></i> <span>景点</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
@@ -275,6 +275,19 @@
             <li [class.active]="_path ==='/main/hotel/priceheatmap/jm'"><a href="/main/hotel/priceheatmap/jm"><i
                   class="fa fa-link"></i>
                 <span>江门价格热力图</span></a></li>
+          </ul>
+        </li>
+
+        <li [class]="this._path.startsWith('/main/app')? 'active treeview menu-open':'treeview'">
+          <a href="#">
+            <i class="fa fa-edit"></i> <span>App数据</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li [class.active]="_path ==='/main/app/searchkey'"><a href="/main/app/searchkey"><i class="fa fa-link"></i>
+                <span>检索关键字</span></a></li>
           </ul>
         </li>
 

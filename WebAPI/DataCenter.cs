@@ -16,6 +16,12 @@ public static class DataCenter
     //const string JsonPath = @"F:\sodic2020\json\";  
     const string JsonPath = @"/root/sodic/json/";
 
+
+    //检索关键字
+    public static Dictionary<string, int> SpotDict = new Dictionary<string, int>();
+    public static Dictionary<string, int> FoodDict = new Dictionary<string, int>();
+    public static Dictionary<string, int> HotelDict = new Dictionary<string, int>();
+
     public static void Init()
     {
         //读入景点信息
