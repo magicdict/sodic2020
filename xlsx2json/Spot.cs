@@ -37,9 +37,11 @@ public class 旅游景点信息 : POI, IEqualityComparer<旅游景点信息>
         }
     }
 
-    public List<(string Name, double Distence,string Address)> NearFood { get; set; }
+    public List<(string Name, double Distence, string Address)> NearSpot { get; set; }
 
-    public List<(string Name, double Distence,string Address)> NearHotel { get; set; }
+    public List<(string Name, double Distence, string Address)> NearFood { get; set; }
+
+    public List<(string Name, double Distence, string Address)> NearHotel { get; set; }
 
     public static List<旅游景点信息> CreateSpot(string xlsxFilename, string jsonFilename, List<旅游景点评论> Comments)
     {

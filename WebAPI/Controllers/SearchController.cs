@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 
@@ -80,7 +82,7 @@ namespace WebAPI.Controllers
             if (jm != null) return jm;
             return new HotelInfo();
         }
-        
+
         [HttpGet(nameof(GetSearchKey))]
         public SearchKey GetSearchKey()
         {
@@ -94,6 +96,40 @@ namespace WebAPI.Controllers
             r.Hotel = DataCenter.HotelDict.Select(x => new WordCloudItem() { name = x.Key, value = x.Value }).ToList();
             r.Hotel.Sort((x, y) => { return y.value - x.value; });
             return r;
+        }
+
+        [HttpGet(nameof(GetFootPrintList))]
+        public List<FootPrint> GetFootPrintList()
+        {
+            return DataCenter.Footprints;
+        }
+
+        /// <summary>
+        /// 上传图片,通过Form表单提交
+        /// </summary>
+        /// <returns></returns>
+        [HttpPost(nameof(SetFootPrint))]
+        public ActionResult SetFootPrint()
+        {
+            var files = Request.Form.Files;
+            //返回的文件地址
+            List<string> filenames = new List<string>();
+            //文件存储路径
+            var file = files[0];
+            var filename = DateTime.Now.ToString("yyyyMMddHHmmss") + "_" + file.FileName;
+            var fileStream = new FileStream(DataCenter.imagefilefolder + filename, FileMode.Create);
+            file.CopyTo(fileStream);
+            fileStream.Close();
+            var x = new FootPrint()
+            {
+                UserImage = filename,
+                Title = Request.Form["Title"][0],
+                Address = Request.Form["Address"][0],
+                Description = Request.Form["Description"][0],
+                Datetime = Request.Form["Datetime"][0],
+            };
+            DataCenter.Footprints.Add(x);
+            return new JsonResult("{'result':'OK'}");
         }
 
     }

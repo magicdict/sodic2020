@@ -35,12 +35,12 @@
         <div class="row">
             <div class="col-3"></div>
             <div class="col-3"><img
-                    (click)="this.app.IsAddToPlanMode = false;this.app.SpotList_CurrentShow = this.app.SpotList_GradeA;this.router.navigateByUrl('spot');"
+                    (click)="JumpToSpot()"
                     src="assets/image/景点.png" width="64px" height="64px">
                     <font color="#1296db" size><b>景点</b></font>
                 </div>
             <div class="col-3"> <img
-                    (click)="this.app.IsAddToPlanMode = false;this.app.FoodList_CurrentShow = this.app.FoodList_Hot;this.router.navigateByUrl('food');"
+                    (click)="JumpToFood()"
                     src="assets/image/美食.png" width="64px" height="64px">
                     <font color="#1296db" size><b>餐厅</b></font>
                 </div>
@@ -50,7 +50,7 @@
         <div class="row">
             <div class="col-3"></div>
             <div class="col-3"><img
-                    (click)="this.app.IsAddToPlanMode = false;this.app.HotelList_CurrentShow = this.app.HotelList_Hot;this.router.navigateByUrl('hotel');"
+                    (click)="JumpToHotel()"
                     src="assets/image/酒店.png" width="64px" height="64px">
                     <font color="#1296db" size><b>宾馆酒店</b></font>
                 </div>

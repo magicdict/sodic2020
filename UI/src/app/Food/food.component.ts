@@ -8,7 +8,8 @@ import { SelectItem } from 'primeng/api/selectitem';
   templateUrl: './food.component.html',
 })
 export class FoodComponent {
-  constructor(public router: Router,public appservice: AppService,
+  constructor(public router: Router,
+    public appservice: AppService,
     private _location: Location) {
   }
   type = enmItemType.Food;

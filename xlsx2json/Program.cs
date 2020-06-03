@@ -409,11 +409,10 @@ namespace xlsx2json
             var sr1 = new StreamReader(JsonFolder_WepApi + "深圳市旅游景点信息.json");
             var Spot_SZ = JsonConvert.DeserializeObject<List<旅游景点信息>>(sr1.ReadToEnd());
             sr1.Close();
-            var sr2 = new StreamReader(JsonFolder_WepApi + "江门市旅游景点信息.json");
-            var Spot_JM = JsonConvert.DeserializeObject<List<旅游景点信息>>(sr2.ReadToEnd());
-            sr2.Close();
 
-
+            sr1 = new StreamReader(JsonFolder_WepApi + "深圳市旅游景点信息.json");
+            var records_spot = JsonConvert.DeserializeObject<List<旅游景点信息>>(sr1.ReadToEnd());
+            sr1.Close();
 
             var sr = new StreamReader(JsonFolder_WepApi + "深圳市特色美食信息.json");
             var records_food = JsonConvert.DeserializeObject<List<特色美食信息>>(sr.ReadToEnd());
@@ -425,13 +424,19 @@ namespace xlsx2json
 
             foreach (var item in Spot_SZ)
             {
+
+                item.NearSpot = new List<(string, double, string)>();
+                records_spot.Sort((x, y) => { return GetDistance(x.lat, x.lng, item.lat, item.lng).CompareTo(GetDistance(y.lat, y.lng, item.lat, item.lng)); });
+                item.NearSpot.AddRange(records_spot.Select(x => (x.Name, GetDistance(x.lat, x.lng, item.lat, item.lng), x.Address)).Take(20));
+                item.NearSpot = item.NearSpot.Where(x => !x.Name.Equals(item.Name)).ToList();
+
                 item.NearFood = new List<(string, double, string)>();
                 records_food.Sort((x, y) => { return GetDistance(x.lat, x.lng, item.lat, item.lng).CompareTo(GetDistance(y.lat, y.lng, item.lat, item.lng)); });
-                item.NearFood.AddRange(records_food.Select(x => (x.Name, GetDistance(x.lat, x.lng, item.lat, item.lng),x.Address)).Take(20));
+                item.NearFood.AddRange(records_food.Select(x => (x.Name, GetDistance(x.lat, x.lng, item.lat, item.lng), x.Address)).Take(20));
 
                 item.NearHotel = new List<(string, double, string)>();
                 records_hotel.Sort((x, y) => { return GetDistance(x.lat, x.lng, item.lat, item.lng).CompareTo(GetDistance(y.lat, y.lng, item.lat, item.lng)); });
-                item.NearHotel.AddRange(records_hotel.Select(x => (x.Name, GetDistance(x.lat, x.lng, item.lat, item.lng),x.Address)).Take(20));
+                item.NearHotel.AddRange(records_hotel.Select(x => (x.Name, GetDistance(x.lat, x.lng, item.lat, item.lng), x.Address)).Take(20));
             }
 
             //重新保存
@@ -441,6 +446,15 @@ namespace xlsx2json
                 sw.Write(json_sz);
                 sw.Close();
             }
+
+
+            var sr2 = new StreamReader(JsonFolder_WepApi + "江门市旅游景点信息.json");
+            var Spot_JM = JsonConvert.DeserializeObject<List<旅游景点信息>>(sr2.ReadToEnd());
+            sr2.Close();
+
+            sr2 = new StreamReader(JsonFolder_WepApi + "江门市旅游景点信息.json");
+            records_spot = JsonConvert.DeserializeObject<List<旅游景点信息>>(sr2.ReadToEnd());
+            sr2.Close();
 
             sr = new StreamReader(JsonFolder_WepApi + "江门市特色美食信息.json");
             records_food = JsonConvert.DeserializeObject<List<特色美食信息>>(sr.ReadToEnd());
@@ -452,13 +466,18 @@ namespace xlsx2json
 
             foreach (var item in Spot_JM)
             {
-                item.NearFood = new List<(string, double,string)>();
-                records_food.Sort((x, y) => { return GetDistance(x.lat, x.lng, item.lat, item.lng).CompareTo(GetDistance(y.lat, y.lng, item.lat, item.lng)); });
-                item.NearFood.AddRange(records_food.Select(x => (x.Name, GetDistance(x.lat, x.lng, item.lat, item.lng),x.Address)).Take(20));
+                item.NearSpot = new List<(string, double, string)>();
+                records_spot.Sort((x, y) => { return GetDistance(x.lat, x.lng, item.lat, item.lng).CompareTo(GetDistance(y.lat, y.lng, item.lat, item.lng)); });
+                item.NearSpot.AddRange(records_spot.Select(x => (x.Name, GetDistance(x.lat, x.lng, item.lat, item.lng), x.Address)).Take(20));
+                item.NearSpot = item.NearSpot.Where(x => !x.Name.Equals(item.Name)).ToList();
 
-                item.NearHotel = new List<(string, double,string)>();
+                item.NearFood = new List<(string, double, string)>();
+                records_food.Sort((x, y) => { return GetDistance(x.lat, x.lng, item.lat, item.lng).CompareTo(GetDistance(y.lat, y.lng, item.lat, item.lng)); });
+                item.NearFood.AddRange(records_food.Select(x => (x.Name, GetDistance(x.lat, x.lng, item.lat, item.lng), x.Address)).Take(20));
+
+                item.NearHotel = new List<(string, double, string)>();
                 records_hotel.Sort((x, y) => { return GetDistance(x.lat, x.lng, item.lat, item.lng).CompareTo(GetDistance(y.lat, y.lng, item.lat, item.lng)); });
-                item.NearHotel.AddRange(records_hotel.Select(x => (x.Name, GetDistance(x.lat, x.lng, item.lat, item.lng),x.Address)).Take(20));
+                item.NearHotel.AddRange(records_hotel.Select(x => (x.Name, GetDistance(x.lat, x.lng, item.lat, item.lng), x.Address)).Take(20));
             }
 
             //重新保存

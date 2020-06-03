@@ -9,7 +9,7 @@ import { HotelComponent } from './Hotel/hotel.component';
 import { SpotComponent } from './Spot/spot.component';
 import { FoodComponent } from './Food/food.component';
 import { SpotItemComponent } from './Spot/spotItem.component';
-import { AppService, IFoodInfoResolver, IHotelInfoResolver } from './app-service';
+import { AppService, IFoodInfoResolver, IHotelInfoResolver, ISpotInfoResolver } from './app-service';
 import { LoginComponent } from './login/login.component';
 import { SpotDetailComponent } from './Spot/spotDetail.component';
 import { LazyLoadImageModule } from 'ng-lazyload-image';
@@ -23,7 +23,7 @@ import { FavItemComponent } from './favourite/favItem.component';
 import { FavItemCellComponent } from './favourite/favItemCell.component';
 import { CreatePlanComponent } from './PlanMaker/createPlan.component';
 import { CalendarModule } from 'primeng/calendar';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { TabViewModule } from 'primeng/tabview';
 import { DailyListComponent } from './PlanMaker/dailyList.component';
 import { CardModule } from 'primeng/card';
@@ -80,9 +80,10 @@ import { SceneMgr } from './SceneMgr';
     CardModule,
     BrowserAnimationsModule,
     FormsModule,
-    NgbModule
+    NgbModule,
+    ReactiveFormsModule
   ],
-  providers: [AppService,SceneMgr, CommonFunction, ToastService, IFoodInfoResolver, IHotelInfoResolver],
+  providers: [AppService,SceneMgr, CommonFunction, ToastService, IFoodInfoResolver, IHotelInfoResolver,ISpotInfoResolver],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

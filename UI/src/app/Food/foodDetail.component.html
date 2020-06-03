@@ -2,7 +2,7 @@
     [ngStyle]="{'height':this.appservice.clientHeight + 'px','width':appservice.clientWidth + 'px'}">
 </div>
 <nav class="navbar navbar-light bg-light" style="position: absolute;z-index: 99;top:0px;width: 100%;">
-    <img src="assets/image/美食.png" width="30" height="30" alt="">
+    <img src="assets/image/美食.png" width="30" height="30" alt="" (click)="JumpToFood()">
     {{this.FoodDetailInfo.Name === null?"找不到餐厅":this.FoodDetailInfo.Name}}
     <img src="assets/image/返回.png" width="30" height="30" alt="" (click)="Return()" style="float: right;">
 </nav>

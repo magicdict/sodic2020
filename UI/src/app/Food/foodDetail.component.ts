@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { AppService, FoodInfo } from '../app-service';
 import { Location } from '@angular/common';
 
@@ -7,7 +7,10 @@ import { Location } from '@angular/common';
   templateUrl: './foodDetail.component.html',
 })
 export class FoodDetailComponent implements OnInit {
-  constructor(private _location: Location, public appservice: AppService, private route: ActivatedRoute, ) {
+  constructor(private _location: Location, 
+    public appservice: AppService, 
+    public router: Router,
+    private route: ActivatedRoute, ) {
 
   }
   FoodDetailInfo: FoodInfo;
@@ -16,6 +19,11 @@ export class FoodDetailComponent implements OnInit {
   distence: string;
   Return() {
     this._location.back();
+  }
+  JumpToFood(){
+    this.appservice.IsAddToPlanMode = false;
+    this.appservice.FoodList_CurrentShow = this.appservice.FoodList_Hot;
+    this.router.navigateByUrl('food');
   }
   ngOnInit(): void {
     this.route.data.subscribe(

@@ -4,13 +4,23 @@ import { Router } from '@angular/router';
 import { DataStorage } from '../datastorage';
 import { Location } from '@angular/common';
 import { getOrientation } from "get-orientation/browser";
+import { ReactiveFormsModule, FormGroup, FormBuilder } from '@angular/forms';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
     templateUrl: './addfootprint.component.html',
 })
 export class AddFootPrintComponent {
-    constructor(private _location: Location, public router: Router, public localstorage: DataStorage, public appservice: AppService) {
-
+    constructor(private _location: Location,
+        public router: Router,
+        public localstorage: DataStorage,
+        public appservice: AppService,
+        public http: HttpClient,
+        public fb: FormBuilder
+    ) {
+        this.form = this.fb.group({
+            UserImage: [null]
+        })
     }
     item: FootprintItem = {
         Title: "", Address: "", Src: "", Datetime: "", Description: "", Rotate: ""
@@ -20,6 +30,7 @@ export class AddFootPrintComponent {
     description: string;
     static Orientation = 1;
     static OrientationClass = "";
+    form: FormGroup;
     PreviewImage(x: Event) {
         let e = x.srcElement as HTMLInputElement;
         let fileObj = e.files[0];
@@ -31,7 +42,14 @@ export class AddFootPrintComponent {
                 reader.onload = () => { this.FinishRun(reader.result) };    //Instance Method
             }
         );
+
+        //准备数据
+        this.form.patchValue(
+            { UserImage: fileObj }
+        );
+        this.form.get('UserImage').updateValueAndValidity()
     }
+
     FinishRun(result: string | ArrayBuffer): any {
         var preview = document.getElementById("preview");
         let x = this.compress(result, 320, 0.5) as Promise<string>;
@@ -93,6 +111,7 @@ export class AddFootPrintComponent {
             return base64;
         });
     }
+
     SaveToLoalStorage() {
         this.item.Title = this.title;
         this.item.Rotate = AddFootPrintComponent.OrientationClass;
@@ -101,9 +120,28 @@ export class AddFootPrintComponent {
         var preview = document.getElementById("PreviewImage") as HTMLImageElement;
         this.item.Src = preview.src;
         let now = new Date();
-        this.item.Datetime = now.getFullYear() + "年" + (now.getMonth() + 1) + "月" + now.getDate() + "日"
+        this.item.Datetime = now.getFullYear() + "年" + (now.getMonth() + 1) + "月" + now.getDate() + "日";
         this.appservice.AddToFootprint(this.item);
-        this._location.back();
+        this.SaveToWeb();
+    }
+    SaveToWeb() {
+        var formData: FormData = new FormData();
+        formData.append("UserImage", this.form.get('UserImage').value);
+        formData.append("Title", this.item.Title);
+        formData.append("Address", this.item.Address);
+        formData.append("Description", this.item.Description);
+        formData.append("Datetime", this.item.Datetime);
+        //发送数据
+        this.http.post('http://39.105.206.6:8080/Search/SetFootPrint', formData).subscribe(
+            (response) => {
+                console.log(response);
+                this.Return();
+            },
+            (error) => {
+                console.log(error);
+                this.Return();
+            }
+        )
     }
     Return() {
         this._location.back();

@@ -244,6 +244,7 @@ export interface SpotInfo {
     Scenery: number;
     Funny: number;
     PriceValue: number;
+    NearSpot: { Item1: string, Item2: number, Item3: string }[];
     NearFood: { Item1: string, Item2: number, Item3: string }[];
     NearHotel: { Item1: string, Item2: number, Item3: string }[];
 }
@@ -325,6 +326,19 @@ export interface FootprintItem {
 import { Observable } from 'rxjs';
 import { ActivatedRouteSnapshot, Resolve, RouterStateSnapshot } from '@angular/router';
 import { SceneMgr } from './SceneMgr';
+
+@Injectable()
+export class ISpotInfoResolver implements Resolve<SpotInfo> {
+    constructor(private homeservice: AppService, public commonFunction: CommonFunction) {
+
+    }
+    resolve(route: ActivatedRouteSnapshot, _state: RouterStateSnapshot): SpotInfo | Observable<SpotInfo> | Promise<SpotInfo> {
+        let name = route.paramMap.get('name');
+        let x = this.homeservice.SpotList_CurrentShow.find(x => this.homeservice.EncodeURI(x.Name) === name);
+        if (x != undefined) return x;
+        return this.commonFunction.httpRequestGet<SpotInfo>("search/GetSpotByName?Name=" + name);
+    }
+}
 
 @Injectable()
 export class IFoodInfoResolver implements Resolve<FoodInfo> {

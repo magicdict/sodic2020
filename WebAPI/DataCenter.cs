@@ -13,14 +13,18 @@ public static class DataCenter
     public static List<HotelInfo> HotelList_SZ = new List<HotelInfo>();
     public static List<HotelInfo> HotelList_JM = new List<HotelInfo>();
 
-    //const string JsonPath = @"F:\sodic2020\json\";  
-    const string JsonPath = @"/root/sodic/json/";
+    //public const string JsonPath = @"F:\sodic2020\json\";
+    //public const string imagefilefolder = @"F:\sodic2020\Visualization\src\assets\image\";
 
+    public const string JsonPath = @"/root/sodic/json/";
+    public const string imagefilefolder = "/root/sodic/Visualization/assets/image/";
 
     //检索关键字
     public static Dictionary<string, int> SpotDict = new Dictionary<string, int>();
     public static Dictionary<string, int> FoodDict = new Dictionary<string, int>();
     public static Dictionary<string, int> HotelDict = new Dictionary<string, int>();
+
+    public static List<FootPrint> Footprints = new List<FootPrint>();
 
     public static void Init()
     {

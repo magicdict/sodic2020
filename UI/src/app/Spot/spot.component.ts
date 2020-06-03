@@ -2,12 +2,14 @@ import { Component } from '@angular/core';
 import { AppService } from '../app-service';
 import { Location } from '@angular/common';
 import { SelectItem } from 'primeng/api/selectitem';
+import { Router } from '@angular/router';
 
 @Component({
   templateUrl: './spot.component.html',
 })
 export class SpotComponent {
-  constructor(public appservice: AppService,
+  constructor(public router: Router,
+    public appservice: AppService,
     private _location: Location) {
   }
   types: SelectItem[] = this.appservice.CitySelect;

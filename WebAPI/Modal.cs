@@ -46,6 +46,8 @@ public class SpotInfo : POI
 
     public double PriceValue { get; set; }
 
+    public List<clsTuple> NearSpot { get; set; }
+
     public List<clsTuple> NearFood { get; set; }
 
     public List<clsTuple> NearHotel { get; set; }
@@ -91,4 +93,14 @@ public class SearchKey
     public List<WordCloudItem> Spot { get; set; }
     public List<WordCloudItem> Food { get; set; }
     public List<WordCloudItem> Hotel { get; set; }
+}
+
+public class FootPrint
+{
+    public string UserImage { get; set; }
+    public string Title { get; set; }
+    public string Address { get; set; }
+    public string Description { get; set; }
+    public string Datetime { get; set; }
+
 }

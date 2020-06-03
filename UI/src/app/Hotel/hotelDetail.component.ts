@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { AppService, HotelInfo } from '../app-service';
 import { Location } from '@angular/common';
 
@@ -7,7 +7,12 @@ import { Location } from '@angular/common';
   templateUrl: './hotelDetail.component.html',
 })
 export class HotelDetailComponent implements OnInit {
-  constructor(private _location: Location, public appservice: AppService, private route: ActivatedRoute, ) {
+  constructor(
+    private _location: Location,
+    public appservice: AppService,
+    private route: ActivatedRoute,
+    public router: Router,
+  ) {
 
   }
   HotelDetailInfo: HotelInfo;
@@ -17,18 +22,23 @@ export class HotelDetailComponent implements OnInit {
   Return() {
     this._location.back();
   }
+  JumpToHotel() {
+    this.appservice.IsAddToPlanMode = false;
+    this.appservice.HotelList_CurrentShow = this.appservice.HotelList_Hot;
+    this.router.navigateByUrl('hotel');
+  }
   ngOnInit(): void {
     this.route.data.subscribe(
       (xxx: { hotel: HotelInfo }) => {
         this.HotelDetailInfo = xxx.hotel;
-        if (this.HotelDetailInfo.Name === null){
+        if (this.HotelDetailInfo.Name === null) {
           return;
         }
         console.log("this.appservice.myposition.lat:" + AppService.myposition.lat)
-        let mapPoint = [[this.HotelDetailInfo.lng, this.HotelDetailInfo.lat, 1,this.HotelDetailInfo.Name]];
+        let mapPoint = [[this.HotelDetailInfo.lng, this.HotelDetailInfo.lat, 1, this.HotelDetailInfo.Name]];
         if (AppService.myposition.lat !== -1) {
           this.distence = this.appservice.distanceByLnglat(this.HotelDetailInfo.lng, this.HotelDetailInfo.lat, AppService.myposition.lng, AppService.myposition.lat);
-          mapPoint.push([AppService.myposition.lng, AppService.myposition.lat, 2,"您的位置"])
+          mapPoint.push([AppService.myposition.lng, AppService.myposition.lat, 2, "您的位置"])
         }
         this.option = {
           // 加载 bmap 组件

@@ -14,7 +14,7 @@ import { DailyListComponent } from './PlanMaker/dailyList.component';
 import { DailyPlanComponent } from './PlanMaker/dailyPlan.component';
 import { FootPrintComponent } from './footPrint/footprint.component';
 import { AddFootPrintComponent } from './footPrint/addfootprint.component';
-import { IFoodInfoResolver, IHotelInfoResolver } from './app-service';
+import { IFoodInfoResolver, IHotelInfoResolver, ISpotInfoResolver } from './app-service';
 import { SceneComponent } from './scene/scene.component';
 
 const routes: Routes = [
@@ -25,7 +25,7 @@ const routes: Routes = [
   { path: 'spot', component: SpotComponent },
   { path: 'tool', component: CreatePlanComponent },
   { path: 'favitem', component: FavItemComponent },
-  { path: 'spot/:name', component: SpotDetailComponent },
+  { path: 'spot/:name', component: SpotDetailComponent, resolve: { spot: ISpotInfoResolver } },
   { path: 'food/:name', component: FoodDetailComponent, resolve: { food: IFoodInfoResolver } },
   { path: 'hotel/:name', component: HotelDetailComponent, resolve: { hotel: IHotelInfoResolver } },
   { path: 'dailylist', component: DailyListComponent },
