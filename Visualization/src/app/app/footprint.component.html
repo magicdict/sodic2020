@@ -1,0 +1,33 @@
+<section class="content-header">
+    <h1>
+        足迹
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href=""><i class="fa fa-dashboard"></i> Home</a></li>
+        <li class="active">
+            足迹
+        </li>
+    </ol>
+</section>
+<section class="content">
+    <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">日期</th>
+            <th scope="col">标题</th>
+            <th scope="col">地址</th>
+            <th scope="col">描述</th>
+            <th scope="col">图片</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let f of this.footprints">
+            <th>{{f.Datetime}}</th>
+            <td>{{f.Title}}</td>
+            <td>{{f.Address}}</td>
+            <td>{{f.Description}}</td>
+            <td> <img  [lazyLoad]="'http://datavisualization.club:8081/assets/image/' + f.UserImage" width="128px" height="128px" /></td>
+        </tr>
+        </tbody>
+      </table>
+</section>

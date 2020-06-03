@@ -36,4 +36,12 @@ export interface SearchKey {
     Spot: { name: string, value: number }[];
     Food: { name: string, value: number }[];
     Hotel: { name: string, value: number }[];
-}    
+}
+
+export interface FootPrint {
+    UserImage: string;
+    Title: string;
+    Address: string;
+    Description: string;
+    Datetime: string;
+}

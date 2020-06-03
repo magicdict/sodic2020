@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
+using System.Drawing.Imaging;
 
 namespace WebAPI.Controllers
 {
@@ -116,9 +117,11 @@ namespace WebAPI.Controllers
             List<string> filenames = new List<string>();
             //文件存储路径
             var file = files[0];
+            var originalImage = System.Drawing.Image.FromStream(file.OpenReadStream());
+            var thumbImage = originalImage.GetThumbnailImage(128, 128, null, IntPtr.Zero);
             var filename = DateTime.Now.ToString("yyyyMMddHHmmss") + "_" + file.FileName;
             var fileStream = new FileStream(DataCenter.imagefilefolder + filename, FileMode.Create);
-            file.CopyTo(fileStream);
+            thumbImage.Save(fileStream,ImageFormat.Jpeg);
             fileStream.Close();
             var x = new FootPrint()
             {

@@ -16,6 +16,9 @@ import { FormsModule } from '@angular/forms';
 import { SimpleHeatMapComponent } from './visualization/SimpleHeatMap.component';
 import { BookInfoComponent } from './visualization/bookinfo.component';
 import { SearchKeyComponent } from './app/searchkey.component';
+import { FootprintComponent } from './app/footprint.component';
+import { LazyLoadImageModule } from 'ng-lazyload-image'; // <-- import it
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +29,8 @@ import { SearchKeyComponent } from './app/searchkey.component';
     HotfoodComponent,
     PriceTopLowComponent,
     SimpleHeatMapComponent,
-    SearchKeyComponent
+    SearchKeyComponent,
+    FootprintComponent
   ],
   imports: [
     BrowserModule,
@@ -37,7 +41,8 @@ import { SearchKeyComponent } from './app/searchkey.component';
     HttpClientModule,
     MyCommonModule,
     SelectButtonModule,
-    FormsModule
+    FormsModule,
+    LazyLoadImageModule
   ],
   providers: [],
   bootstrap: [AppComponent]

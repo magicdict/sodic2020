@@ -12,18 +12,18 @@
 <section class="content">
     <div class="row">
         <div class="col-md-4">
-            <chart [options]="spotoption" [title]="'景点'" [boxstyle]="this._commonFunction.boxstyle_Col4"
-                [chartstyle]="this._commonFunction.chartstyle_Col4" (ChartInit)="this.GetSpotChart($event)">
+            <chart [options]="spotoption" [title]="'景点'" [boxstyle]="this._commonFunction.boxstyle_Col4_Row2"
+                [chartstyle]="this._commonFunction.chartstyle_Col4_Row2" (ChartInit)="this.GetSpotChart($event)">
             </chart>
         </div>
         <div class="col-md-4">
-            <chart [options]="foodoption" [title]="'餐厅'" [boxstyle]="this._commonFunction.boxstyle_Col4"
-                [chartstyle]="this._commonFunction.boxstyle_Col4" (ChartInit)="this.GetFoodChart($event)">
+            <chart [options]="foodoption" [title]="'餐厅'" [boxstyle]="this._commonFunction.boxstyle_Col4_Row2"
+                [chartstyle]="this._commonFunction.chartstyle_Col4_Row2" (ChartInit)="this.GetFoodChart($event)">
             </chart>
         </div>
         <div class="col-md-4">
-            <chart [options]="spotoption" [title]="'宾馆'" [boxstyle]="this._commonFunction.boxstyle_Col4"
-                [chartstyle]="this._commonFunction.boxstyle_Col4" (ChartInit)="this.GetHotelChart($event)">
+            <chart [options]="spotoption" [title]="'宾馆'" [boxstyle]="this._commonFunction.boxstyle_Col4_Row2"
+                [chartstyle]="this._commonFunction.chartstyle_Col4_Row2" (ChartInit)="this.GetHotelChart($event)">
             </chart>
         </div>
     </div>

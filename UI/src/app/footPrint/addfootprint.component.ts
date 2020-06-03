@@ -120,7 +120,8 @@ export class AddFootPrintComponent {
         var preview = document.getElementById("PreviewImage") as HTMLImageElement;
         this.item.Src = preview.src;
         let now = new Date();
-        this.item.Datetime = now.getFullYear() + "年" + (now.getMonth() + 1) + "月" + now.getDate() + "日";
+        this.item.Datetime = now.getFullYear() + "年" + (now.getMonth() + 1) + "月" + now.getDate() + "日" 
+        + now.getHours() + "时" + now.getMinutes() + "分" + now.getSeconds() + "秒";
         this.appservice.AddToFootprint(this.item);
         this.SaveToWeb();
     }
