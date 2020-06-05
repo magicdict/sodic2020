@@ -71,7 +71,7 @@ export class CreatePlanComponent {
     this.Days = differenceInDays(this.enddate, this.startdate) + 1;
   }
   CreatePlan() {
-    if (this.Days === 0) return;
+    if (this.Days <= 0) return;
     let p: PlanInfo = {
       StartDate: this.startdate,
       EndDate: this.enddate,

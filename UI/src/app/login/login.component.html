@@ -34,30 +34,24 @@
         <br />
         <div class="row">
             <div class="col-3"></div>
-            <div class="col-3"><img
-                    (click)="JumpToSpot()"
-                    src="assets/image/景点.png" width="64px" height="64px">
-                    <font color="#1296db" size><b>景点</b></font>
-                </div>
-            <div class="col-3"> <img
-                    (click)="JumpToFood()"
-                    src="assets/image/美食.png" width="64px" height="64px">
-                    <font color="#1296db" size><b>餐厅</b></font>
-                </div>
+            <div class="col-3"><img (click)="JumpToSpot()" src="assets/image/景点.png" width="64px" height="64px">
+                <font color="#1296db" size><b>景点</b></font>
+            </div>
+            <div class="col-3"> <img (click)="JumpToFood()" src="assets/image/美食.png" width="64px" height="64px">
+                <font color="#1296db" size><b>餐厅</b></font>
+            </div>
             <div class="col-3"></div>
         </div>
         <br />
         <div class="row">
             <div class="col-3"></div>
-            <div class="col-3"><img
-                    (click)="JumpToHotel()"
-                    src="assets/image/酒店.png" width="64px" height="64px">
-                    <font color="#1296db" size><b>宾馆酒店</b></font>
-                </div>
+            <div class="col-3"><img (click)="JumpToHotel()" src="assets/image/酒店.png" width="64px" height="64px">
+                <font color="#1296db" size><b>宾馆酒店</b></font>
+            </div>
             <div class="col-3"> <img (click)="this.router.navigateByUrl('gift');" src="assets/image/礼物.png" width="64px"
                     height="64px">
-                    <font color="#1296db" size><b>伴手礼</b></font>
-                </div>
+                <font color="#1296db" size><b>伴手礼</b></font>
+            </div>
             <div class="col-3"></div>
         </div>
     </div>
@@ -75,8 +69,8 @@
         <div class="sk-chase-dot"></div>
     </div>
     <br /><br />
-    <font color="blue">{{this.app.loadMsg}}</font><br />
-    <font color="red">数据加载中，请稍等...</font>
+    <font color="#1296db">{{this.app.loadMsg}}</font><br />
+    <font color="#1296db">首次启动应用，初始化数据加载中，请稍等...</font>
 </div>
 
 <div style="position: absolute;z-index: 99; bottom: 0px;width: 100%;text-align: center;" [ngStyle]="{'height':'50px'}">

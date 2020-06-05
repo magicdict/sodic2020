@@ -14,13 +14,15 @@
         <p-tabPanel header="详细">
             <div *ngIf="this.HotelDetailInfo.Description" style="text-align: left;">
                 {{this.HotelDetailInfo.Description}} <br /><br />
-                <b>电话：</b><a [href]="'tel:' + this.HotelDetailInfo.ServiceTel">
-                    {{this.HotelDetailInfo.ServiceTel}}</a> <br />
-                <b>传真：</b><a [href]="'tel:' + this.HotelDetailInfo.ServiceFax">
-                    {{this.HotelDetailInfo.ServiceFax}}</a>
             </div>
+            <a *ngIf="this.HotelDetailInfo.ServiceTel" class="btn btn-success"
+                [href]="'tel:' + this.HotelDetailInfo.ServiceTel"> <img src="assets/image/手机.png" width="30"
+                    height="30" />&nbsp;&nbsp;拨打电话</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <a *ngIf="this.HotelDetailInfo.ServiceFax" class="btn btn-success"
+                [href]="'tel:' + this.HotelDetailInfo.ServiceFax"> <img src="assets/image/Fax.png" width="30"
+                    height="30" />&nbsp;&nbsp;发送传真</a>
             <div *ngIf="this.HotelDetailInfo.lat !== -1">
-                <br />
                 <span *ngIf="this.distence"><b>距离您的距离：</b>{{this.distence}}</span>
                 <br />
                 <echarts [options]="this.option" style="width: 320px;height: 320px;"></echarts>

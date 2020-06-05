@@ -11,9 +11,7 @@ namespace xlsx2json
     {
         public const string JiangmenDataFolder = @"F:\sodic2020\非JSON数据\江门文旅数据\";
         public const string ShenzhenDataFolder = @"F:\sodic2020\非JSON数据\深圳文旅数据\";
-
         public const string BookDataFolder = @"F:\sodic2020\非JSON数据\预约数据\";
-
         public const string JsonFolder_AngularAssets = @"F:\sodic2020\UI\src\assets\json\";
         public const string JsonFolder_Visualization_AngularAssets = @"F:\sodic2020\Visualization\src\assets\json\";
         public const string JsonFolder_WepApi = @"F:\sodic2020\json\";
@@ -21,7 +19,6 @@ namespace xlsx2json
         {
             CreateSpot();
         }
-
         class GeoHeatMap
         {
             public double lat { get; set; }
@@ -136,7 +133,7 @@ namespace xlsx2json
             double a = radLat1 - radLat2;
             double b = radLng1 - radLng2;
             double result = 2 * Math.Asin(Math.Sqrt(Math.Pow(Math.Sin(a / 2), 2) + Math.Cos(radLat1) * Math.Cos(radLat2) * Math.Pow(Math.Sin(b / 2), 2))) * EARTH_RADIUS;
-            return result;
+            return Math.Round(result,2);
         }
 
         /// <summary>
@@ -424,19 +421,20 @@ namespace xlsx2json
 
             foreach (var item in Spot_SZ)
             {
+                item.Comments = item.Comments.Take(20).ToList();
 
                 item.NearSpot = new List<(string, double, string)>();
                 records_spot.Sort((x, y) => { return GetDistance(x.lat, x.lng, item.lat, item.lng).CompareTo(GetDistance(y.lat, y.lng, item.lat, item.lng)); });
-                item.NearSpot.AddRange(records_spot.Select(x => (x.Name, GetDistance(x.lat, x.lng, item.lat, item.lng), x.Address)).Take(20));
+                item.NearSpot.AddRange(records_spot.Select(x => (x.Name, GetDistance(x.lat, x.lng, item.lat, item.lng), x.Address)).Take(10));
                 item.NearSpot = item.NearSpot.Where(x => !x.Name.Equals(item.Name)).ToList();
 
                 item.NearFood = new List<(string, double, string)>();
                 records_food.Sort((x, y) => { return GetDistance(x.lat, x.lng, item.lat, item.lng).CompareTo(GetDistance(y.lat, y.lng, item.lat, item.lng)); });
-                item.NearFood.AddRange(records_food.Select(x => (x.Name, GetDistance(x.lat, x.lng, item.lat, item.lng), x.Address)).Take(20));
+                item.NearFood.AddRange(records_food.Select(x => (x.Name, GetDistance(x.lat, x.lng, item.lat, item.lng), x.Address)).Take(10));
 
                 item.NearHotel = new List<(string, double, string)>();
                 records_hotel.Sort((x, y) => { return GetDistance(x.lat, x.lng, item.lat, item.lng).CompareTo(GetDistance(y.lat, y.lng, item.lat, item.lng)); });
-                item.NearHotel.AddRange(records_hotel.Select(x => (x.Name, GetDistance(x.lat, x.lng, item.lat, item.lng), x.Address)).Take(20));
+                item.NearHotel.AddRange(records_hotel.Select(x => (x.Name, GetDistance(x.lat, x.lng, item.lat, item.lng), x.Address)).Take(10));
             }
 
             //重新保存
@@ -466,18 +464,20 @@ namespace xlsx2json
 
             foreach (var item in Spot_JM)
             {
+                item.Comments = item.Comments.Take(20).ToList();
+
                 item.NearSpot = new List<(string, double, string)>();
                 records_spot.Sort((x, y) => { return GetDistance(x.lat, x.lng, item.lat, item.lng).CompareTo(GetDistance(y.lat, y.lng, item.lat, item.lng)); });
-                item.NearSpot.AddRange(records_spot.Select(x => (x.Name, GetDistance(x.lat, x.lng, item.lat, item.lng), x.Address)).Take(20));
+                item.NearSpot.AddRange(records_spot.Select(x => (x.Name, GetDistance(x.lat, x.lng, item.lat, item.lng), x.Address)).Take(10));
                 item.NearSpot = item.NearSpot.Where(x => !x.Name.Equals(item.Name)).ToList();
 
                 item.NearFood = new List<(string, double, string)>();
                 records_food.Sort((x, y) => { return GetDistance(x.lat, x.lng, item.lat, item.lng).CompareTo(GetDistance(y.lat, y.lng, item.lat, item.lng)); });
-                item.NearFood.AddRange(records_food.Select(x => (x.Name, GetDistance(x.lat, x.lng, item.lat, item.lng), x.Address)).Take(20));
+                item.NearFood.AddRange(records_food.Select(x => (x.Name, GetDistance(x.lat, x.lng, item.lat, item.lng), x.Address)).Take(10));
 
                 item.NearHotel = new List<(string, double, string)>();
                 records_hotel.Sort((x, y) => { return GetDistance(x.lat, x.lng, item.lat, item.lng).CompareTo(GetDistance(y.lat, y.lng, item.lat, item.lng)); });
-                item.NearHotel.AddRange(records_hotel.Select(x => (x.Name, GetDistance(x.lat, x.lng, item.lat, item.lng), x.Address)).Take(20));
+                item.NearHotel.AddRange(records_hotel.Select(x => (x.Name, GetDistance(x.lat, x.lng, item.lat, item.lng), x.Address)).Take(10));
             }
 
             //重新保存
@@ -494,7 +494,7 @@ namespace xlsx2json
             var GradeImport = ALLSpot.Where(x => !string.IsNullOrEmpty(x.ALevel) || !string.IsNullOrEmpty(x.Type)).Select(
                  (y) =>
                  {
-                     if (y.Comments != null) y.Comments = y.Comments.Take(30).ToList();
+                     if (y.Comments != null) y.Comments = y.Comments.Take(20).ToList();
                      return y;
                  }
              ).ToList();

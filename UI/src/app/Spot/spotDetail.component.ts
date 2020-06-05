@@ -87,8 +87,10 @@ export class SpotDetailComponent implements OnInit {
         this.option.bmap.center = [this.SpotDetailInfo.lng, this.SpotDetailInfo.lat]
         this.option.series[0].data = mapPoint;
         if (this.map_chart !== undefined) {
-          //TODO:第二次设置中心点的时候，中心点位于整个图形的左上角
-          this.map_chart.setOption(this.option);
+          //第二次设置中心点的时候，中心点位于整个图形的左上角，所以使用定时器延时修正
+          setTimeout(() => {
+            this.map_chart.setOption(this.option);
+          }, 1000);
         }
 
         this.opiton_wordcoudy = {

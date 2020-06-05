@@ -10,11 +10,10 @@
 <div style="position: absolute;z-index: 99;top:42px;text-align: center;overflow-y: scroll; margin: 20px;"
     [ngStyle]="{height:this.appservice.clientHeight - 90 + 'px','width':appservice.clientWidth - 40 + 'px'}">
     <p-tabView [(activeIndex)]="index">
-        <p-tabPanel header="详细" >
+        <p-tabPanel header="详细">
             <div style="text-align: left;">
                 <span *ngIf="this.SpotDetailInfo.Description"> {{this.SpotDetailInfo.Description}}<br /><br /></span>
-                <span
-                    *ngIf="this.SpotDetailInfo.TrafficGuide"><b>交通：</b>{{this.SpotDetailInfo.TrafficGuide}}<br /></span>
+                <span *ngIf="this.SpotDetailInfo.TrafficGuide"><b>交通：</b>{{this.SpotDetailInfo.TrafficGuide}}<br /></span>
                 <span *ngIf="this.SpotDetailInfo.OpenTime"><b>营业时间：</b>
                     <span *ngIf="!isStop">{{this.SpotDetailInfo.OpenTime}} </span>
                     <span *ngIf="isStop">
@@ -22,19 +21,20 @@
                     </span>
                     <br />
                 </span>
-                <span *ngIf="this.SpotDetailInfo.ServiceTel"><b>电话：</b><a
-                        [href]="'tel:' + this.SpotDetailInfo.ServiceTel">
-                        {{this.SpotDetailInfo.ServiceTel}}</a> </span>
             </div>
-            <br /><br />
+            <br />
+            <a *ngIf="this.SpotDetailInfo.ServiceTel" class="btn btn-success"
+                [href]="'tel:' + this.SpotDetailInfo.ServiceTel"> <img src="assets/image/手机.png" width="30"
+                    height="30" />&nbsp;&nbsp;拨打电话</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;
             <button class="btn btn-primary"
                 (click)="this.toastService.show('该功能建设中，等待接入平台', { classname: 'bg-success text-light', delay: 3000 });"><img
                     src="assets/image/购票.png" width="30" height="30" />&nbsp;&nbsp;预约购票</button>
             <div *ngIf="this.SpotDetailInfo.lat !== -1">
-                <br />
                 <span *ngIf="this.distence"><b>距离您的距离：</b>{{this.distence}}</span>
                 <br />
-                <echarts [options]="this.option" style="width: 320px;height: 320px;" (chartInit)="mapchart($event)"></echarts>
+                <echarts [options]="this.option" style="width: 320px;height: 320px;" (chartInit)="mapchart($event)">
+                </echarts>
             </div>
         </p-tabPanel>
         <p-tabPanel *ngIf="TourInfoList.length !==0" header="组团">
@@ -66,7 +66,7 @@
                         {{t.Item1}}
                         <br />
                         {{t.Item3}}
-                        {{this.appservice.formatdistence(t.Item2)}}
+                        <b>({{this.appservice.formatdistence(t.Item2)}})</b>
                     </div>
                     <div class="col-3" style="padding: 5px;">
                         <button class="btn btn-sm btn-primary"
@@ -83,7 +83,7 @@
                         {{t.Item1}}
                         <br />
                         {{t.Item3}}
-                        {{this.appservice.formatdistence(t.Item2)}}
+                        <b>({{this.appservice.formatdistence(t.Item2)}})</b>
                     </div>
                     <div class="col-3" style="padding: 5px;">
                         <button class="btn btn-sm btn-primary"
@@ -99,7 +99,7 @@
                     <div class="col-9" style="padding: 5px;">
                         {{t.Item1}}<br />
                         {{t.Item3}}
-                        {{ this.appservice.formatdistence(t.Item2)}}
+                        <b>({{this.appservice.formatdistence(t.Item2)}})</b>
                     </div>
                     <div class="col-3" style="padding: 5px;">
                         <button class="btn btn-sm btn-primary"
