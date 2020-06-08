@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
-import { AppService, FootprintItem } from '../app-service';
+import { AppService } from '../app-service';
 import { Router } from '@angular/router';
 import { DataStorage } from '../datastorage';
 import { Location } from '@angular/common';
 import { getOrientation } from "get-orientation/browser";
 import { FormGroup, FormBuilder } from '@angular/forms';
 import { HttpClient } from '@angular/common/http';
+import { FootprintItem } from '../Model';
 
 @Component({
     templateUrl: './addfootprint.component.html',

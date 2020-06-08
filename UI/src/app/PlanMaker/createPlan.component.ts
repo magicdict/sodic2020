@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
-import { AppService, PlanInfo, DailyInfo } from '../app-service';
+import { AppService } from '../app-service';
 import { Location } from '@angular/common';
 import { differenceInDays, addDays } from 'date-fns';
 import { DataStorage } from '../datastorage';
 import { Router } from '@angular/router';
 import { SelectItem } from 'primeng/api/selectitem';
+import { PlanInfo, DailyInfo } from '../Model';
 
 @Component({
   templateUrl: './createPlan.component.html',

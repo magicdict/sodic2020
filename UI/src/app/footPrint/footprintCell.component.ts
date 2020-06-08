@@ -1,6 +1,7 @@
 import { Component, Input } from '@angular/core';
-import { AppService, FootprintItem } from '../app-service';
+import { AppService } from '../app-service';
 import { Router } from '@angular/router';
+import { FootprintItem } from '../Model';
 @Component({
     selector: "footprint-item",
     templateUrl: './footprintCell.component.html',

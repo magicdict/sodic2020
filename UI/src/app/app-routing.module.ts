@@ -14,8 +14,8 @@ import { DailyListComponent } from './PlanMaker/dailyList.component';
 import { DailyPlanComponent } from './PlanMaker/dailyPlan.component';
 import { FootPrintComponent } from './footPrint/footprint.component';
 import { AddFootPrintComponent } from './footPrint/addfootprint.component';
-import { IFoodInfoResolver, IHotelInfoResolver, ISpotInfoResolver } from './app-service';
 import { SceneComponent } from './scene/scene.component';
+import { ISpotInfoResolver, IFoodInfoResolver, IHotelInfoResolver } from './Resolver';
 
 const routes: Routes = [
   { path: 'home', component: LoginComponent },

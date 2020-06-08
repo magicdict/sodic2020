@@ -145,13 +145,19 @@ export const IScatter3DStardard = {
     inRange: {
       color: ['blue', 'blue', 'green', 'yellow', 'red']
     },
-    max: 0
+    max: 0,
+    calculable:true
   }],
   series: [
     {
       type: 'scatter3D',
-      symbolSize: function (val) {
-        return val[1] / 10;
+      symbolSize: null,
+      emphasis: {
+        label: {
+          show: true,
+          formatter: null,
+          position: 'top'
+        }
       },
       data: []
     }

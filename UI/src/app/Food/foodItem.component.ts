@@ -1,7 +1,8 @@
 import { Component, Input } from '@angular/core';
-import { AppService, enmItemType, FoodInfo } from '../app-service';
+import { AppService,} from '../app-service';
 import { Router } from '@angular/router';
 import { ToastService } from '../toasts/toast-service';
+import { enmItemType, FoodInfo } from '../Model';
 @Component({
   selector: 'food-item',
   templateUrl: './foodItem.component.html',

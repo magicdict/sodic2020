@@ -1,7 +1,8 @@
 import { Component, Input } from '@angular/core';
-import { AppService, enmItemType, HotelInfo } from '../app-service';
+import { AppService } from '../app-service';
 import { Router } from '@angular/router';
 import { ToastService } from '../toasts/toast-service';
+import { enmItemType, HotelInfo } from '../Model';
 @Component({
   selector: 'hotel-item',
   templateUrl: './hotelItem.component.html',

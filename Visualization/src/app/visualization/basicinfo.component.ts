@@ -39,8 +39,9 @@ export class BasicInfoComponent implements OnInit {
                 this.szoption.xAxis3D["name"] = "景色";
                 this.szoption.yAxis3D["name"] = "趣味";
                 this.szoption.zAxis3D["name"] = "性价比";
-                this.szoption.series[0].data = r.filter(x => x.Scenery !== 0).map(y => [y.Scenery, y.Funny, y.PriceValue, y.ScoreCnt]);
+                this.szoption.series[0].data = r.filter(x => x.Scenery !== 0).map(y => [y.Scenery, y.Funny, y.PriceValue, y.Name,y.ScoreCnt]);
                 this.szoption.series[0].symbolSize = this.symbolSizeForPoint;
+                this.szoption.series[0].emphasis.label.formatter = this.LabelForPoint;
                 this.szoption.visualMap[0].max = 400;
                 this.char_szspot.setOption(this.szoption);
             }
@@ -50,8 +51,9 @@ export class BasicInfoComponent implements OnInit {
                 this.jmoption.xAxis3D["name"] = "景色";
                 this.jmoption.yAxis3D["name"] = "趣味";
                 this.jmoption.zAxis3D["name"] = "性价比";
-                this.jmoption.series[0].data = r.filter(x => x.Scenery !== 0).map(y => [y.Scenery, y.Funny, y.PriceValue, y.ScoreCnt]);
+                this.jmoption.series[0].data = r.filter(x => x.Scenery !== 0).map(y => [y.Scenery, y.Funny, y.PriceValue, y.Name, y.ScoreCnt]);
                 this.jmoption.series[0].symbolSize = this.symbolSizeForPoint;
+                this.jmoption.series[0].emphasis.label.formatter = this.LabelForPoint;
                 this.jmoption.visualMap[0].max = 400;
                 this.char_jmspot.setOption(this.jmoption);
             }
@@ -66,7 +68,10 @@ export class BasicInfoComponent implements OnInit {
     GetJMSpotChart(c: any) {
         this.char_jmspot = c;
     }
+    LabelForPoint(params : any) {
+        return params.data[3] + "\n景色：" + params.data[1] + "" + "\n趣味性:" +   params.data[1] + "\n性价比：" + params.data[2] + "\n评论数:" + params.data[4];
+    };
     symbolSizeForPoint(val: any) {
-        return Math.sqrt(val[3]);
+        return Math.sqrt(val[4]);
     };
 }

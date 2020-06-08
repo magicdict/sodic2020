@@ -7,13 +7,14 @@
     {{this.SpotDetailInfo.Name}}
     <img src="assets/image/返回.png" width="30" height="30" alt="" (click)="Return()" style="float: right;">
 </nav>
-<div style="position: absolute;z-index: 99;top:42px;text-align: center;overflow-y: scroll; margin: 20px;"
-    [ngStyle]="{height:this.appservice.clientHeight - 90 + 'px','width':appservice.clientWidth - 40 + 'px'}">
+<div style="position: absolute;z-index: 99;top:42px;text-align: center;overflow-y: scroll; margin: 5px;"
+    [ngStyle]="{height:this.appservice.clientHeight - 60 + 'px','width':appservice.clientWidth - 10 + 'px'}">
     <p-tabView [(activeIndex)]="index">
         <p-tabPanel header="详细">
             <div style="text-align: left;">
                 <span *ngIf="this.SpotDetailInfo.Description"> {{this.SpotDetailInfo.Description}}<br /><br /></span>
-                <span *ngIf="this.SpotDetailInfo.TrafficGuide"><b>交通：</b>{{this.SpotDetailInfo.TrafficGuide}}<br /></span>
+                <span
+                    *ngIf="this.SpotDetailInfo.TrafficGuide"><b>交通：</b>{{this.SpotDetailInfo.TrafficGuide}}<br /></span>
                 <span *ngIf="this.SpotDetailInfo.OpenTime"><b>营业时间：</b>
                     <span *ngIf="!isStop">{{this.SpotDetailInfo.OpenTime}} </span>
                     <span *ngIf="isStop">
@@ -37,13 +38,6 @@
                 </echarts>
             </div>
         </p-tabPanel>
-        <p-tabPanel *ngIf="TourInfoList.length !==0" header="组团">
-            <ul>
-                <li *ngFor="let t of TourInfoList" style="text-align: left;">
-                    {{t.Name}}:{{t.Days}}(人均：{{t.Price}})<br />{{t.Description}}
-                </li>
-            </ul>
-        </p-tabPanel>
         <p-tabPanel *ngIf="this.SpotDetailInfo.Comments !== null && this.SpotDetailInfo.Comments.length !==0"
             header="评论" style="text-align: left;">
             <b>打分人数：</b>{{this.SpotDetailInfo.ScoreCnt}} <br />
@@ -56,6 +50,26 @@
             <ul>
                 <li *ngFor="let c of this.SpotDetailInfo.Comments.slice(0,100)">
                     {{c}}
+                </li>
+            </ul>
+        </p-tabPanel>
+        <p-tabPanel *ngIf="this.waitfor !== undefined" header="排队">
+            <button class="btn btn-primary" (click)="this.refreshwaitfor()"><img src="assets/image/刷新.png" width="30"
+                    height="30" />&nbsp;&nbsp;刷新</button>
+            <br /><br />
+            <ul>
+                <li *ngFor="let t of this.waitfor.Items" style="text-align: left;">
+                    {{t.name}}
+                    <span *ngIf="t.value <= 15" style="float: right;color: green;">{{t.value}}分钟</span>
+                    <span *ngIf="t.value > 15 && t.value <=60" style="float: right;color:blue;">{{t.value}}分钟</span>
+                    <span *ngIf="t.value > 60 " style="float: right;color: red;">{{t.value}}分钟</span>
+                </li>
+            </ul>
+        </p-tabPanel>
+        <p-tabPanel *ngIf="TourInfoList.length !==0" header="组团">
+            <ul>
+                <li *ngFor="let t of TourInfoList" style="text-align: left;">
+                    {{t.Name}}:{{t.Days}}(人均：{{t.Price}})<br />{{t.Description}}
                 </li>
             </ul>
         </p-tabPanel>

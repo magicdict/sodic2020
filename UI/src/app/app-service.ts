@@ -3,6 +3,9 @@ import { Injectable } from '@angular/core';
 import { DataStorage } from './datastorage';
 import { CommonFunction } from './common';
 import { SelectItem } from 'primeng/api/selectitem';
+import { SceneMgr } from './SceneMgr';
+import { enmItemType, FootprintItem, PlanInfo, DailyInfo, SpotInfo, FoodInfo, HotelInfo, TourInfo, GiftInfo, WaitLineInfo } from './Model';
+
 declare var BMap: any;
 
 @Injectable()
@@ -107,6 +110,9 @@ export class AppService {
     SpotList_Relax: SpotInfo[] = [];
     SpotList_Child: SpotInfo[] = [];
 
+    //排队信息
+    SpotWaitFor: WaitLineInfo[] = [];
+
     FoodList_CurrentShow: FoodInfo[] = [];
     FoodList_Hot: FoodInfo[] = [];
 
@@ -119,6 +125,57 @@ export class AppService {
     public InitScene() {
         this.scenemgr.lineIdx = 0;
         this.scenemgr.sceneName = "菜单";
+    }
+
+    public InitWaitFor() {
+        this.SpotWaitFor.push(
+            {
+                Spot: "世界之窗",
+                Items: [{ name: "极速富士山", value: 0 },
+                { name: "重返侏罗纪", value: 0 }, 
+                { name: "穿越欧罗巴", value: 0 }, 
+                { name: "飞跃美利坚", value: 0 }, 
+                { name: "阿尔卑斯冰雪世界", value: 0 },
+                { name: "亚马逊丛林穿梭", value: 0 }]
+            }
+        );
+        this.SpotWaitFor.push(
+            {
+                Spot: "深圳欢乐谷",
+                Items: [{ name: "发现者", value: 0 },
+                { name: "激光战车", value: 0 }, 
+                { name: "UFO", value: 0 }, 
+                { name: "龙卷风", value: 0 }, 
+                { name: "尖峰时刻", value: 0 },
+                { name: "欢乐风火轮", value: 0 },
+                { name: "四维影院", value: 0 },
+                { name: "寻梦河", value: 0 },
+                { name: "火车总站", value: 0 },
+                { name: "冰雪世界", value: 0 },
+                { name: "丛林水战", value: 0 },
+                { name: "北极探险", value: 0 },
+                { name: "旋转木马", value: 0 },
+                { name: "蚁兵特工队", value: 0 },
+                { name: "逍遥水母", value: 0 },
+                { name: "模拟消防队", value: 0 },
+                { name: "骑警训练营", value: 0 },
+                { name: "太空梭", value: 0 },
+                { name: "森林攀爬", value: 0 },
+                { name: "金涛骇浪", value: 0 },
+                { name: "环翼飞车", value: 0 },
+                { name: "金矿漂流", value: 0 },
+                { name: "矿山车", value: 0 },
+                { name: "金矿攀爬", value: 0 },
+                { name: "雪域雄鹰", value: 0 },
+                { name: "雪山飞龙", value: 0 },
+                { name: "追风者", value: 0 },
+                { name: "彩云之翼", value: 0 },
+                { name: "恰恰大草帽", value: 0 },
+                { name: "异度空间迷藏", value: 0 },
+                { name: "骷髅岛", value: 0 },
+            ]
+            }
+        );
     }
 
     constructor(private http: HttpClient, private localstorage: DataStorage, public scenemgr: SceneMgr, private common: CommonFunction) {
@@ -185,6 +242,7 @@ export class AppService {
         )
         this.RefreshGeo();
         this.InitScene();
+        this.InitWaitFor();
     }
 
 
@@ -221,147 +279,3 @@ export class AppService {
 
 }
 
-
-/**景区 */
-export interface SpotInfo {
-    Name: string;
-    Type: string;
-    ALevel: string;
-    Address: string;
-    Description: string;
-    Price: number;
-    OpenTime: string;
-    ServiceTel: string;
-    IssueTel: string;
-    TrafficGuide: string;
-    lat: number;
-    lng: number;
-    Comments: string[];
-    CommentCount: number;
-    WordCloud: { name: string, value: number }[];
-    City: string;
-    ScoreCnt: number;
-    Scenery: number;
-    Funny: number;
-    PriceValue: number;
-    NearSpot: { Item1: string, Item2: number, Item3: string }[];
-    NearFood: { Item1: string, Item2: number, Item3: string }[];
-    NearHotel: { Item1: string, Item2: number, Item3: string }[];
-}
-
-/**美食 */
-export interface FoodInfo {
-    Name: string;
-    Address: string;
-    Item: string[];
-    Price: number;
-    lat: number;
-    lng: number;
-    Comments: string[];
-    CommentCount: number;
-    WordCloud: { name: string, value: number }[];
-    City: string;
-}
-
-/**宾馆酒店 */
-export interface HotelInfo {
-    Name: string;
-    Grade: string;
-    Distract: string;
-    Address: string;
-    Description: string;
-    ServiceTel: string;
-    ServiceFax: string;
-    Price: number;
-    lat: number;
-    lng: number;
-    Comments: string[];
-    CommentCount: number;
-    WordCloud: { name: string, value: number }[],
-    Score: number;
-    City: string;
-}
-
-export interface TourInfo {
-    Name: string;
-    Price: number;
-    Description: string;
-    Days: string;
-}
-
-export interface GiftInfo {
-    Name: string;
-    Description: string;
-}
-
-export enum enmItemType {
-    Spot, Food, Hotel, Gift
-}
-
-export interface PlanInfo {
-    StartDate: Date;
-    EndDate: Date;
-    Daily: DailyInfo[];
-}
-
-export interface DailyInfo {
-    strDate: string;
-    strWeek: string;
-    citys: string[];
-    CompanyWith: string;
-    Spot: SpotInfo[];
-    Food: FoodInfo[];
-    Hotel: HotelInfo;
-}
-
-export interface FootprintItem {
-    Title: string;
-    Address: string;
-    Src: string;
-    Datetime: string;
-    Description: string;
-    Rotate: string;
-}
-
-import { Observable } from 'rxjs';
-import { ActivatedRouteSnapshot, Resolve, RouterStateSnapshot } from '@angular/router';
-import { SceneMgr } from './SceneMgr';
-
-@Injectable()
-export class ISpotInfoResolver implements Resolve<SpotInfo> {
-    constructor(private homeservice: AppService, public commonFunction: CommonFunction) {
-
-    }
-    resolve(route: ActivatedRouteSnapshot, _state: RouterStateSnapshot): SpotInfo | Observable<SpotInfo> | Promise<SpotInfo> {
-        let name = route.paramMap.get('name');
-        let x = this.homeservice.SpotList_CurrentShow.find(x => this.homeservice.EncodeURI(x.Name) === name);
-        if (x != undefined) return x;
-        return this.commonFunction.httpRequestGet<SpotInfo>("search/GetSpotByName?Name=" + name);
-    }
-}
-
-@Injectable()
-export class IFoodInfoResolver implements Resolve<FoodInfo> {
-    constructor(private homeservice: AppService, public commonFunction: CommonFunction) {
-
-    }
-    resolve(route: ActivatedRouteSnapshot, _state: RouterStateSnapshot): FoodInfo | Observable<FoodInfo> | Promise<FoodInfo> {
-        let name = route.paramMap.get('name');
-        let x = this.homeservice.FoodList_CurrentShow.find(x => this.homeservice.EncodeURI(x.Name) === name);
-        if (x != undefined) return x;
-        return this.commonFunction.httpRequestGet<FoodInfo>("search/GetFoodByName?Name=" + name);
-    }
-}
-
-@Injectable()
-export class IHotelInfoResolver implements Resolve<HotelInfo> {
-    constructor(private homeservice: AppService, public commonFunction: CommonFunction) {
-
-    }
-    resolve(route: ActivatedRouteSnapshot, _state: RouterStateSnapshot): HotelInfo | Observable<HotelInfo> | Promise<HotelInfo> {
-        let name = route.paramMap.get('name');
-        let x = this.homeservice.HotelList_CurrentShow.find(x => this.homeservice.EncodeURI(x.Name) === name);
-        if (x != undefined) return x;
-        return this.commonFunction.httpRequestGet<HotelInfo>("search/GetHotelByName?Name=" + name);
-    }
-}

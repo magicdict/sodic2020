@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
-import { AppService, enmItemType } from '../app-service';
+import { AppService } from '../app-service';
 import { Location } from '@angular/common';
 import { Router } from '@angular/router';
 import { SelectItem } from 'primeng/api/selectitem';
+import { enmItemType } from '../Model';
 
 @Component({
   templateUrl: './food.component.html',

@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
-import { AppService, enmItemType } from '../app-service';
+import { AppService } from '../app-service';
 import { Location } from '@angular/common';
 import { Router } from '@angular/router';
+import { enmItemType } from '../Model';
 
 
 @Component({

@@ -1,6 +1,7 @@
 import { Component, Input } from '@angular/core';
-import { enmItemType, AppService } from '../app-service';
+import {  AppService } from '../app-service';
 import { Router } from '@angular/router';
+import { enmItemType } from '../Model';
 @Component({
     selector: "fav-item",
     templateUrl: './favItemCell.component.html',

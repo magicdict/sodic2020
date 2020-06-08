@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Location } from '@angular/common';
-import { AppService, GiftInfo, enmItemType } from '../app-service';
+import { AppService } from '../app-service';
 import { ToastService } from '../toasts/toast-service';
+import { GiftInfo, enmItemType } from '../Model';
 @Component({
   templateUrl: './gift.component.html',
 })

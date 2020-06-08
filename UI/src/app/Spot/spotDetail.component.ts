@@ -1,8 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { AppService, SpotInfo, TourInfo } from '../app-service';
+import { SpotInfo, TourInfo, WaitLineInfo } from '../Model';
 import { Location } from '@angular/common';
 import { ToastService } from '../toasts/toast-service';
+import { AppService } from '../app-service';
 @Component({
   templateUrl: './spotDetail.component.html',
 })
@@ -47,8 +48,10 @@ export class SpotDetailComponent implements OnInit {
   };
   opiton_wordcoudy = {};
   distence: string;
-  isStop: boolean;
+  isStop: boolean;  //是否停业
   index: number; //Active Tab Index
+  waitfor:WaitLineInfo;
+
   Return() {
     this._location.back();
   }
@@ -57,6 +60,11 @@ export class SpotDetailComponent implements OnInit {
     console.log("mapchart");
     this.map_chart = c;
   }
+  refreshwaitfor(){
+    this.waitfor.Items.forEach(element => {
+      element.value = Math.round(Math.random() * 100);
+    });
+  }
   ngOnInit(): void {
     this.route.data.subscribe(
       (xxx: { spot: SpotInfo }) => {
@@ -64,6 +72,12 @@ export class SpotDetailComponent implements OnInit {
         this.index = 0;
         if (this.SpotDetailInfo.Name === null) {
           return;
+        }
+        this.waitfor = this.appservice.SpotWaitFor.find(x=>x.Spot === this.SpotDetailInfo.Name);
+        if (this.waitfor !== undefined){
+          this.waitfor.Items.forEach(element => {
+            element.value = Math.round(Math.random() * 100);
+          });
         }
         this.TourInfoList = this.appservice.TourList.filter(
           (x) => {
@@ -74,6 +88,7 @@ export class SpotDetailComponent implements OnInit {
             return x.Description.indexOf(this.SpotDetailInfo.Name) !== -1;
           }
         );
+        this.isStop = false;  //景点到景点的切换，需要初始值
         if (this.SpotDetailInfo.OpenTime.indexOf("暂停营业") !== -1) this.isStop = true;
         if (this.SpotDetailInfo.OpenTime.indexOf("暂时停业") !== -1) this.isStop = true;
         console.log("this.appservice.myposition.lat:" + AppService.myposition.lat + "," + AppService.myposition.lng)
@@ -129,6 +144,7 @@ export class SpotDetailComponent implements OnInit {
       }
     );
   }
+  
   JumpToSpot() {
     this.appservice.IsAddToPlanMode = false;
     this.appservice.SpotList_CurrentShow = this.appservice.SpotList_GradeA;

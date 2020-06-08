@@ -9,7 +9,7 @@ import { HotelComponent } from './Hotel/hotel.component';
 import { SpotComponent } from './Spot/spot.component';
 import { FoodComponent } from './Food/food.component';
 import { SpotItemComponent } from './Spot/spotItem.component';
-import { AppService, IFoodInfoResolver, IHotelInfoResolver, ISpotInfoResolver } from './app-service';
+import { AppService } from './app-service';
 import { LoginComponent } from './login/login.component';
 import { SpotDetailComponent } from './Spot/spotDetail.component';
 import { LazyLoadImageModule } from 'ng-lazyload-image';
@@ -39,6 +39,7 @@ import { ToastsContainer } from './toasts/toast-container.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SceneComponent } from './scene/scene.component';
 import { SceneMgr } from './SceneMgr';
+import { IFoodInfoResolver, IHotelInfoResolver, ISpotInfoResolver } from './Resolver';
 @NgModule({
   declarations: [
     AppComponent,

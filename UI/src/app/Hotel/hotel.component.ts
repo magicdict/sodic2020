@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
-import { AppService, HotelInfo, enmItemType } from '../app-service';
+import { AppService } from '../app-service';
 import { Location } from '@angular/common';
 import { Router } from '@angular/router';
 import { SelectItem } from 'primeng/api/selectitem';
+import { HotelInfo, enmItemType } from '../Model';
 
 @Component({
   templateUrl: './hotel.component.html',
