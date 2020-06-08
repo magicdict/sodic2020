@@ -40,6 +40,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SceneComponent } from './scene/scene.component';
 import { SceneMgr } from './SceneMgr';
 import { IFoodInfoResolver, IHotelInfoResolver, ISpotInfoResolver } from './Resolver';
+import {RatingModule} from 'primeng/rating';
 @NgModule({
   declarations: [
     AppComponent,
@@ -76,6 +77,7 @@ import { IFoodInfoResolver, IHotelInfoResolver, ISpotInfoResolver } from './Reso
       echarts,
     }),
     CalendarModule,
+    RatingModule,
     TabViewModule,
     SelectButtonModule,
     CardModule,

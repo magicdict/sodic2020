@@ -1,35 +1,83 @@
 <section class="content-header">
     <h1>
-        客流量
+        客流监视(大梅沙)
     </h1>
     <ol class="breadcrumb">
         <li><a href=""><i class="fa fa-dashboard"></i> Home</a></li>
         <li class="active">
-            客流量
+            客流监视(大梅沙)
         </li>
     </ol>
 </section>
 <section class="content">
-     <div class="row">
-        <div class="col-md-6">
-            <chart [options]="dmsweekdayoption" [title]="'大梅沙预订'" [boxstyle]="this._commonFunction.boxstyle_Col6"
-                [chartstyle]="this._commonFunction.chartstyle_Col6"  (ChartInit)="this.GetDMSWeekChart($event)"> 
-            </chart>
-        </div>
-        <div class="col-md-6">
-            <chart [options]="dmsweekdayoption" [title]="'大梅沙入园'" [boxstyle]="this._commonFunction.boxstyle_Col6"
-                [chartstyle]="this._commonFunction.chartstyle_Col6"  (ChartInit)="this.GetDMSWeekChart_InCount($event)"> 
-            </chart>
-        </div>
-    </div>
     <div class="row">
-        <div class="col-md-6">
-            <chart [options]="top10option" [title]="'大梅沙入园TOP10'" [boxstyle]="this._commonFunction.boxstyle_Col6"
-                [chartstyle]="this._commonFunction.chartstyle_Col6"  (ChartInit)="this.GetDMSWeekChart_Top10($event)"> 
-            </chart>
-        </div>
-        <div class="col-md-6">
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="info-box">
+                <span class="info-box-icon bg-aqua"><i class="ion ion-ios-gear-outline"></i></span>
 
+                <div class="info-box-content">
+                    <span class="info-box-text">今日限流</span>
+                    <span class="info-box-number">18000</span>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="info-box">
+                <span class="info-box-icon bg-aqua"><i class="ion ion-ios-gear-outline"></i></span>
+
+                <div class="info-box-content">
+                    <span class="info-box-text">入园人数</span>
+                    <span class="info-box-number">7569</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="info-box">
+                <span class="info-box-icon bg-aqua"><i class="ion ion-ios-gear-outline"></i></span>
+
+                <div class="info-box-content">
+                    <span class="info-box-text">预约人数</span>
+                    <span class="info-box-number">16278</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="info-box">
+                <span class="info-box-icon bg-aqua"><i class="ion ion-ios-gear-outline"></i></span>
+
+                <div class="info-box-content">
+                    <span class="info-box-text">园内人数</span>
+                    <span class="info-box-number">3572</span>
+                </div>
+            </div>
         </div>
     </div>
- </section>
+    <section class="content">
+        <div class="row">
+            <div class="col-md-3">
+                <chart [options]="dmsweekdayoption" [title]="'预订数星期别'" [boxstyle]="this._commonFunction.boxstyle_Col3"
+                    [chartstyle]="this._commonFunction.chartstyle_Col3" (ChartInit)="this.GetDMSWeekChart($event)">
+                </chart>
+                <chart [options]="netrateoption" [title]="'网络预订比例'" [boxstyle]="this._commonFunction.boxstyle_Col3"
+                    [chartstyle]="this._commonFunction.chartstyle_Col3" (ChartInit)="this.GetDMSNetRate($event)">
+                </chart>
+            </div>
+            <div class="col-md-6">
+                <chart [options]="realtimeoption" [title]="'客流量实时监控'"
+                    [boxstyle]="this._commonFunction.boxstyle_Col6_Row2"
+                    [chartstyle]="this._commonFunction.chartstyle_Col6_Row2" (ChartInit)="this.GetRealTime($event)">
+                </chart>
+            </div>
+            <div class="col-md-3">
+                <chart [options]="dmsweekdayoption" [title]="'入园数星期别'" [boxstyle]="this._commonFunction.boxstyle_Col3"
+                    [chartstyle]="this._commonFunction.chartstyle_Col3"
+                    (ChartInit)="this.GetDMSWeekChart_InCount($event)">
+                </chart>
+                <chart [options]="top10option" [title]="'客流数日期TOP10'" [boxstyle]="this._commonFunction.boxstyle_Col3"
+                    [chartstyle]="this._commonFunction.chartstyle_Col3"
+                    (ChartInit)="this.GetDMSWeekChart_Top10($event)">
+                </chart>
+            </div>
+        </div>
+    </section>

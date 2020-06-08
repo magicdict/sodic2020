@@ -44,12 +44,28 @@
             <b>景色：</b>{{this.SpotDetailInfo.Scenery}} &nbsp;&nbsp;&nbsp;&nbsp;
             <b>趣味：</b>{{this.SpotDetailInfo.Funny}} &nbsp;&nbsp;&nbsp;&nbsp;
             <b>性价比：</b>{{this.SpotDetailInfo.PriceValue}}
-            <br />
-            <b>评论数：</b>{{this.SpotDetailInfo.CommentCount}} (展示前50条)
             <echarts [options]="this.opiton_wordcoudy" style="width: 320px;height: 320px;"></echarts>
-            <ul>
-                <li *ngFor="let c of this.SpotDetailInfo.Comments.slice(0,100)">
-                    {{c}}
+            <b>景色：</b>
+            <p-rating [cancel]="false" [(ngModel)]="val1"></p-rating>
+            <b>趣味：</b>
+            <p-rating [cancel]="false" [(ngModel)]="val2"></p-rating>
+            <b>性价比：</b>
+            <p-rating [cancel]="false" [(ngModel)]="val3"></p-rating>
+            <b style="vertical-align: top;">评论：</b><br />
+            <textarea style="width: 90%;height: 72px;"></textarea>
+            <div style="text-align: center;">
+                <button class="btn btn-primary"
+                    (click)="this.toastService.show('提交成功，审核中...', { classname: 'bg-success text-light', delay: 3000 });"><img
+                        src="assets/image/提交.png" width="30" height="30" />&nbsp;&nbsp;提交</button>
+            </div>
+            <br />
+            <b>评论数：</b>{{this.SpotDetailInfo.CommentCount}} (展示前30条)
+            <ul style="padding: 10px;">
+                <li *ngFor="let c of this.commentItem">
+                    <img style="border-radius: 9px;" width="32px" height="32px" [src]="'assets/image/user/' + c.user">
+                    &nbsp;&nbsp;&nbsp;&nbsp;<b>{{c.user.substr(0,c.user.length-4)}}</b>
+                    <br />
+                    {{c.comment}}
                 </li>
             </ul>
         </p-tabPanel>
@@ -57,7 +73,7 @@
             <button class="btn btn-primary" (click)="this.refreshwaitfor()"><img src="assets/image/刷新.png" width="30"
                     height="30" />&nbsp;&nbsp;刷新</button>
             <br /><br />
-            <ul>
+            <ul style="padding: 10px;">
                 <li *ngFor="let t of this.waitfor.Items" style="text-align: left;">
                     {{t.name}}
                     <span *ngIf="t.value <= 15" style="float: right;color: green;">{{t.value}}分钟</span>
@@ -67,7 +83,7 @@
             </ul>
         </p-tabPanel>
         <p-tabPanel *ngIf="TourInfoList.length !==0" header="组团">
-            <ul>
+            <ul style="padding: 10px;">
                 <li *ngFor="let t of TourInfoList" style="text-align: left;">
                     {{t.Name}}:{{t.Days}}(人均：{{t.Price}})<br />{{t.Description}}
                 </li>

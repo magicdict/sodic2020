@@ -146,7 +146,7 @@ export const IScatter3DStardard = {
       color: ['blue', 'blue', 'green', 'yellow', 'red']
     },
     max: 0,
-    calculable:true
+    calculable: true
   }],
   series: [
     {
@@ -164,7 +164,7 @@ export const IScatter3DStardard = {
   ]
 };
 
-export const I3DarStardard = {
+export const I3DBarStardard = {
   visualMap: {
     max: 300,
     show: false,
@@ -213,6 +213,18 @@ export const I3DarStardard = {
     itemStyle: {
       opacity: 0.4
     },
+    emphasis: {
+      label: {
+        formatter:null,
+        textStyle: {
+          fontSize: 20,
+          color: '#900'
+        }
+      },
+      itemStyle: {
+        color: '#900'
+      }
+    }
   }]
 };
 

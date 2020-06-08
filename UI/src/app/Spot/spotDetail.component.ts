@@ -14,6 +14,10 @@ export class SpotDetailComponent implements OnInit {
     public router: Router,
     public toastService: ToastService) {
   }
+  val1: number = 4;
+  val2: number = 4;
+  val3: number = 4;
+
   TourInfoList: TourInfo[] = [];
   SpotDetailInfo: SpotInfo;
   option = {
@@ -50,7 +54,8 @@ export class SpotDetailComponent implements OnInit {
   distence: string;
   isStop: boolean;  //是否停业
   index: number; //Active Tab Index
-  waitfor:WaitLineInfo;
+  waitfor: WaitLineInfo;
+  commentItem: { comment: string, user: string }[];
 
   Return() {
     this._location.back();
@@ -60,7 +65,7 @@ export class SpotDetailComponent implements OnInit {
     console.log("mapchart");
     this.map_chart = c;
   }
-  refreshwaitfor(){
+  refreshwaitfor() {
     this.waitfor.Items.forEach(element => {
       element.value = Math.round(Math.random() * 100);
     });
@@ -73,8 +78,8 @@ export class SpotDetailComponent implements OnInit {
         if (this.SpotDetailInfo.Name === null) {
           return;
         }
-        this.waitfor = this.appservice.SpotWaitFor.find(x=>x.Spot === this.SpotDetailInfo.Name);
-        if (this.waitfor !== undefined){
+        this.waitfor = this.appservice.SpotWaitFor.find(x => x.Spot === this.SpotDetailInfo.Name);
+        if (this.waitfor !== undefined) {
           this.waitfor.Items.forEach(element => {
             element.value = Math.round(Math.random() * 100);
           });
@@ -98,7 +103,12 @@ export class SpotDetailComponent implements OnInit {
           this.distence = this.appservice.distanceByLnglat(this.SpotDetailInfo.lng, this.SpotDetailInfo.lat, AppService.myposition.lng, AppService.myposition.lat);
           mapPoint.push([AppService.myposition.lng, AppService.myposition.lat, 2, "您的位置"])
         }
-
+        if (this.SpotDetailInfo.Comments !== null && this.SpotDetailInfo.Comments.length !== 0) {
+          this.commentItem = this.SpotDetailInfo.Comments.map(x => { 
+            var id = Math.round(Math.random() * 50);
+            return { comment: x, user: this.appservice.UserFaceFileName[id] }
+           });
+        }
         this.option.bmap.center = [this.SpotDetailInfo.lng, this.SpotDetailInfo.lat]
         this.option.series[0].data = mapPoint;
         if (this.map_chart !== undefined) {
@@ -144,7 +154,7 @@ export class SpotDetailComponent implements OnInit {
       }
     );
   }
-  
+
   JumpToSpot() {
     this.appservice.IsAddToPlanMode = false;
     this.appservice.SpotList_CurrentShow = this.appservice.SpotList_GradeA;

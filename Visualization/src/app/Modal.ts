@@ -28,6 +28,7 @@ export interface ZYStreetBook {
 export interface BigMeiShaBook {
     Date: Date;
     WeekDay: number;
+    OnlineBook:number;
     TotalBook: number;
     InCount: number;
 }
