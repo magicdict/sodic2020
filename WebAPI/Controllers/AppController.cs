@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using Microsoft.AspNetCore.Mvc;
 using System.Drawing.Imaging;
+using System.Linq;
 
 namespace WebAPI.Controllers
 {
@@ -52,10 +53,6 @@ namespace WebAPI.Controllers
             return DataCenter.SpotComments;
         }
 
-        /// <summary>
-        /// 上传图片,通过Form表单提交
-        /// </summary>
-        /// <returns></returns>
         [HttpPost(nameof(SetSpotComment))]
         public ActionResult SetSpotComment()
         {
@@ -70,5 +67,25 @@ namespace WebAPI.Controllers
             DataCenter.SpotComments.Add(x);
             return new JsonResult("{'result':'OK'}");
         }
+
+
+        [HttpGet(nameof(GetFavourite))]
+        public List<FavouriteCount> GetFavourite()
+        {
+            return DataCenter.Favourites.GroupBy(x => (x.Name,x.Catagory)).Select(x => new FavouriteCount() { Name = x.Key.Name, Catagory = x.Key.Catagory, Count = x.Count() }).ToList();
+        }
+
+        [HttpPost(nameof(SetFavourite))]
+        public ActionResult SetFavourite()
+        {
+            var x = new Favourite()
+            {
+                Name = Request.Form["Name"][0],
+                Catagory = (enmItemType)int.Parse(Request.Form["Catagory"][0]),
+            };
+            DataCenter.Favourites.Add(x);
+            return new JsonResult("{'result':'OK'}");
+        }
+
     }
 }

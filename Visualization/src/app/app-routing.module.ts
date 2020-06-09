@@ -10,6 +10,7 @@ import { BookInfoComponent } from './visualization/bookinfo.component';
 import { SearchKeyComponent } from './app/searchkey.component';
 import { FootprintComponent } from './app/footprint.component';
 import { SpotCommentComponent } from './app/spotcomment.component';
+import { FavouriteComponent } from './app/favourite.component';
 
 
 const routes: Routes = [
@@ -27,6 +28,7 @@ const routes: Routes = [
       { path: 'app/searchkey', component: SearchKeyComponent },
       { path: 'app/footprint', component: FootprintComponent },
       { path: 'app/spotcomment', component: SpotCommentComponent },
+      { path: 'app/favourite', component: FavouriteComponent },
     ]
   },
   { path: '', redirectTo: 'main/dashboard/basicinfo', pathMatch: 'full' }

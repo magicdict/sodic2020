@@ -23,10 +23,9 @@ public static class DataCenter
     public static Dictionary<string, int> SpotDict = new Dictionary<string, int>();
     public static Dictionary<string, int> FoodDict = new Dictionary<string, int>();
     public static Dictionary<string, int> HotelDict = new Dictionary<string, int>();
-
     public static List<FootPrint> FootPrints = new List<FootPrint>();
-
     public static List<SpotComment> SpotComments = new List<SpotComment>();
+    public static List<Favourite> Favourites = new List<Favourite>();
 
     public static void Init()
     {
@@ -54,5 +53,39 @@ public static class DataCenter
         sr = new StreamReader(JsonPath + "江门市宾馆酒店信息.json");
         HotelList_JM = JsonConvert.DeserializeObject<List<HotelInfo>>(sr.ReadToEnd());
         sr.Close();
+
+        LoadStatistics();
+    }
+
+    public static void SaveStatistics()
+    {
+        var s = new Statistics();
+        s.Favourites = Favourites;
+        s.FoodDict = FoodDict;
+        s.FootPrints = FootPrints;
+        s.HotelDict = HotelDict;
+        s.SpotComments = SpotComments;
+        s.SpotDict = SpotDict;
+        string json_sz = JsonConvert.SerializeObject(s, Formatting.Indented);
+        using (var sw = new StreamWriter(JsonPath + "Statistics.json", false))
+        {
+            sw.Write(json_sz);
+            sw.Close();
+        }
+    }
+
+    public static void LoadStatistics()
+    {
+        if (!System.IO.File.Exists(JsonPath + "Statistics.json")) return;
+        var sr = new StreamReader(JsonPath + "Statistics.json");
+        var s = new Statistics();
+        s = JsonConvert.DeserializeObject<Statistics>(sr.ReadToEnd());
+        sr.Close();
+        Favourites = s.Favourites;
+        FoodDict = s.FoodDict;
+        FootPrints = s.FootPrints;
+        HotelDict = s.HotelDict;
+        SpotComments = s.SpotComments;
+        SpotDict = s.SpotDict;
     }
 }

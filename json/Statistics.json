@@ -1,0 +1,43 @@
+{
+  "SpotDict": {
+    "温泉": 1
+  },
+  "FoodDict": {
+    "鸡翅": 1
+  },
+  "HotelDict": {
+    "希尔顿": 1
+  },
+  "FootPrints": [
+    {
+      "UserImage": "20200609155214_斗罗大陆人物关系图.jpg",
+      "Title": "测试",
+      "Address": "测试",
+      "Description": "测试",
+      "Datetime": "2020年6月9日15时52分11秒"
+    }
+  ],
+  "SpotComments": [
+    {
+      "Name": "世界之窗",
+      "Scenery": 3,
+      "Funny": 4,
+      "PriceValue": 5,
+      "Comment": "测试评论 世界之窗"
+    }
+  ],
+  "Favourites": [
+    {
+      "Name": "下川岛王府洲旅游度假区",
+      "Catagory": 0
+    },
+    {
+      "Name": "观澜山水田园旅游文化园",
+      "Catagory": 0
+    },
+    {
+      "Name": "周陂豆橙",
+      "Catagory": 3
+    }
+  ]
+}

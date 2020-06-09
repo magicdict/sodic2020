@@ -24,7 +24,7 @@ namespace WebAPI
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IHostApplicationLifetime aft)
         {
             if (env.IsDevelopment())
             {
@@ -43,6 +43,8 @@ namespace WebAPI
             {
                 endpoints.MapControllers();
             });
+
+            aft.ApplicationStopping.Register(() => { DataCenter.SaveStatistics(); });
         }
     }
 }

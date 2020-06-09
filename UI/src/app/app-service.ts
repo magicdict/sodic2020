@@ -56,6 +56,19 @@ export class AppService {
         if (this.favorites.find(x => x.Name === item.Name) !== undefined) return;
         this.favorites.push(item);
         this.localstorage.Save("favorites", this.favorites);
+
+        var formData: FormData = new FormData();
+        formData.append("Name", item.Name);
+        formData.append("Catagory", type.toString());
+        //发送数据
+        this.http.post('http://39.105.206.6:8080/App/SetFavourite', formData).subscribe(
+          (response) => {
+            console.log(response);
+          },
+          (error) => {
+            console.log(error);
+          }
+        )
     }
 
     DelFromFav(itemname) {

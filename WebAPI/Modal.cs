@@ -1,4 +1,5 @@
 
+using System.Collections;
 using System.Collections.Generic;
 
 public class POI
@@ -113,4 +114,31 @@ public class SpotComment
     public int PriceValue { get; set; }
     public string Comment { get; set; }
 
+}
+
+public class Favourite
+{
+    public string Name { get; set; }
+
+    public enmItemType Catagory { get; set; }
+}
+
+public class FavouriteCount : Favourite
+{
+    public int Count { get; set; }
+}
+
+public enum enmItemType
+{
+    Spot, Food, Hotel, Gift
+}
+
+public class Statistics{
+    
+    public  Dictionary<string, int> SpotDict = new Dictionary<string, int>();
+    public  Dictionary<string, int> FoodDict = new Dictionary<string, int>();
+    public  Dictionary<string, int> HotelDict = new Dictionary<string, int>();
+    public  List<FootPrint> FootPrints = new List<FootPrint>();
+    public  List<SpotComment> SpotComments = new List<SpotComment>();
+    public  List<Favourite> Favourites = new List<Favourite>();
 }

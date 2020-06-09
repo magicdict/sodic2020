@@ -54,3 +54,14 @@ export interface SpotComment {
     PriceValue: number;
     Comment: string;
 }
+
+export interface Favourite {
+    Count: number;
+    Name: string;
+    Catagory: enmItemType
+
+}
+
+export enum enmItemType {
+    Spot, Food, Hotel, Gift
+}

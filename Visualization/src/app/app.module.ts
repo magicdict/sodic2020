@@ -19,6 +19,7 @@ import { SearchKeyComponent } from './app/searchkey.component';
 import { FootprintComponent } from './app/footprint.component';
 import { LazyLoadImageModule } from 'ng-lazyload-image'; // <-- import it
 import { SpotCommentComponent } from './app/spotcomment.component';
+import { FavouriteComponent } from './app/favourite.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { SpotCommentComponent } from './app/spotcomment.component';
     SimpleHeatMapComponent,
     SearchKeyComponent,
     FootprintComponent,
-    SpotCommentComponent
+    SpotCommentComponent,
+    FavouriteComponent
   ],
   imports: [
     BrowserModule,
