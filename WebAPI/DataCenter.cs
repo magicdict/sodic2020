@@ -24,7 +24,9 @@ public static class DataCenter
     public static Dictionary<string, int> FoodDict = new Dictionary<string, int>();
     public static Dictionary<string, int> HotelDict = new Dictionary<string, int>();
 
-    public static List<FootPrint> Footprints = new List<FootPrint>();
+    public static List<FootPrint> FootPrints = new List<FootPrint>();
+
+    public static List<SpotComment> SpotComments = new List<SpotComment>();
 
     public static void Init()
     {

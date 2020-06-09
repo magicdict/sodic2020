@@ -18,6 +18,7 @@ export class FoodDetailComponent implements OnInit {
   option = {};
   opiton_wordcoudy = {};
   distence: string;
+  commentItem: { comment: string, user: string }[];
   Return() {
     this._location.back();
   }
@@ -39,7 +40,12 @@ export class FoodDetailComponent implements OnInit {
           this.distence = this.appservice.distanceByLnglat(this.FoodDetailInfo.lng, this.FoodDetailInfo.lat, AppService.myposition.lng, AppService.myposition.lat);
           mapPoint.push([AppService.myposition.lng, AppService.myposition.lat, 2, "您的位置"])
         }
-
+        if (this.FoodDetailInfo.Comments !== null && this.FoodDetailInfo.Comments.length !== 0) {
+          this.commentItem = this.FoodDetailInfo.Comments.map(x => { 
+            var id = Math.round(Math.random() * 50);
+            return { comment: x, user: this.appservice.UserFaceFileName[id] }
+           });
+        }
         this.option = {
           // 加载 bmap 组件
           bmap: {

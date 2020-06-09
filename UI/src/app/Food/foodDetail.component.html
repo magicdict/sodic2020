@@ -20,11 +20,16 @@
             </div>
         </p-tabPanel>
         <p-tabPanel *ngIf="this.FoodDetailInfo.Comments !== null" header="评论" style="text-align: left;">
-            <b>评论数：</b>{{this.FoodDetailInfo.CommentCount}} (展示前50条)
             <echarts [options]="this.opiton_wordcoudy" style="width: 320px;height: 320px;"></echarts>
-            <ul>
-                <li *ngFor="let c of this.FoodDetailInfo.Comments.slice(0,100)">
-                    {{c}}
+            <b>评论数：</b>{{this.FoodDetailInfo.CommentCount}} (展示前30条)
+            <ul style="padding: 10px;">
+                <li *ngFor="let c of this.commentItem"
+                    style="word-break:break-all;word-wrap:break-word;margin-top: 10px;">
+                    <img style="border-radius: 9px;" width="32px" height="32px" [lazyLoad]="'assets/image/user/' + c.user">
+                    &nbsp;&nbsp;&nbsp;&nbsp;<b>{{c.user.substr(0,c.user.length-4)}}</b>
+                    <span style="float: right;">2020-06-01&nbsp;12:00:00</span>
+                    <br />
+                    {{c.comment}}
                 </li>
             </ul>
         </p-tabPanel>

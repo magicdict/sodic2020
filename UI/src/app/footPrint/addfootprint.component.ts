@@ -134,7 +134,7 @@ export class AddFootPrintComponent {
         formData.append("Description", this.item.Description);
         formData.append("Datetime", this.item.Datetime);
         //发送数据
-        this.http.post('http://39.105.206.6:8080/Search/SetFootPrint', formData).subscribe(
+        this.http.post('http://39.105.206.6:8080/App/SetFootPrint', formData).subscribe(
             (response) => {
                 console.log(response);
                 this.Return();

@@ -7,7 +7,8 @@
     我的心愿单
     <img src="assets/image/返回.png" width="30" height="30" alt="" (click)="Return()" style="float: right;">
 </nav>
-<div style="position: absolute;z-index: 99;top:42px;text-align: center;overflow-y: scroll;"
+<div style="position: absolute;z-index: 99;top:42px;text-align: left;overflow-y: scroll;"
     [ngStyle]="{height:this.appservice.clientHeight-50 + 'px','width':appservice.clientWidth + 'px'}">
+    <br /><br />
     <fav-item *ngFor="let f of this.appservice.favorites" [Item]="f"></fav-item>
 </div>

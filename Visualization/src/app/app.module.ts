@@ -18,6 +18,7 @@ import { BookInfoComponent } from './visualization/bookinfo.component';
 import { SearchKeyComponent } from './app/searchkey.component';
 import { FootprintComponent } from './app/footprint.component';
 import { LazyLoadImageModule } from 'ng-lazyload-image'; // <-- import it
+import { SpotCommentComponent } from './app/spotcomment.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { LazyLoadImageModule } from 'ng-lazyload-image'; // <-- import it
     PriceTopLowComponent,
     SimpleHeatMapComponent,
     SearchKeyComponent,
-    FootprintComponent
+    FootprintComponent,
+    SpotCommentComponent
   ],
   imports: [
     BrowserModule,

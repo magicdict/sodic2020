@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonFunction } from '../Common/common';
-import { IBarStardard } from '../Common/chartOption';
-import { SearchKey, FootPrint } from '../Modal';
+import { FootPrint } from '../Modal';
 
 @Component({
     templateUrl: './footprint.component.html',
@@ -9,9 +8,9 @@ import { SearchKey, FootPrint } from '../Modal';
 export class FootprintComponent implements OnInit {
 
     constructor(private common: CommonFunction) { }
-    footprints : FootPrint[];
+    footprints: FootPrint[];
     ngOnInit(): void {
-        let dict: Promise<FootPrint[]> = this.common.httpRequestGet("search/GetFootPrintList");
+        let dict: Promise<FootPrint[]> = this.common.httpRequestGet("App/GetFootPrintList");
         dict.then(
             r => {
                 this.footprints = r;

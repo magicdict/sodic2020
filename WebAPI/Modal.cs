@@ -104,3 +104,13 @@ public class FootPrint
     public string Datetime { get; set; }
 
 }
+
+public class SpotComment
+{
+    public string Name { get; set; }
+    public int Scenery { get; set; }
+    public int Funny { get; set; }
+    public int PriceValue { get; set; }
+    public string Comment { get; set; }
+
+}

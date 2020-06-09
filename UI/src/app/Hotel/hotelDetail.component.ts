@@ -20,6 +20,7 @@ export class HotelDetailComponent implements OnInit {
   option = {};
   opiton_wordcoudy = {};
   distence: string;
+  commentItem: { comment: string, user: string }[];
   Return() {
     this._location.back();
   }
@@ -40,6 +41,12 @@ export class HotelDetailComponent implements OnInit {
         if (AppService.myposition.lat !== -1) {
           this.distence = this.appservice.distanceByLnglat(this.HotelDetailInfo.lng, this.HotelDetailInfo.lat, AppService.myposition.lng, AppService.myposition.lat);
           mapPoint.push([AppService.myposition.lng, AppService.myposition.lat, 2, "您的位置"])
+        }
+        if (this.HotelDetailInfo.Comments !== null && this.HotelDetailInfo.Comments.length !== 0) {
+          this.commentItem = this.HotelDetailInfo.Comments.map(x => { 
+            var id = Math.round(Math.random() * 50);
+            return { comment: x, user: this.appservice.UserFaceFileName[id] }
+           });
         }
         this.option = {
           // 加载 bmap 组件

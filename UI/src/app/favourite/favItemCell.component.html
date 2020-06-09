@@ -1,5 +1,7 @@
-<div (click)="Go()">
-    <img [src]="'assets/image/' + ImageName +  '.png'" width="30" height="30" alt="">{{Item.Name}}
-    <button style="float: right;margin-right: 15px;" class="btn btn-danger" (click)="this.appservice.DelFromFav(Item.Name)"><i
-            class="far fa-trash-alt"></i>&nbsp;删除</button>
+<div style="margin-top: 10px;margin-left: 20px;">
+    <img [src]="'assets/image/' + ImageName +  '.png'" width="30px" height="30px" alt=""><b>&nbsp;{{Item.Name}}</b>
+    <button style="float: right;margin-right: 15px;" class="btn btn-danger"
+        (click)="this.appservice.DelFromFav(Item.Name)"><i class="far fa-trash-alt"></i>&nbsp;删除</button>
+    <button style="float: right;margin-right: 15px;" class="btn btn-primary" (click)="Go()"><i
+            class="fas fa-list"></i>&nbsp;详细</button>
 </div>

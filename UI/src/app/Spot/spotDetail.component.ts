@@ -4,19 +4,22 @@ import { SpotInfo, TourInfo, WaitLineInfo } from '../Model';
 import { Location } from '@angular/common';
 import { ToastService } from '../toasts/toast-service';
 import { AppService } from '../app-service';
+import { HttpClient } from '@angular/common/http';
 @Component({
   templateUrl: './spotDetail.component.html',
 })
 export class SpotDetailComponent implements OnInit {
   constructor(private _location: Location,
+    public http: HttpClient,
     public appservice: AppService,
     private route: ActivatedRoute,
     public router: Router,
     public toastService: ToastService) {
   }
-  val1: number = 4;
-  val2: number = 4;
-  val3: number = 4;
+  Scenery: number = 4;
+  Funny: number = 4;
+  PriceValue: number = 4;
+  Comment: string = "";
 
   TourInfoList: TourInfo[] = [];
   SpotDetailInfo: SpotInfo;
@@ -104,10 +107,10 @@ export class SpotDetailComponent implements OnInit {
           mapPoint.push([AppService.myposition.lng, AppService.myposition.lat, 2, "您的位置"])
         }
         if (this.SpotDetailInfo.Comments !== null && this.SpotDetailInfo.Comments.length !== 0) {
-          this.commentItem = this.SpotDetailInfo.Comments.map(x => { 
+          this.commentItem = this.SpotDetailInfo.Comments.map(x => {
             var id = Math.round(Math.random() * 50);
             return { comment: x, user: this.appservice.UserFaceFileName[id] }
-           });
+          });
         }
         this.option.bmap.center = [this.SpotDetailInfo.lng, this.SpotDetailInfo.lat]
         this.option.series[0].data = mapPoint;
@@ -154,7 +157,25 @@ export class SpotDetailComponent implements OnInit {
       }
     );
   }
-
+  SendComment() {
+    var formData: FormData = new FormData();
+    if (this.Comment === "") return;
+    formData.append("Name", this.SpotDetailInfo.Name);
+    formData.append("Scenery", this.Scenery.toString());
+    formData.append("Funny", this.Funny.toString());
+    formData.append("PriceValue", this.PriceValue.toString());
+    formData.append("comment", this.Comment);
+    //发送数据
+    this.http.post('http://39.105.206.6:8080/App/SetSpotComment', formData).subscribe(
+      (response) => {
+        console.log(response);
+      },
+      (error) => {
+        console.log(error);
+      }
+    )
+    this.toastService.show('提交成功，审核中...', { classname: 'bg-success text-light', delay: 3000 });
+  }
   JumpToSpot() {
     this.appservice.IsAddToPlanMode = false;
     this.appservice.SpotList_CurrentShow = this.appservice.SpotList_GradeA;

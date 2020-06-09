@@ -46,57 +46,74 @@
             <b>性价比：</b>{{this.SpotDetailInfo.PriceValue}}
             <echarts [options]="this.opiton_wordcoudy" style="width: 320px;height: 320px;"></echarts>
             <b>景色：</b>
-            <p-rating [cancel]="false" [(ngModel)]="val1"></p-rating>
+            <p-rating [cancel]="false" [(ngModel)]="Scenery"></p-rating>
             <b>趣味：</b>
-            <p-rating [cancel]="false" [(ngModel)]="val2"></p-rating>
+            <p-rating [cancel]="false" [(ngModel)]="Funny"></p-rating>
             <b>性价比：</b>
-            <p-rating [cancel]="false" [(ngModel)]="val3"></p-rating>
+            <p-rating [cancel]="false" [(ngModel)]="PriceValue"></p-rating>
             <b style="vertical-align: top;">评论：</b><br />
-            <textarea style="width: 90%;height: 72px;"></textarea>
+            <textarea style="width: 90%;height: 72px;" [(ngModel)]="Comment"></textarea>
             <div style="text-align: center;">
                 <button class="btn btn-primary"
-                    (click)="this.toastService.show('提交成功，审核中...', { classname: 'bg-success text-light', delay: 3000 });"><img
-                        src="assets/image/提交.png" width="30" height="30" />&nbsp;&nbsp;提交</button>
+                    (click)="SendComment()"><img
+                        src="assets/image/提交.png" width="30px" height="30px" />&nbsp;&nbsp;提交</button>
             </div>
             <br />
             <b>评论数：</b>{{this.SpotDetailInfo.CommentCount}} (展示前30条)
             <ul style="padding: 10px;">
-                <li *ngFor="let c of this.commentItem">
-                    <img style="border-radius: 9px;" width="32px" height="32px" [src]="'assets/image/user/' + c.user">
+                <li *ngFor="let c of this.commentItem"
+                    style="word-break:break-all;word-wrap:break-word;margin-top: 10px;">
+                    <img style="border-radius: 9px;" width="32px" height="32px" [lazyLoad]="'assets/image/user/' + c.user">
                     &nbsp;&nbsp;&nbsp;&nbsp;<b>{{c.user.substr(0,c.user.length-4)}}</b>
+                    <span style="float: right;">2020-06-01&nbsp;12:00:00</span>
                     <br />
                     {{c.comment}}
                 </li>
             </ul>
         </p-tabPanel>
         <p-tabPanel *ngIf="this.waitfor !== undefined" header="排队">
-            <button class="btn btn-primary" (click)="this.refreshwaitfor()"><img src="assets/image/刷新.png" width="30"
-                    height="30" />&nbsp;&nbsp;刷新</button>
-            <br /><br />
-            <ul style="padding: 10px;">
-                <li *ngFor="let t of this.waitfor.Items" style="text-align: left;">
-                    {{t.name}}
-                    <span *ngIf="t.value <= 15" style="float: right;color: green;">{{t.value}}分钟</span>
-                    <span *ngIf="t.value > 15 && t.value <=60" style="float: right;color:blue;">{{t.value}}分钟</span>
-                    <span *ngIf="t.value > 60 " style="float: right;color: red;">{{t.value}}分钟</span>
-                </li>
-            </ul>
+            <button style="float: right;" class="btn btn-primary" (click)="this.refreshwaitfor()"><img
+                    src="assets/image/刷新.png" width="30" height="30" />&nbsp;&nbsp;刷新</button>
+            <br /><br /> <br />
+            <table class="table table-striped">
+                <tbody>
+                    <tr *ngFor="let t of this.waitfor.Items">
+                        <td style="text-align: left;"> {{t.name}}</td>
+                        <td *ngIf="t.value <= 15" style="color: green;text-align: right;">{{t.value}}分钟</td>
+                        <td *ngIf="t.value > 15 && t.value <=60" style="color:blue;text-align: right;">{{t.value}}分钟
+                        </td>
+                        <td *ngIf="t.value > 60 " style="color: red;text-align: right;">{{t.value}}分钟</td>
+                    </tr>
+                </tbody>
+            </table>
         </p-tabPanel>
         <p-tabPanel *ngIf="TourInfoList.length !==0" header="组团">
-            <ul style="padding: 10px;">
-                <li *ngFor="let t of TourInfoList" style="text-align: left;">
-                    {{t.Name}}:{{t.Days}}(人均：{{t.Price}})<br />{{t.Description}}
-                </li>
-            </ul>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th style="width: 80px;">名称</th>
+                        <th style="width: 60px;">天数</th>
+                        <th style="width: 40px;">人均</th>
+                        <th>景点</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let t of TourInfoList">
+                        <td style="text-align: left;"> {{t.Name}}</td>
+                        <td style="text-align: left;"> {{t.Days}}</td>
+                        <td style="text-align: left;"> {{t.Price}}</td>
+                        <td style="text-align: left;"> {{t.Description}}</td>
+                    </tr>
+                </tbody>
+            </table>
         </p-tabPanel>
         <p-tabPanel header="景点">
             <div class="container">
                 <div *ngFor="let t of this.SpotDetailInfo.NearSpot" class="row" style="text-align: left;margin: 5px;">
                     <div class="col-9" style="padding: 5px;">
-                        {{t.Item1}}
+                        {{t.Item1}} <b>({{this.appservice.formatdistence(t.Item2)}})</b>
                         <br />
                         {{t.Item3}}
-                        <b>({{this.appservice.formatdistence(t.Item2)}})</b>
                     </div>
                     <div class="col-3" style="padding: 5px;">
                         <button class="btn btn-sm btn-primary"
@@ -110,10 +127,9 @@
             <div class="container">
                 <div *ngFor="let t of this.SpotDetailInfo.NearFood" class="row" style="text-align: left;margin: 5px;">
                     <div class="col-9" style="padding: 5px;">
-                        {{t.Item1}}
+                        {{t.Item1}} <b>({{this.appservice.formatdistence(t.Item2)}})</b>
                         <br />
                         {{t.Item3}}
-                        <b>({{this.appservice.formatdistence(t.Item2)}})</b>
                     </div>
                     <div class="col-3" style="padding: 5px;">
                         <button class="btn btn-sm btn-primary"
@@ -127,9 +143,9 @@
             <div class="container">
                 <div *ngFor="let t of this.SpotDetailInfo.NearHotel" class="row" style="text-align: left;margin: 5px;">
                     <div class="col-9" style="padding: 5px;">
-                        {{t.Item1}}<br />
+                        {{t.Item1}} <b>({{this.appservice.formatdistence(t.Item2)}})</b>
+                        <br />
                         {{t.Item3}}
-                        <b>({{this.appservice.formatdistence(t.Item2)}})</b>
                     </div>
                     <div class="col-3" style="padding: 5px;">
                         <button class="btn btn-sm btn-primary"

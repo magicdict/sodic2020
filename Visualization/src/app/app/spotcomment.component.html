@@ -1,0 +1,38 @@
+<section class="content-header">
+  <h1>
+    景点评论
+  </h1>
+  <ol class="breadcrumb">
+    <li><a href=""><i class="fa fa-dashboard"></i> Home</a></li>
+    <li class="active">
+      景点评论
+    </li>
+  </ol>
+</section>
+<section class="content">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">名称</th>
+        <th scope="col">景色</th>
+        <th scope="col">趣味</th>
+        <th scope="col">性价比</th>
+        <th scope="col">评论</th>
+        <th scope="col">审核</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let f of this.spotcomment">
+        <th>{{f.Name}}</th>
+        <td>{{f.Scenery}}</td>
+        <td>{{f.Funny}}</td>
+        <td>{{f.PriceValue}}</td>
+        <td>{{f.Comment}}</td>
+        <td>
+          <button class="btn btn-success">通过</button>
+          <button  class="btn btn-danger">拒绝</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</section>

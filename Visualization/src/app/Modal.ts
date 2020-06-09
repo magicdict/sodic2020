@@ -28,7 +28,7 @@ export interface ZYStreetBook {
 export interface BigMeiShaBook {
     Date: Date;
     WeekDay: number;
-    OnlineBook:number;
+    OnlineBook: number;
     TotalBook: number;
     InCount: number;
 }
@@ -45,4 +45,12 @@ export interface FootPrint {
     Address: string;
     Description: string;
     Datetime: string;
+}
+
+export interface SpotComment {
+    Name: string;
+    Scenery: number;
+    Funny: number;
+    PriceValue: number;
+    Comment: string;
 }
