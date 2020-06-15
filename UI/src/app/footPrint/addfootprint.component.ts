@@ -7,6 +7,7 @@ import { getOrientation } from "get-orientation/browser";
 import { FormGroup, FormBuilder } from '@angular/forms';
 import { HttpClient } from '@angular/common/http';
 import { FootprintItem } from '../Model';
+import { ToastService } from '../toasts/toast-service';
 
 @Component({
     templateUrl: './addfootprint.component.html',
@@ -17,6 +18,7 @@ export class AddFootPrintComponent {
         public localstorage: DataStorage,
         public appservice: AppService,
         public http: HttpClient,
+        public toastService: ToastService,
         public fb: FormBuilder
     ) {
         this.form = this.fb.group({
@@ -114,15 +116,23 @@ export class AddFootPrintComponent {
     }
 
     SaveToLoalStorage() {
+        if (this.title === undefined || this.address === undefined || this.description === undefined) {
+            this.toastService.show('填写内容不完整', { classname: 'bg-danger text-light', delay: 3000 });
+            return;
+        }
         this.item.Title = this.title;
         this.item.Rotate = AddFootPrintComponent.OrientationClass;
         this.item.Address = this.address;
         this.item.Description = this.description;
         var preview = document.getElementById("PreviewImage") as HTMLImageElement;
+        if (preview === null) {
+            this.toastService.show('请添加图片', { classname: 'bg-danger text-light', delay: 3000 });
+            return;
+        }
         this.item.Src = preview.src;
         let now = new Date();
-        this.item.Datetime = now.getFullYear() + "年" + (now.getMonth() + 1) + "月" + now.getDate() + "日" 
-        + now.getHours() + "时" + now.getMinutes() + "分" + now.getSeconds() + "秒";
+        this.item.Datetime = now.getFullYear() + "年" + (now.getMonth() + 1) + "月" + now.getDate() + "日"
+            + now.getHours() + "时" + now.getMinutes() + "分" + now.getSeconds() + "秒";
         this.appservice.AddToFootprint(this.item);
         this.SaveToWeb();
     }
