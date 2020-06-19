@@ -53,6 +53,11 @@
             </div>
         </div>
     </div>
+    <div class="alert alert-primary" role="alert">
+        通过对于消费数据的统计，深圳的人均消费是江门的一倍。
+        江门的人均消费基本都在100元以下，深圳的人均消费则明显在50-200元这个区间
+
+    </div>
     <div class="row">
         <div class="col-md-6">
             <chart [options]="foodszoption" [title]="'深圳市饭店人均价格'" [boxstyle]="this._commonFunction.boxstyle_Col6"
@@ -77,6 +82,13 @@
                 [chartstyle]="this._commonFunction.chartstyle_Col6">
             </chart>
         </div>
+    </div>
+    <div class="alert alert-primary" role="alert">
+        景点的景色，趣味和性价比的评分用3D的方式进行展示，（颜色越偏向于红色，点越大表示评分所使用的样本数越多，越可靠）
+        发现大部分的景点的评分，3项指标都在4以上。
+        从图上我们可以发现3项指标基本都是正相关的，某一个指标好的景点，其他两个指标也好。
+        一般可靠的数据出现在整个数据序列的中间部分，评分人数越多，数据越不容易走向极端。
+
     </div>
     <div class="row">
         <div class="col-md-6">

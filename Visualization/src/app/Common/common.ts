@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { echartsInstance } from 'echarts'
 import { HttpClient } from '@angular/common/http';
+import * as echarts from 'echarts';
 
 export interface NameValueSet {
     Name: string,
@@ -192,7 +193,29 @@ export class CommonFunction {
                 return "六";
         }
     }
-
+    public beautiful(opt: any) {
+        opt.series[0]['itemStyle'] = //定义每个bar的颜色和其上是否显示值
+        {
+            normal: {
+                color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+                    offset: 0,
+                    color: '#60ACFC'
+                }, {
+                    offset: 1,
+                    color: '#32D3EB'
+                }]),
+                opacity: 0.75,
+                label: {
+                    color: '#9287E7',
+                    //每个bar的最高点值显示在bar顶部
+                    show: true,
+                    position: 'top',
+                    //值和x轴分类的显示格式(这里是换行显示)
+                    formatter: '{c}'
+                }
+            }
+        }
+    }
     public static SaveChartImage(chartInstannce: echartsInstance, filename: string) {
         var img = new Image();
         img.src = chartInstannce.getDataURL({

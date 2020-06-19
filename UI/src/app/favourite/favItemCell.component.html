@@ -2,6 +2,6 @@
     <img [src]="'assets/image/' + ImageName +  '.png'" width="30px" height="30px" alt=""><b>&nbsp;{{Item.Name}}</b>
     <button style="float: right;margin-right: 15px;" class="btn btn-danger"
         (click)="this.appservice.DelFromFav(Item.Name)"><i class="far fa-trash-alt"></i>&nbsp;删除</button>
-    <button style="float: right;margin-right: 15px;" class="btn btn-primary" (click)="Go()"><i
+    <button *ngIf="this.Item.ItemType !== giftType" style="float: right;margin-right: 15px;" class="btn btn-primary" (click)="Go()"><i
             class="fas fa-list"></i>&nbsp;详细</button>
 </div>

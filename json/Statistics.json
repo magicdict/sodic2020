@@ -9,13 +9,7 @@
     "希尔顿": 1
   },
   "FootPrints": [
-    {
-      "UserImage": "20200609155214_斗罗大陆人物关系图.jpg",
-      "Title": "测试",
-      "Address": "测试",
-      "Description": "测试",
-      "Datetime": "2020年6月9日15时52分11秒"
-    }
+
   ],
   "SpotComments": [
     {
@@ -38,6 +32,18 @@
     {
       "Name": "周陂豆橙",
       "Catagory": 3
+    },
+    {
+      "Name": "周陂豆橙",
+      "Catagory": 3
+    },
+    {
+      "Name": "外婆家(KKMALL店)",
+      "Catagory": 1
+    },
+    {
+      "Name": "台山碧桂园凤凰酒店",
+      "Catagory": 2
     }
   ]
 }

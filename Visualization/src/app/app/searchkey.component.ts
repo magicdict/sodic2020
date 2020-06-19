@@ -3,6 +3,7 @@ import { CommonFunction } from '../Common/common';
 import { IBarStardard } from '../Common/chartOption';
 import { SearchKey } from '../Modal';
 
+
 @Component({
     templateUrl: './searchkey.component.html',
 })
@@ -26,18 +27,21 @@ export class SearchKeyComponent implements OnInit {
                 this.spotoption.xAxis["axisLabel"] = { interval: 0, rotate: 45 }
                 this.spotoption['grid'] = { bottom : 150 };
                 this.spotoption.series[0].data = r.Spot.map(x => x.value);
+                this.common.beautiful(this.spotoption);
                 this.char_spot.setOption(this.spotoption);
 
                 this.foodoption.xAxis.data = r.Food.map(x => x.name);
                 this.foodoption.xAxis["axisLabel"] = { interval: 0, rotate: 45 }
                 this.foodoption['grid'] = { bottom : 150 };
                 this.foodoption.series[0].data = r.Food.map(x => x.value);
+                this.common.beautiful(this.foodoption);
                 this.char_food.setOption(this.foodoption);
 
                 this.hoteloption.xAxis.data = r.Hotel.map(x => x.name);
                 this.hoteloption.xAxis["axisLabel"] = { interval: 0, rotate: 45 }
                 this.hoteloption['grid'] = { bottom : 150 };
                 this.hoteloption.series[0].data = r.Hotel.map(x => x.value);
+                this.common.beautiful(this.hoteloption);
                 this.char_hotel.setOption(this.hoteloption);
             }
         )

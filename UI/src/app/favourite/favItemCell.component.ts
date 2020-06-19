@@ -11,6 +11,7 @@ export class FavItemCellComponent {
 
     }
     @Input() Item: any;
+    giftType = enmItemType.Gift;
     get ImageName(): string {
         if (this.Item.ItemType === enmItemType.Food) return "美食";
         if (this.Item.ItemType === enmItemType.Spot) return "景点";

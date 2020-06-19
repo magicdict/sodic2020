@@ -17,7 +17,7 @@ namespace xlsx2json
         public const string JsonFolder_WepApi = @"F:\sodic2020\json\";
         static void Main(string[] args)
         {
-            CreateSpot();
+            CreateTicket();
         }
         class GeoHeatMap
         {
@@ -133,7 +133,7 @@ namespace xlsx2json
             double a = radLat1 - radLat2;
             double b = radLng1 - radLng2;
             double result = 2 * Math.Asin(Math.Sqrt(Math.Pow(Math.Sin(a / 2), 2) + Math.Cos(radLat1) * Math.Cos(radLat2) * Math.Pow(Math.Sin(b / 2), 2))) * EARTH_RADIUS;
-            return Math.Round(result,2);
+            return Math.Round(result, 2);
         }
 
         /// <summary>
@@ -388,6 +388,53 @@ namespace xlsx2json
             }
 
 
+        }
+
+
+        static void CreateTicket()
+        {
+            var sr1 = new StreamReader(JsonFolder_WepApi + "深圳市旅游景点信息.json");
+            var Spot_SZ = JsonConvert.DeserializeObject<List<旅游景点信息>>(sr1.ReadToEnd());
+            sr1.Close();
+            var sr2 = new StreamReader(JsonFolder_WepApi + "江门市旅游景点信息.json");
+            var Spot_JM = JsonConvert.DeserializeObject<List<旅游景点信息>>(sr2.ReadToEnd());
+            sr2.Close();
+            var Spot_All = Spot_SZ;
+            Spot_All.AddRange(Spot_JM);
+            //分布统计
+            var price_free = Spot_All.Count(x => x.Price == 0);
+            var price_50 = Spot_All.Count(x => x.Price > 0 && x.Price <= 50);
+            var price_100 = Spot_All.Count(x => x.Price > 50 && x.Price <= 100);
+            var price_200 = Spot_All.Count(x => x.Price > 100 && x.Price <= 200);
+            var price_other = Spot_All.Count(x => x.Price > 200);
+            Console.WriteLine(price_free);
+            Console.WriteLine(price_50);
+            Console.WriteLine(price_100);
+            Console.WriteLine(price_200);
+            Console.WriteLine(price_other);
+            Spot_All.Sort((x, y) => { return y.Price.CompareTo(x.Price); });
+            foreach (var item in Spot_All.Take(20))
+            {
+                Console.WriteLine(item.Name + ":" + item.Price);
+            }
+            //评论数
+            var cc_10 = Spot_All.Count(x => x.CommentCount < 10);
+            var cc_100 = Spot_All.Count(x => x.CommentCount > 10 && x.CommentCount < 100);
+            var cc_500 = Spot_All.Count(x => x.CommentCount > 100 && x.CommentCount <= 500);
+            var cc_1000 = Spot_All.Count(x => x.CommentCount > 500 && x.CommentCount <= 1000);
+            var cc_2000 = Spot_All.Count(x => x.CommentCount > 1000 && x.CommentCount <= 2000);
+            var cc_other = Spot_All.Count(x => x.CommentCount > 2000);
+            Console.WriteLine(cc_10);
+            Console.WriteLine(cc_100);
+            Console.WriteLine(cc_500);
+            Console.WriteLine(cc_1000);
+            Console.WriteLine(cc_2000);
+            Console.WriteLine(cc_other);
+            Spot_All.Sort((x, y) => { return y.CommentCount.CompareTo(x.CommentCount); });
+            foreach (var item in Spot_All.Take(20))
+            {
+                Console.WriteLine(item.Name + ":" + item.CommentCount);
+            }
         }
 
         /// <summary>
