@@ -78,7 +78,7 @@ export class BasicInfoComponent implements OnInit {
         this.char_jmspot = c;
     }
     LabelForPoint(params: any) {
-        return params.data[3] + "\n景色：" + params.data[1] + "" + "\n趣味性:" + params.data[1] + "\n性价比：" + params.data[2] + "\n评论数:" + params.data[4];
+        return params.data[3] + "\n景色：" + params.data[0] + "" + "\n趣味性:" + params.data[1] + "\n性价比：" + params.data[2] + "\n评论数:" + params.data[4];
     };
     symbolSizeForPoint(val: any) {
         return Math.sqrt(val[4]);

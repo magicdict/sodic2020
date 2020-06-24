@@ -32,6 +32,7 @@ export class BookInfoComponent implements OnInit {
                     let avg = this.avg(c.map(x => x.TotalBook));
                     this.dmsweekdayoption.legend.data.push(CommonFunction.ConvertNumberToWeekday(weekday));
                     this.dmsweekdayoption.series[0].data.push({ 'name': CommonFunction.ConvertNumberToWeekday(weekday), value: avg });
+                    this.dmsweekdayoption.series[0]['roseType'] = "area";
                 }
                 this.dmsweekdayoption.series[0].itemStyle['normal'] = {
                     opacity: 0.75
@@ -43,6 +44,7 @@ export class BookInfoComponent implements OnInit {
                     let avg = this.avg(c.map(x => x.InCount));
                     this.dmsweekdayoption_incount.legend.data.push(CommonFunction.ConvertNumberToWeekday(weekday));
                     this.dmsweekdayoption_incount.series[0].data.push({ 'name': CommonFunction.ConvertNumberToWeekday(weekday), value: avg });
+                    this.dmsweekdayoption_incount.series[0]['roseType'] = "area";
                 }
                 this.dmsweekdayoption_incount.series[0].itemStyle['normal'] = {
                     opacity: 0.75

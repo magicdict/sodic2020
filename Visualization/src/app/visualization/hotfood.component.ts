@@ -20,14 +20,14 @@ export class HotfoodComponent implements OnInit {
 
         this.foodszoption.series[0].data = [38, 37, 37, 33, 31, 29, 28, 28, 26, 25, 23, 23, 22, 22, 21, 21, 20, 20, 20, 20];
         this.foodszoption.xAxis.data = this.szfoodlist;
-        this.foodszoption.xAxis["axisLabel"] = { interval: 0, rotate: 90 }
+        this.foodszoption.xAxis["axisLabel"] = { interval: 0, rotate: 45 }
         this.foodszoption["grid"] = { top: 20, bottom: 150 };
         this.common.beautiful(this.foodszoption);
 
 
         this.foodjmoption.series[0].data = [16, 15, 13, 12, 12, 12, 12, 12, 12, 11, 11, 11, 10, 10, 10, 9, 9, 9, 9, 9];
         this.foodjmoption.xAxis.data = this.jmfoodlist;
-        this.foodjmoption.xAxis["axisLabel"] = { interval: 0, rotate: 90 }
+        this.foodjmoption.xAxis["axisLabel"] = { interval: 0, rotate: 45 }
         this.foodjmoption["grid"] = { top: 20, bottom: 150 };
         this.common.beautiful(this.foodjmoption);
 
